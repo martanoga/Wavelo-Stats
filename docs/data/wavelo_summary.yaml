@@ -161,10 +161,10 @@ longest_rental: 22800
 short_rentals: 130
 shortest_rental: 121
 t0: '2017-03-05 00:00:00'
-t1: '2017-03-05 23:20:00'
+t1: '2017-03-05 23:30:01'
 total_rentals: 337
 total_returns: 341
-total_time: 84000
+total_time: 84601
 trips:
 - count: 12
   from: 2030
@@ -575,9 +575,6 @@ trips:
   from: 2231
   to: 2020
 - count: 1
-  from: null
-  to: 2034
-- count: 1
   from: 2224
   to: 2039
 - count: 1
@@ -639,6 +636,9 @@ trips:
   to: 2032
 - count: 1
   from: 2031
+  to: 2034
+- count: 1
+  from: null
   to: 2034
 - count: 1
   from: 2032
