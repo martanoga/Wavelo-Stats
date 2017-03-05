@@ -2,6 +2,7 @@
 
 import argparse
 import datetime
+import time
 import yaml
 try:
     from yaml import CLoader as Loader
@@ -37,8 +38,8 @@ if t1 == None:
 else:
     t1 = t1[0]
 
-t0 = int(datetime.datetime.strptime(t0, "%Y-%m-%d %H:%M:%S").timestamp())
-t1 = int(datetime.datetime.strptime(t1, "%Y-%m-%d %H:%M:%S").timestamp())
+t0 = int(time.mktime(datetime.datetime.strptime(t0, "%Y-%m-%d %H:%M:%S").timetuple()))
+t1 = int(time.mktime(datetime.datetime.strptime(t1, "%Y-%m-%d %H:%M:%S").timetuple()))
 
 hubs_data = {}
 bikes_data = {}
@@ -46,7 +47,7 @@ hubs = {}
 bikes = {}
 
 for k in sorted(raw_data.keys()):
-    ts = int(datetime.datetime.strptime(k, "%Y-%m-%d %H:%M:%S").timestamp())
+    ts = int(time.mktime(datetime.datetime.strptime(k, "%Y-%m-%d %H:%M:%S").timetuple()))
     if ts < t0 or ts > t1:
         continue
     
@@ -112,6 +113,6 @@ res['long_rentals'] = sum(t > 3600 for t in rental_times)
 res['xlong_rentals'] = sum(t > 5400 for t in rental_times)
 res['shortest_rental'] = min(rental_times)
 res['longest_rental'] = max(rental_times)
-res['average_rental'] = sum(rental_times) / len(rental_times)
+res['average_rental'] = sum(rental_times) / float(len(rental_times))
 
 print(yaml.dump(res, allow_unicode = True, default_flow_style = False))
