@@ -175,10 +175,10 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages'])
             //         'margin': '10px 13px 0px 7px'
             //     }
             // },
-            caption: {
-                enable: true,
-                html: '<div class="graph_caption">Statistics of bike usage and availability in the <a href="https://wavelo.pl">Wavelo</a> bike network in Krakow. Data collected using <a href="https://app.socialbicycles.com/developer/">api</a> provided by <a href="http://socialbicycles.com">socialbikes</a>.</div>'
-            }
+            // caption: {
+            //     enable: true,
+            //     html: ''
+            // }
         };
 
     })

@@ -21,7 +21,8 @@ table#header{
 }
 div.graph_caption{
     font-size: small;
-    text-align: left
+    text-align: left;
+    margin: 10px 10px 10px 10px
 }
 
 a{
