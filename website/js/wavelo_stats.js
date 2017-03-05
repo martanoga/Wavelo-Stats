@@ -1,12 +1,55 @@
 angular.module('myApp', ['nvd3'])
     .controller('myCtrl', function ($scope, $http) {
-
+        d3.select("svg g.nv-series-0").style("fill-opacity", 0.25); 
         $http.get('http://raw.githubusercontent.com/martanoga/Wavelo-Stats/master/website/data/wavelo_data_summary.yaml')
             .then(function (data) {
-                if (data) {
-                    bike_data = data['data'];
-                    console.log(bike_data);
+                if (!data)
+                    return;
+
+                bike_data = jsyaml.load(data['data']);
+                console.log(bike_data);
+
+                allAvailableBikes = [];
+                borrowedBikes = [];
+                tickValues = [];
+                for (date in bike_data) {
+                    allAvailableBikes.push({
+                        x: bike_data[date]['timestamp'],
+                        y: bike_data[date]['all_available_bikes']
+                    });
+
+                    borrowedBikes.push({
+                        x: bike_data[date]['timestamp'],
+                        y: 300 - bike_data[date]['all_available_bikes']
+                    });
+
+                    var d = new Date(bike_data[date]['timestamp']*1000);
+
+                        hour = d.getHours();
+                        minutes = d.getMinutes();
+
+                        if (minutes < 10 && hour%6 == 0)
+                            tickValues.push(bike_data[date]['timestamp']);
                 }
+
+                console.log(allAvailableBikes);
+                $scope.data = [
+                    {
+                        values: allAvailableBikes,      //values - represents the array of {x,y} data points
+                        key: 'All available bikes', //key  - the name of the series.
+                        // color: '#ff7f0e',  //color - optional: choose your own line color.
+                        area: true
+                    },
+                                        {
+                        values: borrowedBikes,      //values - represents the array of {x,y} data points
+                        key: 'Borrowed bikes', //key  - the name of the series.
+                        color: '#ff7f0e',  //color - optional: choose your own line color.
+                        area: false
+                    }
+
+                ];
+                $scope.options.chart.xAxis.tickValues = tickValues;
+                
             });
 
 
@@ -24,23 +67,40 @@ angular.module('myApp', ['nvd3'])
                 y: function (d) { return d.y; },
                 useInteractiveGuideline: true,
                 dispatch: {
-                    stateChange: function (e) { console.log("stateChange"); },
-                    changeState: function (e) { console.log("changeState"); },
-                    tooltipShow: function (e) { console.log("tooltipShow"); },
-                    tooltipHide: function (e) { console.log("tooltipHide"); }
+                    stateChange: function (e) { d3.select("svg g.nv-series-0").style("fill-opacity", 0.25); console.log("stateChange"); },
+                    changeState: function (e) { d3.select("svg g.nv-series-0").style("fill-opacity", 0.25); console.log("changeState"); },
+                    tooltipShow: function (e) { d3.select("svg g.nv-series-0").style("fill-opacity", 0.25); console.log("tooltipShow"); },
+                    tooltipHide: function (e) { d3.select("svg g.nv-series-0").style("fill-opacity", 0.25); console.log("tooltipHide"); },
+                    renderEnd: function(e){ d3.select("svg g.nv-series-0").style("fill-opacity", 0.25); console.log('renderEnd') }
                 },
                 xAxis: {
-                    axisLabel: 'Date'
+                    axisLabel: 'Date',
+                    tickFormat: function(d){
+                        var date = new Date(d*1000);
+
+                        hour = date.getHours();
+                        minutes = date.getMinutes();
+
+                        if (hour == 0 && minutes < 10)
+                            var format = d3.time.format("%Y-%m-%d");
+                        else
+                            var format = d3.time.format("%H:%M");
+
+                        return format(date);
+                    }
+                    
                 },
                 yAxis: {
                     axisLabel: 'Number of bikes',
                     tickFormat: function (d) {
                         return d3.format('.02f')(d);
                     },
-                    axisLabelDistance: -10
+                    axisLabelDistance: -5
                 },
+                yDomain: [0, 400],
                 callback: function (chart) {
                     console.log("!!! lineChart callback !!!");
+                    d3.select("svg g.nv-series-0").style("fill-opacity", 0.25);
                 }
             },
             title: {
@@ -57,7 +117,7 @@ angular.module('myApp', ['nvd3'])
             // },
             caption: {
                 enable: true,
-                html: 'Statistics of bike usage and availability in the Wavelo bike network in Krakow, data gathered used REST api provided by socialbikes',
+                html: 'Statistics of bike usage and availability in the <a href="https://wavelo.pl">Wavelo</a> bike network in Krakow. Data are gathered using <a href="https://app.socialbicycles.com/developer/">api</a> provided by <a href="http://socialbicycles.com">socialbikes</a>',
                 css: {
                     'text-align': 'justify',
                     'margin': '10px 13px 0px 7px'
@@ -65,20 +125,4 @@ angular.module('myApp', ['nvd3'])
             }
         };
 
-        $scope.data = sinAndCos();
-
-        /*Random Data Generator */
-        function sinAndCos() {
-
-            //Line chart data should be sent as an array of series objects.
-            return [
-                {
-                    values: [{ x: 1, y: 12 }, { x: 2, y: 23 }, { x: 3, y: 51 }, { x: 4, y: 53 },
-                    { x: 5, y: 41 }, { x: 6, y: 31 }, { x: 7, y: 43 }, { x: 8, y: 14 }, { x: 9, y: 43 }, { x: 10, y: 43 }],      //values - represents the array of {x,y} data points
-                    key: 'Sine Wave', //key  - the name of the series.
-                    color: '#ff7f0e',  //color - optional: choose your own line color.
-                    area: true
-                }
-            ];
-        };
     })
