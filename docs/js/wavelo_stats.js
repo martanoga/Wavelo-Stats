@@ -146,7 +146,10 @@ angular.module('myApp', ['nvd3'])
             },
             title: {
                 enable: true,
-                text: 'Wavelo Statistics'
+                html: '<div class="graph_title">Wavelo Statistics</div>',
+                css: {
+                    'margin': '80px 0px 20px 0px'
+                }
             },
             // subtitle: {
             //     enable: true,
@@ -158,11 +161,7 @@ angular.module('myApp', ['nvd3'])
             // },
             caption: {
                 enable: true,
-                html: 'Statistics of bike usage and availability in the <a href="https://wavelo.pl">Wavelo</a> bike network in Krakow. Data collected using <a href="https://app.socialbicycles.com/developer/">api</a> provided by <a href="http://socialbicycles.com">socialbikes</a>',
-                css: {
-                    'text-align': 'justify',
-                    'margin': '10px 13px 0px 7px'
-                }
+                html: '<div class="graph_caption">Statistics of bike usage and availability in the <a href="https://wavelo.pl">Wavelo</a> bike network in Krakow. Data collected using <a href="https://app.socialbicycles.com/developer/">api</a> provided by <a href="http://socialbicycles.com">socialbikes</a>.</div>'
             }
         };
 
