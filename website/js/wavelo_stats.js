@@ -1,10 +1,11 @@
 angular.module('myApp', ['nvd3'])
     .controller('myCtrl', function ($scope, $http) {
 
-        $http.get('/data/wavelo_data_summary.yaml')
-            .then(function (data, status, headers, config) {
-                if (data && status === 200) {
-                    console.log(jsyaml.load(data));
+        $http.get('http://raw.githubusercontent.com/martanoga/Wavelo-Stats/master/website/data/wavelo_data_summary.yaml')
+            .then(function (data) {
+                if (data) {
+                    bike_data = data['data'];
+                    console.log(bike_data);
                 }
             });
 

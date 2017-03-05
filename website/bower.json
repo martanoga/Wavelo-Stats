@@ -19,7 +19,6 @@
     "tests"
   ],
   "dependencies": {
-    "angular-nvd3": "^1.0.9",
-    "js-yaml": "^3.8.2"
+    "angular-nvd3": "^1.0.9"
   }
 }
