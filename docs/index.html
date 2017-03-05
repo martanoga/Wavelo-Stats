@@ -28,11 +28,15 @@
     <!-- page content -->
     <table id="header">
         <tr><td><a href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna' id="logo"><img src='img/masa_logo.png' height="120" widht="120" /></a></td>
-        <td><h1> Krakowski Rower Miejski - Statystyki Wypozyczeń </h1></td>
+        <td><h1> Krakowski Rower Miejski - Statystyki Wypożyczeń </h1></td>
     </table>
     
     <div ng-app="myApp">
         <div ng-controller="myCtrl">
+            <div class=chart>
+                <nvd3 options="options" data="data"></nvd3>
+            </div>
+
             <div ng-cloak="" class="DetailedDataGrid">
 
                 <md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6" 
@@ -60,14 +64,14 @@
                         <div>
                         <table>
                             <tr>
-                                <td>Wypozyczono rowery <span md-colors="{color:'primary'}">{{totalRentals}}</span> razy,</td>
+                                <td>Wypożyczono rowery <span md-colors="{color:'primary'}">{{totalRentals}}</span> razy,</td>
                             </tr>
                             <tr>
-                                <td>Oddano je <span md-colors="{color:'primary'}">{{totalReturns}} razy</span>.</td>
+                                <td>Oddano je <span md-colors="{color:'primary'}">{{totalReturns}}</span> razy.</td>
                             </tr>
                         </table>
 
-                        <div class='disclaimer'>*Dane przybliozone</div>
+                        <div class='disclaimer'>*Dane przybliożone</div>
                         </div>
 
                     </md-grid-tile>
@@ -101,7 +105,7 @@
 
 
 
-            <nvd3 options="options" data="data"></nvd3>
+            
         </div>
     </div>
 </body>
