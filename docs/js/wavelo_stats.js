@@ -1,6 +1,6 @@
 angular.module('myApp', ['nvd3'])
     .controller('myCtrl', function ($scope, $http) {
-        d3.select("svg g.nv-series-0").style("fill-opacity", 0.15); 
+        d3.select("svg g.nv-series-0").style("fill-opacity", 0.15);
         $http.get('https://martanoga.github.io/Wavelo-Stats/data/wavelo_data_summary.yaml?timestamp=' + Date.now())
             .then(function (data) {
                 if (!data)
@@ -8,10 +8,18 @@ angular.module('myApp', ['nvd3'])
 
                 bike_data = jsyaml.load(data['data']);
 
-                allAvailableBikes = [];
+                allAvailableInHubsBikes = [];
                 borrowedBikes = [];
+                notInHubBikes = [];
+                outsideOfArea = [];
                 tickValues = [];
+                allAvailableBikes = [];
                 for (date in bike_data) {
+                    allAvailableInHubsBikes.push({
+                        x: bike_data[date]['timestamp'],
+                        y: bike_data[date]['all_available_bikes_hubs'] != null ? bike_data[date]['all_available_bikes_hubs'] : bike_data[date]['all_available_bikes']
+                    });
+
                     allAvailableBikes.push({
                         x: bike_data[date]['timestamp'],
                         y: bike_data[date]['all_available_bikes']
@@ -22,39 +30,77 @@ angular.module('myApp', ['nvd3'])
                         y: 300 - bike_data[date]['all_available_bikes']
                     });
 
-                    var d = new Date(bike_data[date]['timestamp']*1000);
 
-                        hour = d.getHours();
-                        minutes = d.getMinutes();
 
-                        if (minutes < 10 && hour%6 == 0)
-                            tickValues.push(bike_data[date]['timestamp']);
+                    var bikesOutside = bike_data[date]['all_outside_area'] != null ? bike_data[date]['all_outside_area'] : 0;
+                    outsideOfArea.push({
+                        x: bike_data[date]['timestamp'],
+                        y: bikesOutside
+                    });
+
+                    notInHubBikes.push({
+                        x: bike_data[date]['timestamp'],
+                        y: bike_data[date]['all_not_in_hub'] != null ? bike_data[date]['all_not_in_hub'] - bikesOutside : 0
+                    });
+
+                    var d = new Date(bike_data[date]['timestamp'] * 1000);
+
+                    hour = d.getHours();
+                    minutes = d.getMinutes();
+
+                    if (minutes < 10 && hour % 6 == 0)
+                        tickValues.push(bike_data[date]['timestamp']);
                 }
 
-                console.log(allAvailableBikes);
                 $scope.data = [
                     {
-                        values: allAvailableBikes,      //values - represents the array of {x,y} data points
-                        key: 'All available bikes', //key  - the name of the series.
-                        // color: '#ff7f0e',  //color - optional: choose your own line color.
-                        area: true
-                    },
-                                        {
                         values: borrowedBikes,      //values - represents the array of {x,y} data points
                         key: 'Rented bikes', //key  - the name of the series.
                         color: '#ff7f0e',  //color - optional: choose your own line color.
-                        area: false
+                        type: "line",
+                        yAxis: 1
+                    },
+
+                    {
+                        values: allAvailableBikes,      //values - represents the array of {x,y} data points
+                        key: 'All available bikes', //key  - the name of the series.
+                        color: '#337099',  //color - optional: choose your own line color.
+                        type: "line",
+                        yAxis: 1
+                    },
+                    {
+                        values: allAvailableInHubsBikes,      //values - represents the array of {x,y} data points
+                        key: 'All bikes available in hubs', //key  - the name of the series.
+                        color: '#b3d1e6',  //color - optional: choose your own line color.
+                        type: "area",
+                        yAxis: 1
+                    },
+                    {
+                        values: notInHubBikes,      //values - represents the array of {x,y} data points
+                        key: 'Bikes left outside of hub inside the area', //key  - the name of the series.
+                        color: '#62a0ca',  //color - optional: choose your own line color.
+                        type: "area",
+                        yAxis: 1
+                    },
+
+                    {
+                        values: outsideOfArea,      //values - represents the array of {x,y} data points
+                        key: 'Bikes left outside of the network area', //key  - the name of the series.
+                        color: '#19384d',  //color - optional: choose your own line color.
+                        type: "area",
+                        yAxis: 1
                     }
+
 
                 ];
                 $scope.options.chart.xAxis.tickValues = tickValues;
-                
+
             });
 
 
         $scope.options = {
             chart: {
-                type: 'lineChart',
+                type: 'multiChart',
                 height: 450,
                 margin: {
                     top: 20,
@@ -62,20 +108,20 @@ angular.module('myApp', ['nvd3'])
                     bottom: 40,
                     left: 55
                 },
-                x: function (d) { return d.x; },
-                y: function (d) { return d.y; },
+                // x: function (d) { return d.x; },
+                // y: function (d) { return d.y; },
                 useInteractiveGuideline: true,
                 dispatch: {
                     stateChange: function (e) { console.log("stateChange"); },
                     changeState: function (e) { console.log("changeState"); },
                     tooltipShow: function (e) { console.log("tooltipShow"); },
                     tooltipHide: function (e) { console.log("tooltipHide"); },
-                    renderEnd: function(e){ d3.select("svg g.nv-series-0").style("fill-opacity", 0.15); console.log('renderEnd') }
+                    renderEnd: function (e) { d3.select("svg g.nv-series-0").style("fill-opacity", 0.15); console.log('renderEnd') }
                 },
                 xAxis: {
                     axisLabel: 'Date',
-                    tickFormat: function(d){
-                        var date = new Date(d*1000);
+                    tickFormat: function (d) {
+                        var date = new Date(d * 1000);
 
                         hour = date.getHours();
                         minutes = date.getMinutes();
@@ -87,13 +133,13 @@ angular.module('myApp', ['nvd3'])
 
                         return format(date);
                     }
-                    
+
                 },
-                yAxis: {
+                yAxis1: {
                     axisLabel: 'Number of bikes',
                     axisLabelDistance: -5
                 },
-                yDomain: [0, 400],
+                yDomain1: [0, 400],
                 callback: function (chart) {
                     d3.select("svg g.nv-series-0").style("fill-opacity", 0.25);
                 }
