@@ -1,0 +1,117 @@
+#!/usr/bin/env python3
+
+import argparse
+import datetime
+import yaml
+try:
+    from yaml import CLoader as Loader
+except ImportError:
+    from yaml import Loader, Dumper
+
+from collections import Counter
+
+parser = argparse.ArgumentParser()
+parser.add_argument('-d', '--data', nargs=1, default=['wavelo_data.yaml'], type=str, help='data file name', dest='data_fname')
+parser.add_argument('-f', '--from', nargs=1, default=None, type=str, help='start time (localtime, YYYY-mm-dd HH:MM:SS)', dest='t0')
+parser.add_argument('-t', '--to', nargs=1, default=None, type=str, help='end time (localtime, YYYY-mm-dd HH:MM:SS)', dest='t1')
+args = parser.parse_args()
+
+data_fname = args.data_fname[0]
+
+with open(data_fname, 'r') as data_file:
+    raw_data = yaml.load(data_file, Loader=Loader)
+
+for k in sorted(raw_data.keys()):
+    if 'bikes' not in raw_data[k]:
+        del raw_data[k]
+    
+t0 = args.t0 
+if t0 == None:
+    t0 = sorted(raw_data.keys())[0]
+else:
+    t0 = t0[0]
+
+t1 = args.t1
+if t1 == None:
+    t1 = sorted(raw_data.keys())[-1]
+else:
+    t1 = t1[0]
+
+t0 = int(datetime.datetime.strptime(t0, "%Y-%m-%d %H:%M:%S").timestamp())
+t1 = int(datetime.datetime.strptime(t1, "%Y-%m-%d %H:%M:%S").timestamp())
+
+hubs_data = {}
+bikes_data = {}
+hubs = {}
+bikes = {}
+
+for k in sorted(raw_data.keys()):
+    ts = int(datetime.datetime.strptime(k, "%Y-%m-%d %H:%M:%S").timestamp())
+    if ts < t0 or ts > t1:
+        continue
+    
+    h = raw_data[k]['hubs']
+    hubs_data[ts] = h
+    for hk in h.keys():
+        if not hk in hubs:
+            hubs[hk] = {'id': h[hk]['id'], 'name': h[hk]['name'], 'rentals': 0, 'returns': 0}
+    b = raw_data[k]['bikes']
+    bikes_data[ts] = b
+    for bk in b.keys():
+        if not bk in bikes:
+            bikes[bk] = {'id': b[bk]['id'], 'name': b[bk]['name'], 'rentals': 0, 'returns': 0}
+
+hubs[None] = {'id': None, 'name': 'out_of_station', 'rentals': 0, 'returns': 0}
+
+del raw_data
+
+rented = {}
+trips = Counter()
+rental_times = []
+
+res = {
+    't0': datetime.datetime.fromtimestamp(t0).strftime('%Y-%m-%d %H:%M:%S'),
+    't1': datetime.datetime.fromtimestamp(t1).strftime('%Y-%m-%d %H:%M:%S'),
+    'total_time': t1 - t0,
+    'total_rentals': 0,
+    'total_returns': 0
+    }
+
+pb = bikes_data[sorted(bikes_data.keys())[0]]
+for ts in sorted(bikes_data.keys()):
+    b = bikes_data[ts]
+
+    for bk in pb.keys():
+        if (not bk in b) or (bk in b and pb[bk]['hub_id'] != b[bk]['hub_id']):
+            hubs[pb[bk]['hub_id']]['rentals'] += 1
+            rented[bk] = { 'from': pb[bk]['hub_id'], 'timestamp': ts }
+            res['total_rentals'] += 1
+
+    for bk in b.keys():
+        if (not bk in pb) or (bk in pb and b[bk]['hub_id'] != pb[bk]['hub_id']):
+            hubs[b[bk]['hub_id']]['returns'] += 1
+            if bk in rented:
+                trips[(rented[bk]['from'], b[bk]['hub_id'])] += 1
+                rental_times.append(ts - rented[bk]['timestamp'])
+                del rented[bk]
+            res['total_returns'] += 1
+
+    pb = b
+
+res['hubs'] = hubs
+res['trips'] = []
+
+for t in trips.most_common():
+    res['trips'].append({'from': t[0][0], 'to': t[0][1], 'count': t[1]})
+
+res['complete_rentals'] = len(rental_times)
+res['vain_rentals'] = sum(t == 0 for t in rental_times)
+rental_times = [t for t in rental_times if t != 0]
+res['short_rentals'] = sum(t <= 1200 for t in rental_times)
+res['long_rentals'] = sum(t > 3600 for t in rental_times)
+res['xlong_rentals'] = sum(t > 5400 for t in rental_times)
+res['shortest_rental'] = min(rental_times)
+res['longest_rental'] = max(rental_times)
+res['average_rental'] = sum(rental_times) / len(rental_times)
+
+print(yaml.dump(res, allow_unicode = True, default_flow_style = False))
