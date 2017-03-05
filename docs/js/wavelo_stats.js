@@ -1,4 +1,4 @@
-angular.module('myApp', ['nvd3'])
+angular.module('myApp', ['nvd3','ngMaterial', 'ngMessages'])
     .controller('myCtrl', function ($scope, $http) {
         d3.select("svg g.nv-series-0").style("fill-opacity", 0.15);
         $http.get('https://krakowska-masa-krytyczna.github.io/Wavelo-Stats/data/wavelo_data_summary.yaml?timestamp=' + Date.now())
@@ -14,6 +14,7 @@ angular.module('myApp', ['nvd3'])
                 outsideOfArea = [];
                 tickValues = [];
                 allAvailableBikes = [];
+
                 for (date in bike_data) {
                     allAvailableInHubsBikes.push({
                         x: bike_data[date]['timestamp'],
@@ -93,6 +94,13 @@ angular.module('myApp', ['nvd3'])
 
 
                 ];
+
+                keys = Object.keys(bike_data);
+                last_key = keys[keys.length-1];
+
+                $scope.availableNow = bike_data[last_key]['all_available_bikes']
+                $scope.rentedNow = 300 - bike_data[last_key]['all_available_bikes']
+
                 $scope.options.chart.xAxis.tickValues = tickValues;
 
             });
@@ -146,10 +154,7 @@ angular.module('myApp', ['nvd3'])
             },
             title: {
                 enable: true,
-                html: '<div class="graph_title">Wavelo Statistics</div>',
-                css: {
-                    'margin': '80px 0px 20px 0px'
-                }
+                html: '<div class="graph_title">Wavelo Statistics</div>'
             },
             // subtitle: {
             //     enable: true,
@@ -166,3 +171,4 @@ angular.module('myApp', ['nvd3'])
         };
 
     })
+    .controller('AppCtrl', function($scope) {});

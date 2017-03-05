@@ -3,8 +3,9 @@
 
 <head>
     <title>Wavelo Stats</title>
-    
-    <meta charset="utf-8"> <!-- it's important for d3.js -->
+
+    <meta charset="utf-8">
+    <!-- it's important for d3.js -->
     <script src="js/lib/angular.min.js"></script>
     <script src="js/lib/d3.min.js"></script>
     <script src="js/lib/nv.d3.min.js"></script>
@@ -12,15 +13,73 @@
     <link rel="stylesheet" href="js/lib/nv.d3.min.css">
     <script src="js/lib/js-yaml.min.js"></script>
 
+    <script src="js/lib/angular-animate.min.js"></script>
+    <script src="js/lib/angular-aria.min.js"></script>
+    <script src="js/lib/angular-messages.min.js"></script>
+    <link rel="stylesheet" href="js/lib/angular-material.min.css">
+
+    <script src="js/lib/angular-material.min.js"></script>
+
     <link rel="stylesheet" href="css/style.css">
     <script src="js/wavelo_stats.js"></script>
 </head>
 
 <body>
     <!-- page content -->
-    <a href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna'><img src='img/masa_logo.png' id="logo" height="120" widht="120"/></a>
+    <a href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna' id="logo"><img src='img/masa_logo.png' height="120" widht="120" /></a>
     <div ng-app="myApp">
         <div ng-controller="myCtrl">
+            <div ng-cloak="" class="gridListdemoBasicUsage">
+
+                <md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="2:2"
+                    md-gutter="6px" md-gutter-gt-sm="4px">
+
+                    <md-grid-tile class="gray" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1">
+                        <md-grid-tile-header>
+                            <h3>W tej chwili...</h3>
+                        </md-grid-tile-header>
+                        <table>
+                            <tr><td>Dostępne rowery: <span md-colors="{color:'primary'}">{{availableNow}}</span></td></tr>
+                            <tr><td>Pożyczone: <span md-colors="{color:'primary'}">{{rentedNow}}</span></td></tr>
+                        </table>
+                        
+                    </md-grid-tile>
+
+                    <!--<md-grid-tile class="green">
+                        <md-grid-tile-footer>
+                            <h3>#2: (1r x 1c)</h3>
+                        </md-grid-tile-footer>
+                    </md-grid-tile>
+
+                    <md-grid-tile class="yellow">
+                        <md-grid-tile-footer>
+                            <h3>#3: (1r x 1c)</h3>
+                        </md-grid-tile-footer>
+                    </md-grid-tile>
+
+                    <md-grid-tile class="blue" md-rowspan="2">
+                        <md-grid-tile-footer>
+                            <h3>#4: (2r x 1c)</h3>
+                        </md-grid-tile-footer>
+                    </md-grid-tile>
+
+                    <md-grid-tile class="red" md-rowspan="2" md-colspan="2" md-colspan-sm="1" md-colspan-xs="1">
+                        <md-grid-tile-footer>
+                            <h3>#5: (2r x 2c)</h3>
+                        </md-grid-tile-footer>
+                    </md-grid-tile>
+
+                    <md-grid-tile class="green" md-rowspan="2">
+                        <md-grid-tile-footer>
+                            <h3>#6: (2r x 1c)</h3>
+                        </md-grid-tile-footer>
+                    </md-grid-tile>-->
+
+                </md-grid-list>
+            </div>
+
+
+
             <nvd3 options="options" data="data"></nvd3>
         </div>
     </div>
