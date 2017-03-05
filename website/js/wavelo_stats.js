@@ -1,13 +1,12 @@
 angular.module('myApp', ['nvd3'])
     .controller('myCtrl', function ($scope, $http) {
-        d3.select("svg g.nv-series-0").style("fill-opacity", 0.25); 
-        $http.get('http://raw.githubusercontent.com/martanoga/Wavelo-Stats/master/website/data/wavelo_data_summary.yaml')
+        d3.select("svg g.nv-series-0").style("fill-opacity", 0.15); 
+        $http.get('https://martanoga.github.io/Wavelo-Stats/data/wavelo_data_summary.yaml?timestamp=' + Date.now())
             .then(function (data) {
                 if (!data)
                     return;
 
                 bike_data = jsyaml.load(data['data']);
-                console.log(bike_data);
 
                 allAvailableBikes = [];
                 borrowedBikes = [];
@@ -42,7 +41,7 @@ angular.module('myApp', ['nvd3'])
                     },
                                         {
                         values: borrowedBikes,      //values - represents the array of {x,y} data points
-                        key: 'Borrowed bikes', //key  - the name of the series.
+                        key: 'Rented bikes', //key  - the name of the series.
                         color: '#ff7f0e',  //color - optional: choose your own line color.
                         area: false
                     }
@@ -67,11 +66,11 @@ angular.module('myApp', ['nvd3'])
                 y: function (d) { return d.y; },
                 useInteractiveGuideline: true,
                 dispatch: {
-                    stateChange: function (e) { d3.select("svg g.nv-series-0").style("fill-opacity", 0.25); console.log("stateChange"); },
-                    changeState: function (e) { d3.select("svg g.nv-series-0").style("fill-opacity", 0.25); console.log("changeState"); },
-                    tooltipShow: function (e) { d3.select("svg g.nv-series-0").style("fill-opacity", 0.25); console.log("tooltipShow"); },
-                    tooltipHide: function (e) { d3.select("svg g.nv-series-0").style("fill-opacity", 0.25); console.log("tooltipHide"); },
-                    renderEnd: function(e){ d3.select("svg g.nv-series-0").style("fill-opacity", 0.25); console.log('renderEnd') }
+                    stateChange: function (e) { console.log("stateChange"); },
+                    changeState: function (e) { console.log("changeState"); },
+                    tooltipShow: function (e) { console.log("tooltipShow"); },
+                    tooltipHide: function (e) { console.log("tooltipHide"); },
+                    renderEnd: function(e){ d3.select("svg g.nv-series-0").style("fill-opacity", 0.15); console.log('renderEnd') }
                 },
                 xAxis: {
                     axisLabel: 'Date',
@@ -92,14 +91,10 @@ angular.module('myApp', ['nvd3'])
                 },
                 yAxis: {
                     axisLabel: 'Number of bikes',
-                    tickFormat: function (d) {
-                        return d3.format('.02f')(d);
-                    },
                     axisLabelDistance: -5
                 },
                 yDomain: [0, 400],
                 callback: function (chart) {
-                    console.log("!!! lineChart callback !!!");
                     d3.select("svg g.nv-series-0").style("fill-opacity", 0.25);
                 }
             },
@@ -117,7 +112,7 @@ angular.module('myApp', ['nvd3'])
             // },
             caption: {
                 enable: true,
-                html: 'Statistics of bike usage and availability in the <a href="https://wavelo.pl">Wavelo</a> bike network in Krakow. Data are gathered using <a href="https://app.socialbicycles.com/developer/">api</a> provided by <a href="http://socialbicycles.com">socialbikes</a>',
+                html: 'Statistics of bike usage and availability in the <a href="https://wavelo.pl">Wavelo</a> bike network in Krakow. Data collected using <a href="https://app.socialbicycles.com/developer/">api</a> provided by <a href="http://socialbicycles.com">socialbikes</a>',
                 css: {
                     'text-align': 'justify',
                     'margin': '10px 13px 0px 7px'
