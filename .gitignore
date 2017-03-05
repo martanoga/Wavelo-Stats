@@ -6,3 +6,6 @@ node_modules/
 
 # Mac OS trash files
 .DS_Store
+
+# Emacs backup files
+*~
