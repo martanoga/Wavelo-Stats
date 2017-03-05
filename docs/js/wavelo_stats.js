@@ -56,7 +56,7 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages'])
                 $scope.data = [
                     {
                         values: borrowedBikes,      //values - represents the array of {x,y} data points
-                        key: 'rented bikes', //key  - the name of the series.
+                        key: 'rowery wypożyczone', //key  - the name of the series.
                         color: '#ff7f0e',  //color - optional: choose your own line color.
                         type: "line",
                         yAxis: 1
@@ -64,21 +64,21 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages'])
 
                     {
                         values: allAvailableBikes,      //values - represents the array of {x,y} data points
-                        key: 'all available bikes', //key  - the name of the series.
+                        key: 'wszystkie dostępne rowery', //key  - the name of the series.
                         color: '#337099',  //color - optional: choose your own line color.
                         type: "line",
                         yAxis: 1
                     },
                     {
                         values: allAvailableInHubsBikes,      //values - represents the array of {x,y} data points
-                        key: 'available in hubs', //key  - the name of the series.
+                        key: 'dostępne na stacjach', //key  - the name of the series.
                         color: '#b3d1e6',  //color - optional: choose your own line color.
                         type: "area",
                         yAxis: 1
                     },
                     {
                         values: notInHubBikes,      //values - represents the array of {x,y} data points
-                        key: 'out of hub inside the area', //key  - the name of the series.
+                        key: 'poza stacjami, w obszarze systemu', //key  - the name of the series.
                         color: '#62a0ca',  //color - optional: choose your own line color.
                         type: "area",
                         yAxis: 1
@@ -86,7 +86,7 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages'])
 
                     {
                         values: outsideOfArea,      //values - represents the array of {x,y} data points
-                        key: 'out of the network area', //key  - the name of the series.
+                        key: 'poza obszarem systemu', //key  - the name of the series.
                         color: '#19384d',  //color - optional: choose your own line color.
                         type: "area",
                         yAxis: 1
