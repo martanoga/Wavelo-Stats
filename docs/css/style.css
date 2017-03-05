@@ -1,7 +1,9 @@
 div {
     font-family: sans-serif;
 }
-
+.chart {
+    margin: 10px 10px 10px 10px
+}
 div.graph_title {
     color: #19384d;
     font-size: 30px;
