@@ -1,7 +1,7 @@
 angular.module('myApp', ['nvd3'])
     .controller('myCtrl', function ($scope, $http) {
         d3.select("svg g.nv-series-0").style("fill-opacity", 0.15);
-        $http.get('https://martanoga.github.io/Wavelo-Stats/data/wavelo_data_summary.yaml?timestamp=' + Date.now())
+        $http.get('https://krakowska-masa-krytyczna.github.io/Wavelo-Stats/data/wavelo_data_summary.yaml?timestamp=' + Date.now())
             .then(function (data) {
                 if (!data)
                     return;
