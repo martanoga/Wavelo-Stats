@@ -1,0 +1,25 @@
+{
+  "name": "wavelo_stats",
+  "authors": [
+    "Marta Noga <marta.noga@gmail.com>"
+  ],
+  "description": "Statistic of bike usage in the Wavelo bike rental network in Krakow",
+  "main": "",
+  "keywords": [
+    "wavelo",
+    "stats"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-nvd3": "^1.0.9",
+    "js-yaml": "^3.8.2"
+  }
+}
