@@ -29,13 +29,8 @@ password = os.environ['SOCIALB_PASSWORD']
 curr_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 timestamp = time.time()
 
-data = {
-    curr_time : {
-        'timestamp' : timestamp,
-        'hubs': {},
-        'bikes': {}
-    }
-}
+hubs_data = {}
+bikes_data = {}
 
 data_summary = {
     curr_time : {
@@ -56,10 +51,8 @@ for hub in hubs:
 
     all_available_bikes_hubs += hub['available_bikes']
     all_current_bikes_hubs += hub['current_bikes']
-    data[curr_time]['hubs'][hub_data['id']] = hub_data
+    hubs_data[hub_data['id']] = hub_data
 
-data[curr_time]['all_available_bikes_hubs'] = all_available_bikes_hubs
-data[curr_time]['all_current_bikes_hubs'] = all_current_bikes_hubs
 data_summary[curr_time]['all_available_bikes_hubs'] = all_available_bikes_hubs
 data_summary[curr_time]['all_current_bikes_hubs'] = all_current_bikes_hubs
 
@@ -86,13 +79,7 @@ for bike in bikes:
     if bike['inside_area'] == False:
         all_outside_area += 1
     
-    data[curr_time]['bikes'][bike_data['id']] = bike_data
-
-data[curr_time]['all_state_not_available'] = all_state_not_available
-data[curr_time]['all_repair_state_not_working'] = all_repair_state_not_working
-data[curr_time]['all_not_in_hub'] = all_not_in_hub
-data[curr_time]['all_available_bikes'] = all_available_bikes
-data[curr_time]['all_outside_area'] = all_outside_area
+    bikes_data[bike_data['id']] = bike_data
 
 data_summary[curr_time]['all_state_not_available'] = all_state_not_available
 data_summary[curr_time]['all_repair_state_not_working'] = all_repair_state_not_working
@@ -101,9 +88,12 @@ data_summary[curr_time]['all_available_bikes'] = all_available_bikes
 data_summary[curr_time]['all_outside_area'] = all_outside_area
 
 
-with open(os.path.join(path_to_output_dir, data_file), 'a') as outfile:
-    yaml.safe_dump(data, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
-
 with open(os.path.join(path_to_output_dir, data_file_summary), 'a') as outfile:
+    yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
+
+data_summary[curr_time]['hubs'] = hubs_data
+data_summary[curr_time]['bikes'] = bikes_data
+
+with open(os.path.join(path_to_output_dir, data_file), 'a') as outfile:
     yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
 
