@@ -1,3 +1,561 @@
+'2017-03-04 12:15:40':
+  all_available_bikes: 289
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488626140.0
+'2017-03-04 12:57:53':
+  all_available_bikes: 288
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488628673.0
+'2017-03-04 13:21:49':
+  all_available_bikes: 283
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488630109.0
+'2017-03-04 13:43:30':
+  all_available_bikes: 284
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488631410.0
+'2017-03-04 13:48:43':
+  all_available_bikes: 281
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488631723.0
+'2017-03-04 14:00:04':
+  all_available_bikes: 276
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488632404.0
+'2017-03-04 14:02:02':
+  all_available_bikes: 273
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488632522.0
+'2017-03-04 14:10:01':
+  all_available_bikes: 272
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488633001.0
+'2017-03-04 14:20:00':
+  all_available_bikes: 261
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488633600.0
+'2017-03-04 14:30:01':
+  all_available_bikes: 260
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488634201.0
+'2017-03-04 14:40:01':
+  all_available_bikes: 259
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488634801.0
+'2017-03-04 14:50:01':
+  all_available_bikes: 250
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488635401.0
+'2017-03-04 15:00:01':
+  all_available_bikes: 247
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488636001.0
+'2017-03-04 15:10:01':
+  all_available_bikes: 253
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488636601.0
+'2017-03-04 15:20:01':
+  all_available_bikes: 252
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488637201.0
+'2017-03-04 15:30:02':
+  all_available_bikes: 257
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488637802.0
+'2017-03-04 15:40:01':
+  all_available_bikes: 260
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488638401.0
+'2017-03-04 15:50:01':
+  all_available_bikes: 264
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488639001.0
+'2017-03-04 16:00:01':
+  all_available_bikes: 260
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488639601.0
+'2017-03-04 16:10:02':
+  all_available_bikes: 257
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488640202.0
+'2017-03-04 16:20:01':
+  all_available_bikes: 256
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488640801.0
+'2017-03-04 16:30:01':
+  all_available_bikes: 256
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488641401.0
+'2017-03-04 16:40:01':
+  all_available_bikes: 257
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488642001.0
+'2017-03-04 16:50:01':
+  all_available_bikes: 258
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488642601.0
+'2017-03-04 17:00:02':
+  all_available_bikes: 263
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488643202.0
+'2017-03-04 17:10:02':
+  all_available_bikes: 264
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488643802.0
+'2017-03-04 17:20:02':
+  all_available_bikes: 264
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488644402.0
+'2017-03-04 17:30:02':
+  all_available_bikes: 264
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488645002.0
+'2017-03-04 17:40:02':
+  all_available_bikes: 265
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488645602.0
+'2017-03-04 17:50:02':
+  all_available_bikes: 268
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488646202.0
+'2017-03-04 18:00:02':
+  all_available_bikes: 273
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488646802.0
+'2017-03-04 18:10:02':
+  all_available_bikes: 273
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488647402.0
+'2017-03-04 18:20:03':
+  all_available_bikes: 272
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488648003.0
+'2017-03-04 18:30:02':
+  all_available_bikes: 276
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488648602.0
+'2017-03-04 18:40:03':
+  all_available_bikes: 281
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488649203.0
+'2017-03-04 18:50:02':
+  all_available_bikes: 283
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488649802.0
+'2017-03-04 19:00:03':
+  all_available_bikes: 285
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488650403.0
+'2017-03-04 19:10:03':
+  all_available_bikes: 284
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488651003.0
+'2017-03-04 19:20:03':
+  all_available_bikes: 283
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488651603.0
+'2017-03-04 19:30:02':
+  all_available_bikes: 284
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488652202.0
+'2017-03-04 19:40:03':
+  all_available_bikes: 282
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488652803.0
+'2017-03-04 19:50:03':
+  all_available_bikes: 286
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488653403.0
+'2017-03-04 20:00:03':
+  all_available_bikes: 286
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488654003.0
+'2017-03-04 20:10:03':
+  all_available_bikes: 285
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488654603.0
+'2017-03-04 20:20:03':
+  all_available_bikes: 282
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488655203.0
+'2017-03-04 20:30:03':
+  all_available_bikes: 280
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488655803.0
+'2017-03-04 20:40:04':
+  all_available_bikes: 285
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488656404.0
+'2017-03-04 20:50:03':
+  all_available_bikes: 281
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488657003.0
+'2017-03-04 21:00:04':
+  all_available_bikes: 282
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488657604.0
+'2017-03-04 21:10:03':
+  all_available_bikes: 283
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488658203.0
+'2017-03-04 21:20:04':
+  all_available_bikes: 283
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488658804.0
+'2017-03-04 21:30:03':
+  all_available_bikes: 286
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488659403.0
+'2017-03-04 21:40:03':
+  all_available_bikes: 286
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488660003.0
+'2017-03-04 21:50:04':
+  all_available_bikes: 285
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488660604.0
+'2017-03-04 22:00:04':
+  all_available_bikes: 287
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488661204.0
+'2017-03-04 22:10:04':
+  all_available_bikes: 288
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488661804.0
+'2017-03-04 22:20:04':
+  all_available_bikes: 294
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488662404.0
+'2017-03-04 22:30:04':
+  all_available_bikes: 294
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488663004.0
+'2017-03-04 22:40:04':
+  all_available_bikes: 294
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488663604.0
+'2017-03-04 22:50:04':
+  all_available_bikes: 292
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488664204.0
+'2017-03-04 23:00:05':
+  all_available_bikes: 293
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488664805.0
+'2017-03-04 23:10:06':
+  all_available_bikes: 293
+  all_available_bikes_hubs: null
+  all_current_bikes_hubs: null
+  all_not_in_hub: null
+  all_outside_area: null
+  all_repair_state_not_working: null
+  all_state_not_available: null
+  timestamp: 1488665406.0
 '2017-03-04 23:20:01':
   all_available_bikes: 293
   all_available_bikes_hubs: 287
@@ -536,3 +1094,228 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1488704401.0
+'2017-03-05 11:46:24':
+  all_available_bikes: 280
+  all_available_bikes_hubs: 278
+  all_current_bikes_hubs: 278
+  all_not_in_hub: 2
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488710784.222605
+'2017-03-05 11:50:00':
+  all_available_bikes: 282
+  all_available_bikes_hubs: 280
+  all_current_bikes_hubs: 280
+  all_not_in_hub: 2
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488711000.379212
+'2017-03-05 12:00:00':
+  all_available_bikes: 275
+  all_available_bikes_hubs: 273
+  all_current_bikes_hubs: 273
+  all_not_in_hub: 2
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488711600.889706
+'2017-03-05 12:10:00':
+  all_available_bikes: 272
+  all_available_bikes_hubs: 270
+  all_current_bikes_hubs: 270
+  all_not_in_hub: 2
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488712200.508942
+'2017-03-05 12:20:00':
+  all_available_bikes: 271
+  all_available_bikes_hubs: 269
+  all_current_bikes_hubs: 269
+  all_not_in_hub: 2
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488712800.628015
+'2017-03-05 12:25:21':
+  all_available_bikes: 265
+  all_available_bikes_hubs: 265
+  all_current_bikes_hubs: 265
+  all_not_in_hub: 0
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488713121.278473
+'2017-03-05 12:31:20':
+  all_available_bikes: 268
+  all_available_bikes_hubs: 268
+  all_current_bikes_hubs: 268
+  all_not_in_hub: 0
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488713480.459582
+'2017-03-05 12:40:00':
+  all_available_bikes: 265
+  all_available_bikes_hubs: 265
+  all_current_bikes_hubs: 265
+  all_not_in_hub: 0
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488714000.378894
+'2017-03-05 12:50:00':
+  all_available_bikes: 251
+  all_available_bikes_hubs: 251
+  all_current_bikes_hubs: 251
+  all_not_in_hub: 0
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488714600.524601
+'2017-03-05 13:00:01':
+  all_available_bikes: 256
+  all_available_bikes_hubs: 256
+  all_current_bikes_hubs: 256
+  all_not_in_hub: 0
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488715201.215119
+'2017-03-05 13:10:01':
+  all_available_bikes: 250
+  all_available_bikes_hubs: 250
+  all_current_bikes_hubs: 250
+  all_not_in_hub: 0
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488715801.208399
+'2017-03-05 13:20:00':
+  all_available_bikes: 242
+  all_available_bikes_hubs: 242
+  all_current_bikes_hubs: 242
+  all_not_in_hub: 0
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488716400.915891
+'2017-03-05 13:30:01':
+  all_available_bikes: 242
+  all_available_bikes_hubs: 241
+  all_current_bikes_hubs: 241
+  all_not_in_hub: 1
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488717001.040243
+'2017-03-05 13:40:00':
+  all_available_bikes: 235
+  all_available_bikes_hubs: 232
+  all_current_bikes_hubs: 232
+  all_not_in_hub: 3
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488717600.989023
+'2017-03-05 13:50:00':
+  all_available_bikes: 238
+  all_available_bikes_hubs: 235
+  all_current_bikes_hubs: 235
+  all_not_in_hub: 3
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488718200.401562
+'2017-03-05 14:00:00':
+  all_available_bikes: 237
+  all_available_bikes_hubs: 235
+  all_current_bikes_hubs: 235
+  all_not_in_hub: 2
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488718800.514351
+'2017-03-05 14:10:00':
+  all_available_bikes: 237
+  all_available_bikes_hubs: 234
+  all_current_bikes_hubs: 234
+  all_not_in_hub: 3
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488719400.804221
+'2017-03-05 14:20:00':
+  all_available_bikes: 234
+  all_available_bikes_hubs: 232
+  all_current_bikes_hubs: 232
+  all_not_in_hub: 2
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488720000.409169
+'2017-03-05 14:30:00':
+  all_available_bikes: 230
+  all_available_bikes_hubs: 228
+  all_current_bikes_hubs: 228
+  all_not_in_hub: 2
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488720600.337348
+'2017-03-05 14:40:00':
+  all_available_bikes: 238
+  all_available_bikes_hubs: 236
+  all_current_bikes_hubs: 236
+  all_not_in_hub: 2
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488721200.52029
+'2017-03-05 14:50:01':
+  all_available_bikes: 240
+  all_available_bikes_hubs: 238
+  all_current_bikes_hubs: 238
+  all_not_in_hub: 2
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488721801.333451
+'2017-03-05 15:00:00':
+  all_available_bikes: 230
+  all_available_bikes_hubs: 228
+  all_current_bikes_hubs: 228
+  all_not_in_hub: 2
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488722400.500368
+'2017-03-05 15:10:00':
+  all_available_bikes: 241
+  all_available_bikes_hubs: 239
+  all_current_bikes_hubs: 239
+  all_not_in_hub: 2
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488723000.899971
+'2017-03-05 15:20:01':
+  all_available_bikes: 249
+  all_available_bikes_hubs: 245
+  all_current_bikes_hubs: 245
+  all_not_in_hub: 4
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488723601.305513
+'2017-03-05 15:30:00':
+  all_available_bikes: 254
+  all_available_bikes_hubs: 249
+  all_current_bikes_hubs: 249
+  all_not_in_hub: 4
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488724200.81862
