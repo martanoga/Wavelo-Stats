@@ -8,7 +8,15 @@ div.graph_title {
     margin: 0px 0px 20px 0px
 }
 
+h1{
+    color: #19384d;
+    font-size: 30px;
+    margin: 0px 0px 20px 0px
+}
 
+table#header{
+    width: 100%
+}
 div.graph_caption{
     font-size: small;
     text-align: left
@@ -18,28 +26,38 @@ a{
     color: #337099;
 }
 
-.gridListdemoBasicUsage md-grid-list {
+.disclaimer {
+    font-size: x-small;
+}
+
+.DetailedDataGrid md-grid-list {
   margin: 8px; }
 
-.gridListdemoBasicUsage .gray {
-  background: #f5f5f5; }
-
-.gridListdemoBasicUsage .green {
+.DetailedDataGrid .green {
   background: #b9f6ca; }
 
-.gridListdemoBasicUsage .yellow {
+.DetailedDataGrid .gray {
+  background: #f5f5f5; }
+
+.DetailedDataGrid h3{
+    font-weight: bold
+}
+
+.DetailedDataGrid .yellow {
   background: #ffff8d; }
 
-.gridListdemoBasicUsage .blue {
-  background: #84ffff; }
+.DetailedDataGrid .blue {
+  background: #337099; 
+  color: white
+  }
 
-.gridListdemoBasicUsage .purple {
-  background: #b388ff; }
+.DetailedDataGrid .purple {
+  background: #f5f5f5; }
 
-.gridListdemoBasicUsage .red {
+.DetailedDataGrid .red {
   background: #ff8a80; }
 
-.gridListdemoBasicUsage md-grid-tile {
+.DetailedDataGrid md-grid-tile {
   transition: all 400ms ease-out 50ms; }
 
 

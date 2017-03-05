@@ -1,4 +1,4 @@
-angular.module('myApp', ['nvd3','ngMaterial', 'ngMessages'])
+angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages'])
     .controller('myCtrl', function ($scope, $http) {
         d3.select("svg g.nv-series-0").style("fill-opacity", 0.15);
         $http.get('https://krakowska-masa-krytyczna.github.io/Wavelo-Stats/data/wavelo_data_summary.yaml?timestamp=' + Date.now())
@@ -96,7 +96,7 @@ angular.module('myApp', ['nvd3','ngMaterial', 'ngMessages'])
                 ];
 
                 keys = Object.keys(bike_data);
-                last_key = keys[keys.length-1];
+                last_key = keys[keys.length - 1];
 
                 $scope.availableNow = bike_data[last_key]['all_available_bikes']
                 $scope.rentedNow = 300 - bike_data[last_key]['all_available_bikes']
@@ -105,6 +105,17 @@ angular.module('myApp', ['nvd3','ngMaterial', 'ngMessages'])
 
             });
 
+        $http.get('https://martanoga.github.io/Wavelo-Stats/data/wavelo_summary.yaml?timestamp=' + Date.now())
+            .then(function (data) {
+                if (!data)
+                    return;
+
+                bike_data = jsyaml.load(data['data']);
+
+                $scope.totalRentals = bike_data['total_rentals'];
+                $scope.totalReturns = bike_data['total_returns'];
+                $scope.from = bike_data['t0'];
+            });
 
         $scope.options = {
             chart: {
@@ -152,10 +163,10 @@ angular.module('myApp', ['nvd3','ngMaterial', 'ngMessages'])
                     d3.select("svg g.nv-series-0").style("fill-opacity", 0.25);
                 }
             },
-            title: {
-                enable: true,
-                html: '<div class="graph_title">Wavelo Statistics</div>'
-            },
+            // title: {
+            //     enable: true,
+            //     html: '<div class="graph_title">Wavelo Statistics</div>'
+            // },
             // subtitle: {
             //     enable: true,
             //     text: 'Subtitle for simple line chart. Lorem ipsum dolor sit amet, at eam blandit sadipscing, vim adhuc sanctus disputando ex, cu usu affert alienum urbanitas.',
@@ -171,4 +182,4 @@ angular.module('myApp', ['nvd3','ngMaterial', 'ngMessages'])
         };
 
     })
-    .controller('AppCtrl', function($scope) {});
+    .controller('AppCtrl', function ($scope) { });

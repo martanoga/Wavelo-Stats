@@ -26,32 +26,53 @@
 
 <body>
     <!-- page content -->
-    <a href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna' id="logo"><img src='img/masa_logo.png' height="120" widht="120" /></a>
+    <table id="header">
+        <tr><td><a href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna' id="logo"><img src='img/masa_logo.png' height="120" widht="120" /></a></td>
+        <td><h1> Krakowski Rower Miejski - Statystyki Wypozyczeń </h1></td>
+    </table>
+    
     <div ng-app="myApp">
         <div ng-controller="myCtrl">
-            <div ng-cloak="" class="gridListdemoBasicUsage">
+            <div ng-cloak="" class="DetailedDataGrid">
 
-                <md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="2:2"
-                    md-gutter="6px" md-gutter-gt-sm="4px">
+                <md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6" 
+                    md-gutter="6px" md-gutter-gt-sm="4px" md-row-height="1:1" >
 
-                    <md-grid-tile class="gray" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1">
+                    <md-grid-tile class="blue" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1">
                         <md-grid-tile-header>
                             <h3>W tej chwili...</h3>
                         </md-grid-tile-header>
                         <table>
-                            <tr><td>Dostępne rowery: <span md-colors="{color:'primary'}">{{availableNow}}</span></td></tr>
-                            <tr><td>Pożyczone: <span md-colors="{color:'primary'}">{{rentedNow}}</span></td></tr>
+                            <tr>
+                                <td>Dostępne rowery: <span md-colors="{color:'accent'}">{{availableNow}}</span></td>
+                            </tr>
+                            <tr>
+                                <td>Pożyczone: <span md-colors="{color:'accent'}">{{rentedNow}}</span></td>
+                            </tr>
                         </table>
-                        
+
                     </md-grid-tile>
 
-                    <!--<md-grid-tile class="green">
-                        <md-grid-tile-footer>
-                            <h3>#2: (1r x 1c)</h3>
-                        </md-grid-tile-footer>
+                    <md-grid-tile class="gray" md-colspan="2">
+                        <md-grid-tile-header>
+                            <h3>Dzisiaj...</h3>
+                        </md-grid-tile-header>
+                        <div>
+                        <table>
+                            <tr>
+                                <td>Wypozyczono rowery <span md-colors="{color:'primary'}">{{totalRentals}}</span> razy,</td>
+                            </tr>
+                            <tr>
+                                <td>Oddano je <span md-colors="{color:'primary'}">{{totalReturns}} razy</span>.</td>
+                            </tr>
+                        </table>
+
+                        <div class='disclaimer'>*Dane przybliozone</div>
+                        </div>
+
                     </md-grid-tile>
 
-                    <md-grid-tile class="yellow">
+                    <!--<md-grid-tile class="yellow">
                         <md-grid-tile-footer>
                             <h3>#3: (1r x 1c)</h3>
                         </md-grid-tile-footer>
