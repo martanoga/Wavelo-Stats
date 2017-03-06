@@ -1,5 +1,5 @@
-average_rental: 2016.9787234042553
-complete_rentals: 57
+average_rental: 1943.96
+complete_rentals: 60
 hubs:
   null:
     id: null
@@ -10,7 +10,7 @@ hubs:
     id: 2020
     name: 02 Teatr Bagatela
     rentals: 4
-    returns: 6
+    returns: 7
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
@@ -55,7 +55,7 @@ hubs:
     id: 2036
     name: 11 Korona
     rentals: 2
-    returns: 0
+    returns: 1
   2037:
     id: 2037
     name: 12 Plac Wolnica
@@ -135,7 +135,7 @@ hubs:
     id: 2233
     name: 26 Uniwersytet Rolniczy
     rentals: 1
-    returns: 1
+    returns: 2
   2234:
     id: 2234
     name: 27 Wieczysta
@@ -158,13 +158,13 @@ hubs:
     returns: 1
 long_rentals: 5
 longest_rental: 10199
-short_rentals: 27
+short_rentals: 30
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 15:30:00'
+t1: '2017-03-06 15:40:00'
 total_rentals: 63
-total_returns: 57
-total_time: 55800
+total_returns: 60
+total_time: 56400
 trips:
 - count: 3
   from: null
@@ -233,6 +233,9 @@ trips:
   from: 2034
   to: 2224
 - count: 1
+  from: null
+  to: 2036
+- count: 1
   from: 2233
   to: 2049
 - count: 1
@@ -262,6 +265,9 @@ trips:
 - count: 1
   from: null
   to: 2029
+- count: 1
+  from: 2034
+  to: 2020
 - count: 1
   from: 2029
   to: 2225
@@ -313,6 +319,9 @@ trips:
 - count: 1
   from: 2030
   to: 2039
+- count: 1
+  from: 2039
+  to: 2233
 vain_rentals: 10
 xlong_rentals: 4
 
