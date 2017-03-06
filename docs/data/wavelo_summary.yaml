@@ -1,5 +1,5 @@
-average_rental: 1155.6296296296296
-complete_rentals: 33
+average_rental: 1645.2903225806451
+complete_rentals: 38
 hubs:
   null:
     id: null
@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 3
+    rentals: 4
     returns: 3
   2021:
     id: 2021
@@ -45,12 +45,12 @@ hubs:
     id: 2034
     name: 09 Miodowa
     rentals: 1
-    returns: 4
+    returns: 5
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
-    rentals: 0
-    returns: 0
+    rentals: 2
+    returns: 1
   2036:
     id: 2036
     name: 11 Korona
@@ -69,7 +69,7 @@ hubs:
   2039:
     id: 2039
     name: 13 Poczta Główna
-    rentals: 0
+    rentals: 1
     returns: 3
   2040:
     id: 2040
@@ -79,13 +79,13 @@ hubs:
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
-    rentals: 2
+    rentals: 3
     returns: 5
   2223:
     id: 2223
     name: 16 Szwedzka
     rentals: 1
-    returns: 0
+    returns: 3
   2224:
     id: 2224
     name: 17 Jubilat
@@ -156,16 +156,19 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 0
-long_rentals: 1
-longest_rental: 4799
-short_rentals: 20
+long_rentals: 3
+longest_rental: 9000
+short_rentals: 21
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 13:20:00'
-total_rentals: 39
-total_returns: 33
-total_time: 48000
+t1: '2017-03-06 13:30:01'
+total_rentals: 44
+total_returns: 38
+total_time: 48601
 trips:
+- count: 3
+  from: null
+  to: 2223
 - count: 2
   from: 2049
   to: 2034
@@ -212,6 +215,9 @@ trips:
   from: 2232
   to: 2039
 - count: 1
+  from: 2020
+  to: 2034
+- count: 1
   from: 2227
   to: 2039
 - count: 1
@@ -248,6 +254,9 @@ trips:
   from: 2227
   to: 2030
 - count: 1
+  from: 2049
+  to: 2035
+- count: 1
   from: 2021
   to: 2021
 - count: 1
@@ -256,6 +265,6 @@ trips:
 - count: 1
   from: 2030
   to: 2039
-vain_rentals: 6
-xlong_rentals: 0
+vain_rentals: 7
+xlong_rentals: 2
 
