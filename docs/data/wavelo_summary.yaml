@@ -1,5 +1,5 @@
-average_rental: 764.0909090909091
-complete_rentals: 14
+average_rental: 750.3333333333334
+complete_rentals: 15
 hubs:
   null:
     id: null
@@ -39,7 +39,7 @@ hubs:
   2032:
     id: 2032
     name: 07 Rondo Mogilskie
-    rentals: 0
+    rentals: 1
     returns: 1
   2034:
     id: 2034
@@ -80,7 +80,7 @@ hubs:
     id: 2049
     name: 08 Rondo Grzegórzeckie
     rentals: 0
-    returns: 2
+    returns: 3
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1201
-short_rentals: 8
-shortest_rental: 600
+short_rentals: 9
+shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 09:30:01'
-total_rentals: 15
-total_returns: 14
-total_time: 34201
+t1: '2017-03-06 09:40:00'
+total_rentals: 16
+total_returns: 15
+total_time: 34800
 trips:
 - count: 2
   from: 2040
@@ -181,6 +181,9 @@ trips:
 - count: 1
   from: 2030
   to: 2020
+- count: 1
+  from: 2036
+  to: 2049
 - count: 1
   from: null
   to: 2029
