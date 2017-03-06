@@ -1,5 +1,5 @@
-average_rental: 750.5
-complete_rentals: 5
+average_rental: 720.4
+complete_rentals: 7
 hubs:
   null:
     id: null
@@ -20,11 +20,11 @@ hubs:
     id: 2028
     name: 03 Cracovia Błonia
     rentals: 0
-    returns: 1
+    returns: 2
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 0
+    rentals: 1
     returns: 0
   2030:
     id: 2030
@@ -105,7 +105,7 @@ hubs:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
     rentals: 0
-    returns: 0
+    returns: 1
   2228:
     id: 2228
     name: Łobzów PKP
@@ -129,7 +129,7 @@ hubs:
   2232:
     id: 2232
     name: 25 Mackiewicza
-    rentals: 0
+    rentals: 1
     returns: 0
   2233:
     id: 2233
@@ -158,26 +158,32 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1201
-short_rentals: 3
+short_rentals: 4
 shortest_rental: 600
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 07:50:01'
-total_rentals: 6
-total_returns: 5
-total_time: 28201
+t1: '2017-03-06 08:00:01'
+total_rentals: 8
+total_returns: 7
+total_time: 28801
 trips:
 - count: 2
   from: 2040
   to: 2040
 - count: 1
-  from: 2030
-  to: 2020
+  from: 2223
+  to: 2028
 - count: 1
   from: 2226
   to: 2028
 - count: 1
+  from: 2030
+  to: 2020
+- count: 1
+  from: 2029
+  to: 2227
+- count: 1
   from: null
   to: 2049
-vain_rentals: 1
+vain_rentals: 2
 xlong_rentals: 0
 
