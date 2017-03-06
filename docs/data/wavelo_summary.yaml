@@ -1,5 +1,5 @@
-average_rental: 800.2666666666667
-complete_rentals: 19
+average_rental: 787.8125
+complete_rentals: 20
 hubs:
   null:
     id: null
@@ -29,8 +29,8 @@ hubs:
   2030:
     id: 2030
     name: 05 Politechnika
-    rentals: 2
-    returns: 1
+    rentals: 3
+    returns: 2
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1201
-short_rentals: 12
+short_rentals: 13
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 10:40:00'
-total_rentals: 20
-total_returns: 19
-total_time: 38400
+t1: '2017-03-06 10:50:01'
+total_rentals: 21
+total_returns: 20
+total_time: 39001
 trips:
 - count: 2
   from: 2040
@@ -196,6 +196,9 @@ trips:
 - count: 1
   from: 2020
   to: 2032
+- count: 1
+  from: 2020
+  to: 2030
 - count: 1
   from: 2029
   to: 2225
