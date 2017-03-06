@@ -1,5 +1,5 @@
-average_rental: 1104.08
-complete_rentals: 31
+average_rental: 1155.6296296296296
+complete_rentals: 33
 hubs:
   null:
     id: null
@@ -9,13 +9,13 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 2
+    rentals: 3
     returns: 3
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
     rentals: 1
-    returns: 0
+    returns: 1
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -34,7 +34,7 @@ hubs:
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
-    rentals: 1
+    rentals: 2
     returns: 0
   2032:
     id: 2032
@@ -70,7 +70,7 @@ hubs:
     id: 2039
     name: 13 Poczta Główna
     rentals: 0
-    returns: 2
+    returns: 3
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 1
 longest_rental: 4799
-short_rentals: 19
+short_rentals: 20
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 13:10:00'
-total_rentals: 37
-total_returns: 31
-total_time: 47400
+t1: '2017-03-06 13:20:00'
+total_rentals: 39
+total_returns: 33
+total_time: 48000
 trips:
 - count: 2
   from: 2049
@@ -209,6 +209,9 @@ trips:
   from: 2233
   to: 2049
 - count: 1
+  from: 2232
+  to: 2039
+- count: 1
   from: 2227
   to: 2039
 - count: 1
@@ -244,6 +247,9 @@ trips:
 - count: 1
   from: 2227
   to: 2030
+- count: 1
+  from: 2021
+  to: 2021
 - count: 1
   from: 2232
   to: 2231
