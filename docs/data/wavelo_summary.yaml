@@ -1,5 +1,5 @@
-average_rental: 1975.2300884955753
-complete_rentals: 141
+average_rental: 1955.2068965517242
+complete_rentals: 144
 hubs:
   null:
     id: null
@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 10
+    rentals: 11
     returns: 14
   2021:
     id: 2021
@@ -39,7 +39,7 @@ hubs:
   2032:
     id: 2032
     name: 07 Rondo Mogilskie
-    rentals: 4
+    rentals: 5
     returns: 2
   2034:
     id: 2034
@@ -64,7 +64,7 @@ hubs:
   2038:
     id: 2038
     name: 14 Wawel
-    rentals: 0
+    rentals: 2
     returns: 4
   2039:
     id: 2039
@@ -75,7 +75,7 @@ hubs:
     id: 2040
     name: 15 Centrum Kongresowe ICE
     rentals: 6
-    returns: 5
+    returns: 6
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
@@ -95,7 +95,7 @@ hubs:
     id: 2225
     name: 18 Salwator
     rentals: 1
-    returns: 1
+    returns: 2
   2226:
     id: 2226
     name: 19 Cichy Kącik
@@ -130,7 +130,7 @@ hubs:
     id: 2232
     name: 25 Mackiewicza
     rentals: 4
-    returns: 1
+    returns: 2
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
@@ -158,17 +158,20 @@ hubs:
     returns: 1
 long_rentals: 14
 longest_rental: 13199
-short_rentals: 62
+short_rentals: 63
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 20:40:00'
-total_rentals: 149
-total_returns: 141
-total_time: 74400
+t1: '2017-03-06 20:50:01'
+total_rentals: 153
+total_returns: 144
+total_time: 75001
 trips:
 - count: 3
   from: null
   to: 2223
+- count: 3
+  from: 2021
+  to: 2040
 - count: 3
   from: 2049
   to: 2020
@@ -199,9 +202,6 @@ trips:
 - count: 2
   from: 2020
   to: 2030
-- count: 2
-  from: 2021
-  to: 2040
 - count: 2
   from: 2029
   to: 2227
@@ -286,6 +286,9 @@ trips:
 - count: 1
   from: null
   to: 2236
+- count: 1
+  from: 2231
+  to: 2232
 - count: 1
   from: 2021
   to: 2021
@@ -430,6 +433,9 @@ trips:
 - count: 1
   from: 2227
   to: 2227
+- count: 1
+  from: 2020
+  to: 2225
 - count: 1
   from: 2029
   to: 2020
