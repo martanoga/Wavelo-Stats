@@ -311,9 +311,6 @@ trips:
   from: 2228
   to: 2230
 - count: 1
-  from: 2034
-  to: 2031
-- count: 1
   from: 2030
   to: 2227
 - count: 1
@@ -454,6 +451,9 @@ trips:
 - count: 1
   from: 2029
   to: 2228
+- count: 1
+  from: 2034
+  to: 2031
 vain_rentals: 14
 xlong_rentals: 6
 
