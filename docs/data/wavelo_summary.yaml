@@ -1,5 +1,5 @@
-average_rental: 1095.695652173913
-complete_rentals: 29
+average_rental: 1100.0833333333333
+complete_rentals: 30
 hubs:
   null:
     id: null
@@ -34,7 +34,7 @@ hubs:
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
-    rentals: 0
+    rentals: 1
     returns: 0
   2032:
     id: 2032
@@ -140,7 +140,7 @@ hubs:
     id: 2234
     name: 27 Wieczysta
     rentals: 0
-    returns: 0
+    returns: 1
   2235:
     id: 2235
     name: 28 Rondo Kocmyrzowskie
@@ -161,10 +161,10 @@ longest_rental: 4799
 short_rentals: 18
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 12:30:00'
-total_rentals: 33
-total_returns: 29
-total_time: 45000
+t1: '2017-03-06 12:40:01'
+total_rentals: 34
+total_returns: 30
+total_time: 45601
 trips:
 - count: 2
   from: 2049
@@ -190,6 +190,9 @@ trips:
 - count: 1
   from: 2030
   to: 2049
+- count: 1
+  from: 2231
+  to: 2234
 - count: 1
   from: 2029
   to: 2227
