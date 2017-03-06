@@ -1,5 +1,5 @@
-average_rental: 1645.2903225806451
-complete_rentals: 38
+average_rental: 1650.125
+complete_rentals: 39
 hubs:
   null:
     id: null
@@ -24,7 +24,7 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 3
+    rentals: 4
     returns: 2
   2030:
     id: 2030
@@ -45,7 +45,7 @@ hubs:
     id: 2034
     name: 09 Miodowa
     rentals: 2
-    returns: 5
+    returns: 6
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
@@ -104,7 +104,7 @@ hubs:
   2227:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
-    rentals: 2
+    rentals: 3
     returns: 1
   2228:
     id: 2228
@@ -161,10 +161,10 @@ longest_rental: 9000
 short_rentals: 21
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 13:40:01'
-total_rentals: 46
-total_returns: 38
-total_time: 49201
+t1: '2017-03-06 13:50:00'
+total_rentals: 48
+total_returns: 39
+total_time: 49800
 trips:
 - count: 3
   from: null
@@ -178,6 +178,9 @@ trips:
 - count: 2
   from: null
   to: 2049
+- count: 1
+  from: 2031
+  to: 2034
 - count: 1
   from: null
   to: 2020
