@@ -1,5 +1,5 @@
-average_rental: 675.25
-complete_rentals: 11
+average_rental: 764.0909090909091
+complete_rentals: 14
 hubs:
   null:
     id: null
@@ -40,7 +40,7 @@ hubs:
     id: 2032
     name: 07 Rondo Mogilskie
     rentals: 0
-    returns: 0
+    returns: 1
   2034:
     id: 2034
     name: 09 Miodowa
@@ -70,7 +70,7 @@ hubs:
     id: 2039
     name: 13 Poczta Główna
     rentals: 0
-    returns: 1
+    returns: 2
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
@@ -80,7 +80,7 @@ hubs:
     id: 2049
     name: 08 Rondo Grzegórzeckie
     rentals: 0
-    returns: 1
+    returns: 2
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1201
-short_rentals: 7
+short_rentals: 8
 shortest_rental: 600
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 08:50:00'
+t1: '2017-03-06 09:00:01'
 total_rentals: 14
-total_returns: 11
-total_time: 31800
+total_returns: 14
+total_time: 32401
 trips:
 - count: 2
   from: 2040
@@ -176,11 +176,20 @@ trips:
   from: 2226
   to: 2028
 - count: 1
+  from: 2227
+  to: 2039
+- count: 1
   from: 2030
   to: 2020
 - count: 1
   from: null
   to: 2029
+- count: 1
+  from: 2020
+  to: 2032
+- count: 1
+  from: 2233
+  to: 2049
 - count: 1
   from: 2232
   to: 2231
