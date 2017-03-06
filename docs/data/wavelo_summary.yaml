@@ -1,11 +1,11 @@
-average_rental: 1930.8909090909092
-complete_rentals: 65
+average_rental: 2006.8793103448277
+complete_rentals: 68
 hubs:
   null:
     id: null
     name: out_of_station
     rentals: 11
-    returns: 2
+    returns: 3
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -19,7 +19,7 @@ hubs:
   2028:
     id: 2028
     name: 03 Cracovia Błonia
-    rentals: 2
+    rentals: 3
     returns: 2
   2029:
     id: 2029
@@ -30,7 +30,7 @@ hubs:
     id: 2030
     name: 05 Politechnika
     rentals: 6
-    returns: 4
+    returns: 5
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
@@ -44,8 +44,8 @@ hubs:
   2034:
     id: 2034
     name: 09 Miodowa
-    rentals: 8
-    returns: 7
+    rentals: 9
+    returns: 8
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
@@ -114,7 +114,7 @@ hubs:
   2229:
     id: 2229
     name: 22 Nowy Kleparz
-    rentals: 0
+    rentals: 1
     returns: 0
   2230:
     id: 2230
@@ -156,25 +156,25 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 1
-long_rentals: 6
+long_rentals: 7
 longest_rental: 10199
 short_rentals: 34
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 16:20:01'
-total_rentals: 75
-total_returns: 65
-total_time: 58801
+t1: '2017-03-06 16:30:00'
+total_rentals: 78
+total_returns: 68
+total_time: 59400
 trips:
+- count: 3
+  from: 2049
+  to: 2034
 - count: 3
   from: null
   to: 2223
 - count: 3
   from: null
   to: 2049
-- count: 2
-  from: 2049
-  to: 2034
 - count: 2
   from: 2040
   to: 2040
@@ -235,6 +235,9 @@ trips:
 - count: 1
   from: 2036
   to: 2049
+- count: 1
+  from: 2227
+  to: null
 - count: 1
   from: 2034
   to: 2224
@@ -328,6 +331,9 @@ trips:
 - count: 1
   from: 2232
   to: 2231
+- count: 1
+  from: 2030
+  to: 2030
 - count: 1
   from: 2028
   to: 2039
