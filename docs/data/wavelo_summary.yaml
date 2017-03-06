@@ -1,10 +1,10 @@
-average_rental: 1100.0833333333333
-complete_rentals: 30
+average_rental: 1104.08
+complete_rentals: 31
 hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 8
+    rentals: 9
     returns: 1
   2020:
     id: 2020
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 3
-    returns: 1
+    returns: 2
   2030:
     id: 2030
     name: 05 Politechnika
@@ -129,7 +129,7 @@ hubs:
   2232:
     id: 2232
     name: 25 Mackiewicza
-    rentals: 1
+    rentals: 2
     returns: 0
   2233:
     id: 2233
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 1
 longest_rental: 4799
-short_rentals: 18
+short_rentals: 19
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 12:50:00'
-total_rentals: 35
-total_returns: 30
-total_time: 46200
+t1: '2017-03-06 13:10:00'
+total_rentals: 37
+total_returns: 31
+total_time: 47400
 trips:
 - count: 2
   from: 2049
@@ -229,6 +229,9 @@ trips:
 - count: 1
   from: null
   to: null
+- count: 1
+  from: 2034
+  to: 2029
 - count: 1
   from: 2040
   to: 2034
