@@ -1,10 +1,10 @@
-average_rental: 700.3333333333334
-complete_rentals: 8
+average_rental: 686.0
+complete_rentals: 9
 hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 1
+    rentals: 2
     returns: 0
   2020:
     id: 2020
@@ -70,7 +70,7 @@ hubs:
     id: 2039
     name: 13 Poczta Główna
     rentals: 0
-    returns: 0
+    returns: 1
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1201
-short_rentals: 5
+short_rentals: 6
 shortest_rental: 600
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 08:20:00'
-total_rentals: 9
-total_returns: 8
-total_time: 30000
+t1: '2017-03-06 08:30:00'
+total_rentals: 10
+total_returns: 9
+total_time: 30600
 trips:
 - count: 2
   from: 2040
@@ -187,6 +187,9 @@ trips:
 - count: 1
   from: null
   to: 2049
+- count: 1
+  from: 2030
+  to: 2039
 vain_rentals: 2
 xlong_rentals: 0
 
