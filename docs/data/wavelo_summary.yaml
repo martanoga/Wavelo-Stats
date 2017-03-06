@@ -1,5 +1,5 @@
-average_rental: 1969.1181818181817
-complete_rentals: 138
+average_rental: 1975.2300884955753
+complete_rentals: 141
 hubs:
   null:
     id: null
@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 9
+    rentals: 10
     returns: 14
   2021:
     id: 2021
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 10
-    returns: 5
+    returns: 6
   2030:
     id: 2030
     name: 05 Politechnika
@@ -105,7 +105,7 @@ hubs:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
     rentals: 7
-    returns: 6
+    returns: 7
   2228:
     id: 2228
     name: Łobzów PKP
@@ -145,7 +145,7 @@ hubs:
     id: 2235
     name: 28 Rondo Kocmyrzowskie
     rentals: 4
-    returns: 2
+    returns: 3
   2236:
     id: 2236
     name: 29 DH Wanda
@@ -161,10 +161,10 @@ longest_rental: 13199
 short_rentals: 62
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 20:30:00'
-total_rentals: 148
-total_returns: 138
-total_time: 73800
+t1: '2017-03-06 20:40:00'
+total_rentals: 149
+total_returns: 141
+total_time: 74400
 trips:
 - count: 3
   from: null
@@ -215,6 +215,9 @@ trips:
   from: 2035
   to: 2034
 - count: 2
+  from: 2235
+  to: 2235
+- count: 2
   from: 2020
   to: 2227
 - count: 2
@@ -229,6 +232,9 @@ trips:
 - count: 2
   from: 2021
   to: 2038
+- count: 1
+  from: 2029
+  to: 2029
 - count: 1
   from: 2229
   to: 2039
@@ -392,9 +398,6 @@ trips:
   from: 2229
   to: 2031
 - count: 1
-  from: 2235
-  to: 2235
-- count: 1
   from: 2236
   to: 2223
 - count: 1
@@ -424,6 +427,9 @@ trips:
 - count: 1
   from: null
   to: 2020
+- count: 1
+  from: 2227
+  to: 2227
 - count: 1
   from: 2029
   to: 2020
