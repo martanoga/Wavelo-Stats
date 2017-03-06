@@ -19,7 +19,7 @@ hubs:
   2028:
     id: 2028
     name: 03 Cracovia Błonia
-    rentals: 0
+    rentals: 2
     returns: 2
   2029:
     id: 2029
@@ -149,7 +149,7 @@ hubs:
   2236:
     id: 2236
     name: 29 DH Wanda
-    rentals: 0
+    rentals: 1
     returns: 1
   2237:
     id: 2237
@@ -161,10 +161,10 @@ longest_rental: 10199
 short_rentals: 30
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 15:50:00'
-total_rentals: 66
+t1: '2017-03-06 16:00:00'
+total_rentals: 69
 total_returns: 60
-total_time: 57000
+total_time: 57600
 trips:
 - count: 3
   from: null
