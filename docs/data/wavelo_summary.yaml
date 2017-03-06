@@ -1,5 +1,5 @@
-average_rental: 2001.9065420560748
-complete_rentals: 133
+average_rental: 1988.9166666666667
+complete_rentals: 136
 hubs:
   null:
     id: null
@@ -14,7 +14,7 @@ hubs:
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
-    rentals: 5
+    rentals: 7
     returns: 6
   2028:
     id: 2028
@@ -24,7 +24,7 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 8
+    rentals: 9
     returns: 5
   2030:
     id: 2030
@@ -35,7 +35,7 @@ hubs:
     id: 2031
     name: 06 Dworzec Główny Wschód
     rentals: 3
-    returns: 3
+    returns: 4
   2032:
     id: 2032
     name: 07 Rondo Mogilskie
@@ -65,7 +65,7 @@ hubs:
     id: 2038
     name: 14 Wawel
     rentals: 0
-    returns: 2
+    returns: 4
   2039:
     id: 2039
     name: 13 Poczta Główna
@@ -79,7 +79,7 @@ hubs:
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
-    rentals: 11
+    rentals: 12
     returns: 12
   2223:
     id: 2223
@@ -139,7 +139,7 @@ hubs:
   2234:
     id: 2234
     name: 27 Wieczysta
-    rentals: 1
+    rentals: 2
     returns: 3
   2235:
     id: 2235
@@ -158,13 +158,13 @@ hubs:
     returns: 1
 long_rentals: 14
 longest_rental: 13199
-short_rentals: 59
+short_rentals: 60
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 20:00:01'
-total_rentals: 137
-total_returns: 133
-total_time: 72001
+t1: '2017-03-06 20:10:00'
+total_rentals: 142
+total_returns: 136
+total_time: 72600
 trips:
 - count: 3
   from: null
@@ -226,6 +226,9 @@ trips:
 - count: 2
   from: 2040
   to: 2040
+- count: 2
+  from: 2021
+  to: 2038
 - count: 1
   from: 2229
   to: 2039
@@ -386,6 +389,9 @@ trips:
   from: 2234
   to: 2031
 - count: 1
+  from: 2229
+  to: 2031
+- count: 1
   from: 2235
   to: 2235
 - count: 1
@@ -490,6 +496,6 @@ trips:
 - count: 1
   from: 2034
   to: 2031
-vain_rentals: 26
+vain_rentals: 28
 xlong_rentals: 6
 
