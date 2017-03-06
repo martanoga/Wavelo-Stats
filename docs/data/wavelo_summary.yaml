@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 0
+    rentals: 1
     returns: 1
   2021:
     id: 2021
@@ -161,10 +161,10 @@ longest_rental: 1201
 short_rentals: 7
 shortest_rental: 600
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 08:40:00'
-total_rentals: 13
+t1: '2017-03-06 08:50:00'
+total_rentals: 14
 total_returns: 11
-total_time: 31200
+total_time: 31800
 trips:
 - count: 2
   from: 2040
