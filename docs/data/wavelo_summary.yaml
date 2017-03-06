@@ -1,5 +1,5 @@
-average_rental: 2103.8734177215188
-complete_rentals: 91
+average_rental: 2063.4634146341464
+complete_rentals: 94
 hubs:
   null:
     id: null
@@ -29,13 +29,13 @@ hubs:
   2030:
     id: 2030
     name: 05 Politechnika
-    rentals: 7
+    rentals: 8
     returns: 6
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
     rentals: 2
-    returns: 2
+    returns: 3
   2032:
     id: 2032
     name: 07 Rondo Mogilskie
@@ -49,12 +49,12 @@ hubs:
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
-    rentals: 5
+    rentals: 6
     returns: 2
   2036:
     id: 2036
     name: 11 Korona
-    rentals: 2
+    rentals: 3
     returns: 2
   2037:
     id: 2037
@@ -85,7 +85,7 @@ hubs:
     id: 2223
     name: 16 Szwedzka
     rentals: 1
-    returns: 5
+    returns: 6
   2224:
     id: 2224
     name: 17 Jubilat
@@ -105,7 +105,7 @@ hubs:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
     rentals: 5
-    returns: 2
+    returns: 3
   2228:
     id: 2228
     name: Łobzów PKP
@@ -158,13 +158,13 @@ hubs:
     returns: 1
 long_rentals: 9
 longest_rental: 13199
-short_rentals: 42
+short_rentals: 45
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 17:30:00'
-total_rentals: 99
-total_returns: 91
-total_time: 63000
+t1: '2017-03-06 17:40:00'
+total_rentals: 102
+total_returns: 94
+total_time: 63600
 trips:
 - count: 3
   from: 2049
@@ -205,6 +205,9 @@ trips:
 - count: 1
   from: 2235
   to: 2236
+- count: 1
+  from: 2235
+  to: null
 - count: 1
   from: 2029
   to: 2020
@@ -250,9 +253,6 @@ trips:
 - count: 1
   from: 2226
   to: 2028
-- count: 1
-  from: 2235
-  to: null
 - count: 1
   from: 2035
   to: 2034
@@ -306,10 +306,16 @@ trips:
   to: 2235
 - count: 1
   from: 2030
+  to: 2227
+- count: 1
+  from: 2030
   to: 2020
 - count: 1
   from: 2231
   to: 2237
+- count: 1
+  from: 2034
+  to: 2031
 - count: 1
   from: null
   to: 2029
@@ -380,20 +386,23 @@ trips:
   from: 2021
   to: 2021
 - count: 1
+  from: 2039
+  to: 2223
+- count: 1
   from: 2232
   to: 2231
 - count: 1
   from: 2030
   to: 2030
 - count: 1
+  from: null
+  to: 2235
+- count: 1
   from: 2028
   to: 2039
 - count: 1
   from: 2030
   to: 2039
-- count: 1
-  from: null
-  to: 2235
 - count: 1
   from: 2039
   to: 2233
