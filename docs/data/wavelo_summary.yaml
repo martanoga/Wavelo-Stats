@@ -1,5 +1,5 @@
 average_rental: 800.2666666666667
-complete_rentals: 18
+complete_rentals: 19
 hubs:
   null:
     id: null
@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 1
+    rentals: 2
     returns: 1
   2021:
     id: 2021
@@ -45,7 +45,7 @@ hubs:
     id: 2034
     name: 09 Miodowa
     rentals: 0
-    returns: 0
+    returns: 1
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
@@ -74,7 +74,7 @@ hubs:
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
-    rentals: 2
+    rentals: 3
     returns: 2
   2049:
     id: 2049
@@ -161,10 +161,10 @@ longest_rental: 1201
 short_rentals: 12
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 10:30:01'
-total_rentals: 18
-total_returns: 18
-total_time: 37801
+t1: '2017-03-06 10:40:00'
+total_rentals: 20
+total_returns: 19
+total_time: 38400
 trips:
 - count: 2
   from: 2040
@@ -181,6 +181,9 @@ trips:
 - count: 1
   from: 2030
   to: 2020
+- count: 1
+  from: 2040
+  to: 2034
 - count: 1
   from: 2036
   to: 2049
@@ -217,6 +220,6 @@ trips:
 - count: 1
   from: 2228
   to: 2230
-vain_rentals: 3
+vain_rentals: 4
 xlong_rentals: 0
 
