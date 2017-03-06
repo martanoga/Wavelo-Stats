@@ -1,16 +1,16 @@
-average_rental: 800.1428571428571
-complete_rentals: 27
+average_rental: 1095.695652173913
+complete_rentals: 29
 hubs:
   null:
     id: null
     name: out_of_station
     rentals: 8
-    returns: 0
+    returns: 1
   2020:
     id: 2020
     name: 02 Teatr Bagatela
     rentals: 2
-    returns: 2
+    returns: 3
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
@@ -124,7 +124,7 @@ hubs:
   2231:
     id: 2231
     name: 24 Krowodrza Górka
-    rentals: 0
+    rentals: 1
     returns: 1
   2232:
     id: 2232
@@ -156,15 +156,15 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 0
-long_rentals: 0
-longest_rental: 1201
+long_rentals: 1
+longest_rental: 4799
 short_rentals: 18
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 12:10:00'
-total_rentals: 31
-total_returns: 27
-total_time: 43800
+t1: '2017-03-06 12:20:00'
+total_rentals: 32
+total_returns: 29
+total_time: 44400
 trips:
 - count: 2
   from: 2049
@@ -177,6 +177,9 @@ trips:
   to: 2049
 - count: 1
   from: null
+  to: 2020
+- count: 1
+  from: 2029
   to: 2020
 - count: 1
   from: 2020
@@ -220,6 +223,9 @@ trips:
 - count: 1
   from: 2032
   to: 2037
+- count: 1
+  from: null
+  to: null
 - count: 1
   from: 2040
   to: 2034
