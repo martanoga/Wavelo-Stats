@@ -1,11 +1,11 @@
-average_rental: 1937.688524590164
-complete_rentals: 71
+average_rental: 1916.1129032258063
+complete_rentals: 72
 hubs:
   null:
     id: null
     name: out_of_station
     rentals: 11
-    returns: 3
+    returns: 4
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -14,7 +14,7 @@ hubs:
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
-    rentals: 1
+    rentals: 2
     returns: 2
   2028:
     id: 2028
@@ -158,13 +158,13 @@ hubs:
     returns: 1
 long_rentals: 7
 longest_rental: 10199
-short_rentals: 37
+short_rentals: 38
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 16:40:00'
-total_rentals: 81
-total_returns: 71
-total_time: 60000
+t1: '2017-03-06 16:50:00'
+total_rentals: 82
+total_returns: 72
+total_time: 60600
 trips:
 - count: 3
   from: 2049
@@ -241,6 +241,9 @@ trips:
 - count: 1
   from: 2226
   to: 2028
+- count: 1
+  from: 2235
+  to: null
 - count: 1
   from: 2036
   to: 2049
