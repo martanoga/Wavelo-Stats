@@ -1,5 +1,5 @@
-average_rental: 750.3333333333334
-complete_rentals: 15
+average_rental: 784.9230769230769
+complete_rentals: 16
 hubs:
   null:
     id: null
@@ -60,7 +60,7 @@ hubs:
     id: 2037
     name: 12 Plac Wolnica
     rentals: 0
-    returns: 0
+    returns: 1
   2038:
     id: 2038
     name: 14 Wawel
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1201
-short_rentals: 9
+short_rentals: 10
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 09:50:00'
+t1: '2017-03-06 10:00:00'
 total_rentals: 16
-total_returns: 15
-total_time: 35400
+total_returns: 16
+total_time: 36000
 trips:
 - count: 2
   from: 2040
@@ -190,6 +190,9 @@ trips:
 - count: 1
   from: 2020
   to: 2032
+- count: 1
+  from: 2032
+  to: 2037
 - count: 1
   from: 2233
   to: 2049
