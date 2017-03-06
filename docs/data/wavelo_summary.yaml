@@ -104,7 +104,7 @@ hubs:
   2227:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
-    rentals: 1
+    rentals: 2
     returns: 1
   2228:
     id: 2228
@@ -161,10 +161,10 @@ longest_rental: 1201
 short_rentals: 10
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 10:10:01'
-total_rentals: 17
+t1: '2017-03-06 10:20:01'
+total_rentals: 18
 total_returns: 16
-total_time: 36601
+total_time: 37201
 trips:
 - count: 2
   from: 2040
