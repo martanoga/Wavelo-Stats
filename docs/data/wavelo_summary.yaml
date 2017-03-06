@@ -14,7 +14,7 @@ hubs:
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
-    rentals: 0
+    rentals: 1
     returns: 0
   2028:
     id: 2028
@@ -161,10 +161,10 @@ longest_rental: 4799
 short_rentals: 18
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 12:20:00'
-total_rentals: 32
+t1: '2017-03-06 12:30:00'
+total_rentals: 33
 total_returns: 29
-total_time: 44400
+total_time: 45000
 trips:
 - count: 2
   from: 2049
