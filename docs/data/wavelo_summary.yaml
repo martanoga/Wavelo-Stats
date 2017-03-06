@@ -1,10 +1,10 @@
-average_rental: 1916.1129032258063
-complete_rentals: 72
+average_rental: 1895.2222222222222
+complete_rentals: 73
 hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 11
+    rentals: 12
     returns: 4
   2020:
     id: 2020
@@ -49,7 +49,7 @@ hubs:
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
-    rentals: 3
+    rentals: 4
     returns: 2
   2036:
     id: 2036
@@ -59,7 +59,7 @@ hubs:
   2037:
     id: 2037
     name: 12 Plac Wolnica
-    rentals: 0
+    rentals: 1
     returns: 1
   2038:
     id: 2038
@@ -79,8 +79,8 @@ hubs:
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
-    rentals: 6
-    returns: 7
+    rentals: 7
+    returns: 8
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -89,7 +89,7 @@ hubs:
   2224:
     id: 2224
     name: 17 Jubilat
-    rentals: 0
+    rentals: 1
     returns: 2
   2225:
     id: 2225
@@ -99,7 +99,7 @@ hubs:
   2226:
     id: 2226
     name: 19 Cichy Kącik
-    rentals: 1
+    rentals: 2
     returns: 1
   2227:
     id: 2227
@@ -158,13 +158,13 @@ hubs:
     returns: 1
 long_rentals: 7
 longest_rental: 10199
-short_rentals: 38
+short_rentals: 39
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 16:50:00'
-total_rentals: 82
-total_returns: 72
-total_time: 60600
+t1: '2017-03-06 17:00:00'
+total_rentals: 88
+total_returns: 73
+total_time: 61200
 trips:
 - count: 3
   from: 2049
@@ -242,9 +242,6 @@ trips:
   from: 2226
   to: 2028
 - count: 1
-  from: 2235
-  to: null
-- count: 1
   from: 2036
   to: 2049
 - count: 1
@@ -308,6 +305,9 @@ trips:
   from: 2227
   to: 2034
 - count: 1
+  from: 2235
+  to: null
+- count: 1
   from: 2040
   to: 2034
 - count: 1
@@ -331,6 +331,9 @@ trips:
 - count: 1
   from: 2227
   to: 2030
+- count: 1
+  from: 2021
+  to: 2049
 - count: 1
   from: 2049
   to: 2035
