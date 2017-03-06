@@ -1,5 +1,5 @@
-average_rental: 686.0
-complete_rentals: 9
+average_rental: 675.25
+complete_rentals: 11
 hubs:
   null:
     id: null
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 1
-    returns: 0
+    returns: 1
   2030:
     id: 2030
     name: 05 Politechnika
@@ -104,12 +104,12 @@ hubs:
   2227:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
-    rentals: 0
+    rentals: 1
     returns: 1
   2228:
     id: 2228
     name: Łobzów PKP
-    rentals: 0
+    rentals: 1
     returns: 0
   2229:
     id: 2229
@@ -120,7 +120,7 @@ hubs:
     id: 2230
     name: 23 Bratysławska
     rentals: 0
-    returns: 0
+    returns: 1
   2231:
     id: 2231
     name: 24 Krowodrza Górka
@@ -134,7 +134,7 @@ hubs:
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
-    rentals: 0
+    rentals: 1
     returns: 0
   2234:
     id: 2234
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1201
-short_rentals: 6
+short_rentals: 7
 shortest_rental: 600
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 08:30:00'
-total_rentals: 10
-total_returns: 9
-total_time: 30600
+t1: '2017-03-06 08:40:00'
+total_rentals: 13
+total_returns: 11
+total_time: 31200
 trips:
 - count: 2
   from: 2040
@@ -179,6 +179,9 @@ trips:
   from: 2030
   to: 2020
 - count: 1
+  from: null
+  to: 2029
+- count: 1
   from: 2232
   to: 2231
 - count: 1
@@ -190,6 +193,9 @@ trips:
 - count: 1
   from: 2030
   to: 2039
-vain_rentals: 2
+- count: 1
+  from: 2228
+  to: 2230
+vain_rentals: 3
 xlong_rentals: 0
 
