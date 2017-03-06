@@ -1,10 +1,10 @@
 average_rental: 1969.496183206107
-complete_rentals: 161
+complete_rentals: 163
 hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 14
+    rentals: 16
     returns: 6
   2020:
     id: 2020
@@ -60,7 +60,7 @@ hubs:
     id: 2037
     name: 12 Plac Wolnica
     rentals: 1
-    returns: 1
+    returns: 2
   2038:
     id: 2038
     name: 14 Wawel
@@ -125,7 +125,7 @@ hubs:
     id: 2231
     name: 24 Krowodrza Górka
     rentals: 3
-    returns: 8
+    returns: 9
   2232:
     id: 2232
     name: 25 Mackiewicza
@@ -161,10 +161,10 @@ longest_rental: 13199
 short_rentals: 72
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 22:20:01'
-total_rentals: 162
-total_returns: 161
-total_time: 80401
+t1: '2017-03-06 22:30:00'
+total_rentals: 164
+total_returns: 163
+total_time: 81000
 trips:
 - count: 6
   from: 2020
@@ -218,6 +218,9 @@ trips:
   from: 2029
   to: 2227
 - count: 2
+  from: null
+  to: 2231
+- count: 2
   from: 2035
   to: 2030
 - count: 2
@@ -259,6 +262,9 @@ trips:
 - count: 1
   from: 2030
   to: 2049
+- count: 1
+  from: null
+  to: 2037
 - count: 1
   from: 2049
   to: 2236
@@ -328,9 +334,6 @@ trips:
 - count: 1
   from: 2028
   to: 2226
-- count: 1
-  from: null
-  to: 2231
 - count: 1
   from: 2020
   to: 2225
@@ -544,6 +547,6 @@ trips:
 - count: 1
   from: 2034
   to: 2031
-vain_rentals: 30
+vain_rentals: 32
 xlong_rentals: 6
 
