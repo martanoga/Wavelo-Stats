@@ -1,10 +1,10 @@
-average_rental: 1759.090909090909
-complete_rentals: 54
+average_rental: 2016.9787234042553
+complete_rentals: 57
 hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 10
+    rentals: 11
     returns: 2
   2020:
     id: 2020
@@ -44,7 +44,7 @@ hubs:
   2034:
     id: 2034
     name: 09 Miodowa
-    rentals: 2
+    rentals: 3
     returns: 7
   2035:
     id: 2035
@@ -90,7 +90,7 @@ hubs:
     id: 2224
     name: 17 Jubilat
     rentals: 0
-    returns: 0
+    returns: 2
   2225:
     id: 2225
     name: 18 Salwator
@@ -150,21 +150,21 @@ hubs:
     id: 2236
     name: 29 DH Wanda
     rentals: 0
-    returns: 0
+    returns: 1
   2237:
     id: 2237
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 1
-long_rentals: 3
-longest_rental: 9000
-short_rentals: 26
+long_rentals: 5
+longest_rental: 10199
+short_rentals: 27
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 15:20:00'
-total_rentals: 61
-total_returns: 54
-total_time: 55200
+t1: '2017-03-06 15:30:00'
+total_rentals: 63
+total_returns: 57
+total_time: 55800
 trips:
 - count: 3
   from: null
@@ -190,6 +190,9 @@ trips:
 - count: 1
   from: null
   to: 2020
+- count: 1
+  from: 2235
+  to: 2236
 - count: 1
   from: 2029
   to: 2020
@@ -226,6 +229,9 @@ trips:
 - count: 1
   from: 2036
   to: 2049
+- count: 1
+  from: 2034
+  to: 2224
 - count: 1
   from: 2233
   to: 2049
@@ -278,6 +284,9 @@ trips:
   from: 2030
   to: null
 - count: 1
+  from: 2031
+  to: 2224
+- count: 1
   from: 2030
   to: 2233
 - count: 1
@@ -305,5 +314,5 @@ trips:
   from: 2030
   to: 2039
 vain_rentals: 10
-xlong_rentals: 2
+xlong_rentals: 4
 
