@@ -54,7 +54,7 @@ hubs:
   2036:
     id: 2036
     name: 11 Korona
-    rentals: 3
+    rentals: 4
     returns: 2
   2037:
     id: 2037
@@ -129,7 +129,7 @@ hubs:
   2232:
     id: 2232
     name: 25 Mackiewicza
-    rentals: 3
+    rentals: 4
     returns: 1
   2233:
     id: 2233
@@ -161,10 +161,10 @@ longest_rental: 13199
 short_rentals: 54
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 18:20:01'
-total_rentals: 112
+t1: '2017-03-06 18:30:01'
+total_rentals: 114
 total_returns: 107
-total_time: 66001
+total_time: 66601
 trips:
 - count: 3
   from: null
