@@ -44,7 +44,7 @@ hubs:
   2034:
     id: 2034
     name: 09 Miodowa
-    rentals: 0
+    rentals: 1
     returns: 4
   2035:
     id: 2035
@@ -161,10 +161,10 @@ longest_rental: 4799
 short_rentals: 18
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 12:40:01'
-total_rentals: 34
+t1: '2017-03-06 12:50:00'
+total_rentals: 35
 total_returns: 30
-total_time: 45601
+total_time: 46200
 trips:
 - count: 2
   from: 2049
