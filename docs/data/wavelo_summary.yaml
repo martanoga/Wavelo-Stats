@@ -1,10 +1,10 @@
-average_rental: 1966.0
-complete_rentals: 107
+average_rental: 1980.0
+complete_rentals: 114
 hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 13
+    rentals: 14
     returns: 6
   2020:
     id: 2020
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 7
-    returns: 3
+    returns: 4
   2030:
     id: 2030
     name: 05 Politechnika
@@ -44,7 +44,7 @@ hubs:
   2034:
     id: 2034
     name: 09 Miodowa
-    rentals: 10
+    rentals: 11
     returns: 10
   2035:
     id: 2035
@@ -55,7 +55,7 @@ hubs:
     id: 2036
     name: 11 Korona
     rentals: 4
-    returns: 2
+    returns: 3
   2037:
     id: 2037
     name: 12 Plac Wolnica
@@ -79,7 +79,7 @@ hubs:
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
-    rentals: 9
+    rentals: 10
     returns: 11
   2223:
     id: 2223
@@ -104,8 +104,8 @@ hubs:
   2227:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
-    rentals: 5
-    returns: 4
+    rentals: 6
+    returns: 6
   2228:
     id: 2228
     name: Łobzów PKP
@@ -120,12 +120,12 @@ hubs:
     id: 2230
     name: 23 Bratysławska
     rentals: 2
-    returns: 1
+    returns: 3
   2231:
     id: 2231
     name: 24 Krowodrza Górka
     rentals: 2
-    returns: 6
+    returns: 7
   2232:
     id: 2232
     name: 25 Mackiewicza
@@ -158,13 +158,13 @@ hubs:
     returns: 1
 long_rentals: 10
 longest_rental: 13199
-short_rentals: 54
+short_rentals: 56
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 18:30:01'
-total_rentals: 114
-total_returns: 107
-total_time: 66601
+t1: '2017-03-06 18:50:00'
+total_rentals: 118
+total_returns: 114
+total_time: 67800
 trips:
 - count: 3
   from: null
@@ -180,10 +180,19 @@ trips:
   to: 2231
 - count: 2
   from: 2034
+  to: 2029
+- count: 2
+  from: 2034
   to: 2020
+- count: 2
+  from: 2230
+  to: 2230
 - count: 2
   from: 2034
   to: null
+- count: 2
+  from: 2232
+  to: 2231
 - count: 2
   from: 2020
   to: 2030
@@ -194,6 +203,9 @@ trips:
   from: 2035
   to: 2030
 - count: 2
+  from: 2020
+  to: 2227
+- count: 2
   from: 2036
   to: 2049
 - count: 2
@@ -202,9 +214,6 @@ trips:
 - count: 2
   from: 2040
   to: 2040
-- count: 1
-  from: 2034
-  to: 2029
 - count: 1
   from: 2229
   to: 2039
@@ -236,6 +245,9 @@ trips:
   from: 2036
   to: 2020
 - count: 1
+  from: 2036
+  to: 2036
+- count: 1
   from: 2020
   to: 2034
 - count: 1
@@ -256,9 +268,6 @@ trips:
 - count: 1
   from: 2020
   to: 2020
-- count: 1
-  from: 2232
-  to: 2231
 - count: 1
   from: 2021
   to: 2049
@@ -439,6 +448,6 @@ trips:
 - count: 1
   from: 2034
   to: 2031
-vain_rentals: 13
+vain_rentals: 14
 xlong_rentals: 6
 
