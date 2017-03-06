@@ -54,7 +54,7 @@ hubs:
   2036:
     id: 2036
     name: 11 Korona
-    rentals: 0
+    rentals: 1
     returns: 0
   2037:
     id: 2037
@@ -161,10 +161,10 @@ longest_rental: 1201
 short_rentals: 8
 shortest_rental: 600
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 09:20:01'
-total_rentals: 14
+t1: '2017-03-06 09:30:01'
+total_rentals: 15
 total_returns: 14
-total_time: 33601
+total_time: 34201
 trips:
 - count: 2
   from: 2040
