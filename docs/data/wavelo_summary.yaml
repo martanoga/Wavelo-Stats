@@ -1,5 +1,5 @@
-average_rental: 784.9230769230769
-complete_rentals: 16
+average_rental: 800.2666666666667
+complete_rentals: 18
 hubs:
   null:
     id: null
@@ -30,7 +30,7 @@ hubs:
     id: 2030
     name: 05 Politechnika
     rentals: 2
-    returns: 0
+    returns: 1
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
@@ -95,7 +95,7 @@ hubs:
     id: 2225
     name: 18 Salwator
     rentals: 0
-    returns: 0
+    returns: 1
   2226:
     id: 2226
     name: 19 Cichy Kącik
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1201
-short_rentals: 10
+short_rentals: 12
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 10:20:01'
+t1: '2017-03-06 10:30:01'
 total_rentals: 18
-total_returns: 16
-total_time: 37201
+total_returns: 18
+total_time: 37801
 trips:
 - count: 2
   from: 2040
@@ -188,8 +188,14 @@ trips:
   from: null
   to: 2029
 - count: 1
+  from: 2227
+  to: 2030
+- count: 1
   from: 2020
   to: 2032
+- count: 1
+  from: 2029
+  to: 2225
 - count: 1
   from: 2032
   to: 2037
