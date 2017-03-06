@@ -1,5 +1,5 @@
-average_rental: 601.0
-complete_rentals: 1
+average_rental: 600.5
+complete_rentals: 2
 hubs:
   null:
     id: null
@@ -75,7 +75,7 @@ hubs:
     id: 2040
     name: 15 Centrum Kongresowe ICE
     rentals: 2
-    returns: 1
+    returns: 2
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
@@ -158,15 +158,15 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 601
-short_rentals: 1
-shortest_rental: 601
+short_rentals: 2
+shortest_rental: 600
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 06:10:00'
+t1: '2017-03-06 06:20:00'
 total_rentals: 2
-total_returns: 1
-total_time: 22200
+total_returns: 2
+total_time: 22800
 trips:
-- count: 1
+- count: 2
   from: 2040
   to: 2040
 vain_rentals: 0
