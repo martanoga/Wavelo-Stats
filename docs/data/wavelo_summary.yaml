@@ -24,7 +24,7 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 9
+    rentals: 10
     returns: 5
   2030:
     id: 2030
@@ -124,7 +124,7 @@ hubs:
   2231:
     id: 2231
     name: 24 Krowodrza Górka
-    rentals: 2
+    rentals: 3
     returns: 7
   2232:
     id: 2232
@@ -139,7 +139,7 @@ hubs:
   2234:
     id: 2234
     name: 27 Wieczysta
-    rentals: 2
+    rentals: 4
     returns: 3
   2235:
     id: 2235
@@ -161,10 +161,10 @@ longest_rental: 13199
 short_rentals: 60
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 20:10:00'
-total_rentals: 142
+t1: '2017-03-06 20:20:00'
+total_rentals: 146
 total_returns: 136
-total_time: 72600
+total_time: 73200
 trips:
 - count: 3
   from: null
