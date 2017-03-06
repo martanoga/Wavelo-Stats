@@ -29,7 +29,7 @@ hubs:
   2030:
     id: 2030
     name: 05 Politechnika
-    rentals: 5
+    rentals: 6
     returns: 4
   2031:
     id: 2031
@@ -49,7 +49,7 @@ hubs:
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
-    rentals: 2
+    rentals: 3
     returns: 2
   2036:
     id: 2036
@@ -104,7 +104,7 @@ hubs:
   2227:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
-    rentals: 4
+    rentals: 5
     returns: 2
   2228:
     id: 2228
@@ -161,10 +161,10 @@ longest_rental: 10199
 short_rentals: 30
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 15:40:00'
-total_rentals: 63
+t1: '2017-03-06 15:50:00'
+total_rentals: 66
 total_returns: 60
-total_time: 56400
+total_time: 57000
 trips:
 - count: 3
   from: null
