@@ -1,5 +1,5 @@
-average_rental: 1876.923076923077
-complete_rentals: 49
+average_rental: 1845.0
+complete_rentals: 50
 hubs:
   null:
     id: null
@@ -24,12 +24,12 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 4
+    rentals: 5
     returns: 2
   2030:
     id: 2030
     name: 05 Politechnika
-    rentals: 4
+    rentals: 5
     returns: 4
   2031:
     id: 2031
@@ -80,7 +80,7 @@ hubs:
     id: 2049
     name: 08 Rondo Grzegórzeckie
     rentals: 5
-    returns: 6
+    returns: 7
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 3
 longest_rental: 9000
-short_rentals: 21
+short_rentals: 22
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 15:00:00'
-total_rentals: 57
-total_returns: 49
-total_time: 54000
+t1: '2017-03-06 15:10:00'
+total_rentals: 59
+total_returns: 50
+total_time: 54600
 trips:
 - count: 3
   from: null
@@ -208,6 +208,9 @@ trips:
 - count: 1
   from: 2231
   to: 2234
+- count: 1
+  from: 2040
+  to: 2049
 - count: 1
   from: 2039
   to: 2232
