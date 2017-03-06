@@ -1,5 +1,5 @@
-average_rental: 1943.96
-complete_rentals: 60
+average_rental: 1955.5185185185185
+complete_rentals: 64
 hubs:
   null:
     id: null
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 5
-    returns: 2
+    returns: 3
   2030:
     id: 2030
     name: 05 Politechnika
@@ -44,7 +44,7 @@ hubs:
   2034:
     id: 2034
     name: 09 Miodowa
-    rentals: 3
+    rentals: 8
     returns: 7
   2035:
     id: 2035
@@ -70,11 +70,11 @@ hubs:
     id: 2039
     name: 13 Poczta Główna
     rentals: 3
-    returns: 3
+    returns: 5
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
-    rentals: 4
+    rentals: 5
     returns: 2
   2049:
     id: 2049
@@ -85,7 +85,7 @@ hubs:
     id: 2223
     name: 16 Szwedzka
     rentals: 1
-    returns: 3
+    returns: 4
   2224:
     id: 2224
     name: 17 Jubilat
@@ -156,15 +156,15 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 1
-long_rentals: 5
+long_rentals: 6
 longest_rental: 10199
-short_rentals: 30
+short_rentals: 33
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 16:00:00'
-total_rentals: 69
-total_returns: 60
-total_time: 57600
+t1: '2017-03-06 16:10:00'
+total_rentals: 75
+total_returns: 64
+total_time: 58200
 trips:
 - count: 3
   from: null
@@ -200,6 +200,9 @@ trips:
   from: 2020
   to: 2030
 - count: 1
+  from: 2032
+  to: 2039
+- count: 1
   from: 2020
   to: 2032
 - count: 1
@@ -223,6 +226,9 @@ trips:
 - count: 1
   from: 2223
   to: 2028
+- count: 1
+  from: 2028
+  to: 2223
 - count: 1
   from: 2226
   to: 2028
@@ -275,6 +281,9 @@ trips:
   from: 2032
   to: 2037
 - count: 1
+  from: 2035
+  to: 2029
+- count: 1
   from: null
   to: null
 - count: 1
@@ -317,11 +326,14 @@ trips:
   from: 2232
   to: 2231
 - count: 1
+  from: 2028
+  to: 2039
+- count: 1
   from: 2030
   to: 2039
 - count: 1
   from: 2039
   to: 2233
 vain_rentals: 10
-xlong_rentals: 4
+xlong_rentals: 5
 
