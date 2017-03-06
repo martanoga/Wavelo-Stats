@@ -161,20 +161,23 @@ longest_rental: 13199
 short_rentals: 72
 shortest_rental: 599
 t0: '2017-03-06 00:00:00'
-t1: '2017-03-06 22:00:01'
+t1: '2017-03-06 22:10:01'
 total_rentals: 162
 total_returns: 161
-total_time: 79201
+total_time: 79801
 trips:
 - count: 6
   from: 2020
   to: 2032
 - count: 3
-  from: null
-  to: 2223
-- count: 3
   from: 2021
   to: 2040
+- count: 3
+  from: null
+  to: 2049
+- count: 3
+  from: null
+  to: 2223
 - count: 3
   from: 2049
   to: 2020
@@ -184,9 +187,6 @@ trips:
 - count: 3
   from: 2034
   to: 2231
-- count: 3
-  from: null
-  to: 2049
 - count: 2
   from: 2034
   to: 2029
@@ -199,6 +199,9 @@ trips:
 - count: 2
   from: 2230
   to: 2230
+- count: 2
+  from: 2034
+  to: null
 - count: 2
   from: 2020
   to: 2039
@@ -232,9 +235,6 @@ trips:
 - count: 2
   from: 2036
   to: 2049
-- count: 2
-  from: 2034
-  to: null
 - count: 2
   from: 2040
   to: 2040
@@ -269,6 +269,9 @@ trips:
   from: 2040
   to: 2049
 - count: 1
+  from: null
+  to: 2236
+- count: 1
   from: 2237
   to: 2228
 - count: 1
@@ -277,9 +280,6 @@ trips:
 - count: 1
   from: 2232
   to: 2039
-- count: 1
-  from: 2235
-  to: null
 - count: 1
   from: 2227
   to: 2039
@@ -295,9 +295,6 @@ trips:
 - count: 1
   from: 2040
   to: 2038
-- count: 1
-  from: null
-  to: 2236
 - count: 1
   from: 2231
   to: 2232
@@ -323,11 +320,20 @@ trips:
   from: 2021
   to: 2049
 - count: 1
+  from: null
+  to: 2020
+- count: 1
   from: 2029
   to: 2049
 - count: 1
   from: 2028
   to: 2226
+- count: 1
+  from: null
+  to: 2231
+- count: 1
+  from: 2020
+  to: 2225
 - count: 1
   from: 2226
   to: 2028
@@ -335,8 +341,14 @@ trips:
   from: 2039
   to: 2231
 - count: 1
+  from: 2227
+  to: null
+- count: 1
   from: 2034
   to: 2224
+- count: 1
+  from: null
+  to: 2036
 - count: 1
   from: 2233
   to: 2049
@@ -346,6 +358,9 @@ trips:
 - count: 1
   from: 2030
   to: 2227
+- count: 1
+  from: null
+  to: 2029
 - count: 1
   from: 2032
   to: 2049
@@ -366,13 +381,7 @@ trips:
   to: 2228
 - count: 1
   from: 2030
-  to: null
-- count: 1
-  from: 2030
   to: 2233
-- count: 1
-  from: null
-  to: 2034
 - count: 1
   from: 2029
   to: 2021
@@ -382,9 +391,6 @@ trips:
 - count: 1
   from: 2031
   to: 2034
-- count: 1
-  from: null
-  to: 2235
 - count: 1
   from: 2028
   to: 2039
@@ -416,6 +422,9 @@ trips:
   from: 2236
   to: 2223
 - count: 1
+  from: 2235
+  to: null
+- count: 1
   from: 2049
   to: 2036
 - count: 1
@@ -440,14 +449,11 @@ trips:
   from: 2031
   to: 2224
 - count: 1
-  from: null
-  to: 2020
-- count: 1
   from: 2227
   to: 2227
 - count: 1
-  from: 2020
-  to: 2225
+  from: 2040
+  to: 2021
 - count: 1
   from: 2029
   to: 2020
@@ -464,9 +470,6 @@ trips:
   from: 2223
   to: 2035
 - count: 1
-  from: null
-  to: 2231
-- count: 1
   from: 2039
   to: 2232
 - count: 1
@@ -481,12 +484,6 @@ trips:
 - count: 1
   from: 2038
   to: 2032
-- count: 1
-  from: 2227
-  to: null
-- count: 1
-  from: null
-  to: 2036
 - count: 1
   from: 2028
   to: 2020
@@ -509,9 +506,6 @@ trips:
   from: 2030
   to: 2020
 - count: 1
-  from: null
-  to: 2029
-- count: 1
   from: 2029
   to: 2225
 - count: 1
@@ -522,6 +516,9 @@ trips:
   to: 2034
 - count: 1
   from: 2030
+  to: null
+- count: 1
+  from: 2030
   to: 2039
 - count: 1
   from: 2030
@@ -530,14 +527,17 @@ trips:
   from: 2030
   to: 2034
 - count: 1
-  from: 2040
-  to: 2021
+  from: null
+  to: 2034
 - count: 1
   from: 2227
   to: 2030
 - count: 1
   from: 2039
   to: 2223
+- count: 1
+  from: null
+  to: 2235
 - count: 1
   from: 2029
   to: 2228
