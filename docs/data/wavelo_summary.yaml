@@ -94,7 +94,7 @@ hubs:
   2225:
     id: 2225
     name: 18 Salwator
-    rentals: 3
+    rentals: 4
     returns: 2
   2226:
     id: 2226
@@ -161,10 +161,10 @@ longest_rental: 4199
 short_rentals: 26
 shortest_rental: 599
 t0: '2017-03-07 00:00:00'
-t1: '2017-03-07 23:20:00'
-total_rentals: 130
+t1: '2017-03-07 23:30:00'
+total_rentals: 131
 total_returns: 128
-total_time: 84000
+total_time: 84600
 trips:
 - count: 5
   from: 2038
@@ -311,6 +311,12 @@ trips:
   from: 2032
   to: 2038
 - count: 1
+  from: null
+  to: 2228
+- count: 1
+  from: 2230
+  to: null
+- count: 1
   from: 2223
   to: 2049
 - count: 1
@@ -422,9 +428,6 @@ trips:
   from: 2225
   to: 2037
 - count: 1
-  from: null
-  to: 2228
-- count: 1
   from: 2020
   to: 2229
 - count: 1
@@ -451,9 +454,6 @@ trips:
 - count: 1
   from: 2028
   to: 2040
-- count: 1
-  from: 2230
-  to: null
 - count: 1
   from: 2020
   to: 2236
