@@ -74,7 +74,7 @@ hubs:
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
-    rentals: 3
+    rentals: 4
     returns: 1
   2049:
     id: 2049
@@ -99,7 +99,7 @@ hubs:
   2226:
     id: 2226
     name: 19 Cichy Kącik
-    rentals: 2
+    rentals: 3
     returns: 2
   2227:
     id: 2227
@@ -161,10 +161,10 @@ longest_rental: 1200
 short_rentals: 7
 shortest_rental: 599
 t0: '2017-03-07 00:00:00'
-t1: '2017-03-07 20:20:00'
-total_rentals: 100
+t1: '2017-03-07 20:30:00'
+total_rentals: 102
 total_returns: 93
-total_time: 73200
+total_time: 73800
 trips:
 - count: 3
   from: 2020
