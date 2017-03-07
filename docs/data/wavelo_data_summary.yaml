@@ -3380,3 +3380,21 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1488913201.056587
+'2017-03-07 20:19:15':
+  all_available_bikes: 290
+  all_available_bikes_hubs: 289
+  all_current_bikes_hubs: 289
+  all_not_in_hub: 1
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488914355.740214
+'2017-03-07 20:20:00':
+  all_available_bikes: 290
+  all_available_bikes_hubs: 289
+  all_current_bikes_hubs: 289
+  all_not_in_hub: 1
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1488914400.399426
