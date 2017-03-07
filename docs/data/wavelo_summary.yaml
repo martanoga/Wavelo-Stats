@@ -1,10 +1,10 @@
 average_rental: 1373.3684210526317
-complete_rentals: 125
+complete_rentals: 126
 hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 0
+    rentals: 1
     returns: 1
   2020:
     id: 2020
@@ -110,7 +110,7 @@ hubs:
     id: 2228
     name: Łobzów PKP
     rentals: 6
-    returns: 5
+    returns: 6
   2229:
     id: 2229
     name: 22 Nowy Kleparz
@@ -161,10 +161,10 @@ longest_rental: 4199
 short_rentals: 26
 shortest_rental: 599
 t0: '2017-03-07 00:00:00'
-t1: '2017-03-07 22:50:01'
-total_rentals: 129
-total_returns: 127
-total_time: 82201
+t1: '2017-03-07 23:00:00'
+total_rentals: 130
+total_returns: 128
+total_time: 82800
 trips:
 - count: 5
   from: 2038
@@ -311,9 +311,6 @@ trips:
   from: 2032
   to: 2038
 - count: 1
-  from: 2230
-  to: null
-- count: 1
   from: 2223
   to: 2049
 - count: 1
@@ -425,6 +422,9 @@ trips:
   from: 2225
   to: 2037
 - count: 1
+  from: null
+  to: 2228
+- count: 1
   from: 2020
   to: 2229
 - count: 1
@@ -452,6 +452,9 @@ trips:
   from: 2028
   to: 2040
 - count: 1
+  from: 2230
+  to: null
+- count: 1
   from: 2020
   to: 2236
 - count: 1
@@ -475,6 +478,6 @@ trips:
 - count: 1
   from: 2034
   to: 2237
-vain_rentals: 87
+vain_rentals: 88
 xlong_rentals: 0
 
