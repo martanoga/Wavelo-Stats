@@ -1,5 +1,5 @@
-average_rental: 1714.0
-complete_rentals: 105
+average_rental: 1669.2608695652175
+complete_rentals: 107
 hubs:
   null:
     id: null
@@ -14,7 +14,7 @@ hubs:
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
-    rentals: 3
+    rentals: 4
     returns: 12
   2028:
     id: 2028
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 8
-    returns: 4
+    returns: 5
   2030:
     id: 2030
     name: 05 Politechnika
@@ -35,7 +35,7 @@ hubs:
     id: 2031
     name: 06 Dworzec Główny Wschód
     rentals: 2
-    returns: 1
+    returns: 2
   2032:
     id: 2032
     name: 07 Rondo Mogilskie
@@ -44,7 +44,7 @@ hubs:
   2034:
     id: 2034
     name: 09 Miodowa
-    rentals: 5
+    rentals: 6
     returns: 6
   2035:
     id: 2035
@@ -158,13 +158,13 @@ hubs:
     returns: 2
 long_rentals: 3
 longest_rental: 4199
-short_rentals: 12
+short_rentals: 13
 shortest_rental: 599
 t0: '2017-03-07 00:00:00'
-t1: '2017-03-07 21:20:00'
-total_rentals: 110
-total_returns: 107
-total_time: 76800
+t1: '2017-03-07 21:30:00'
+total_rentals: 112
+total_returns: 109
+total_time: 77400
 trips:
 - count: 3
   from: 2236
@@ -260,6 +260,9 @@ trips:
   from: 2224
   to: 2223
 - count: 1
+  from: 2039
+  to: 2029
+- count: 1
   from: 2237
   to: 2234
 - count: 1
@@ -286,9 +289,6 @@ trips:
 - count: 1
   from: 2032
   to: 2038
-- count: 1
-  from: 2230
-  to: null
 - count: 1
   from: 2223
   to: 2049
@@ -349,6 +349,9 @@ trips:
 - count: 1
   from: 2030
   to: 2032
+- count: 1
+  from: 2020
+  to: 2031
 - count: 1
   from: 2232
   to: 2021
@@ -418,6 +421,9 @@ trips:
 - count: 1
   from: 2028
   to: 2040
+- count: 1
+  from: 2230
+  to: null
 - count: 1
   from: 2020
   to: 2236
