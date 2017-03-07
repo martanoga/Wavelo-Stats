@@ -109,7 +109,7 @@ hubs:
   2228:
     id: 2228
     name: Łobzów PKP
-    rentals: 0
+    rentals: 1
     returns: 1
   2229:
     id: 2229
@@ -161,10 +161,10 @@ longest_rental: 1200
 short_rentals: 1
 shortest_rental: 1200
 t0: '2017-03-07 00:00:00'
-t1: '2017-03-07 06:40:01'
-total_rentals: 1
+t1: '2017-03-07 06:50:01'
+total_rentals: 2
 total_returns: 1
-total_time: 24001
+total_time: 24601
 trips:
 - count: 1
   from: 2036
