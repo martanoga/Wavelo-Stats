@@ -1,5 +1,5 @@
-average_rental: 1669.2608695652175
-complete_rentals: 107
+average_rental: 1592.0384615384614
+complete_rentals: 110
 hubs:
   null:
     id: null
@@ -9,8 +9,8 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 11
-    returns: 7
+    rentals: 12
+    returns: 8
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
@@ -39,7 +39,7 @@ hubs:
   2032:
     id: 2032
     name: 07 Rondo Mogilskie
-    rentals: 4
+    rentals: 5
     returns: 8
   2034:
     id: 2034
@@ -55,7 +55,7 @@ hubs:
     id: 2036
     name: 11 Korona
     rentals: 4
-    returns: 3
+    returns: 4
   2037:
     id: 2037
     name: 12 Plac Wolnica
@@ -80,7 +80,7 @@ hubs:
     id: 2049
     name: 08 Rondo Grzegórzeckie
     rentals: 5
-    returns: 4
+    returns: 5
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -158,13 +158,13 @@ hubs:
     returns: 2
 long_rentals: 3
 longest_rental: 4199
-short_rentals: 13
+short_rentals: 15
 shortest_rental: 599
 t0: '2017-03-07 00:00:00'
-t1: '2017-03-07 21:30:00'
-total_rentals: 112
-total_returns: 109
-total_time: 77400
+t1: '2017-03-07 21:40:00'
+total_rentals: 114
+total_returns: 112
+total_time: 78000
 trips:
 - count: 3
   from: 2236
@@ -278,6 +278,9 @@ trips:
   from: 2028
   to: 2226
 - count: 1
+  from: 2237
+  to: 2020
+- count: 1
   from: 2228
   to: 2225
 - count: 1
@@ -329,6 +332,9 @@ trips:
   from: 2035
   to: 2039
 - count: 1
+  from: 2034
+  to: 2049
+- count: 1
   from: 2228
   to: 2029
 - count: 1
@@ -355,6 +361,9 @@ trips:
 - count: 1
   from: 2232
   to: 2021
+- count: 1
+  from: 2021
+  to: 2036
 - count: 1
   from: 2237
   to: 2032
