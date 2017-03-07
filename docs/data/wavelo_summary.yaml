@@ -1,5 +1,5 @@
-average_rental: 1200.0
-complete_rentals: 1
+average_rental: 899.5
+complete_rentals: 2
 hubs:
   null:
     id: null
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 0
-    returns: 0
+    returns: 1
   2030:
     id: 2030
     name: 05 Politechnika
@@ -158,14 +158,17 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1200
-short_rentals: 1
-shortest_rental: 1200
+short_rentals: 2
+shortest_rental: 599
 t0: '2017-03-07 00:00:00'
-t1: '2017-03-07 06:50:01'
+t1: '2017-03-07 07:00:00'
 total_rentals: 2
-total_returns: 1
-total_time: 24601
+total_returns: 2
+total_time: 25200
 trips:
+- count: 1
+  from: 2228
+  to: 2029
 - count: 1
   from: 2036
   to: 2228
