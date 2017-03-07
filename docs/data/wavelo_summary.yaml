@@ -1,5 +1,5 @@
-average_rental: 1138.5833333333333
-complete_rentals: 96
+average_rental: 1097.1538461538462
+complete_rentals: 97
 hubs:
   null:
     id: null
@@ -9,12 +9,12 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 8
+    rentals: 9
     returns: 7
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
-    rentals: 2
+    rentals: 3
     returns: 12
   2028:
     id: 2028
@@ -85,7 +85,7 @@ hubs:
     id: 2223
     name: 16 Szwedzka
     rentals: 5
-    returns: 2
+    returns: 3
   2224:
     id: 2224
     name: 17 Jubilat
@@ -158,13 +158,13 @@ hubs:
     returns: 2
 long_rentals: 0
 longest_rental: 2400
-short_rentals: 9
+short_rentals: 10
 shortest_rental: 599
 t0: '2017-03-07 00:00:00'
-t1: '2017-03-07 20:40:01'
-total_rentals: 103
-total_returns: 98
-total_time: 74401
+t1: '2017-03-07 20:50:01'
+total_rentals: 105
+total_returns: 99
+total_time: 75001
 trips:
 - count: 3
   from: 2020
@@ -232,6 +232,9 @@ trips:
 - count: 1
   from: 2028
   to: 2226
+- count: 1
+  from: 2020
+  to: 2223
 - count: 1
   from: 2037
   to: 2036
