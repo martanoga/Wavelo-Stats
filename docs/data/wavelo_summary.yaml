@@ -1,5 +1,5 @@
-average_rental: 1630.611111111111
-complete_rentals: 102
+average_rental: 1714.0
+complete_rentals: 105
 hubs:
   null:
     id: null
@@ -19,7 +19,7 @@ hubs:
   2028:
     id: 2028
     name: 03 Cracovia Błonia
-    rentals: 2
+    rentals: 3
     returns: 2
   2029:
     id: 2029
@@ -45,7 +45,7 @@ hubs:
     id: 2034
     name: 09 Miodowa
     rentals: 5
-    returns: 5
+    returns: 6
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
@@ -69,7 +69,7 @@ hubs:
   2039:
     id: 2039
     name: 13 Poczta Główna
-    rentals: 6
+    rentals: 7
     returns: 7
   2040:
     id: 2040
@@ -125,7 +125,7 @@ hubs:
     id: 2231
     name: 24 Krowodrza Górka
     rentals: 1
-    returns: 1
+    returns: 2
   2232:
     id: 2232
     name: 25 Mackiewicza
@@ -145,7 +145,7 @@ hubs:
     id: 2235
     name: 28 Rondo Kocmyrzowskie
     rentals: 1
-    returns: 1
+    returns: 2
   2236:
     id: 2236
     name: 29 DH Wanda
@@ -156,15 +156,15 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 3
     returns: 2
-long_rentals: 2
+long_rentals: 3
 longest_rental: 4199
-short_rentals: 11
+short_rentals: 12
 shortest_rental: 599
 t0: '2017-03-07 00:00:00'
-t1: '2017-03-07 21:10:00'
-total_rentals: 108
-total_returns: 104
-total_time: 76200
+t1: '2017-03-07 21:20:00'
+total_rentals: 110
+total_returns: 107
+total_time: 76800
 trips:
 - count: 3
   from: 2236
@@ -223,6 +223,9 @@ trips:
 - count: 1
   from: 2039
   to: 2032
+- count: 1
+  from: 2020
+  to: 2034
 - count: 1
   from: 2035
   to: 2234
@@ -284,6 +287,9 @@ trips:
   from: 2032
   to: 2038
 - count: 1
+  from: 2230
+  to: null
+- count: 1
   from: 2223
   to: 2049
 - count: 1
@@ -304,6 +310,9 @@ trips:
 - count: 1
   from: 2234
   to: 2233
+- count: 1
+  from: 2235
+  to: 2235
 - count: 1
   from: 2030
   to: 2233
@@ -331,6 +340,9 @@ trips:
 - count: 1
   from: 2039
   to: 2028
+- count: 1
+  from: 2021
+  to: 2231
 - count: 1
   from: 2039
   to: 2227
@@ -406,9 +418,6 @@ trips:
 - count: 1
   from: 2028
   to: 2040
-- count: 1
-  from: 2230
-  to: null
 - count: 1
   from: 2020
   to: 2236
