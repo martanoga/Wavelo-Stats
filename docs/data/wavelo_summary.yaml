@@ -1,5 +1,5 @@
-average_rental: 1399.638888888889
-complete_rentals: 123
+average_rental: 1378.027027027027
+complete_rentals: 124
 hubs:
   null:
     id: null
@@ -45,7 +45,7 @@ hubs:
     id: 2034
     name: 09 Miodowa
     rentals: 6
-    returns: 6
+    returns: 7
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
@@ -158,13 +158,13 @@ hubs:
     returns: 2
 long_rentals: 3
 longest_rental: 4199
-short_rentals: 25
+short_rentals: 26
 shortest_rental: 599
 t0: '2017-03-07 00:00:00'
-t1: '2017-03-07 22:10:00'
+t1: '2017-03-07 22:20:00'
 total_rentals: 129
-total_returns: 125
-total_time: 79800
+total_returns: 126
+total_time: 80400
 trips:
 - count: 5
   from: 2038
@@ -178,6 +178,9 @@ trips:
 - count: 3
   from: 2020
   to: 2021
+- count: 2
+  from: 2020
+  to: 2034
 - count: 2
   from: 2039
   to: 2030
@@ -238,9 +241,6 @@ trips:
 - count: 1
   from: 2039
   to: 2032
-- count: 1
-  from: 2020
-  to: 2034
 - count: 1
   from: 2035
   to: 2234
