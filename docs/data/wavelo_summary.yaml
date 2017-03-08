@@ -1,5 +1,5 @@
-average_rental: 1544.197969543147
-complete_rentals: 215
+average_rental: 1534.7185929648242
+complete_rentals: 217
 hubs:
   null:
     id: null
@@ -95,7 +95,7 @@ hubs:
     id: 2225
     name: 18 Salwator
     rentals: 8
-    returns: 6
+    returns: 8
   2226:
     id: 2226
     name: 19 Cichy Kącik
@@ -158,13 +158,13 @@ hubs:
     returns: 1
 long_rentals: 13
 longest_rental: 17400
-short_rentals: 133
+short_rentals: 135
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 20:10:00'
+t1: '2017-03-08 20:20:01'
 total_rentals: 230
-total_returns: 218
-total_time: 72600
+total_returns: 220
+total_time: 73201
 trips:
 - count: 7
   from: 2020
@@ -205,6 +205,9 @@ trips:
 - count: 2
   from: 2223
   to: 2223
+- count: 2
+  from: 2021
+  to: 2225
 - count: 2
   from: 2236
   to: 2234
@@ -341,11 +344,11 @@ trips:
   from: 2231
   to: 2232
 - count: 1
-  from: 2021
-  to: 2021
-- count: 1
   from: null
   to: null
+- count: 1
+  from: 2021
+  to: 2021
 - count: 1
   from: 2030
   to: 2021
