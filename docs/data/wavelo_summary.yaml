@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 8
+    rentals: 9
     returns: 10
   2021:
     id: 2021
@@ -39,7 +39,7 @@ hubs:
   2032:
     id: 2032
     name: 07 Rondo Mogilskie
-    rentals: 2
+    rentals: 3
     returns: 2
   2034:
     id: 2034
@@ -69,7 +69,7 @@ hubs:
   2039:
     id: 2039
     name: 13 Poczta Główna
-    rentals: 8
+    rentals: 9
     returns: 5
   2040:
     id: 2040
@@ -109,7 +109,7 @@ hubs:
   2228:
     id: 2228
     name: Łobzów PKP
-    rentals: 1
+    rentals: 2
     returns: 1
   2229:
     id: 2229
@@ -124,7 +124,7 @@ hubs:
   2231:
     id: 2231
     name: 24 Krowodrza Górka
-    rentals: 2
+    rentals: 3
     returns: 1
   2232:
     id: 2232
@@ -139,7 +139,7 @@ hubs:
   2234:
     id: 2234
     name: 27 Wieczysta
-    rentals: 2
+    rentals: 3
     returns: 0
   2235:
     id: 2235
@@ -161,10 +161,10 @@ longest_rental: 5401
 short_rentals: 66
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 15:00:01'
-total_rentals: 100
+t1: '2017-03-08 15:10:01'
+total_rentals: 106
 total_returns: 96
-total_time: 54001
+total_time: 54601
 trips:
 - count: 5
   from: 2039
@@ -194,8 +194,8 @@ trips:
   from: 2029
   to: 2029
 - count: 1
-  from: 2049
-  to: null
+  from: 2234
+  to: 2049
 - count: 1
   from: 2029
   to: 2049
@@ -217,9 +217,6 @@ trips:
 - count: 1
   from: 2028
   to: 2226
-- count: 1
-  from: 2234
-  to: 2049
 - count: 1
   from: 2224
   to: 2037
@@ -269,6 +266,9 @@ trips:
   from: 2236
   to: 2049
 - count: 1
+  from: 2029
+  to: null
+- count: 1
   from: 2032
   to: 2036
 - count: 1
@@ -308,14 +308,14 @@ trips:
   from: 2236
   to: 2032
 - count: 1
-  from: 2029
-  to: null
-- count: 1
   from: 2229
   to: 2049
 - count: 1
   from: null
   to: 2029
+- count: 1
+  from: 2049
+  to: null
 - count: 1
   from: 2231
   to: 2228
@@ -350,6 +350,9 @@ trips:
   from: 2223
   to: 2030
 - count: 1
+  from: null
+  to: null
+- count: 1
   from: 2225
   to: 2020
 - count: 1
@@ -358,6 +361,9 @@ trips:
 - count: 1
   from: 2036
   to: 2039
+- count: 1
+  from: null
+  to: 2049
 - count: 1
   from: 2029
   to: 2037
@@ -370,9 +376,6 @@ trips:
 - count: 1
   from: 2039
   to: 2225
-- count: 1
-  from: null
-  to: null
 - count: 1
   from: 2034
   to: null
@@ -403,9 +406,6 @@ trips:
 - count: 1
   from: 2028
   to: 2039
-- count: 1
-  from: null
-  to: 2049
 - count: 1
   from: 2029
   to: 2225
