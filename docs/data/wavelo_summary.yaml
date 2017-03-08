@@ -1,15 +1,15 @@
-average_rental: 1019.8333333333334
-complete_rentals: 33
+average_rental: 1049.8125
+complete_rentals: 36
 hubs:
   null:
     id: null
     name: out_of_station
     rentals: 0
-    returns: 1
+    returns: 2
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 2
+    rentals: 3
     returns: 5
   2021:
     id: 2021
@@ -30,7 +30,7 @@ hubs:
     id: 2030
     name: 05 Politechnika
     rentals: 1
-    returns: 2
+    returns: 3
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
@@ -50,7 +50,7 @@ hubs:
     id: 2035
     name: 10 Plac Bohaterów Getta
     rentals: 0
-    returns: 3
+    returns: 4
   2036:
     id: 2036
     name: 11 Korona
@@ -64,7 +64,7 @@ hubs:
   2038:
     id: 2038
     name: 14 Wawel
-    rentals: 1
+    rentals: 2
     returns: 1
   2039:
     id: 2039
@@ -84,7 +84,7 @@ hubs:
   2223:
     id: 2223
     name: 16 Szwedzka
-    rentals: 3
+    rentals: 4
     returns: 0
   2224:
     id: 2224
@@ -94,7 +94,7 @@ hubs:
   2225:
     id: 2225
     name: 18 Salwator
-    rentals: 2
+    rentals: 3
     returns: 0
   2226:
     id: 2226
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 1
 longest_rental: 3601
-short_rentals: 26
+short_rentals: 27
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 09:30:00'
-total_rentals: 37
-total_returns: 33
-total_time: 34200
+t1: '2017-03-08 09:40:00'
+total_rentals: 41
+total_returns: 36
+total_time: 34800
 trips:
 - count: 2
   from: 2049
@@ -181,6 +181,9 @@ trips:
 - count: 1
   from: 2224
   to: 2037
+- count: 1
+  from: 2227
+  to: 2030
 - count: 1
   from: 2037
   to: 2226
@@ -205,6 +208,9 @@ trips:
 - count: 1
   from: 2227
   to: 2229
+- count: 1
+  from: 2225
+  to: null
 - count: 1
   from: 2031
   to: 2029
@@ -262,6 +268,9 @@ trips:
 - count: 1
   from: 2233
   to: 2030
-vain_rentals: 3
+- count: 1
+  from: 2229
+  to: 2035
+vain_rentals: 4
 xlong_rentals: 0
 
