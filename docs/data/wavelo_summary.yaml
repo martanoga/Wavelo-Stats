@@ -1,5 +1,5 @@
-average_rental: 839.4
-complete_rentals: 5
+average_rental: 856.7142857142857
+complete_rentals: 7
 hubs:
   null:
     id: null
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 0
-    returns: 0
+    returns: 1
   2030:
     id: 2030
     name: 05 Politechnika
@@ -60,7 +60,7 @@ hubs:
     id: 2037
     name: 12 Plac Wolnica
     rentals: 0
-    returns: 0
+    returns: 1
   2038:
     id: 2038
     name: 14 Wawel
@@ -158,29 +158,35 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1200
-short_rentals: 5
+short_rentals: 7
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 07:20:01'
+t1: '2017-03-08 07:30:01'
 total_rentals: 9
-total_returns: 5
-total_time: 26401
+total_returns: 7
+total_time: 27001
 trips:
+- count: 1
+  from: 2031
+  to: 2029
+- count: 1
+  from: 2236
+  to: 2032
 - count: 1
   from: 2231
   to: 2228
 - count: 1
-  from: 2223
-  to: 2030
-- count: 1
   from: 2049
   to: 2035
+- count: 1
+  from: 2224
+  to: 2037
 - count: 1
   from: 2030
   to: 2229
 - count: 1
-  from: 2236
-  to: 2032
+  from: 2223
+  to: 2030
 vain_rentals: 0
 xlong_rentals: 0
 
