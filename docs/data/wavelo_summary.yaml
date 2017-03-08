@@ -1,5 +1,5 @@
-average_rental: 1562.9142857142858
-complete_rentals: 228
+average_rental: 1551.706976744186
+complete_rentals: 233
 hubs:
   null:
     id: null
@@ -10,7 +10,7 @@ hubs:
     id: 2020
     name: 02 Teatr Bagatela
     rentals: 22
-    returns: 23
+    returns: 24
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
@@ -24,7 +24,7 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 18
+    rentals: 19
     returns: 17
   2030:
     id: 2030
@@ -125,7 +125,7 @@ hubs:
     id: 2231
     name: 24 Krowodrza Górka
     rentals: 5
-    returns: 3
+    returns: 7
   2232:
     id: 2232
     name: 25 Mackiewicza
@@ -158,13 +158,13 @@ hubs:
     returns: 1
 long_rentals: 14
 longest_rental: 17400
-short_rentals: 138
+short_rentals: 142
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 20:50:00'
-total_rentals: 236
-total_returns: 231
-total_time: 75000
+t1: '2017-03-08 21:00:01'
+total_rentals: 237
+total_returns: 236
+total_time: 75601
 trips:
 - count: 7
   from: 2020
@@ -185,6 +185,9 @@ trips:
   from: 2049
   to: 2020
 - count: 4
+  from: 2232
+  to: 2231
+- count: 4
   from: 2034
   to: 2232
 - count: 3
@@ -203,6 +206,9 @@ trips:
   from: 2029
   to: 2029
 - count: 2
+  from: 2034
+  to: 2020
+- count: 2
   from: 2040
   to: null
 - count: 2
@@ -211,6 +217,9 @@ trips:
 - count: 2
   from: 2223
   to: 2223
+- count: 2
+  from: 2231
+  to: 2231
 - count: 2
   from: 2021
   to: 2225
@@ -235,9 +244,6 @@ trips:
 - count: 2
   from: null
   to: 2028
-- count: 2
-  from: 2231
-  to: 2231
 - count: 2
   from: 2226
   to: 2020
@@ -332,9 +338,6 @@ trips:
   from: 2035
   to: 2234
 - count: 1
-  from: 2034
-  to: 2020
-- count: 1
   from: 2038
   to: 2020
 - count: 1
@@ -353,11 +356,11 @@ trips:
   from: 2231
   to: 2232
 - count: 1
-  from: null
-  to: null
-- count: 1
   from: 2021
   to: 2021
+- count: 1
+  from: null
+  to: null
 - count: 1
   from: 2030
   to: 2021
@@ -397,9 +400,6 @@ trips:
 - count: 1
   from: 2233
   to: 2233
-- count: 1
-  from: 2029
-  to: null
 - count: 1
   from: 2032
   to: 2032
@@ -579,6 +579,9 @@ trips:
   to: 2231
 - count: 1
   from: 2224
+  to: null
+- count: 1
+  from: 2029
   to: null
 - count: 1
   from: 2233
