@@ -1,5 +1,5 @@
-average_rental: 1031.8
-complete_rentals: 26
+average_rental: 1015.2307692307693
+complete_rentals: 28
 hubs:
   null:
     id: null
@@ -10,7 +10,7 @@ hubs:
     id: 2020
     name: 02 Teatr Bagatela
     rentals: 2
-    returns: 4
+    returns: 5
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
@@ -24,7 +24,7 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 1
+    rentals: 2
     returns: 3
   2030:
     id: 2030
@@ -40,7 +40,7 @@ hubs:
     id: 2032
     name: 07 Rondo Mogilskie
     rentals: 0
-    returns: 1
+    returns: 2
   2034:
     id: 2034
     name: 09 Miodowa
@@ -94,7 +94,7 @@ hubs:
   2225:
     id: 2225
     name: 18 Salwator
-    rentals: 0
+    rentals: 1
     returns: 0
   2226:
     id: 2226
@@ -114,7 +114,7 @@ hubs:
   2229:
     id: 2229
     name: 22 Nowy Kleparz
-    rentals: 1
+    rentals: 2
     returns: 2
   2230:
     id: 2230
@@ -158,17 +158,20 @@ hubs:
     returns: 0
 long_rentals: 1
 longest_rental: 3601
-short_rentals: 22
+short_rentals: 23
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 08:50:00'
-total_rentals: 29
-total_returns: 26
-total_time: 31800
+t1: '2017-03-08 09:00:01'
+total_rentals: 32
+total_returns: 28
+total_time: 32401
 trips:
 - count: 2
   from: 2049
   to: 2020
+- count: 1
+  from: 2020
+  to: 2032
 - count: 1
   from: 2224
   to: 2037
@@ -221,6 +224,9 @@ trips:
   from: 2223
   to: 2030
 - count: 1
+  from: 2225
+  to: 2020
+- count: 1
   from: 2223
   to: 2039
 - count: 1
@@ -241,6 +247,6 @@ trips:
 - count: 1
   from: 2233
   to: 2030
-vain_rentals: 1
+vain_rentals: 2
 xlong_rentals: 0
 
