@@ -1,5 +1,5 @@
-average_rental: 839.5
-complete_rentals: 10
+average_rental: 985.6428571428571
+complete_rentals: 14
 hubs:
   null:
     id: null
@@ -9,8 +9,8 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 0
-    returns: 1
+    rentals: 1
+    returns: 2
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
@@ -20,12 +20,12 @@ hubs:
     id: 2028
     name: 03 Cracovia Błonia
     rentals: 0
-    returns: 0
+    returns: 1
   2029:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 0
-    returns: 2
+    returns: 3
   2030:
     id: 2030
     name: 05 Politechnika
@@ -59,7 +59,7 @@ hubs:
   2037:
     id: 2037
     name: 12 Plac Wolnica
-    rentals: 0
+    rentals: 1
     returns: 1
   2038:
     id: 2038
@@ -109,13 +109,13 @@ hubs:
   2228:
     id: 2228
     name: Łobzów PKP
-    rentals: 0
+    rentals: 1
     returns: 1
   2229:
     id: 2229
     name: 22 Nowy Kleparz
-    rentals: 0
-    returns: 1
+    rentals: 1
+    returns: 2
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -156,16 +156,19 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 0
-long_rentals: 0
-longest_rental: 1200
-short_rentals: 10
+long_rentals: 1
+longest_rental: 3601
+short_rentals: 13
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 07:50:00'
-total_rentals: 16
-total_returns: 10
-total_time: 28200
+t1: '2017-03-08 08:00:01'
+total_rentals: 20
+total_returns: 14
+total_time: 28801
 trips:
+- count: 2
+  from: 2049
+  to: 2020
 - count: 1
   from: 2031
   to: 2029
@@ -173,11 +176,14 @@ trips:
   from: 2233
   to: 2030
 - count: 1
+  from: 2226
+  to: 2028
+- count: 1
+  from: 2230
+  to: 2029
+- count: 1
   from: 2236
   to: 2032
-- count: 1
-  from: 2049
-  to: 2020
 - count: 1
   from: 2231
   to: 2228
@@ -196,6 +202,9 @@ trips:
 - count: 1
   from: 2223
   to: 2030
+- count: 1
+  from: 2227
+  to: 2229
 vain_rentals: 0
 xlong_rentals: 0
 
