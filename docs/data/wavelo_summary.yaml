@@ -1,5 +1,5 @@
-average_rental: 1285.7362637362637
-complete_rentals: 98
+average_rental: 1287.5208333333333
+complete_rentals: 103
 hubs:
   null:
     id: null
@@ -9,13 +9,13 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 9
+    rentals: 10
     returns: 13
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
     rentals: 3
-    returns: 8
+    returns: 9
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 10
-    returns: 8
+    returns: 9
   2030:
     id: 2030
     name: 05 Politechnika
@@ -40,7 +40,7 @@ hubs:
     id: 2032
     name: 07 Rondo Mogilskie
     rentals: 5
-    returns: 2
+    returns: 3
   2034:
     id: 2034
     name: 09 Miodowa
@@ -94,7 +94,7 @@ hubs:
   2225:
     id: 2225
     name: 18 Salwator
-    rentals: 4
+    rentals: 5
     returns: 2
   2226:
     id: 2226
@@ -129,8 +129,8 @@ hubs:
   2232:
     id: 2232
     name: 25 Mackiewicza
-    rentals: 2
-    returns: 4
+    rentals: 3
+    returns: 5
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
@@ -150,7 +150,7 @@ hubs:
     id: 2236
     name: 29 DH Wanda
     rentals: 3
-    returns: 0
+    returns: 1
   2237:
     id: 2237
     name: '30 Rondo Czyżyńskie '
@@ -158,28 +158,25 @@ hubs:
     returns: 0
 long_rentals: 5
 longest_rental: 5401
-short_rentals: 67
+short_rentals: 71
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 15:20:01'
-total_rentals: 110
-total_returns: 100
-total_time: 55201
+t1: '2017-03-08 15:30:01'
+total_rentals: 113
+total_returns: 105
+total_time: 55801
 trips:
 - count: 5
   from: 2039
   to: 2224
 - count: 4
-  from: 2034
-  to: 2232
-- count: 4
   from: 2020
   to: 2020
+- count: 4
+  from: 2034
+  to: 2232
 - count: 3
   from: 2049
-  to: 2020
-- count: 2
-  from: 2029
   to: 2020
 - count: 2
   from: 2223
@@ -187,30 +184,144 @@ trips:
 - count: 2
   from: 2040
   to: null
+- count: 2
+  from: 2029
+  to: 2020
+- count: 1
+  from: 2039
+  to: 2020
+- count: 1
+  from: 2034
+  to: 2029
 - count: 1
   from: 2029
-  to: 2038
+  to: 2029
 - count: 1
-  from: 2031
-  to: 2034
+  from: 2224
+  to: 2037
+- count: 1
+  from: 2223
+  to: 2021
+- count: 1
+  from: 2037
+  to: 2226
+- count: 1
+  from: 2032
+  to: 2036
+- count: 1
+  from: 2236
+  to: 2032
+- count: 1
+  from: 2049
+  to: null
+- count: 1
+  from: 2034
+  to: 2035
+- count: 1
+  from: 2021
+  to: 2229
+- count: 1
+  from: 2029
+  to: 2035
+- count: 1
+  from: 2032
+  to: 2236
+- count: 1
+  from: 2021
+  to: 2021
 - count: 1
   from: null
   to: null
 - count: 1
+  from: 2030
+  to: 2021
+- count: 1
   from: 2029
   to: null
 - count: 1
-  from: 2234
-  to: 2049
+  from: 2030
+  to: 2229
+- count: 1
+  from: 2232
+  to: 2029
+- count: 1
+  from: 2229
+  to: 2035
 - count: 1
   from: 2029
+  to: 2038
+- count: 1
+  from: 2035
+  to: 2035
+- count: 1
+  from: 2233
+  to: 2233
+- count: 1
+  from: 2028
+  to: 2226
+- count: 1
+  from: 2020
   to: 2049
+- count: 1
+  from: 2226
+  to: 2028
+- count: 1
+  from: 2029
+  to: 2037
+- count: 1
+  from: 2229
+  to: 2049
+- count: 1
+  from: 2227
+  to: 2229
+- count: 1
+  from: 2225
+  to: null
+- count: 1
+  from: 2230
+  to: 2039
+- count: 1
+  from: 2228
+  to: 2230
+- count: 1
+  from: 2231
+  to: 2228
+- count: 1
+  from: 2233
+  to: 2030
 - count: 1
   from: 2035
   to: 2029
 - count: 1
-  from: 2233
-  to: 2233
+  from: 2036
+  to: 2021
+- count: 1
+  from: 2223
+  to: 2030
+- count: 1
+  from: null
+  to: 2021
+- count: 1
+  from: 2020
+  to: 2035
+- count: 1
+  from: 2029
+  to: 2021
+- count: 1
+  from: 2038
+  to: 2021
+- count: 1
+  from: 2049
+  to: 2035
+- count: 1
+  from: 2031
+  to: 2034
+- count: 1
+  from: 2028
+  to: 2039
+- count: 1
+  from: 2234
+  to: 2049
 - count: 1
   from: null
   to: 2040
@@ -218,59 +329,11 @@ trips:
   from: 2020
   to: 2032
 - count: 1
-  from: 2049
-  to: 2034
-- count: 1
-  from: 2028
-  to: 2226
-- count: 1
-  from: 2224
-  to: 2037
-- count: 1
-  from: 2227
-  to: 2030
-- count: 1
-  from: 2039
-  to: 2020
-- count: 1
-  from: 2231
-  to: 2231
-- count: 1
-  from: 2230
-  to: 2039
-- count: 1
-  from: 2223
-  to: 2021
-- count: 1
-  from: 2037
-  to: 2226
-- count: 1
   from: 2037
   to: 2029
 - count: 1
   from: 2225
   to: 2031
-- count: 1
-  from: 2223
-  to: 2028
-- count: 1
-  from: 2049
-  to: null
-- count: 1
-  from: 2226
-  to: 2028
-- count: 1
-  from: 2021
-  to: 2229
-- count: 1
-  from: 2020
-  to: 2049
-- count: 1
-  from: 2232
-  to: 2029
-- count: 1
-  from: 2230
-  to: 2020
 - count: 1
   from: 2021
   to: 2036
@@ -278,143 +341,95 @@ trips:
   from: 2236
   to: 2049
 - count: 1
-  from: null
-  to: 2049
-- count: 1
-  from: 2032
-  to: 2036
-- count: 1
-  from: 2049
-  to: 2226
-- count: 1
-  from: 2234
-  to: 2034
-- count: 1
   from: 2232
   to: 2229
-- count: 1
-  from: 2032
-  to: 2031
-- count: 1
-  from: 2227
-  to: 2229
-- count: 1
-  from: 2225
-  to: null
-- count: 1
-  from: 2226
-  to: 2029
-- count: 1
-  from: 2031
-  to: 2029
-- count: 1
-  from: 2039
-  to: 2036
-- count: 1
-  from: 2228
-  to: 2230
-- count: 1
-  from: 2230
-  to: 2029
-- count: 1
-  from: 2236
-  to: 2032
-- count: 1
-  from: 2229
-  to: 2049
-- count: 1
-  from: null
-  to: 2029
-- count: 1
-  from: 2231
-  to: 2228
-- count: 1
-  from: 2038
-  to: 2020
 - count: 1
   from: 2225
   to: 2021
 - count: 1
+  from: 2226
+  to: 2029
+- count: 1
+  from: 2230
+  to: 2029
+- count: 1
+  from: 2020
+  to: 2232
+- count: 1
+  from: 2049
+  to: 2226
+- count: 1
   from: 2020
   to: 2028
-- count: 1
-  from: 2034
-  to: 2035
-- count: 1
-  from: 2029
-  to: 2029
 - count: 1
   from: 2037
   to: 2224
 - count: 1
-  from: 2029
-  to: 2035
-- count: 1
-  from: 2036
-  to: 2021
-- count: 1
-  from: 2035
-  to: 2035
-- count: 1
-  from: 2223
-  to: 2030
-- count: 1
-  from: 2225
-  to: 2020
-- count: 1
-  from: 2038
-  to: 2021
-- count: 1
-  from: 2036
-  to: 2039
-- count: 1
-  from: 2029
-  to: 2037
-- count: 1
-  from: null
-  to: 2021
-- count: 1
-  from: 2020
-  to: 2035
+  from: 2034
+  to: null
 - count: 1
   from: 2039
   to: 2225
 - count: 1
-  from: 2034
-  to: null
-- count: 1
-  from: 2029
-  to: 2021
-- count: 1
-  from: 2031
-  to: 2049
-- count: 1
-  from: 2049
-  to: 2035
-- count: 1
-  from: 2021
-  to: 2021
+  from: 2231
+  to: 2231
 - count: 1
   from: 2229
   to: 2021
-- count: 1
-  from: 2030
-  to: 2229
-- count: 1
-  from: 2233
-  to: 2030
-- count: 1
-  from: 2028
-  to: 2039
-- count: 1
-  from: 2029
-  to: 2225
 - count: 1
   from: 2039
   to: 2034
 - count: 1
-  from: 2229
-  to: 2035
+  from: 2231
+  to: 2032
+- count: 1
+  from: 2049
+  to: 2034
+- count: 1
+  from: 2230
+  to: 2020
+- count: 1
+  from: 2223
+  to: 2028
+- count: 1
+  from: 2029
+  to: 2049
+- count: 1
+  from: 2031
+  to: 2029
+- count: 1
+  from: 2032
+  to: 2031
+- count: 1
+  from: null
+  to: 2029
+- count: 1
+  from: 2039
+  to: 2036
+- count: 1
+  from: 2029
+  to: 2225
+- count: 1
+  from: 2225
+  to: 2020
+- count: 1
+  from: 2234
+  to: 2034
+- count: 1
+  from: 2036
+  to: 2039
+- count: 1
+  from: 2038
+  to: 2020
+- count: 1
+  from: 2227
+  to: 2030
+- count: 1
+  from: 2031
+  to: 2049
+- count: 1
+  from: null
+  to: 2049
 vain_rentals: 7
 xlong_rentals: 1
 
