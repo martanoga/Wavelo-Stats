@@ -1,5 +1,5 @@
 average_rental: 1562.2857142857142
-complete_rentals: 239
+complete_rentals: 242
 hubs:
   null:
     id: null
@@ -114,13 +114,13 @@ hubs:
   2229:
     id: 2229
     name: 22 Nowy Kleparz
-    rentals: 5
+    rentals: 9
     returns: 5
   2230:
     id: 2230
     name: 23 Bratysławska
     rentals: 5
-    returns: 3
+    returns: 6
   2231:
     id: 2231
     name: 24 Krowodrza Górka
@@ -161,10 +161,10 @@ longest_rental: 17400
 short_rentals: 143
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 21:10:00'
-total_rentals: 241
-total_returns: 242
-total_time: 76200
+t1: '2017-03-08 21:20:00'
+total_rentals: 245
+total_returns: 245
+total_time: 76800
 trips:
 - count: 7
   from: 2020
@@ -200,6 +200,9 @@ trips:
   from: 2028
   to: 2226
 - count: 3
+  from: 2229
+  to: 2230
+- count: 3
   from: 2236
   to: 2236
 - count: 3
@@ -220,6 +223,9 @@ trips:
 - count: 2
   from: 2223
   to: 2223
+- count: 2
+  from: 2231
+  to: 2231
 - count: 2
   from: 2021
   to: 2225
@@ -244,9 +250,6 @@ trips:
 - count: 2
   from: null
   to: 2028
-- count: 2
-  from: 2231
-  to: 2231
 - count: 2
   from: 2226
   to: 2020
@@ -403,9 +406,6 @@ trips:
 - count: 1
   from: 2233
   to: 2233
-- count: 1
-  from: 2029
-  to: null
 - count: 1
   from: 2032
   to: 2032
@@ -590,6 +590,9 @@ trips:
   from: 2224
   to: null
 - count: 1
+  from: 2029
+  to: null
+- count: 1
   from: 2233
   to: 2029
 - count: 1
@@ -688,6 +691,6 @@ trips:
 - count: 1
   from: 2020
   to: 2040
-vain_rentals: 22
+vain_rentals: 25
 xlong_rentals: 4
 
