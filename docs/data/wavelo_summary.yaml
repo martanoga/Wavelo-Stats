@@ -1,5 +1,5 @@
-average_rental: 1024.7916666666667
-complete_rentals: 25
+average_rental: 1031.8
+complete_rentals: 26
 hubs:
   null:
     id: null
@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 1
+    rentals: 2
     returns: 4
   2021:
     id: 2021
@@ -34,7 +34,7 @@ hubs:
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
-    rentals: 2
+    rentals: 3
     returns: 0
   2032:
     id: 2032
@@ -45,7 +45,7 @@ hubs:
     id: 2034
     name: 09 Miodowa
     rentals: 1
-    returns: 0
+    returns: 1
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
@@ -129,7 +129,7 @@ hubs:
   2232:
     id: 2232
     name: 25 Mackiewicza
-    rentals: 1
+    rentals: 2
     returns: 0
   2233:
     id: 2233
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 1
 longest_rental: 3601
-short_rentals: 21
+short_rentals: 22
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 08:40:00'
-total_rentals: 26
-total_returns: 25
-total_time: 31200
+t1: '2017-03-08 08:50:00'
+total_rentals: 29
+total_returns: 26
+total_time: 31800
 trips:
 - count: 2
   from: 2049
@@ -187,6 +187,9 @@ trips:
 - count: 1
   from: 2236
   to: 2049
+- count: 1
+  from: 2234
+  to: 2034
 - count: 1
   from: 2227
   to: 2229
