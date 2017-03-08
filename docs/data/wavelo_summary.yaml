@@ -1,5 +1,5 @@
-average_rental: 1288.6830985915492
-complete_rentals: 156
+average_rental: 1290.349315068493
+complete_rentals: 160
 hubs:
   null:
     id: null
@@ -10,7 +10,7 @@ hubs:
     id: 2020
     name: 02 Teatr Bagatela
     rentals: 12
-    returns: 18
+    returns: 19
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
@@ -49,8 +49,8 @@ hubs:
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
-    rentals: 5
-    returns: 7
+    rentals: 6
+    returns: 8
   2036:
     id: 2036
     name: 11 Korona
@@ -69,8 +69,8 @@ hubs:
   2039:
     id: 2039
     name: 13 Poczta Główna
-    rentals: 12
-    returns: 6
+    rentals: 13
+    returns: 7
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
@@ -120,7 +120,7 @@ hubs:
     id: 2230
     name: 23 Bratysławska
     rentals: 4
-    returns: 1
+    returns: 2
   2231:
     id: 2231
     name: 24 Krowodrza Górka
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 8
 longest_rental: 5401
-short_rentals: 99
+short_rentals: 101
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 17:30:00'
-total_rentals: 171
-total_returns: 158
-total_time: 63000
+t1: '2017-03-08 17:40:00'
+total_rentals: 173
+total_returns: 162
+total_time: 63600
 trips:
 - count: 5
   from: 2039
@@ -293,6 +293,9 @@ trips:
   from: 2232
   to: 2029
 - count: 1
+  from: 2234
+  to: 2035
+- count: 1
   from: 2229
   to: 2035
 - count: 1
@@ -311,8 +314,8 @@ trips:
   from: 2233
   to: 2233
 - count: 1
-  from: 2231
-  to: 2231
+  from: 2029
+  to: null
 - count: 1
   from: 2020
   to: 2049
@@ -361,6 +364,9 @@ trips:
 - count: 1
   from: 2233
   to: 2030
+- count: 1
+  from: 2234
+  to: 2020
 - count: 1
   from: 2035
   to: 2029
@@ -437,6 +443,9 @@ trips:
   from: 2230
   to: 2029
 - count: 1
+  from: 2225
+  to: 2039
+- count: 1
   from: 2020
   to: 2232
 - count: 1
@@ -461,8 +470,8 @@ trips:
   from: 2224
   to: null
 - count: 1
-  from: 2029
-  to: null
+  from: 2231
+  to: 2231
 - count: 1
   from: 2233
   to: 2029
@@ -472,6 +481,9 @@ trips:
 - count: 1
   from: 2034
   to: 2226
+- count: 1
+  from: 2233
+  to: 2230
 - count: 1
   from: 2039
   to: 2034
