@@ -1,5 +1,5 @@
-average_rental: 1099.9666666666667
-complete_rentals: 65
+average_rental: 1112.8709677419354
+complete_rentals: 67
 hubs:
   null:
     id: null
@@ -24,7 +24,7 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 5
+    rentals: 6
     returns: 4
   2030:
     id: 2030
@@ -95,7 +95,7 @@ hubs:
     id: 2225
     name: 18 Salwator
     rentals: 3
-    returns: 1
+    returns: 2
   2226:
     id: 2226
     name: 19 Cichy Kącik
@@ -130,7 +130,7 @@ hubs:
     id: 2232
     name: 25 Mackiewicza
     rentals: 2
-    returns: 3
+    returns: 4
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
@@ -158,18 +158,18 @@ hubs:
     returns: 0
 long_rentals: 2
 longest_rental: 4801
-short_rentals: 48
+short_rentals: 49
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 12:30:00'
-total_rentals: 70
-total_returns: 67
-total_time: 45000
+t1: '2017-03-08 12:40:00'
+total_rentals: 71
+total_returns: 69
+total_time: 45600
 trips:
 - count: 5
   from: 2039
   to: 2224
-- count: 3
+- count: 4
   from: 2034
   to: 2232
 - count: 3
@@ -187,9 +187,6 @@ trips:
 - count: 1
   from: 2031
   to: 2034
-- count: 1
-  from: 2037
-  to: 2224
 - count: 1
   from: 2029
   to: 2020
@@ -223,6 +220,9 @@ trips:
 - count: 1
   from: 2226
   to: 2028
+- count: 1
+  from: 2049
+  to: null
 - count: 1
   from: 2020
   to: 2049
@@ -281,8 +281,8 @@ trips:
   from: 2034
   to: 2035
 - count: 1
-  from: 2049
-  to: null
+  from: 2037
+  to: 2224
 - count: 1
   from: 2029
   to: 2035
@@ -328,6 +328,9 @@ trips:
 - count: 1
   from: 2233
   to: 2030
+- count: 1
+  from: 2029
+  to: 2225
 - count: 1
   from: 2229
   to: 2035
