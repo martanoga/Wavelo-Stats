@@ -1,11 +1,11 @@
-average_rental: 1058.1636363636364
-complete_rentals: 60
+average_rental: 1099.9666666666667
+complete_rentals: 65
 hubs:
   null:
     id: null
     name: out_of_station
     rentals: 4
-    returns: 6
+    returns: 7
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -24,7 +24,7 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 4
+    rentals: 5
     returns: 4
   2030:
     id: 2030
@@ -90,7 +90,7 @@ hubs:
     id: 2224
     name: 17 Jubilat
     rentals: 1
-    returns: 5
+    returns: 6
   2225:
     id: 2225
     name: 18 Salwator
@@ -130,7 +130,7 @@ hubs:
     id: 2232
     name: 25 Mackiewicza
     rentals: 2
-    returns: 0
+    returns: 3
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
@@ -158,17 +158,20 @@ hubs:
     returns: 0
 long_rentals: 2
 longest_rental: 4801
-short_rentals: 47
+short_rentals: 48
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 12:20:01'
-total_rentals: 69
-total_returns: 62
-total_time: 44401
+t1: '2017-03-08 12:30:00'
+total_rentals: 70
+total_returns: 67
+total_time: 45000
 trips:
 - count: 5
   from: 2039
   to: 2224
+- count: 3
+  from: 2034
+  to: 2232
 - count: 3
   from: 2049
   to: 2020
@@ -184,6 +187,9 @@ trips:
 - count: 1
   from: 2031
   to: 2034
+- count: 1
+  from: 2037
+  to: 2224
 - count: 1
   from: 2029
   to: 2020
@@ -214,9 +220,6 @@ trips:
 - count: 1
   from: 2223
   to: 2028
-- count: 1
-  from: 2049
-  to: null
 - count: 1
   from: 2226
   to: 2028
@@ -278,6 +281,9 @@ trips:
   from: 2034
   to: 2035
 - count: 1
+  from: 2049
+  to: null
+- count: 1
   from: 2029
   to: 2035
 - count: 1
@@ -298,6 +304,9 @@ trips:
 - count: 1
   from: 2039
   to: 2225
+- count: 1
+  from: 2034
+  to: null
 - count: 1
   from: 2020
   to: 2020
