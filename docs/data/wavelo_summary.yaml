@@ -1,5 +1,5 @@
-average_rental: 1111.764705882353
-complete_rentals: 73
+average_rental: 1122.8428571428572
+complete_rentals: 75
 hubs:
   null:
     id: null
@@ -15,7 +15,7 @@ hubs:
     id: 2021
     name: 01 Plac Wszystkich Świętych
     rentals: 1
-    returns: 6
+    returns: 7
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 9
-    returns: 5
+    returns: 6
   2030:
     id: 2030
     name: 05 Politechnika
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 2
 longest_rental: 4801
-short_rentals: 52
+short_rentals: 53
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 13:10:01'
+t1: '2017-03-08 13:20:00'
 total_rentals: 78
-total_returns: 75
-total_time: 47401
+total_returns: 77
+total_time: 48000
 trips:
 - count: 5
   from: 2039
@@ -188,17 +188,14 @@ trips:
   from: 2031
   to: 2034
 - count: 1
-  from: 2049
-  to: null
+  from: 2029
+  to: 2029
 - count: 1
   from: 2029
   to: 2049
 - count: 1
   from: 2029
   to: 2020
-- count: 1
-  from: 2029
-  to: null
 - count: 1
   from: 2233
   to: 2233
@@ -217,6 +214,9 @@ trips:
 - count: 1
   from: 2227
   to: 2030
+- count: 1
+  from: 2029
+  to: null
 - count: 1
   from: 2230
   to: 2039
@@ -290,6 +290,9 @@ trips:
   from: 2038
   to: 2020
 - count: 1
+  from: 2225
+  to: 2021
+- count: 1
   from: 2020
   to: 2028
 - count: 1
@@ -346,6 +349,9 @@ trips:
 - count: 1
   from: 2233
   to: 2030
+- count: 1
+  from: 2049
+  to: null
 - count: 1
   from: 2029
   to: 2225
