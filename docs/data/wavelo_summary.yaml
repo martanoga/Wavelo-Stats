@@ -89,7 +89,7 @@ hubs:
   2224:
     id: 2224
     name: 17 Jubilat
-    rentals: 0
+    rentals: 1
     returns: 0
   2225:
     id: 2225
@@ -129,7 +129,7 @@ hubs:
   2232:
     id: 2232
     name: 25 Mackiewicza
-    rentals: 0
+    rentals: 1
     returns: 0
   2233:
     id: 2233
@@ -161,10 +161,10 @@ longest_rental: 1200
 short_rentals: 5
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 07:10:01'
-total_rentals: 7
+t1: '2017-03-08 07:20:01'
+total_rentals: 9
 total_returns: 5
-total_time: 25801
+total_time: 26401
 trips:
 - count: 1
   from: 2231
