@@ -1,5 +1,5 @@
-average_rental: 1320.7169811320755
-complete_rentals: 173
+average_rental: 1316.2125
+complete_rentals: 174
 hubs:
   null:
     id: null
@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 12
+    rentals: 13
     returns: 21
   2021:
     id: 2021
@@ -29,13 +29,13 @@ hubs:
   2030:
     id: 2030
     name: 05 Politechnika
-    rentals: 5
+    rentals: 6
     returns: 5
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
     rentals: 4
-    returns: 4
+    returns: 5
   2032:
     id: 2032
     name: 07 Rondo Mogilskie
@@ -69,7 +69,7 @@ hubs:
   2039:
     id: 2039
     name: 13 Poczta Główna
-    rentals: 14
+    rentals: 15
     returns: 7
   2040:
     id: 2040
@@ -99,7 +99,7 @@ hubs:
   2226:
     id: 2226
     name: 19 Cichy Kącik
-    rentals: 5
+    rentals: 6
     returns: 6
   2227:
     id: 2227
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 8
 longest_rental: 5401
-short_rentals: 108
+short_rentals: 109
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 18:10:00'
-total_rentals: 183
-total_returns: 175
-total_time: 65400
+t1: '2017-03-08 18:20:00'
+total_rentals: 187
+total_returns: 176
+total_time: 66000
 trips:
 - count: 5
   from: 2039
@@ -244,6 +244,9 @@ trips:
 - count: 1
   from: 2037
   to: 2226
+- count: 1
+  from: 2049
+  to: 2031
 - count: 1
   from: 2032
   to: 2225
