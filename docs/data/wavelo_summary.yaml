@@ -1,5 +1,5 @@
-average_rental: 1557.8715596330276
-complete_rentals: 243
+average_rental: 1586.3744292237443
+complete_rentals: 244
 hubs:
   null:
     id: null
@@ -140,7 +140,7 @@ hubs:
     id: 2234
     name: 27 Wieczysta
     rentals: 5
-    returns: 5
+    returns: 6
   2235:
     id: 2235
     name: 28 Rondo Kocmyrzowskie
@@ -156,15 +156,15 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 1
-long_rentals: 15
+long_rentals: 16
 longest_rental: 17400
 short_rentals: 144
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 21:30:00'
+t1: '2017-03-08 21:40:01'
 total_rentals: 245
-total_returns: 246
-total_time: 77400
+total_returns: 247
+total_time: 78001
 trips:
 - count: 7
   from: 2020
@@ -224,9 +224,6 @@ trips:
   from: 2223
   to: 2223
 - count: 2
-  from: 2231
-  to: 2231
-- count: 2
   from: 2021
   to: 2225
 - count: 2
@@ -250,6 +247,9 @@ trips:
 - count: 2
   from: null
   to: 2028
+- count: 2
+  from: 2231
+  to: 2231
 - count: 2
   from: 2226
   to: 2020
@@ -407,6 +407,9 @@ trips:
   from: 2233
   to: 2233
 - count: 1
+  from: 2029
+  to: null
+- count: 1
   from: 2032
   to: 2032
 - count: 1
@@ -418,6 +421,9 @@ trips:
 - count: 1
   from: 2226
   to: 2028
+- count: 1
+  from: 2020
+  to: 2234
 - count: 1
   from: 2028
   to: 2029
@@ -590,9 +596,6 @@ trips:
   from: 2224
   to: null
 - count: 1
-  from: 2029
-  to: null
-- count: 1
   from: 2233
   to: 2029
 - count: 1
@@ -692,5 +695,5 @@ trips:
   from: 2020
   to: 2040
 vain_rentals: 25
-xlong_rentals: 4
+xlong_rentals: 5
 
