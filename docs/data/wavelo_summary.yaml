@@ -1,5 +1,5 @@
-average_rental: 1116.876923076923
-complete_rentals: 70
+average_rental: 1111.764705882353
+complete_rentals: 73
 hubs:
   null:
     id: null
@@ -24,7 +24,7 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 8
+    rentals: 9
     returns: 5
   2030:
     id: 2030
@@ -45,7 +45,7 @@ hubs:
     id: 2034
     name: 09 Miodowa
     rentals: 6
-    returns: 2
+    returns: 3
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
@@ -70,7 +70,7 @@ hubs:
     id: 2039
     name: 13 Poczta Główna
     rentals: 7
-    returns: 2
+    returns: 3
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
@@ -80,7 +80,7 @@ hubs:
     id: 2049
     name: 08 Rondo Grzegórzeckie
     rentals: 6
-    returns: 4
+    returns: 5
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -94,7 +94,7 @@ hubs:
   2225:
     id: 2225
     name: 18 Salwator
-    rentals: 3
+    rentals: 4
     returns: 2
   2226:
     id: 2226
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 2
 longest_rental: 4801
-short_rentals: 51
+short_rentals: 52
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 13:00:00'
-total_rentals: 76
-total_returns: 72
-total_time: 46800
+t1: '2017-03-08 13:10:01'
+total_rentals: 78
+total_returns: 75
+total_time: 47401
 trips:
 - count: 5
   from: 2039
@@ -188,8 +188,17 @@ trips:
   from: 2031
   to: 2034
 - count: 1
+  from: 2049
+  to: null
+- count: 1
+  from: 2029
+  to: 2049
+- count: 1
   from: 2029
   to: 2020
+- count: 1
+  from: 2029
+  to: null
 - count: 1
   from: 2233
   to: 2233
@@ -200,11 +209,17 @@ trips:
   from: 2020
   to: 2032
 - count: 1
+  from: 2049
+  to: 2034
+- count: 1
   from: 2224
   to: 2037
 - count: 1
   from: 2227
   to: 2030
+- count: 1
+  from: 2230
+  to: 2039
 - count: 1
   from: 2223
   to: 2021
@@ -224,9 +239,6 @@ trips:
   from: 2226
   to: 2028
 - count: 1
-  from: 2029
-  to: null
-- count: 1
   from: 2020
   to: 2049
 - count: 1
@@ -244,9 +256,6 @@ trips:
 - count: 1
   from: 2232
   to: 2229
-- count: 1
-  from: 2049
-  to: null
 - count: 1
   from: 2227
   to: 2229
