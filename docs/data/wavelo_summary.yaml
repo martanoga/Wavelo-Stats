@@ -1,10 +1,10 @@
 average_rental: 1580.158371040724
-complete_rentals: 246
+complete_rentals: 247
 hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 10
+    rentals: 11
     returns: 12
   2020:
     id: 2020
@@ -50,7 +50,7 @@ hubs:
     id: 2035
     name: 10 Plac Bohaterów Getta
     rentals: 7
-    returns: 12
+    returns: 13
   2036:
     id: 2036
     name: 11 Korona
@@ -161,10 +161,10 @@ longest_rental: 17400
 short_rentals: 146
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 22:20:00'
-total_rentals: 248
-total_returns: 250
-total_time: 80400
+t1: '2017-03-08 22:30:01'
+total_rentals: 249
+total_returns: 251
+total_time: 81001
 trips:
 - count: 7
   from: 2020
@@ -337,6 +337,9 @@ trips:
 - count: 1
   from: 2035
   to: 2234
+- count: 1
+  from: null
+  to: 2035
 - count: 1
   from: 2038
   to: 2020
@@ -700,6 +703,6 @@ trips:
 - count: 1
   from: 2020
   to: 2040
-vain_rentals: 25
+vain_rentals: 26
 xlong_rentals: 5
 
