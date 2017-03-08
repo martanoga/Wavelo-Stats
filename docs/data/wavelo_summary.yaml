@@ -34,7 +34,7 @@ hubs:
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
-    rentals: 1
+    rentals: 2
     returns: 0
   2032:
     id: 2032
@@ -64,7 +64,7 @@ hubs:
   2038:
     id: 2038
     name: 14 Wawel
-    rentals: 0
+    rentals: 1
     returns: 0
   2039:
     id: 2039
@@ -84,7 +84,7 @@ hubs:
   2223:
     id: 2223
     name: 16 Szwedzka
-    rentals: 2
+    rentals: 3
     returns: 0
   2224:
     id: 2224
@@ -139,7 +139,7 @@ hubs:
   2234:
     id: 2234
     name: 27 Wieczysta
-    rentals: 0
+    rentals: 1
     returns: 0
   2235:
     id: 2235
@@ -161,10 +161,10 @@ longest_rental: 3601
 short_rentals: 17
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 08:20:00'
-total_rentals: 22
+t1: '2017-03-08 08:30:00'
+total_rentals: 26
 total_returns: 20
-total_time: 30000
+total_time: 30600
 trips:
 - count: 2
   from: 2049
