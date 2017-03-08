@@ -114,7 +114,7 @@ hubs:
   2229:
     id: 2229
     name: 22 Nowy Kleparz
-    rentals: 2
+    rentals: 3
     returns: 3
   2230:
     id: 2230
@@ -161,10 +161,10 @@ longest_rental: 3601
 short_rentals: 33
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 10:00:00'
-total_rentals: 43
+t1: '2017-03-08 10:10:00'
+total_rentals: 44
 total_returns: 42
-total_time: 36000
+total_time: 36600
 trips:
 - count: 3
   from: 2049
