@@ -1,11 +1,11 @@
-average_rental: 1006.9642857142857
-complete_rentals: 31
+average_rental: 1019.8333333333334
+complete_rentals: 33
 hubs:
   null:
     id: null
     name: out_of_station
     rentals: 0
-    returns: 0
+    returns: 1
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -115,7 +115,7 @@ hubs:
     id: 2229
     name: 22 Nowy Kleparz
     rentals: 2
-    returns: 2
+    returns: 3
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -134,7 +134,7 @@ hubs:
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
-    rentals: 1
+    rentals: 2
     returns: 0
   2234:
     id: 2234
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 1
 longest_rental: 3601
-short_rentals: 25
+short_rentals: 26
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 09:10:00'
-total_rentals: 34
-total_returns: 31
-total_time: 33000
+t1: '2017-03-08 09:20:00'
+total_rentals: 35
+total_returns: 33
+total_time: 33600
 trips:
 - count: 2
   from: 2049
@@ -199,6 +199,9 @@ trips:
 - count: 1
   from: 2234
   to: 2034
+- count: 1
+  from: 2232
+  to: 2229
 - count: 1
   from: 2227
   to: 2229
@@ -238,6 +241,9 @@ trips:
 - count: 1
   from: 2020
   to: 2020
+- count: 1
+  from: 2040
+  to: null
 - count: 1
   from: 2029
   to: 2021
