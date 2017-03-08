@@ -1,5 +1,5 @@
-average_rental: 1580.158371040724
-complete_rentals: 248
+average_rental: 1574.053811659193
+complete_rentals: 250
 hubs:
   null:
     id: null
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 20
-    returns: 18
+    returns: 19
   2030:
     id: 2030
     name: 05 Politechnika
@@ -135,7 +135,7 @@ hubs:
     id: 2233
     name: 26 Uniwersytet Rolniczy
     rentals: 4
-    returns: 6
+    returns: 7
   2234:
     id: 2234
     name: 27 Wieczysta
@@ -158,13 +158,13 @@ hubs:
     returns: 1
 long_rentals: 16
 longest_rental: 17400
-short_rentals: 146
+short_rentals: 148
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 23:20:00'
+t1: '2017-03-08 23:30:00'
 total_rentals: 252
-total_returns: 252
-total_time: 84000
+total_returns: 254
+total_time: 84600
 trips:
 - count: 7
   from: 2020
@@ -224,9 +224,6 @@ trips:
   from: 2223
   to: 2223
 - count: 2
-  from: 2231
-  to: 2231
-- count: 2
   from: 2021
   to: 2225
 - count: 2
@@ -250,6 +247,9 @@ trips:
 - count: 2
   from: null
   to: 2028
+- count: 2
+  from: 2231
+  to: 2231
 - count: 2
   from: 2226
   to: 2020
@@ -407,6 +407,9 @@ trips:
   from: 2233
   to: 2233
 - count: 1
+  from: 2029
+  to: null
+- count: 1
   from: 2032
   to: 2032
 - count: 1
@@ -490,6 +493,9 @@ trips:
 - count: 1
   from: 2020
   to: 2035
+- count: 1
+  from: 2029
+  to: 2233
 - count: 1
   from: 2029
   to: 2021
@@ -596,9 +602,6 @@ trips:
   from: 2224
   to: null
 - count: 1
-  from: 2029
-  to: null
-- count: 1
   from: 2233
   to: 2029
 - count: 1
@@ -646,6 +649,9 @@ trips:
 - count: 1
   from: 2030
   to: 2232
+- count: 1
+  from: 2040
+  to: 2029
 - count: 1
   from: 2226
   to: 2036
