@@ -1,11 +1,11 @@
-average_rental: 1033.9148936170213
-complete_rentals: 52
+average_rental: 1074.875
+complete_rentals: 53
 hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 3
-    returns: 4
+    rentals: 4
+    returns: 5
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -44,7 +44,7 @@ hubs:
   2034:
     id: 2034
     name: 09 Miodowa
-    rentals: 1
+    rentals: 6
     returns: 2
   2035:
     id: 2035
@@ -161,10 +161,10 @@ longest_rental: 4801
 short_rentals: 41
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 11:50:00'
-total_rentals: 54
-total_returns: 53
-total_time: 42600
+t1: '2017-03-08 12:00:00'
+total_rentals: 60
+total_returns: 54
+total_time: 43200
 trips:
 - count: 3
   from: 2049
@@ -223,6 +223,9 @@ trips:
 - count: 1
   from: 2236
   to: 2049
+- count: 1
+  from: 2049
+  to: null
 - count: 1
   from: 2234
   to: 2034
