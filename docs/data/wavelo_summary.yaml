@@ -1,5 +1,5 @@
-average_rental: 1586.3744292237443
-complete_rentals: 244
+average_rental: 1581.8863636363637
+complete_rentals: 245
 hubs:
   null:
     id: null
@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 22
+    rentals: 23
     returns: 24
   2021:
     id: 2021
@@ -105,7 +105,7 @@ hubs:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
     rentals: 5
-    returns: 8
+    returns: 9
   2228:
     id: 2228
     name: Łobzów PKP
@@ -158,13 +158,13 @@ hubs:
     returns: 1
 long_rentals: 16
 longest_rental: 17400
-short_rentals: 144
+short_rentals: 145
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 21:50:01'
-total_rentals: 247
-total_returns: 248
-total_time: 78601
+t1: '2017-03-08 22:00:00'
+total_rentals: 248
+total_returns: 249
+total_time: 79200
 trips:
 - count: 7
   from: 2020
@@ -619,6 +619,9 @@ trips:
 - count: 1
   from: 2231
   to: 2032
+- count: 1
+  from: 2227
+  to: 2227
 - count: 1
   from: 2049
   to: 2034
