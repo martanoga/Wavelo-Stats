@@ -1,5 +1,5 @@
-average_rental: 952.7647058823529
-complete_rentals: 18
+average_rental: 1010.3157894736842
+complete_rentals: 20
 hubs:
   null:
     id: null
@@ -24,7 +24,7 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 0
+    rentals: 1
     returns: 3
   2030:
     id: 2030
@@ -80,7 +80,7 @@ hubs:
     id: 2049
     name: 08 Rondo Grzegórzeckie
     rentals: 3
-    returns: 0
+    returns: 1
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -100,7 +100,7 @@ hubs:
     id: 2226
     name: 19 Cichy Kącik
     rentals: 1
-    returns: 0
+    returns: 1
   2227:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 1
 longest_rental: 3601
-short_rentals: 16
+short_rentals: 17
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 08:10:00'
-total_rentals: 21
-total_returns: 18
-total_time: 29400
+t1: '2017-03-08 08:20:00'
+total_rentals: 22
+total_returns: 20
+total_time: 30000
 trips:
 - count: 2
   from: 2049
@@ -214,6 +214,12 @@ trips:
 - count: 1
   from: 2223
   to: 2030
+- count: 1
+  from: 2037
+  to: 2226
+- count: 1
+  from: 2236
+  to: 2049
 - count: 1
   from: 2227
   to: 2229
