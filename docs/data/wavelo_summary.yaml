@@ -1,5 +1,5 @@
-average_rental: 1004.825
-complete_rentals: 44
+average_rental: 1097.4146341463415
+complete_rentals: 46
 hubs:
   null:
     id: null
@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 3
+    rentals: 4
     returns: 7
   2021:
     id: 2021
@@ -20,7 +20,7 @@ hubs:
     id: 2028
     name: 03 Cracovia Błonia
     rentals: 0
-    returns: 2
+    returns: 3
   2029:
     id: 2029
     name: 04 Plac Inwalidów
@@ -135,7 +135,7 @@ hubs:
     id: 2233
     name: 26 Uniwersytet Rolniczy
     rentals: 2
-    returns: 0
+    returns: 1
   2234:
     id: 2234
     name: 27 Wieczysta
@@ -156,15 +156,15 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 0
-long_rentals: 1
-longest_rental: 3601
+long_rentals: 2
+longest_rental: 4801
 short_rentals: 35
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 10:30:00'
-total_rentals: 45
-total_returns: 44
-total_time: 37800
+t1: '2017-03-08 10:40:01'
+total_rentals: 46
+total_returns: 46
+total_time: 38401
 trips:
 - count: 3
   from: 2049
@@ -181,6 +181,9 @@ trips:
 - count: 1
   from: 2029
   to: 2020
+- count: 1
+  from: 2233
+  to: 2233
 - count: 1
   from: 2020
   to: 2032
@@ -242,6 +245,9 @@ trips:
   from: 2038
   to: 2020
 - count: 1
+  from: 2020
+  to: 2028
+- count: 1
   from: 2034
   to: 2035
 - count: 1
@@ -289,6 +295,6 @@ trips:
 - count: 1
   from: 2229
   to: 2035
-vain_rentals: 4
+vain_rentals: 5
 xlong_rentals: 0
 
