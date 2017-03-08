@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 4
+    rentals: 5
     returns: 7
   2021:
     id: 2021
@@ -39,7 +39,7 @@ hubs:
   2032:
     id: 2032
     name: 07 Rondo Mogilskie
-    rentals: 0
+    rentals: 1
     returns: 2
   2034:
     id: 2034
@@ -74,7 +74,7 @@ hubs:
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
-    rentals: 1
+    rentals: 2
     returns: 0
   2049:
     id: 2049
@@ -161,10 +161,10 @@ longest_rental: 4801
 short_rentals: 37
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 11:10:00'
-total_rentals: 49
+t1: '2017-03-08 11:20:01'
+total_rentals: 52
 total_returns: 48
-total_time: 40200
+total_time: 40801
 trips:
 - count: 3
   from: 2049
