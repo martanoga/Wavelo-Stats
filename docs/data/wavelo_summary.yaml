@@ -1,5 +1,5 @@
-average_rental: 1216.4383561643835
-complete_rentals: 78
+average_rental: 1208.0945945945946
+complete_rentals: 79
 hubs:
   null:
     id: null
@@ -54,7 +54,7 @@ hubs:
   2036:
     id: 2036
     name: 11 Korona
-    rentals: 0
+    rentals: 1
     returns: 2
   2037:
     id: 2037
@@ -79,8 +79,8 @@ hubs:
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
-    rentals: 6
-    returns: 5
+    rentals: 7
+    returns: 6
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -99,7 +99,7 @@ hubs:
   2226:
     id: 2226
     name: 19 Cichy Kącik
-    rentals: 1
+    rentals: 2
     returns: 1
   2227:
     id: 2227
@@ -119,7 +119,7 @@ hubs:
   2230:
     id: 2230
     name: 23 Bratysławska
-    rentals: 2
+    rentals: 3
     returns: 1
   2231:
     id: 2231
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 4
 longest_rental: 5401
-short_rentals: 54
+short_rentals: 55
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 13:40:01'
-total_rentals: 80
-total_returns: 80
-total_time: 49201
+t1: '2017-03-08 13:50:00'
+total_rentals: 84
+total_returns: 81
+total_time: 49800
 trips:
 - count: 5
   from: 2039
@@ -215,9 +215,6 @@ trips:
   from: 2227
   to: 2030
 - count: 1
-  from: 2029
-  to: null
-- count: 1
   from: 2230
   to: 2039
 - count: 1
@@ -248,11 +245,11 @@ trips:
   from: 2236
   to: 2049
 - count: 1
-  from: 2032
-  to: 2036
-- count: 1
   from: null
   to: null
+- count: 1
+  from: 2032
+  to: 2036
 - count: 1
   from: 2234
   to: 2034
@@ -262,9 +259,6 @@ trips:
 - count: 1
   from: 2032
   to: 2031
-- count: 1
-  from: 2049
-  to: null
 - count: 1
   from: 2227
   to: 2229
@@ -323,8 +317,14 @@ trips:
   from: 2225
   to: 2020
 - count: 1
+  from: null
+  to: 2049
+- count: 1
   from: 2038
   to: 2021
+- count: 1
+  from: 2029
+  to: 2225
 - count: 1
   from: null
   to: 2021
@@ -347,6 +347,9 @@ trips:
   from: 2031
   to: 2049
 - count: 1
+  from: 2029
+  to: null
+- count: 1
   from: 2049
   to: 2035
 - count: 1
@@ -362,8 +365,8 @@ trips:
   from: 2233
   to: 2030
 - count: 1
-  from: 2029
-  to: 2225
+  from: 2049
+  to: null
 - count: 1
   from: 2229
   to: 2035
