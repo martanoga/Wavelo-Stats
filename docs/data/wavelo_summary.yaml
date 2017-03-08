@@ -1,11 +1,11 @@
-average_rental: 1074.2790697674418
-complete_rentals: 48
+average_rental: 1053.2
+complete_rentals: 50
 hubs:
   null:
     id: null
     name: out_of_station
     rentals: 2
-    returns: 2
+    returns: 4
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -80,7 +80,7 @@ hubs:
     id: 2049
     name: 08 Rondo Grzegórzeckie
     rentals: 5
-    returns: 3
+    returns: 4
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 2
 longest_rental: 4801
-short_rentals: 37
+short_rentals: 39
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 11:20:01'
+t1: '2017-03-08 11:30:01'
 total_rentals: 52
-total_returns: 48
-total_time: 40801
+total_returns: 51
+total_time: 41401
 trips:
 - count: 3
   from: 2049
@@ -172,6 +172,9 @@ trips:
 - count: 2
   from: 2223
   to: 2039
+- count: 2
+  from: 2040
+  to: null
 - count: 1
   from: 2029
   to: 2038
@@ -205,6 +208,9 @@ trips:
 - count: 1
   from: 2226
   to: 2028
+- count: 1
+  from: 2020
+  to: 2049
 - count: 1
   from: 2232
   to: 2029
@@ -277,9 +283,6 @@ trips:
 - count: 1
   from: 2020
   to: 2020
-- count: 1
-  from: 2040
-  to: null
 - count: 1
   from: 2029
   to: 2021
