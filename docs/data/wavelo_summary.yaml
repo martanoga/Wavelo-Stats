@@ -1,5 +1,5 @@
-average_rental: 1074.875
-complete_rentals: 53
+average_rental: 1114.142857142857
+complete_rentals: 54
 hubs:
   null:
     id: null
@@ -55,7 +55,7 @@ hubs:
     id: 2036
     name: 11 Korona
     rentals: 0
-    returns: 0
+    returns: 1
   2037:
     id: 2037
     name: 12 Plac Wolnica
@@ -69,7 +69,7 @@ hubs:
   2039:
     id: 2039
     name: 13 Poczta Główna
-    rentals: 1
+    rentals: 7
     returns: 2
   2040:
     id: 2040
@@ -161,10 +161,10 @@ longest_rental: 4801
 short_rentals: 41
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 12:00:00'
-total_rentals: 60
-total_returns: 54
-total_time: 43200
+t1: '2017-03-08 12:10:00'
+total_rentals: 66
+total_returns: 55
+total_time: 43800
 trips:
 - count: 3
   from: 2049
@@ -224,8 +224,8 @@ trips:
   from: 2236
   to: 2049
 - count: 1
-  from: 2049
-  to: null
+  from: 2032
+  to: 2036
 - count: 1
   from: 2234
   to: 2034
@@ -256,6 +256,9 @@ trips:
 - count: 1
   from: null
   to: 2029
+- count: 1
+  from: 2049
+  to: null
 - count: 1
   from: 2231
   to: 2228
