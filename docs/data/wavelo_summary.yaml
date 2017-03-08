@@ -24,7 +24,7 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 6
+    rentals: 8
     returns: 4
   2030:
     id: 2030
@@ -59,7 +59,7 @@ hubs:
   2037:
     id: 2037
     name: 12 Plac Wolnica
-    rentals: 2
+    rentals: 3
     returns: 1
   2038:
     id: 2038
@@ -79,7 +79,7 @@ hubs:
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
-    rentals: 5
+    rentals: 6
     returns: 4
   2223:
     id: 2223
@@ -161,10 +161,10 @@ longest_rental: 4801
 short_rentals: 49
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 12:40:00'
-total_rentals: 71
+t1: '2017-03-08 12:50:00'
+total_rentals: 75
 total_returns: 69
-total_time: 45600
+total_time: 46200
 trips:
 - count: 5
   from: 2039
@@ -187,6 +187,9 @@ trips:
 - count: 1
   from: 2031
   to: 2034
+- count: 1
+  from: 2049
+  to: null
 - count: 1
   from: 2029
   to: 2020
@@ -220,9 +223,6 @@ trips:
 - count: 1
   from: 2226
   to: 2028
-- count: 1
-  from: 2049
-  to: null
 - count: 1
   from: 2020
   to: 2049
