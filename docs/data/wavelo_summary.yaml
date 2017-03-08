@@ -1,11 +1,11 @@
-average_rental: 1122.8428571428572
-complete_rentals: 75
+average_rental: 1225.0
+complete_rentals: 77
 hubs:
   null:
     id: null
     name: out_of_station
     rentals: 4
-    returns: 8
+    returns: 9
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -39,7 +39,7 @@ hubs:
   2032:
     id: 2032
     name: 07 Rondo Mogilskie
-    rentals: 1
+    rentals: 2
     returns: 2
   2034:
     id: 2034
@@ -50,7 +50,7 @@ hubs:
     id: 2035
     name: 10 Plac Bohaterów Getta
     rentals: 1
-    returns: 5
+    returns: 6
   2036:
     id: 2036
     name: 11 Korona
@@ -156,15 +156,15 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 0
-long_rentals: 2
-longest_rental: 4801
+long_rentals: 4
+longest_rental: 5401
 short_rentals: 53
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 13:20:00'
-total_rentals: 78
-total_returns: 77
-total_time: 48000
+t1: '2017-03-08 13:30:01'
+total_rentals: 79
+total_returns: 79
+total_time: 48601
 trips:
 - count: 5
   from: 2039
@@ -188,8 +188,8 @@ trips:
   from: 2031
   to: 2034
 - count: 1
-  from: 2029
-  to: 2029
+  from: 2037
+  to: 2224
 - count: 1
   from: 2029
   to: 2049
@@ -214,9 +214,6 @@ trips:
 - count: 1
   from: 2227
   to: 2030
-- count: 1
-  from: 2029
-  to: null
 - count: 1
   from: 2230
   to: 2039
@@ -299,10 +296,16 @@ trips:
   from: 2034
   to: 2035
 - count: 1
-  from: 2037
-  to: 2224
+  from: 2029
+  to: 2029
+- count: 1
+  from: 2049
+  to: null
 - count: 1
   from: 2029
+  to: 2035
+- count: 1
+  from: 2035
   to: 2035
 - count: 1
   from: 2223
@@ -350,14 +353,17 @@ trips:
   from: 2233
   to: 2030
 - count: 1
-  from: 2049
+  from: 2029
   to: null
 - count: 1
   from: 2029
   to: 2225
 - count: 1
+  from: null
+  to: null
+- count: 1
   from: 2229
   to: 2035
 vain_rentals: 5
-xlong_rentals: 0
+xlong_rentals: 1
 
