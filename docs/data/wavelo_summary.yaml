@@ -1,5 +1,5 @@
-average_rental: 1560.6346153846155
-complete_rentals: 226
+average_rental: 1562.9142857142858
+complete_rentals: 228
 hubs:
   null:
     id: null
@@ -80,7 +80,7 @@ hubs:
     id: 2049
     name: 08 Rondo Grzegórzeckie
     rentals: 11
-    returns: 9
+    returns: 10
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -100,7 +100,7 @@ hubs:
     id: 2226
     name: 19 Cichy Kącik
     rentals: 7
-    returns: 6
+    returns: 7
   2227:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
@@ -129,7 +129,7 @@ hubs:
   2232:
     id: 2232
     name: 25 Mackiewicza
-    rentals: 4
+    rentals: 8
     returns: 11
   2233:
     id: 2233
@@ -158,13 +158,13 @@ hubs:
     returns: 1
 long_rentals: 14
 longest_rental: 17400
-short_rentals: 137
+short_rentals: 138
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 20:40:01'
-total_rentals: 232
-total_returns: 229
-total_time: 74401
+t1: '2017-03-08 20:50:00'
+total_rentals: 236
+total_returns: 231
+total_time: 75000
 trips:
 - count: 7
   from: 2020
@@ -212,9 +212,6 @@ trips:
   from: 2223
   to: 2223
 - count: 2
-  from: 2231
-  to: 2231
-- count: 2
   from: 2021
   to: 2225
 - count: 2
@@ -239,6 +236,9 @@ trips:
   from: null
   to: 2028
 - count: 2
+  from: 2231
+  to: 2231
+- count: 2
   from: 2226
   to: 2020
 - count: 2
@@ -250,6 +250,9 @@ trips:
 - count: 2
   from: 2028
   to: 2020
+- count: 2
+  from: 2029
+  to: 2049
 - count: 2
   from: 2039
   to: 2036
@@ -395,6 +398,9 @@ trips:
   from: 2233
   to: 2233
 - count: 1
+  from: 2029
+  to: null
+- count: 1
   from: 2032
   to: 2032
 - count: 1
@@ -527,6 +533,9 @@ trips:
   from: 2236
   to: 2049
 - count: 1
+  from: 2226
+  to: 2226
+- count: 1
   from: 2232
   to: 2229
 - count: 1
@@ -570,9 +579,6 @@ trips:
   to: 2231
 - count: 1
   from: 2224
-  to: null
-- count: 1
-  from: 2029
   to: null
 - count: 1
   from: 2233
@@ -622,9 +628,6 @@ trips:
 - count: 1
   from: 2226
   to: 2036
-- count: 1
-  from: 2029
-  to: 2049
 - count: 1
   from: 2031
   to: 2029
