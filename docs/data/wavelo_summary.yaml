@@ -94,7 +94,7 @@ hubs:
   2225:
     id: 2225
     name: 18 Salwator
-    rentals: 1
+    rentals: 2
     returns: 0
   2226:
     id: 2226
@@ -104,7 +104,7 @@ hubs:
   2227:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
-    rentals: 1
+    rentals: 2
     returns: 0
   2228:
     id: 2228
@@ -161,10 +161,10 @@ longest_rental: 3601
 short_rentals: 26
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 09:20:00'
-total_rentals: 35
+t1: '2017-03-08 09:30:00'
+total_rentals: 37
 total_returns: 33
-total_time: 33600
+total_time: 34200
 trips:
 - count: 2
   from: 2049
