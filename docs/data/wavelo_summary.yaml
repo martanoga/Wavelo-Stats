@@ -4,7 +4,7 @@ hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 2
+    rentals: 3
     returns: 4
   2020:
     id: 2020
@@ -84,7 +84,7 @@ hubs:
   2223:
     id: 2223
     name: 16 Szwedzka
-    rentals: 4
+    rentals: 5
     returns: 0
   2224:
     id: 2224
@@ -161,10 +161,10 @@ longest_rental: 4801
 short_rentals: 39
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 11:30:01'
-total_rentals: 52
+t1: '2017-03-08 11:40:00'
+total_rentals: 54
 total_returns: 51
-total_time: 41401
+total_time: 42000
 trips:
 - count: 3
   from: 2049
