@@ -1,5 +1,5 @@
-average_rental: 856.7142857142857
-complete_rentals: 7
+average_rental: 899.625
+complete_rentals: 8
 hubs:
   null:
     id: null
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 0
-    returns: 1
+    returns: 2
   2030:
     id: 2030
     name: 05 Politechnika
@@ -79,7 +79,7 @@ hubs:
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
-    rentals: 1
+    rentals: 2
     returns: 0
   2223:
     id: 2223
@@ -134,7 +134,7 @@ hubs:
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
-    rentals: 0
+    rentals: 1
     returns: 0
   2234:
     id: 2234
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1200
-short_rentals: 7
+short_rentals: 8
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 07:30:01'
-total_rentals: 9
-total_returns: 7
-total_time: 27001
+t1: '2017-03-08 07:40:01'
+total_rentals: 11
+total_returns: 8
+total_time: 27601
 trips:
 - count: 1
   from: 2031
@@ -184,6 +184,9 @@ trips:
 - count: 1
   from: 2030
   to: 2229
+- count: 1
+  from: 2232
+  to: 2029
 - count: 1
   from: 2223
   to: 2030
