@@ -1,5 +1,5 @@
-average_rental: 1010.3684210526316
-complete_rentals: 42
+average_rental: 1004.825
+complete_rentals: 44
 hubs:
   null:
     id: null
@@ -15,7 +15,7 @@ hubs:
     id: 2021
     name: 01 Plac Wszystkich Świętych
     rentals: 0
-    returns: 3
+    returns: 4
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -80,7 +80,7 @@ hubs:
     id: 2049
     name: 08 Rondo Grzegórzeckie
     rentals: 4
-    returns: 2
+    returns: 3
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 1
 longest_rental: 3601
-short_rentals: 33
+short_rentals: 35
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 10:20:01'
+t1: '2017-03-08 10:30:00'
 total_rentals: 45
-total_returns: 42
-total_time: 37201
+total_returns: 44
+total_time: 37800
 trips:
 - count: 3
   from: 2049
@@ -233,6 +233,9 @@ trips:
   from: 2236
   to: 2032
 - count: 1
+  from: 2229
+  to: 2049
+- count: 1
   from: 2231
   to: 2228
 - count: 1
@@ -252,6 +255,9 @@ trips:
   to: 2020
 - count: 1
   from: 2038
+  to: 2021
+- count: 1
+  from: null
   to: 2021
 - count: 1
   from: 2020
