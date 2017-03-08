@@ -1,5 +1,5 @@
-average_rental: 1085.5714285714287
-complete_rentals: 47
+average_rental: 1074.2790697674418
+complete_rentals: 48
 hubs:
   null:
     id: null
@@ -79,7 +79,7 @@ hubs:
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
-    rentals: 4
+    rentals: 5
     returns: 3
   2223:
     id: 2223
@@ -95,7 +95,7 @@ hubs:
     id: 2225
     name: 18 Salwator
     rentals: 3
-    returns: 0
+    returns: 1
   2226:
     id: 2226
     name: 19 Cichy Kącik
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 2
 longest_rental: 4801
-short_rentals: 36
+short_rentals: 37
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 11:00:00'
-total_rentals: 48
-total_returns: 47
-total_time: 39600
+t1: '2017-03-08 11:10:00'
+total_rentals: 49
+total_returns: 48
+total_time: 40200
 trips:
 - count: 3
   from: 2049
@@ -271,6 +271,9 @@ trips:
 - count: 1
   from: 2020
   to: 2035
+- count: 1
+  from: 2039
+  to: 2225
 - count: 1
   from: 2020
   to: 2020
