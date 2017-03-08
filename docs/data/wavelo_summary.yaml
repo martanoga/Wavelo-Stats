@@ -1,5 +1,5 @@
-average_rental: 1097.4146341463415
-complete_rentals: 46
+average_rental: 1085.5714285714287
+complete_rentals: 47
 hubs:
   null:
     id: null
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 4
-    returns: 3
+    returns: 4
   2030:
     id: 2030
     name: 05 Politechnika
@@ -69,7 +69,7 @@ hubs:
   2039:
     id: 2039
     name: 13 Poczta Główna
-    rentals: 0
+    rentals: 1
     returns: 2
   2040:
     id: 2040
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 2
 longest_rental: 4801
-short_rentals: 35
+short_rentals: 36
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 10:50:00'
-total_rentals: 47
-total_returns: 46
-total_time: 39000
+t1: '2017-03-08 11:00:00'
+total_rentals: 48
+total_returns: 47
+total_time: 39600
 trips:
 - count: 3
   from: 2049
@@ -238,6 +238,9 @@ trips:
 - count: 1
   from: 2229
   to: 2049
+- count: 1
+  from: null
+  to: 2029
 - count: 1
   from: 2231
   to: 2228
