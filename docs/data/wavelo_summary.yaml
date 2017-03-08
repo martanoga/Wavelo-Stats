@@ -4,7 +4,7 @@ hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 0
+    rentals: 1
     returns: 2
   2020:
     id: 2020
@@ -161,10 +161,10 @@ longest_rental: 3601
 short_rentals: 33
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 10:10:00'
-total_rentals: 44
+t1: '2017-03-08 10:20:01'
+total_rentals: 45
 total_returns: 42
-total_time: 36600
+total_time: 37201
 trips:
 - count: 3
   from: 2049
