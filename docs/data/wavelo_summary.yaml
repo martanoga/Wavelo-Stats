@@ -24,7 +24,7 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 19
+    rentals: 20
     returns: 18
   2030:
     id: 2030
@@ -161,10 +161,10 @@ longest_rental: 17400
 short_rentals: 146
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 23:00:00'
-total_rentals: 250
+t1: '2017-03-08 23:10:01'
+total_rentals: 251
 total_returns: 252
-total_time: 82800
+total_time: 83401
 trips:
 - count: 7
   from: 2020
