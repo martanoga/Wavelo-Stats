@@ -1,5 +1,5 @@
-average_rental: 799.0
-complete_rentals: 3
+average_rental: 749.25
+complete_rentals: 4
 hubs:
   null:
     id: null
@@ -115,7 +115,7 @@ hubs:
     id: 2229
     name: 22 Nowy Kleparz
     rentals: 0
-    returns: 0
+    returns: 1
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -149,7 +149,7 @@ hubs:
   2236:
     id: 2236
     name: 29 DH Wanda
-    rentals: 0
+    rentals: 1
     returns: 0
   2237:
     id: 2237
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1199
-short_rentals: 3
+short_rentals: 4
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 06:30:00'
-total_rentals: 4
-total_returns: 3
-total_time: 23400
+t1: '2017-03-08 06:40:00'
+total_rentals: 5
+total_returns: 4
+total_time: 24000
 trips:
 - count: 1
   from: 2231
@@ -175,6 +175,9 @@ trips:
 - count: 1
   from: 2049
   to: 2035
+- count: 1
+  from: 2030
+  to: 2229
 vain_rentals: 0
 xlong_rentals: 0
 
