@@ -1,5 +1,5 @@
-average_rental: 985.6428571428571
-complete_rentals: 14
+average_rental: 952.7647058823529
+complete_rentals: 18
 hubs:
   null:
     id: null
@@ -15,12 +15,12 @@ hubs:
     id: 2021
     name: 01 Plac Wszystkich Świętych
     rentals: 0
-    returns: 0
+    returns: 1
   2028:
     id: 2028
     name: 03 Cracovia Błonia
     rentals: 0
-    returns: 1
+    returns: 2
   2029:
     id: 2029
     name: 04 Plac Inwalidów
@@ -44,13 +44,13 @@ hubs:
   2034:
     id: 2034
     name: 09 Miodowa
-    rentals: 0
+    rentals: 1
     returns: 0
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
     rentals: 0
-    returns: 1
+    returns: 2
   2036:
     id: 2036
     name: 11 Korona
@@ -120,7 +120,7 @@ hubs:
     id: 2230
     name: 23 Bratysławska
     rentals: 1
-    returns: 0
+    returns: 1
   2231:
     id: 2231
     name: 24 Krowodrza Górka
@@ -158,17 +158,26 @@ hubs:
     returns: 0
 long_rentals: 1
 longest_rental: 3601
-short_rentals: 13
+short_rentals: 16
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 08:00:01'
-total_rentals: 20
-total_returns: 14
-total_time: 28801
+t1: '2017-03-08 08:10:00'
+total_rentals: 21
+total_returns: 18
+total_time: 29400
 trips:
 - count: 2
   from: 2049
   to: 2020
+- count: 1
+  from: 2223
+  to: 2028
+- count: 1
+  from: 2228
+  to: 2230
+- count: 1
+  from: 2034
+  to: 2035
 - count: 1
   from: 2031
   to: 2029
@@ -194,6 +203,9 @@ trips:
   from: 2224
   to: 2037
 - count: 1
+  from: 2229
+  to: 2021
+- count: 1
   from: 2030
   to: 2229
 - count: 1
@@ -205,6 +217,6 @@ trips:
 - count: 1
   from: 2227
   to: 2229
-vain_rentals: 0
+vain_rentals: 1
 xlong_rentals: 0
 
