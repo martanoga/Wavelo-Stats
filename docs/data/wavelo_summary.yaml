@@ -1,5 +1,5 @@
-average_rental: 1534.7185929648242
-complete_rentals: 217
+average_rental: 1546.313432835821
+complete_rentals: 219
 hubs:
   null:
     id: null
@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 21
+    rentals: 22
     returns: 23
   2021:
     id: 2021
@@ -24,8 +24,8 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 17
-    returns: 16
+    rentals: 18
+    returns: 17
   2030:
     id: 2030
     name: 05 Politechnika
@@ -40,7 +40,7 @@ hubs:
     id: 2032
     name: 07 Rondo Mogilskie
     rentals: 10
-    returns: 4
+    returns: 5
   2034:
     id: 2034
     name: 09 Miodowa
@@ -156,15 +156,15 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 1
-long_rentals: 13
+long_rentals: 14
 longest_rental: 17400
-short_rentals: 135
+short_rentals: 136
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 20:20:01'
-total_rentals: 230
-total_returns: 220
-total_time: 73201
+t1: '2017-03-08 20:30:00'
+total_rentals: 232
+total_returns: 222
+total_time: 73800
 trips:
 - count: 7
   from: 2020
@@ -197,6 +197,9 @@ trips:
   from: 2021
   to: 2038
 - count: 2
+  from: 2029
+  to: 2029
+- count: 2
   from: 2040
   to: null
 - count: 2
@@ -205,6 +208,9 @@ trips:
 - count: 2
   from: 2223
   to: 2223
+- count: 2
+  from: 2231
+  to: 2231
 - count: 2
   from: 2021
   to: 2225
@@ -229,9 +235,6 @@ trips:
 - count: 2
   from: null
   to: 2028
-- count: 2
-  from: 2231
-  to: 2231
 - count: 2
   from: 2226
   to: 2020
@@ -264,9 +267,6 @@ trips:
   to: 2020
 - count: 1
   from: 2034
-  to: 2029
-- count: 1
-  from: 2029
   to: 2029
 - count: 1
   from: 2032
@@ -344,11 +344,11 @@ trips:
   from: 2231
   to: 2232
 - count: 1
-  from: null
-  to: null
-- count: 1
   from: 2021
   to: 2021
+- count: 1
+  from: null
+  to: null
 - count: 1
   from: 2030
   to: 2021
@@ -389,8 +389,8 @@ trips:
   from: 2233
   to: 2233
 - count: 1
-  from: 2029
-  to: null
+  from: 2032
+  to: 2032
 - count: 1
   from: 2020
   to: 2049
@@ -561,6 +561,9 @@ trips:
   to: 2231
 - count: 1
   from: 2224
+  to: null
+- count: 1
+  from: 2029
   to: null
 - count: 1
   from: 2233
