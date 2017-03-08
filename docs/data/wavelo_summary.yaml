@@ -1,5 +1,5 @@
-average_rental: 749.25
-complete_rentals: 4
+average_rental: 839.4
+complete_rentals: 5
 hubs:
   null:
     id: null
@@ -40,7 +40,7 @@ hubs:
     id: 2032
     name: 07 Rondo Mogilskie
     rentals: 0
-    returns: 0
+    returns: 1
   2034:
     id: 2034
     name: 09 Miodowa
@@ -104,7 +104,7 @@ hubs:
   2227:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
-    rentals: 0
+    rentals: 1
     returns: 0
   2228:
     id: 2228
@@ -157,14 +157,14 @@ hubs:
     rentals: 0
     returns: 0
 long_rentals: 0
-longest_rental: 1199
-short_rentals: 4
+longest_rental: 1200
+short_rentals: 5
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 06:50:00'
-total_rentals: 5
-total_returns: 4
-total_time: 24600
+t1: '2017-03-08 07:00:00'
+total_rentals: 6
+total_returns: 5
+total_time: 25200
 trips:
 - count: 1
   from: 2231
@@ -178,6 +178,9 @@ trips:
 - count: 1
   from: 2030
   to: 2229
+- count: 1
+  from: 2236
+  to: 2032
 vain_rentals: 0
 xlong_rentals: 0
 
