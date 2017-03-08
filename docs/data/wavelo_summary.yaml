@@ -1,5 +1,5 @@
-average_rental: 1546.313432835821
-complete_rentals: 219
+average_rental: 1560.6346153846155
+complete_rentals: 226
 hubs:
   null:
     id: null
@@ -105,12 +105,12 @@ hubs:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
     rentals: 4
-    returns: 2
+    returns: 8
   2228:
     id: 2228
     name: Łobzów PKP
     rentals: 3
-    returns: 4
+    returns: 5
   2229:
     id: 2229
     name: 22 Nowy Kleparz
@@ -158,13 +158,13 @@ hubs:
     returns: 1
 long_rentals: 14
 longest_rental: 17400
-short_rentals: 136
+short_rentals: 137
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 20:30:00'
+t1: '2017-03-08 20:40:01'
 total_rentals: 232
-total_returns: 222
-total_time: 73800
+total_returns: 229
+total_time: 74401
 trips:
 - count: 7
   from: 2020
@@ -178,6 +178,9 @@ trips:
 - count: 4
   from: 2020
   to: 2020
+- count: 4
+  from: 2034
+  to: 2227
 - count: 4
   from: 2049
   to: 2020
@@ -238,6 +241,9 @@ trips:
 - count: 2
   from: 2226
   to: 2020
+- count: 2
+  from: 2021
+  to: 2227
 - count: 2
   from: 2028
   to: 2223
@@ -344,11 +350,11 @@ trips:
   from: 2231
   to: 2232
 - count: 1
-  from: 2021
-  to: 2021
-- count: 1
   from: null
   to: null
+- count: 1
+  from: 2021
+  to: 2021
 - count: 1
   from: 2030
   to: 2021
@@ -454,6 +460,9 @@ trips:
 - count: 1
   from: 2223
   to: 2030
+- count: 1
+  from: 2020
+  to: 2228
 - count: 1
   from: 2227
   to: 2232
