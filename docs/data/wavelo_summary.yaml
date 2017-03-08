@@ -1,5 +1,5 @@
-average_rental: 1053.2
-complete_rentals: 50
+average_rental: 1033.9148936170213
+complete_rentals: 52
 hubs:
   null:
     id: null
@@ -15,7 +15,7 @@ hubs:
     id: 2021
     name: 01 Plac Wszystkich Świętych
     rentals: 0
-    returns: 4
+    returns: 5
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -75,7 +75,7 @@ hubs:
     id: 2040
     name: 15 Centrum Kongresowe ICE
     rentals: 2
-    returns: 0
+    returns: 1
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 2
 longest_rental: 4801
-short_rentals: 39
+short_rentals: 41
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 11:40:00'
+t1: '2017-03-08 11:50:00'
 total_rentals: 54
-total_returns: 51
-total_time: 42000
+total_returns: 53
+total_time: 42600
 trips:
 - count: 3
   from: 2049
@@ -188,6 +188,9 @@ trips:
   from: 2233
   to: 2233
 - count: 1
+  from: null
+  to: 2040
+- count: 1
   from: 2020
   to: 2032
 - count: 1
@@ -196,6 +199,9 @@ trips:
 - count: 1
   from: 2227
   to: 2030
+- count: 1
+  from: 2223
+  to: 2021
 - count: 1
   from: 2037
   to: 2226
