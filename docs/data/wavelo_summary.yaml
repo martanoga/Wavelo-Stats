@@ -1,11 +1,11 @@
-average_rental: 1493.627659574468
-complete_rentals: 204
+average_rental: 1480.0410256410257
+complete_rentals: 213
 hubs:
   null:
     id: null
     name: out_of_station
     rentals: 10
-    returns: 11
+    returns: 12
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -14,7 +14,7 @@ hubs:
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
-    rentals: 6
+    rentals: 9
     returns: 12
   2028:
     id: 2028
@@ -44,13 +44,13 @@ hubs:
   2034:
     id: 2034
     name: 09 Miodowa
-    rentals: 9
+    rentals: 13
     returns: 8
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
     rentals: 7
-    returns: 9
+    returns: 12
   2036:
     id: 2036
     name: 11 Korona
@@ -65,7 +65,7 @@ hubs:
     id: 2038
     name: 14 Wawel
     rentals: 3
-    returns: 2
+    returns: 5
   2039:
     id: 2039
     name: 13 Poczta Główna
@@ -75,7 +75,7 @@ hubs:
     id: 2040
     name: 15 Centrum Kongresowe ICE
     rentals: 2
-    returns: 3
+    returns: 4
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
@@ -125,7 +125,7 @@ hubs:
     id: 2231
     name: 24 Krowodrza Górka
     rentals: 5
-    returns: 2
+    returns: 3
   2232:
     id: 2232
     name: 25 Mackiewicza
@@ -156,15 +156,15 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 1
-long_rentals: 11
+long_rentals: 12
 longest_rental: 17400
-short_rentals: 126
+short_rentals: 132
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 19:50:00'
-total_rentals: 216
-total_returns: 207
-total_time: 71400
+t1: '2017-03-08 20:00:01'
+total_rentals: 223
+total_returns: 216
+total_time: 72001
 trips:
 - count: 7
   from: 2020
@@ -172,6 +172,9 @@ trips:
 - count: 5
   from: 2039
   to: 2224
+- count: 4
+  from: 2036
+  to: 2035
 - count: 4
   from: 2020
   to: 2020
@@ -199,6 +202,9 @@ trips:
 - count: 2
   from: 2223
   to: 2223
+- count: 2
+  from: 2231
+  to: 2231
 - count: 2
   from: 2236
   to: 2234
@@ -244,6 +250,9 @@ trips:
 - count: 2
   from: 2227
   to: 2030
+- count: 2
+  from: 2021
+  to: 2038
 - count: 2
   from: 2029
   to: 2228
@@ -320,9 +329,6 @@ trips:
   from: 2021
   to: 2229
 - count: 1
-  from: 2036
-  to: 2035
-- count: 1
   from: 2029
   to: 2035
 - count: 1
@@ -376,9 +382,6 @@ trips:
 - count: 1
   from: 2233
   to: 2233
-- count: 1
-  from: 2231
-  to: 2231
 - count: 1
   from: 2020
   to: 2049
@@ -476,6 +479,9 @@ trips:
   from: 2229
   to: 2232
 - count: 1
+  from: 2020
+  to: 2038
+- count: 1
   from: 2228
   to: 2029
 - count: 1
@@ -529,6 +535,9 @@ trips:
 - count: 1
   from: 2037
   to: 2224
+- count: 1
+  from: 2036
+  to: null
 - count: 1
   from: 2234
   to: 2224
@@ -586,6 +595,9 @@ trips:
 - count: 1
   from: 2230
   to: 2228
+- count: 1
+  from: 2029
+  to: 2040
 - count: 1
   from: 2030
   to: 2232
@@ -646,6 +658,6 @@ trips:
 - count: 1
   from: 2020
   to: 2040
-vain_rentals: 16
+vain_rentals: 18
 xlong_rentals: 3
 
