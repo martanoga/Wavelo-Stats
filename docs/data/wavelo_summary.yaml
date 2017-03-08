@@ -1,10 +1,10 @@
-average_rental: 1225.0
-complete_rentals: 77
+average_rental: 1216.4383561643835
+complete_rentals: 78
 hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 4
+    rentals: 5
     returns: 9
   2020:
     id: 2020
@@ -35,7 +35,7 @@ hubs:
     id: 2031
     name: 06 Dworzec Główny Wschód
     rentals: 3
-    returns: 1
+    returns: 2
   2032:
     id: 2032
     name: 07 Rondo Mogilskie
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 4
 longest_rental: 5401
-short_rentals: 53
+short_rentals: 54
 shortest_rental: 599
 t0: '2017-03-08 00:00:00'
-t1: '2017-03-08 13:30:01'
-total_rentals: 79
-total_returns: 79
-total_time: 48601
+t1: '2017-03-08 13:40:01'
+total_rentals: 80
+total_returns: 80
+total_time: 49201
 trips:
 - count: 5
   from: 2039
@@ -188,8 +188,8 @@ trips:
   from: 2031
   to: 2034
 - count: 1
-  from: 2037
-  to: 2224
+  from: 2029
+  to: 2029
 - count: 1
   from: 2029
   to: 2049
@@ -214,6 +214,9 @@ trips:
 - count: 1
   from: 2227
   to: 2030
+- count: 1
+  from: 2029
+  to: null
 - count: 1
   from: 2230
   to: 2039
@@ -248,11 +251,20 @@ trips:
   from: 2032
   to: 2036
 - count: 1
+  from: null
+  to: null
+- count: 1
   from: 2234
   to: 2034
 - count: 1
   from: 2232
   to: 2229
+- count: 1
+  from: 2032
+  to: 2031
+- count: 1
+  from: 2049
+  to: null
 - count: 1
   from: 2227
   to: 2229
@@ -296,11 +308,8 @@ trips:
   from: 2034
   to: 2035
 - count: 1
-  from: 2029
-  to: 2029
-- count: 1
-  from: 2049
-  to: null
+  from: 2037
+  to: 2224
 - count: 1
   from: 2029
   to: 2035
@@ -354,13 +363,7 @@ trips:
   to: 2030
 - count: 1
   from: 2029
-  to: null
-- count: 1
-  from: 2029
   to: 2225
-- count: 1
-  from: null
-  to: null
 - count: 1
   from: 2229
   to: 2035
