@@ -1,5 +1,5 @@
-average_rental: 1069.2307692307693
-complete_rentals: 84
+average_rental: 1080.0
+complete_rentals: 86
 hubs:
   null:
     id: null
@@ -30,7 +30,7 @@ hubs:
     id: 2030
     name: 05 Politechnika
     rentals: 5
-    returns: 3
+    returns: 4
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
@@ -45,11 +45,11 @@ hubs:
     id: 2034
     name: 09 Miodowa
     rentals: 1
-    returns: 0
+    returns: 1
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
-    rentals: 5
+    rentals: 7
     returns: 6
   2036:
     id: 2036
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 4
 longest_rental: 5401
-short_rentals: 66
+short_rentals: 67
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 17:50:00'
-total_rentals: 89
-total_returns: 85
-total_time: 64200
+t1: '2017-03-09 18:00:00'
+total_rentals: 91
+total_returns: 87
+total_time: 64800
 trips:
 - count: 3
   from: 2230
@@ -194,6 +194,9 @@ trips:
   from: 2032
   to: 2039
 - count: 1
+  from: null
+  to: 2035
+- count: 1
   from: 2234
   to: 2039
 - count: 1
@@ -208,9 +211,6 @@ trips:
 - count: 1
   from: 2028
   to: 2226
-- count: 1
-  from: null
-  to: 2035
 - count: 1
   from: 2232
   to: 2232
@@ -229,6 +229,9 @@ trips:
 - count: 1
   from: 2037
   to: 2226
+- count: 1
+  from: 2049
+  to: 2034
 - count: 1
   from: 2223
   to: 2028
@@ -310,6 +313,9 @@ trips:
 - count: 1
   from: 2020
   to: 2229
+- count: 1
+  from: 2039
+  to: 2030
 - count: 1
   from: 2037
   to: 2223
