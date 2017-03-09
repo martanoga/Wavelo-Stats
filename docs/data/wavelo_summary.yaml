@@ -1,5 +1,5 @@
-average_rental: 1013.7241379310345
-complete_rentals: 32
+average_rental: 1019.9666666666667
+complete_rentals: 33
 hubs:
   null:
     id: null
@@ -55,7 +55,7 @@ hubs:
     id: 2036
     name: 11 Korona
     rentals: 1
-    returns: 0
+    returns: 1
   2037:
     id: 2037
     name: 12 Plac Wolnica
@@ -161,10 +161,10 @@ longest_rental: 4801
 short_rentals: 26
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 09:20:00'
+t1: '2017-03-09 09:30:01'
 total_rentals: 35
-total_returns: 32
-total_time: 33600
+total_returns: 33
+total_time: 34201
 trips:
 - count: 3
   from: 2038
@@ -205,6 +205,9 @@ trips:
 - count: 1
   from: 2049
   to: 2035
+- count: 1
+  from: 2032
+  to: 2036
 - count: 1
   from: 2231
   to: 2233
