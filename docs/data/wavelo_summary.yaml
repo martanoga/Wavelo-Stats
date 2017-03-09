@@ -1,5 +1,5 @@
-average_rental: 1082.9268292682927
-complete_rentals: 88
+average_rental: 1084.3373493975903
+complete_rentals: 89
 hubs:
   null:
     id: null
@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 5
+    rentals: 7
     returns: 6
   2021:
     id: 2021
@@ -29,8 +29,8 @@ hubs:
   2030:
     id: 2030
     name: 05 Politechnika
-    rentals: 5
-    returns: 4
+    rentals: 6
+    returns: 5
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
@@ -49,7 +49,7 @@ hubs:
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
-    rentals: 7
+    rentals: 10
     returns: 6
   2036:
     id: 2036
@@ -74,7 +74,7 @@ hubs:
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
-    rentals: 2
+    rentals: 3
     returns: 1
   2049:
     id: 2049
@@ -109,7 +109,7 @@ hubs:
   2228:
     id: 2228
     name: Łobzów PKP
-    rentals: 2
+    rentals: 3
     returns: 4
   2229:
     id: 2229
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 4
 longest_rental: 5401
-short_rentals: 68
+short_rentals: 69
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 18:10:00'
-total_rentals: 91
-total_returns: 89
-total_time: 65400
+t1: '2017-03-09 18:20:00'
+total_rentals: 99
+total_returns: 90
+total_time: 66000
 trips:
 - count: 3
   from: 2230
@@ -194,8 +194,8 @@ trips:
   from: 2032
   to: 2039
 - count: 1
-  from: 2028
-  to: 2223
+  from: 2049
+  to: 2034
 - count: 1
   from: 2234
   to: 2039
@@ -233,17 +233,14 @@ trips:
   from: 2037
   to: 2226
 - count: 1
-  from: 2049
-  to: 2034
-- count: 1
   from: 2223
   to: 2028
 - count: 1
   from: 2037
   to: 2035
 - count: 1
-  from: null
-  to: 2035
+  from: 2028
+  to: 2223
 - count: 1
   from: 2223
   to: null
@@ -371,14 +368,17 @@ trips:
   from: 2020
   to: 2035
 - count: 1
-  from: 2035
-  to: 2032
+  from: null
+  to: 2035
 - count: 1
   from: 2029
   to: 2021
 - count: 1
   from: 2233
   to: 2234
+- count: 1
+  from: 2035
+  to: 2032
 - count: 1
   from: 2028
   to: 2020
@@ -400,6 +400,9 @@ trips:
 - count: 1
   from: 2030
   to: 2039
+- count: 1
+  from: 2035
+  to: 2030
 vain_rentals: 6
 xlong_rentals: 1
 
