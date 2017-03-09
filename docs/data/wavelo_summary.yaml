@@ -1,5 +1,5 @@
-average_rental: 1080.0
-complete_rentals: 86
+average_rental: 1082.9268292682927
+complete_rentals: 88
 hubs:
   null:
     id: null
@@ -45,7 +45,7 @@ hubs:
     id: 2034
     name: 09 Miodowa
     rentals: 1
-    returns: 1
+    returns: 2
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
@@ -90,7 +90,7 @@ hubs:
     id: 2224
     name: 17 Jubilat
     rentals: 3
-    returns: 0
+    returns: 1
   2225:
     id: 2225
     name: 18 Salwator
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 4
 longest_rental: 5401
-short_rentals: 67
+short_rentals: 68
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 18:00:00'
+t1: '2017-03-09 18:10:00'
 total_rentals: 91
-total_returns: 87
-total_time: 64800
+total_returns: 89
+total_time: 65400
 trips:
 - count: 3
   from: 2230
@@ -194,8 +194,8 @@ trips:
   from: 2032
   to: 2039
 - count: 1
-  from: null
-  to: 2035
+  from: 2028
+  to: 2223
 - count: 1
   from: 2234
   to: 2039
@@ -221,6 +221,9 @@ trips:
   from: 2227
   to: 2230
 - count: 1
+  from: 2234
+  to: 2224
+- count: 1
   from: 2040
   to: 2049
 - count: 1
@@ -239,8 +242,8 @@ trips:
   from: 2037
   to: 2035
 - count: 1
-  from: 2028
-  to: 2223
+  from: null
+  to: 2035
 - count: 1
   from: 2223
   to: null
@@ -253,6 +256,9 @@ trips:
 - count: 1
   from: 2020
   to: 2049
+- count: 1
+  from: 2035
+  to: 2034
 - count: 1
   from: null
   to: 2226
