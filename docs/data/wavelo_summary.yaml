@@ -1,5 +1,5 @@
-average_rental: 1025.8064516129032
-complete_rentals: 34
+average_rental: 1012.46875
+complete_rentals: 35
 hubs:
   null:
     id: null
@@ -50,7 +50,7 @@ hubs:
     id: 2035
     name: 10 Plac Bohaterów Getta
     rentals: 0
-    returns: 2
+    returns: 3
   2036:
     id: 2036
     name: 11 Korona
@@ -59,7 +59,7 @@ hubs:
   2037:
     id: 2037
     name: 12 Plac Wolnica
-    rentals: 1
+    rentals: 2
     returns: 1
   2038:
     id: 2038
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 1
 longest_rental: 4801
-short_rentals: 26
+short_rentals: 27
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 09:50:01'
-total_rentals: 36
-total_returns: 34
-total_time: 35401
+t1: '2017-03-09 10:00:00'
+total_rentals: 37
+total_returns: 35
+total_time: 36000
 trips:
 - count: 3
   from: 2038
@@ -223,6 +223,9 @@ trips:
 - count: 1
   from: 2236
   to: 2032
+- count: 1
+  from: 2021
+  to: 2035
 - count: 1
   from: 2231
   to: 2228
