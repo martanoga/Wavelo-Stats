@@ -1,5 +1,5 @@
-average_rental: 1045.5
-complete_rentals: 72
+average_rental: 1086.9855072463768
+complete_rentals: 75
 hubs:
   null:
     id: null
@@ -10,7 +10,7 @@ hubs:
     id: 2020
     name: 02 Teatr Bagatela
     rentals: 5
-    returns: 5
+    returns: 6
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
@@ -85,7 +85,7 @@ hubs:
     id: 2223
     name: 16 Szwedzka
     rentals: 3
-    returns: 3
+    returns: 4
   2224:
     id: 2224
     name: 17 Jubilat
@@ -135,7 +135,7 @@ hubs:
     id: 2233
     name: 26 Uniwersytet Rolniczy
     rentals: 4
-    returns: 3
+    returns: 4
   2234:
     id: 2234
     name: 27 Wieczysta
@@ -156,15 +156,15 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 1
     returns: 0
-long_rentals: 3
+long_rentals: 4
 longest_rental: 5401
-short_rentals: 56
+short_rentals: 58
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 17:00:01'
+t1: '2017-03-09 17:10:00'
 total_rentals: 79
-total_returns: 73
-total_time: 61201
+total_returns: 76
+total_time: 61800
 trips:
 - count: 3
   from: 2230
@@ -190,6 +190,9 @@ trips:
 - count: 1
   from: 2234
   to: 2039
+- count: 1
+  from: null
+  to: 2035
 - count: 1
   from: 2231
   to: 2232
@@ -234,9 +237,6 @@ trips:
   to: 2049
 - count: 1
   from: null
-  to: 2035
-- count: 1
-  from: null
   to: 2226
 - count: 1
   from: 2229
@@ -244,6 +244,9 @@ trips:
 - count: 1
   from: 2028
   to: 2040
+- count: 1
+  from: 2236
+  to: 2223
 - count: 1
   from: 2049
   to: 2035
@@ -253,6 +256,9 @@ trips:
 - count: 1
   from: 2032
   to: 2036
+- count: 1
+  from: 2029
+  to: 2020
 - count: 1
   from: 2231
   to: 2233
@@ -313,6 +319,9 @@ trips:
 - count: 1
   from: 2029
   to: 2229
+- count: 1
+  from: 2234
+  to: 2233
 - count: 1
   from: 2040
   to: 2228
