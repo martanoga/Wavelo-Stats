@@ -1,11 +1,11 @@
-average_rental: 1059.421875
-complete_rentals: 70
+average_rental: 1045.5
+complete_rentals: 72
 hubs:
   null:
     id: null
     name: out_of_station
     rentals: 3
-    returns: 3
+    returns: 4
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -85,7 +85,7 @@ hubs:
     id: 2223
     name: 16 Szwedzka
     rentals: 3
-    returns: 2
+    returns: 3
   2224:
     id: 2224
     name: 17 Jubilat
@@ -139,7 +139,7 @@ hubs:
   2234:
     id: 2234
     name: 27 Wieczysta
-    rentals: 2
+    rentals: 3
     returns: 1
   2235:
     id: 2235
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 3
 longest_rental: 5401
-short_rentals: 54
+short_rentals: 56
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 16:40:00'
-total_rentals: 75
-total_returns: 71
-total_time: 60000
+t1: '2017-03-09 16:50:00'
+total_rentals: 76
+total_returns: 73
+total_time: 60600
 trips:
 - count: 3
   from: 2230
@@ -200,9 +200,6 @@ trips:
   from: 2028
   to: 2226
 - count: 1
-  from: null
-  to: 2035
-- count: 1
   from: 2224
   to: 2037
 - count: 1
@@ -212,6 +209,9 @@ trips:
   from: 2040
   to: 2049
 - count: 1
+  from: null
+  to: 2035
+- count: 1
   from: 2223
   to: 2021
 - count: 1
@@ -220,6 +220,9 @@ trips:
 - count: 1
   from: 2223
   to: 2028
+- count: 1
+  from: 2028
+  to: 2223
 - count: 1
   from: 2223
   to: null
@@ -256,6 +259,9 @@ trips:
 - count: 1
   from: 2229
   to: 2030
+- count: 1
+  from: 2236
+  to: null
 - count: 1
   from: 2237
   to: 2236
