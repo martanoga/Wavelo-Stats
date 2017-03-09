@@ -1,5 +1,5 @@
 average_rental: 1009.0454545454545
-complete_rentals: 24
+complete_rentals: 25
 hubs:
   null:
     id: null
@@ -44,13 +44,13 @@ hubs:
   2034:
     id: 2034
     name: 09 Miodowa
-    rentals: 0
+    rentals: 1
     returns: 0
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
     rentals: 0
-    returns: 0
+    returns: 1
   2036:
     id: 2036
     name: 11 Korona
@@ -79,7 +79,7 @@ hubs:
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
-    rentals: 0
+    rentals: 1
     returns: 0
   2223:
     id: 2223
@@ -129,7 +129,7 @@ hubs:
   2232:
     id: 2232
     name: 25 Mackiewicza
-    rentals: 0
+    rentals: 1
     returns: 0
   2233:
     id: 2233
@@ -139,7 +139,7 @@ hubs:
   2234:
     id: 2234
     name: 27 Wieczysta
-    rentals: 1
+    rentals: 2
     returns: 0
   2235:
     id: 2235
@@ -161,10 +161,10 @@ longest_rental: 4801
 short_rentals: 20
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 08:10:00'
-total_rentals: 26
-total_returns: 24
-total_time: 29400
+t1: '2017-03-09 08:20:01'
+total_rentals: 30
+total_returns: 25
+total_time: 30001
 trips:
 - count: 3
   from: 2038
@@ -200,6 +200,9 @@ trips:
   from: 2223
   to: 2028
 - count: 1
+  from: 2034
+  to: 2035
+- count: 1
   from: 2228
   to: 2230
 - count: 1
@@ -223,6 +226,6 @@ trips:
 - count: 1
   from: 2040
   to: 2228
-vain_rentals: 2
+vain_rentals: 3
 xlong_rentals: 0
 
