@@ -1,5 +1,5 @@
-average_rental: 1000.0
-complete_rentals: 30
+average_rental: 1007.1071428571429
+complete_rentals: 31
 hubs:
   null:
     id: null
@@ -40,7 +40,7 @@ hubs:
     id: 2032
     name: 07 Rondo Mogilskie
     rentals: 0
-    returns: 2
+    returns: 3
   2034:
     id: 2034
     name: 09 Miodowa
@@ -158,17 +158,20 @@ hubs:
     returns: 0
 long_rentals: 1
 longest_rental: 4801
-short_rentals: 24
+short_rentals: 25
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 08:50:01'
+t1: '2017-03-09 09:00:00'
 total_rentals: 33
-total_returns: 30
-total_time: 31801
+total_returns: 31
+total_time: 32400
 trips:
 - count: 3
   from: 2038
   to: 2021
+- count: 2
+  from: 2020
+  to: 2032
 - count: 2
   from: 2230
   to: 2227
@@ -181,9 +184,6 @@ trips:
 - count: 1
   from: 2234
   to: 2039
-- count: 1
-  from: 2020
-  to: 2032
 - count: 1
   from: 2224
   to: 2037
