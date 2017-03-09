@@ -1,10 +1,10 @@
-average_rental: 966.6666666666666
-complete_rentals: 39
+average_rental: 1086.5135135135135
+complete_rentals: 40
 hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 0
+    rentals: 1
     returns: 2
   2020:
     id: 2020
@@ -135,7 +135,7 @@ hubs:
     id: 2233
     name: 26 Uniwersytet Rolniczy
     rentals: 2
-    returns: 1
+    returns: 2
   2234:
     id: 2234
     name: 27 Wieczysta
@@ -156,15 +156,15 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 0
-long_rentals: 1
-longest_rental: 4801
+long_rentals: 2
+longest_rental: 5401
 short_rentals: 31
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 12:10:00'
-total_rentals: 41
-total_returns: 40
-total_time: 43800
+t1: '2017-03-09 12:20:01'
+total_rentals: 42
+total_returns: 41
+total_time: 44401
 trips:
 - count: 3
   from: 2038
@@ -254,6 +254,9 @@ trips:
   from: 2036
   to: 2039
 - count: 1
+  from: 2030
+  to: 2233
+- count: 1
   from: 2029
   to: 2021
 - count: 1
@@ -266,5 +269,5 @@ trips:
   from: 2227
   to: 2229
 vain_rentals: 3
-xlong_rentals: 0
+xlong_rentals: 1
 
