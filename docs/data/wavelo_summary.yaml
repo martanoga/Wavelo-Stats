@@ -1,5 +1,5 @@
-average_rental: 1076.948717948718
-complete_rentals: 42
+average_rental: 1080.025
+complete_rentals: 43
 hubs:
   null:
     id: null
@@ -140,7 +140,7 @@ hubs:
     id: 2234
     name: 27 Wieczysta
     rentals: 2
-    returns: 0
+    returns: 1
   2235:
     id: 2235
     name: 28 Rondo Kocmyrzowskie
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 2
 longest_rental: 5401
-short_rentals: 33
+short_rentals: 34
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 13:20:01'
+t1: '2017-03-09 13:30:00'
 total_rentals: 45
-total_returns: 43
-total_time: 48001
+total_returns: 44
+total_time: 48600
 trips:
 - count: 3
   from: 2038
@@ -262,6 +262,9 @@ trips:
 - count: 1
   from: 2029
   to: 2021
+- count: 1
+  from: 2233
+  to: 2234
 - count: 1
   from: 2028
   to: 2020
