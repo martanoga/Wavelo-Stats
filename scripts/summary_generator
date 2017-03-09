@@ -119,9 +119,10 @@ for t in trips.most_common():
     res['trips'].append({'from': t[0][0], 'to': t[0][1], 'count': t[1]})
 
 res['complete_rentals'] = len(rental_times)
-res['vain_rentals'] = sum(t == 0 for t in rental_times)
+res['spurious_rentals'] = sum(t == 0 for t in rental_times)
 rental_times = [t for t in rental_times if t != 0]
 res['short_rentals'] = sum(t <= 1200 for t in rental_times)
+res['medium_rentals'] = sum(t > 1200 and t <=3600 for t in rental_times)
 res['long_rentals'] = sum(t > 3600 for t in rental_times)
 res['xlong_rentals'] = sum(t > 5400 for t in rental_times)
 res['shortest_rental'] = min(rental_times)
