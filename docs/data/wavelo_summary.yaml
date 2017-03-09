@@ -79,7 +79,7 @@ hubs:
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
-    rentals: 2
+    rentals: 3
     returns: 1
   2223:
     id: 2223
@@ -161,10 +161,10 @@ longest_rental: 5401
 short_rentals: 31
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 12:40:00'
-total_rentals: 43
+t1: '2017-03-09 12:50:00'
+total_rentals: 44
 total_returns: 41
-total_time: 45600
+total_time: 46200
 trips:
 - count: 3
   from: 2038
