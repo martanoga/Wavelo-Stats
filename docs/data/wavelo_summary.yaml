@@ -1,5 +1,5 @@
-average_rental: 1068.3170731707316
-complete_rentals: 44
+average_rental: 1085.7380952380952
+complete_rentals: 45
 hubs:
   null:
     id: null
@@ -20,7 +20,7 @@ hubs:
     id: 2028
     name: 03 Cracovia Błonia
     rentals: 1
-    returns: 2
+    returns: 3
   2029:
     id: 2029
     name: 04 Plac Inwalidów
@@ -161,10 +161,10 @@ longest_rental: 5401
 short_rentals: 35
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 14:00:00'
+t1: '2017-03-09 14:10:00'
 total_rentals: 47
-total_returns: 45
-total_time: 50400
+total_returns: 46
+total_time: 51000
 trips:
 - count: 3
   from: 2230
@@ -187,6 +187,9 @@ trips:
 - count: 1
   from: 2234
   to: 2039
+- count: 1
+  from: 2233
+  to: 2028
 - count: 1
   from: 2224
   to: 2037
