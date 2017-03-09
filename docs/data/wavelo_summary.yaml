@@ -1,10 +1,10 @@
-average_rental: 1085.7380952380952
-complete_rentals: 46
+average_rental: 1077.2954545454545
+complete_rentals: 48
 hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 2
+    rentals: 3
     returns: 3
   2020:
     id: 2020
@@ -14,7 +14,7 @@ hubs:
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
-    rentals: 1
+    rentals: 2
     returns: 5
   2028:
     id: 2028
@@ -24,7 +24,7 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 1
+    rentals: 2
     returns: 2
   2030:
     id: 2030
@@ -50,7 +50,7 @@ hubs:
     id: 2035
     name: 10 Plac Bohaterów Getta
     rentals: 1
-    returns: 3
+    returns: 4
   2036:
     id: 2036
     name: 11 Korona
@@ -70,7 +70,7 @@ hubs:
     id: 2039
     name: 13 Poczta Główna
     rentals: 2
-    returns: 2
+    returns: 3
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 2
 longest_rental: 5401
-short_rentals: 35
+short_rentals: 37
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 14:40:00'
-total_rentals: 52
-total_returns: 47
-total_time: 52800
+t1: '2017-03-09 14:50:00'
+total_rentals: 55
+total_returns: 49
+total_time: 53400
 trips:
 - count: 3
   from: 2230
@@ -184,6 +184,9 @@ trips:
 - count: 2
   from: 2233
   to: 2030
+- count: 1
+  from: null
+  to: 2035
 - count: 1
   from: 2234
   to: 2039
@@ -277,6 +280,9 @@ trips:
 - count: 1
   from: 2031
   to: 2020
+- count: 1
+  from: 2028
+  to: 2039
 - count: 1
   from: 2227
   to: 2229
