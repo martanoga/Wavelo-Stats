@@ -1,5 +1,5 @@
-average_rental: 1077.2954545454545
-complete_rentals: 48
+average_rental: 1050.0208333333333
+complete_rentals: 52
 hubs:
   null:
     id: null
@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 3
+    rentals: 4
     returns: 5
   2021:
     id: 2021
@@ -19,7 +19,7 @@ hubs:
   2028:
     id: 2028
     name: 03 Cracovia Błonia
-    rentals: 3
+    rentals: 4
     returns: 3
   2029:
     id: 2029
@@ -74,8 +74,8 @@ hubs:
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
-    rentals: 1
-    returns: 0
+    rentals: 2
+    returns: 1
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
@@ -95,12 +95,12 @@ hubs:
     id: 2225
     name: 18 Salwator
     rentals: 0
-    returns: 2
+    returns: 3
   2226:
     id: 2226
     name: 19 Cichy Kącik
     rentals: 1
-    returns: 1
+    returns: 2
   2227:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
@@ -115,7 +115,7 @@ hubs:
     id: 2229
     name: 22 Nowy Kleparz
     rentals: 0
-    returns: 1
+    returns: 2
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 2
 longest_rental: 5401
-short_rentals: 37
+short_rentals: 41
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 14:50:00'
-total_rentals: 55
-total_returns: 49
-total_time: 53400
+t1: '2017-03-09 15:00:00'
+total_rentals: 58
+total_returns: 53
+total_time: 54000
 trips:
 - count: 3
   from: 2230
@@ -185,9 +185,6 @@ trips:
   from: 2233
   to: 2030
 - count: 1
-  from: null
-  to: 2035
-- count: 1
   from: 2234
   to: 2039
 - count: 1
@@ -196,6 +193,9 @@ trips:
 - count: 1
   from: 2224
   to: 2037
+- count: 1
+  from: null
+  to: 2035
 - count: 1
   from: 2223
   to: 2021
@@ -211,6 +211,12 @@ trips:
 - count: 1
   from: 2226
   to: 2028
+- count: 1
+  from: null
+  to: 2226
+- count: 1
+  from: 2028
+  to: 2040
 - count: 1
   from: 2049
   to: 2035
@@ -234,6 +240,9 @@ trips:
   to: 2032
 - count: 1
   from: 2021
+  to: 2225
+- count: 1
+  from: 2021
   to: 2035
 - count: 1
   from: 2231
@@ -253,6 +262,9 @@ trips:
 - count: 1
   from: 2035
   to: 2036
+- count: 1
+  from: 2029
+  to: 2229
 - count: 1
   from: 2040
   to: 2228
