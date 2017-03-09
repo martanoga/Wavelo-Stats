@@ -24,12 +24,12 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 2
+    rentals: 3
     returns: 5
   2030:
     id: 2030
     name: 05 Politechnika
-    rentals: 2
+    rentals: 4
     returns: 3
   2031:
     id: 2031
@@ -161,10 +161,10 @@ longest_rental: 5401
 short_rentals: 56
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 16:50:00'
-total_rentals: 76
+t1: '2017-03-09 17:00:01'
+total_rentals: 79
 total_returns: 73
-total_time: 60600
+total_time: 61201
 trips:
 - count: 3
   from: 2230
@@ -209,9 +209,6 @@ trips:
   from: 2040
   to: 2049
 - count: 1
-  from: null
-  to: 2035
-- count: 1
   from: 2223
   to: 2021
 - count: 1
@@ -235,6 +232,9 @@ trips:
 - count: 1
   from: 2020
   to: 2049
+- count: 1
+  from: null
+  to: 2035
 - count: 1
   from: null
   to: 2226
