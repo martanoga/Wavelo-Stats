@@ -119,7 +119,7 @@ hubs:
   2230:
     id: 2230
     name: 23 Bratysławska
-    rentals: 3
+    rentals: 4
     returns: 1
   2231:
     id: 2231
@@ -161,10 +161,10 @@ longest_rental: 5401
 short_rentals: 34
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 13:40:00'
-total_rentals: 46
+t1: '2017-03-09 13:50:00'
+total_rentals: 47
 total_returns: 44
-total_time: 49200
+total_time: 49800
 trips:
 - count: 3
   from: 2038
