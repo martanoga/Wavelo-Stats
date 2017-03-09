@@ -1,5 +1,5 @@
-average_rental: 919.8666666666667
-complete_rentals: 16
+average_rental: 1073.7894736842106
+complete_rentals: 20
 hubs:
   null:
     id: null
@@ -15,7 +15,7 @@ hubs:
     id: 2021
     name: 01 Plac Wszystkich Świętych
     rentals: 0
-    returns: 4
+    returns: 5
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -25,12 +25,12 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 1
-    returns: 1
+    returns: 2
   2030:
     id: 2030
     name: 05 Politechnika
     rentals: 0
-    returns: 1
+    returns: 2
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
@@ -40,7 +40,7 @@ hubs:
     id: 2032
     name: 07 Rondo Mogilskie
     rentals: 0
-    returns: 1
+    returns: 2
   2034:
     id: 2034
     name: 09 Miodowa
@@ -54,7 +54,7 @@ hubs:
   2036:
     id: 2036
     name: 11 Korona
-    rentals: 0
+    rentals: 1
     returns: 0
   2037:
     id: 2037
@@ -84,7 +84,7 @@ hubs:
   2223:
     id: 2223
     name: 16 Szwedzka
-    rentals: 1
+    rentals: 2
     returns: 0
   2224:
     id: 2224
@@ -124,7 +124,7 @@ hubs:
   2231:
     id: 2231
     name: 24 Krowodrza Górka
-    rentals: 1
+    rentals: 2
     returns: 0
   2232:
     id: 2232
@@ -156,15 +156,15 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 0
-long_rentals: 0
-longest_rental: 2400
-short_rentals: 14
+long_rentals: 1
+longest_rental: 4801
+short_rentals: 17
 shortest_rental: 600
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 07:50:00'
-total_rentals: 21
-total_returns: 16
-total_time: 28200
+t1: '2017-03-09 08:00:01'
+total_rentals: 24
+total_returns: 20
+total_time: 28801
 trips:
 - count: 3
   from: 2038
@@ -175,6 +175,9 @@ trips:
 - count: 2
   from: 2230
   to: 2227
+- count: 2
+  from: 2233
+  to: 2030
 - count: 1
   from: 2231
   to: 2228
@@ -185,17 +188,23 @@ trips:
   from: 2226
   to: 2028
 - count: 1
+  from: 2230
+  to: 2029
+- count: 1
   from: 2236
   to: 2032
 - count: 1
   from: 2029
   to: 2021
 - count: 1
+  from: 2020
+  to: 2032
+- count: 1
   from: 2028
   to: 2020
 - count: 1
-  from: 2233
-  to: 2030
+  from: 2223
+  to: 2021
 - count: 1
   from: 2227
   to: 2229
