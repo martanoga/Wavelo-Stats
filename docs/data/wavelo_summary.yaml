@@ -1,5 +1,5 @@
-average_rental: 1044.06
-complete_rentals: 55
+average_rental: 1094.1960784313726
+complete_rentals: 56
 hubs:
   null:
     id: null
@@ -49,8 +49,8 @@ hubs:
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
-    rentals: 1
-    returns: 4
+    rentals: 2
+    returns: 5
   2036:
     id: 2036
     name: 11 Korona
@@ -156,15 +156,15 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 0
-long_rentals: 2
+long_rentals: 3
 longest_rental: 5401
 short_rentals: 42
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 15:30:01'
-total_rentals: 59
-total_returns: 56
-total_time: 55801
+t1: '2017-03-09 15:40:01'
+total_rentals: 60
+total_returns: 57
+total_time: 56401
 trips:
 - count: 3
   from: 2230
@@ -224,9 +224,6 @@ trips:
   from: 2028
   to: 2040
 - count: 1
-  from: null
-  to: 2035
-- count: 1
   from: 2049
   to: 2035
 - count: 1
@@ -238,6 +235,9 @@ trips:
 - count: 1
   from: 2031
   to: 2029
+- count: 1
+  from: null
+  to: 2035
 - count: 1
   from: 2228
   to: 2230
@@ -286,6 +286,9 @@ trips:
 - count: 1
   from: 2039
   to: null
+- count: 1
+  from: 2020
+  to: 2035
 - count: 1
   from: 2030
   to: 2233
