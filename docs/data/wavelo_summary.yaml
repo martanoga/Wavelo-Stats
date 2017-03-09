@@ -5,7 +5,7 @@ hubs:
     id: null
     name: out_of_station
     rentals: 0
-    returns: 1
+    returns: 2
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -161,10 +161,10 @@ longest_rental: 4801
 short_rentals: 31
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 12:00:01'
+t1: '2017-03-09 12:10:00'
 total_rentals: 41
-total_returns: 39
-total_time: 43201
+total_returns: 40
+total_time: 43800
 trips:
 - count: 3
   from: 2038
