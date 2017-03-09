@@ -1,5 +1,5 @@
-average_rental: 1049.5
-complete_rentals: 4
+average_rental: 1079.6
+complete_rentals: 5
 hubs:
   null:
     id: null
@@ -24,7 +24,7 @@ hubs:
   2029:
     id: 2029
     name: 04 Plac Inwalidów
-    rentals: 0
+    rentals: 1
     returns: 0
   2030:
     id: 2030
@@ -40,7 +40,7 @@ hubs:
     id: 2032
     name: 07 Rondo Mogilskie
     rentals: 0
-    returns: 0
+    returns: 1
   2034:
     id: 2034
     name: 09 Miodowa
@@ -64,7 +64,7 @@ hubs:
   2038:
     id: 2038
     name: 14 Wawel
-    rentals: 0
+    rentals: 1
     returns: 0
   2039:
     id: 2039
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1200
-short_rentals: 4
+short_rentals: 5
 shortest_rental: 600
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 06:50:00'
-total_rentals: 8
-total_returns: 4
-total_time: 24600
+t1: '2017-03-09 07:00:00'
+total_rentals: 10
+total_returns: 5
+total_time: 25200
 trips:
 - count: 2
   from: 2230
@@ -172,6 +172,9 @@ trips:
 - count: 1
   from: 2231
   to: 2228
+- count: 1
+  from: 2236
+  to: 2032
 - count: 1
   from: 2040
   to: 2228
