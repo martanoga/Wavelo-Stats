@@ -1,5 +1,5 @@
-average_rental: 1081.578947368421
-complete_rentals: 82
+average_rental: 1069.2307692307693
+complete_rentals: 84
 hubs:
   null:
     id: null
@@ -50,7 +50,7 @@ hubs:
     id: 2035
     name: 10 Plac Bohaterów Getta
     rentals: 5
-    returns: 5
+    returns: 6
   2036:
     id: 2036
     name: 11 Korona
@@ -70,7 +70,7 @@ hubs:
     id: 2039
     name: 13 Poczta Główna
     rentals: 4
-    returns: 4
+    returns: 5
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
@@ -79,7 +79,7 @@ hubs:
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
-    rentals: 3
+    rentals: 4
     returns: 4
   2223:
     id: 2223
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 4
 longest_rental: 5401
-short_rentals: 64
+short_rentals: 66
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 17:40:00'
-total_rentals: 88
-total_returns: 83
-total_time: 63600
+t1: '2017-03-09 17:50:00'
+total_rentals: 89
+total_returns: 85
+total_time: 64200
 trips:
 - count: 3
   from: 2230
@@ -191,6 +191,9 @@ trips:
   from: 2233
   to: 2030
 - count: 1
+  from: 2032
+  to: 2039
+- count: 1
   from: 2234
   to: 2039
 - count: 1
@@ -205,6 +208,9 @@ trips:
 - count: 1
   from: 2028
   to: 2226
+- count: 1
+  from: null
+  to: 2035
 - count: 1
   from: 2232
   to: 2232
@@ -226,6 +232,9 @@ trips:
 - count: 1
   from: 2223
   to: 2028
+- count: 1
+  from: 2037
+  to: 2035
 - count: 1
   from: 2028
   to: 2223
@@ -301,9 +310,6 @@ trips:
 - count: 1
   from: 2020
   to: 2229
-- count: 1
-  from: null
-  to: 2035
 - count: 1
   from: 2037
   to: 2223
