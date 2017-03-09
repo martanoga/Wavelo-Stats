@@ -1,11 +1,11 @@
 average_rental: 1085.7380952380952
-complete_rentals: 45
+complete_rentals: 46
 hubs:
   null:
     id: null
     name: out_of_station
     rentals: 1
-    returns: 2
+    returns: 3
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -69,7 +69,7 @@ hubs:
   2039:
     id: 2039
     name: 13 Poczta Główna
-    rentals: 1
+    rentals: 2
     returns: 2
   2040:
     id: 2040
@@ -161,10 +161,10 @@ longest_rental: 5401
 short_rentals: 35
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 14:10:00'
-total_rentals: 47
-total_returns: 46
-total_time: 51000
+t1: '2017-03-09 14:20:00'
+total_rentals: 48
+total_returns: 47
+total_time: 51600
 trips:
 - count: 3
   from: 2230
@@ -260,6 +260,9 @@ trips:
   from: 2036
   to: 2039
 - count: 1
+  from: 2039
+  to: null
+- count: 1
   from: 2030
   to: 2233
 - count: 1
@@ -277,6 +280,6 @@ trips:
 - count: 1
   from: 2227
   to: 2229
-vain_rentals: 3
+vain_rentals: 4
 xlong_rentals: 1
 
