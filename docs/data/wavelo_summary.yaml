@@ -1,5 +1,5 @@
-average_rental: 1079.6
-complete_rentals: 5
+average_rental: 942.5714285714286
+complete_rentals: 7
 hubs:
   null:
     id: null
@@ -15,7 +15,7 @@ hubs:
     id: 2021
     name: 01 Plac Wszystkich Świętych
     rentals: 0
-    returns: 0
+    returns: 2
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -34,7 +34,7 @@ hubs:
   2031:
     id: 2031
     name: 06 Dworzec Główny Wschód
-    rentals: 0
+    rentals: 1
     returns: 0
   2032:
     id: 2032
@@ -64,7 +64,7 @@ hubs:
   2038:
     id: 2038
     name: 14 Wawel
-    rentals: 1
+    rentals: 3
     returns: 0
   2039:
     id: 2039
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 1200
-short_rentals: 5
+short_rentals: 7
 shortest_rental: 600
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 07:00:00'
-total_rentals: 10
-total_returns: 5
-total_time: 25200
+t1: '2017-03-09 07:10:00'
+total_rentals: 13
+total_returns: 7
+total_time: 25800
 trips:
 - count: 2
   from: 2230
@@ -175,6 +175,12 @@ trips:
 - count: 1
   from: 2236
   to: 2032
+- count: 1
+  from: 2029
+  to: 2021
+- count: 1
+  from: 2038
+  to: 2021
 - count: 1
   from: 2040
   to: 2228
