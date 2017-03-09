@@ -86,6 +86,7 @@ res = {
     't0': datetime.datetime.fromtimestamp(t0).strftime('%Y-%m-%d %H:%M:%S'),
     't1': datetime.datetime.fromtimestamp(t1).strftime('%Y-%m-%d %H:%M:%S'),
     'total_time': t1 - t0,
+    'max_dt': max_dt,
     'total_rentals': 0,
     'total_returns': 0
     }
