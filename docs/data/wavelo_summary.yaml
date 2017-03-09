@@ -1,5 +1,5 @@
-average_rental: 942.5714285714286
-complete_rentals: 7
+average_rental: 1019.8
+complete_rentals: 10
 hubs:
   null:
     id: null
@@ -15,7 +15,7 @@ hubs:
     id: 2021
     name: 01 Plac Wszystkich Świętych
     rentals: 0
-    returns: 2
+    returns: 4
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -115,7 +115,7 @@ hubs:
     id: 2229
     name: 22 Nowy Kleparz
     rentals: 0
-    returns: 0
+    returns: 1
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -157,15 +157,18 @@ hubs:
     rentals: 0
     returns: 0
 long_rentals: 0
-longest_rental: 1200
-short_rentals: 7
+longest_rental: 2400
+short_rentals: 9
 shortest_rental: 600
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 07:10:00'
+t1: '2017-03-09 07:20:00'
 total_rentals: 13
-total_returns: 7
-total_time: 25800
+total_returns: 10
+total_time: 26400
 trips:
+- count: 3
+  from: 2038
+  to: 2021
 - count: 2
   from: 2230
   to: 2227
@@ -179,8 +182,8 @@ trips:
   from: 2029
   to: 2021
 - count: 1
-  from: 2038
-  to: 2021
+  from: 2227
+  to: 2229
 - count: 1
   from: 2040
   to: 2228
