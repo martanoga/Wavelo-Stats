@@ -29,7 +29,7 @@ hubs:
   2030:
     id: 2030
     name: 05 Politechnika
-    rentals: 0
+    rentals: 1
     returns: 2
   2031:
     id: 2031
@@ -161,10 +161,10 @@ longest_rental: 4801
 short_rentals: 28
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 10:40:00'
-total_rentals: 37
+t1: '2017-03-09 10:50:00'
+total_rentals: 38
 total_returns: 36
-total_time: 38400
+total_time: 39000
 trips:
 - count: 3
   from: 2038
