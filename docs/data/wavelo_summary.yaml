@@ -9,7 +9,7 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 2
+    rentals: 3
     returns: 5
   2021:
     id: 2021
@@ -19,7 +19,7 @@ hubs:
   2028:
     id: 2028
     name: 03 Cracovia Błonia
-    rentals: 1
+    rentals: 3
     returns: 3
   2029:
     id: 2029
@@ -161,10 +161,10 @@ longest_rental: 5401
 short_rentals: 35
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 14:30:00'
-total_rentals: 49
+t1: '2017-03-09 14:40:00'
+total_rentals: 52
 total_returns: 47
-total_time: 52200
+total_time: 52800
 trips:
 - count: 3
   from: 2230
