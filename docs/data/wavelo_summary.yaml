@@ -1,5 +1,5 @@
-average_rental: 1262.0775862068965
-complete_rentals: 126
+average_rental: 1261.5470085470085
+complete_rentals: 127
 hubs:
   null:
     id: null
@@ -50,7 +50,7 @@ hubs:
     id: 2035
     name: 10 Plac Bohaterów Getta
     rentals: 10
-    returns: 6
+    returns: 7
   2036:
     id: 2036
     name: 11 Korona
@@ -158,13 +158,13 @@ hubs:
     returns: 1
 long_rentals: 5
 longest_rental: 24000
-short_rentals: 96
+short_rentals: 97
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 21:50:01'
+t1: '2017-03-09 22:00:01'
 total_rentals: 129
-total_returns: 128
-total_time: 78601
+total_returns: 129
+total_time: 79201
 trips:
 - count: 3
   from: 2230
@@ -176,11 +176,17 @@ trips:
   from: 2021
   to: 2038
 - count: 2
+  from: null
+  to: 2236
+- count: 2
   from: 2231
   to: 2228
 - count: 2
   from: 2233
   to: 2030
+- count: 2
+  from: 2020
+  to: 2035
 - count: 2
   from: 2030
   to: 2233
@@ -190,9 +196,6 @@ trips:
 - count: 2
   from: 2020
   to: 2032
-- count: 2
-  from: null
-  to: 2236
 - count: 2
   from: 2049
   to: 2020
@@ -224,9 +227,6 @@ trips:
   from: 2037
   to: 2226
 - count: 1
-  from: 2236
-  to: null
-- count: 1
   from: 2037
   to: 2223
 - count: 1
@@ -244,6 +244,9 @@ trips:
 - count: 1
   from: 2020
   to: 2034
+- count: 1
+  from: null
+  to: 2035
 - count: 1
   from: 2039
   to: 2030
@@ -293,6 +296,9 @@ trips:
   from: 2227
   to: 2230
 - count: 1
+  from: 2223
+  to: null
+- count: 1
   from: 2020
   to: 2049
 - count: 1
@@ -304,6 +310,9 @@ trips:
 - count: 1
   from: 2028
   to: 2029
+- count: 1
+  from: null
+  to: 2226
 - count: 1
   from: 2035
   to: 2030
@@ -345,10 +354,7 @@ trips:
   to: 2228
 - count: 1
   from: 2039
-  to: null
-- count: 1
-  from: 2020
-  to: 2035
+  to: 2029
 - count: 1
   from: 2228
   to: 2232
@@ -371,6 +377,9 @@ trips:
   from: 2232
   to: 2232
 - count: 1
+  from: 2236
+  to: null
+- count: 1
   from: 2035
   to: 2034
 - count: 1
@@ -383,9 +392,6 @@ trips:
   from: 2236
   to: 2223
 - count: 1
-  from: 2039
-  to: 2029
-- count: 1
   from: 2037
   to: 2035
 - count: 1
@@ -394,9 +400,6 @@ trips:
 - count: 1
   from: 2230
   to: 2029
-- count: 1
-  from: null
-  to: 2035
 - count: 1
   from: 2020
   to: 2028
@@ -429,9 +432,6 @@ trips:
   to: 2034
 - count: 1
   from: 2223
-  to: null
-- count: 1
-  from: 2223
   to: 2028
 - count: 1
   from: 2233
@@ -439,9 +439,6 @@ trips:
 - count: 1
   from: 2028
   to: 2223
-- count: 1
-  from: null
-  to: 2226
 - count: 1
   from: 2028
   to: 2020
@@ -481,6 +478,9 @@ trips:
 - count: 1
   from: 2036
   to: 2039
+- count: 1
+  from: 2039
+  to: null
 - count: 1
   from: 2035
   to: 2032
