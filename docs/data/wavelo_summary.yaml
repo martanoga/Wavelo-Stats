@@ -74,7 +74,7 @@ hubs:
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
-    rentals: 0
+    rentals: 1
     returns: 0
   2049:
     id: 2049
@@ -161,10 +161,10 @@ longest_rental: 1199
 short_rentals: 2
 shortest_rental: 1199
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 02:10:00'
-total_rentals: 3
+t1: '2017-03-09 02:20:00'
+total_rentals: 4
 total_returns: 2
-total_time: 7800
+total_time: 8400
 trips:
 - count: 2
   from: 2230
