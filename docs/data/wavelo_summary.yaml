@@ -1,11 +1,11 @@
-average_rental: 1007.1071428571429
-complete_rentals: 31
+average_rental: 1013.7241379310345
+complete_rentals: 32
 hubs:
   null:
     id: null
     name: out_of_station
     rentals: 0
-    returns: 0
+    returns: 1
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -39,7 +39,7 @@ hubs:
   2032:
     id: 2032
     name: 07 Rondo Mogilskie
-    rentals: 0
+    rentals: 1
     returns: 3
   2034:
     id: 2034
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 1
 longest_rental: 4801
-short_rentals: 25
+short_rentals: 26
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 09:00:00'
-total_rentals: 33
-total_returns: 31
-total_time: 32400
+t1: '2017-03-09 09:10:00'
+total_rentals: 34
+total_returns: 32
+total_time: 33000
 trips:
 - count: 3
   from: 2038
@@ -196,6 +196,9 @@ trips:
 - count: 1
   from: 2223
   to: 2028
+- count: 1
+  from: 2223
+  to: null
 - count: 1
   from: 2226
   to: 2028
