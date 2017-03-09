@@ -1,10 +1,10 @@
-average_rental: 1088.5857142857142
-complete_rentals: 76
+average_rental: 1081.7042253521126
+complete_rentals: 77
 hubs:
   null:
     id: null
     name: out_of_station
-    rentals: 3
+    rentals: 4
     returns: 4
   2020:
     id: 2020
@@ -29,7 +29,7 @@ hubs:
   2030:
     id: 2030
     name: 05 Politechnika
-    rentals: 4
+    rentals: 5
     returns: 3
   2031:
     id: 2031
@@ -124,13 +124,13 @@ hubs:
   2231:
     id: 2231
     name: 24 Krowodrza Górka
-    rentals: 3
+    rentals: 4
     returns: 1
   2232:
     id: 2232
     name: 25 Mackiewicza
     rentals: 3
-    returns: 1
+    returns: 2
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 4
 longest_rental: 5401
-short_rentals: 59
+short_rentals: 60
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 17:20:00'
-total_rentals: 82
-total_returns: 77
-total_time: 62400
+t1: '2017-03-09 17:30:00'
+total_rentals: 85
+total_returns: 78
+total_time: 63000
 trips:
 - count: 3
   from: 2230
@@ -202,6 +202,9 @@ trips:
 - count: 1
   from: 2028
   to: 2226
+- count: 1
+  from: 2232
+  to: 2232
 - count: 1
   from: 2224
   to: 2037
@@ -251,6 +254,9 @@ trips:
   from: 2049
   to: 2035
 - count: 1
+  from: null
+  to: 2035
+- count: 1
   from: 2035
   to: 2037
 - count: 1
@@ -283,9 +289,6 @@ trips:
 - count: 1
   from: 2021
   to: 2225
-- count: 1
-  from: null
-  to: 2035
 - count: 1
   from: 2228
   to: 2231
