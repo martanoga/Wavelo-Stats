@@ -1,5 +1,5 @@
-average_rental: 1094.1960784313726
-complete_rentals: 56
+average_rental: 1084.673076923077
+complete_rentals: 57
 hubs:
   null:
     id: null
@@ -80,7 +80,7 @@ hubs:
     id: 2049
     name: 08 Rondo Grzegórzeckie
     rentals: 3
-    returns: 3
+    returns: 4
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -104,7 +104,7 @@ hubs:
   2227:
     id: 2227
     name: 20 Uniwersytet Pedagogiczny
-    rentals: 1
+    rentals: 2
     returns: 3
   2228:
     id: 2228
@@ -114,7 +114,7 @@ hubs:
   2229:
     id: 2229
     name: 22 Nowy Kleparz
-    rentals: 0
+    rentals: 1
     returns: 2
   2230:
     id: 2230
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 3
 longest_rental: 5401
-short_rentals: 42
+short_rentals: 43
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 15:40:01'
-total_rentals: 60
-total_returns: 57
-total_time: 56401
+t1: '2017-03-09 15:50:00'
+total_rentals: 62
+total_returns: 58
+total_time: 57000
 trips:
 - count: 3
   from: 2230
@@ -209,6 +209,9 @@ trips:
   from: 2223
   to: 2028
 - count: 1
+  from: null
+  to: 2035
+- count: 1
   from: 2223
   to: null
 - count: 1
@@ -235,9 +238,6 @@ trips:
 - count: 1
   from: 2031
   to: 2029
-- count: 1
-  from: null
-  to: 2035
 - count: 1
   from: 2228
   to: 2230
@@ -301,6 +301,9 @@ trips:
 - count: 1
   from: 2028
   to: 2020
+- count: 1
+  from: 2035
+  to: 2049
 - count: 1
   from: 2031
   to: 2020
