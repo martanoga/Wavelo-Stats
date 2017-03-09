@@ -1,5 +1,5 @@
-average_rental: 1103.625
-complete_rentals: 62
+average_rental: 1094.7894736842106
+complete_rentals: 63
 hubs:
   null:
     id: null
@@ -19,7 +19,7 @@ hubs:
   2028:
     id: 2028
     name: 03 Cracovia Błonia
-    rentals: 4
+    rentals: 5
     returns: 3
   2029:
     id: 2029
@@ -49,7 +49,7 @@ hubs:
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
-    rentals: 2
+    rentals: 4
     returns: 5
   2036:
     id: 2036
@@ -69,7 +69,7 @@ hubs:
   2039:
     id: 2039
     name: 13 Poczta Główna
-    rentals: 2
+    rentals: 3
     returns: 3
   2040:
     id: 2040
@@ -125,7 +125,7 @@ hubs:
     id: 2231
     name: 24 Krowodrza Górka
     rentals: 3
-    returns: 0
+    returns: 1
   2232:
     id: 2232
     name: 25 Mackiewicza
@@ -154,17 +154,17 @@ hubs:
   2237:
     id: 2237
     name: '30 Rondo Czyżyńskie '
-    rentals: 0
+    rentals: 1
     returns: 0
 long_rentals: 3
 longest_rental: 5401
-short_rentals: 46
+short_rentals: 47
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 16:10:00'
-total_rentals: 67
-total_returns: 63
-total_time: 58200
+t1: '2017-03-09 16:20:00'
+total_rentals: 72
+total_returns: 64
+total_time: 58800
 trips:
 - count: 3
   from: 2230
@@ -262,6 +262,9 @@ trips:
 - count: 1
   from: 2021
   to: 2225
+- count: 1
+  from: 2228
+  to: 2231
 - count: 1
   from: 2021
   to: 2035
