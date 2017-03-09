@@ -124,7 +124,7 @@ hubs:
   2231:
     id: 2231
     name: 24 Krowodrza Górka
-    rentals: 0
+    rentals: 1
     returns: 0
   2232:
     id: 2232
@@ -161,10 +161,10 @@ longest_rental: 1200
 short_rentals: 3
 shortest_rental: 1199
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 06:20:00'
-total_rentals: 4
+t1: '2017-03-09 06:30:00'
+total_rentals: 5
 total_returns: 3
-total_time: 22800
+total_time: 23400
 trips:
 - count: 2
   from: 2230
