@@ -1,5 +1,5 @@
-average_rental: 1084.3373493975903
-complete_rentals: 89
+average_rental: 1046.6666666666667
+complete_rentals: 96
 hubs:
   null:
     id: null
@@ -10,7 +10,7 @@ hubs:
     id: 2020
     name: 02 Teatr Bagatela
     rentals: 7
-    returns: 6
+    returns: 7
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 3
-    returns: 5
+    returns: 6
   2030:
     id: 2030
     name: 05 Politechnika
@@ -35,7 +35,7 @@ hubs:
     id: 2031
     name: 06 Dworzec Główny Wschód
     rentals: 2
-    returns: 0
+    returns: 1
   2032:
     id: 2032
     name: 07 Rondo Mogilskie
@@ -70,7 +70,7 @@ hubs:
     id: 2039
     name: 13 Poczta Główna
     rentals: 4
-    returns: 5
+    returns: 8
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
@@ -115,7 +115,7 @@ hubs:
     id: 2229
     name: 22 Nowy Kleparz
     rentals: 2
-    returns: 3
+    returns: 4
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 4
 longest_rental: 5401
-short_rentals: 69
+short_rentals: 76
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 18:20:00'
+t1: '2017-03-09 18:30:00'
 total_rentals: 99
-total_returns: 90
-total_time: 66000
+total_returns: 97
+total_time: 66600
 trips:
 - count: 3
   from: 2230
@@ -178,6 +178,9 @@ trips:
 - count: 2
   from: 2049
   to: 2020
+- count: 2
+  from: 2035
+  to: 2039
 - count: 2
   from: 2231
   to: 2228
@@ -197,6 +200,9 @@ trips:
   from: 2049
   to: 2034
 - count: 1
+  from: 2040
+  to: 2039
+- count: 1
   from: 2234
   to: 2039
 - count: 1
@@ -212,6 +218,9 @@ trips:
   from: 2028
   to: 2226
 - count: 1
+  from: 2228
+  to: 2020
+- count: 1
   from: 2232
   to: 2232
 - count: 1
@@ -226,6 +235,9 @@ trips:
 - count: 1
   from: 2040
   to: 2049
+- count: 1
+  from: null
+  to: 2035
 - count: 1
   from: 2223
   to: 2021
@@ -253,6 +265,9 @@ trips:
 - count: 1
   from: 2020
   to: 2049
+- count: 1
+  from: 2020
+  to: 2031
 - count: 1
   from: 2035
   to: 2034
@@ -304,6 +319,9 @@ trips:
 - count: 1
   from: 2236
   to: 2032
+- count: 1
+  from: 2030
+  to: 2229
 - count: 1
   from: 2021
   to: 2225
@@ -366,19 +384,19 @@ trips:
   to: null
 - count: 1
   from: 2020
+  to: 2029
+- count: 1
+  from: 2020
   to: 2035
 - count: 1
-  from: null
-  to: 2035
+  from: 2035
+  to: 2032
 - count: 1
   from: 2029
   to: 2021
 - count: 1
   from: 2233
   to: 2234
-- count: 1
-  from: 2035
-  to: 2032
 - count: 1
   from: 2028
   to: 2020
