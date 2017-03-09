@@ -134,7 +134,7 @@ hubs:
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
-    rentals: 3
+    rentals: 4
     returns: 2
   2234:
     id: 2234
@@ -161,10 +161,10 @@ longest_rental: 5401
 short_rentals: 34
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 13:30:00'
-total_rentals: 45
+t1: '2017-03-09 13:40:00'
+total_rentals: 46
 total_returns: 44
-total_time: 48600
+total_time: 49200
 trips:
 - count: 3
   from: 2038
