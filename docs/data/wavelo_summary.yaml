@@ -1,5 +1,5 @@
-average_rental: 1064.5645161290322
-complete_rentals: 68
+average_rental: 1059.421875
+complete_rentals: 70
 hubs:
   null:
     id: null
@@ -19,13 +19,13 @@ hubs:
   2028:
     id: 2028
     name: 03 Cracovia Błonia
-    rentals: 5
+    rentals: 6
     returns: 3
   2029:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 2
-    returns: 4
+    returns: 5
   2030:
     id: 2030
     name: 05 Politechnika
@@ -40,7 +40,7 @@ hubs:
     id: 2032
     name: 07 Rondo Mogilskie
     rentals: 1
-    returns: 3
+    returns: 4
   2034:
     id: 2034
     name: 09 Miodowa
@@ -149,7 +149,7 @@ hubs:
   2236:
     id: 2236
     name: 29 DH Wanda
-    rentals: 2
+    rentals: 3
     returns: 1
   2237:
     id: 2237
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 3
 longest_rental: 5401
-short_rentals: 52
+short_rentals: 54
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 16:30:00'
-total_rentals: 73
-total_returns: 69
-total_time: 59400
+t1: '2017-03-09 16:40:00'
+total_rentals: 75
+total_returns: 71
+total_time: 60000
 trips:
 - count: 3
   from: 2230
@@ -199,6 +199,9 @@ trips:
 - count: 1
   from: 2028
   to: 2226
+- count: 1
+  from: null
+  to: 2035
 - count: 1
   from: 2224
   to: 2037
@@ -254,8 +257,8 @@ trips:
   from: 2229
   to: 2030
 - count: 1
-  from: null
-  to: 2035
+  from: 2237
+  to: 2236
 - count: 1
   from: 2031
   to: 2029
@@ -290,6 +293,9 @@ trips:
   from: 2034
   to: 2035
 - count: 1
+  from: 2035
+  to: 2029
+- count: 1
   from: 2232
   to: 2049
 - count: 1
@@ -317,8 +323,8 @@ trips:
   from: 2020
   to: 2035
 - count: 1
-  from: 2237
-  to: 2236
+  from: 2035
+  to: 2032
 - count: 1
   from: 2029
   to: 2021
