@@ -1,5 +1,5 @@
-average_rental: 1019.8
-complete_rentals: 10
+average_rental: 1036.1818181818182
+complete_rentals: 11
 hubs:
   null:
     id: null
@@ -25,7 +25,7 @@ hubs:
     id: 2029
     name: 04 Plac Inwalidów
     rentals: 1
-    returns: 0
+    returns: 1
   2030:
     id: 2030
     name: 05 Politechnika
@@ -89,7 +89,7 @@ hubs:
   2224:
     id: 2224
     name: 17 Jubilat
-    rentals: 0
+    rentals: 2
     returns: 0
   2225:
     id: 2225
@@ -134,7 +134,7 @@ hubs:
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
-    rentals: 0
+    rentals: 1
     returns: 0
   2234:
     id: 2234
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 2400
-short_rentals: 9
+short_rentals: 10
 shortest_rental: 600
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 07:20:00'
-total_rentals: 13
-total_returns: 10
-total_time: 26400
+t1: '2017-03-09 07:30:00'
+total_rentals: 16
+total_returns: 11
+total_time: 27000
 trips:
 - count: 3
   from: 2038
@@ -175,6 +175,9 @@ trips:
 - count: 1
   from: 2231
   to: 2228
+- count: 1
+  from: 2031
+  to: 2029
 - count: 1
   from: 2236
   to: 2032
