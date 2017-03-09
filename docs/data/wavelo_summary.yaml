@@ -9,12 +9,12 @@ hubs:
   2020:
     id: 2020
     name: 02 Teatr Bagatela
-    rentals: 9
+    rentals: 10
     returns: 10
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
-    rentals: 3
+    rentals: 4
     returns: 6
   2028:
     id: 2028
@@ -79,7 +79,7 @@ hubs:
   2049:
     id: 2049
     name: 08 Rondo Grzegórzeckie
-    rentals: 6
+    rentals: 7
     returns: 4
   2223:
     id: 2223
@@ -161,10 +161,10 @@ longest_rental: 24000
 short_rentals: 92
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 21:00:01'
-total_rentals: 121
+t1: '2017-03-09 21:10:00'
+total_rentals: 124
 total_returns: 122
-total_time: 75601
+total_time: 76200
 trips:
 - count: 3
   from: 2230
