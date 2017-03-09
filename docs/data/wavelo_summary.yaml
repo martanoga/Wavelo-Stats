@@ -1,5 +1,5 @@
-average_rental: 1050.0208333333333
-complete_rentals: 52
+average_rental: 1040.857142857143
+complete_rentals: 53
 hubs:
   null:
     id: null
@@ -80,7 +80,7 @@ hubs:
     id: 2049
     name: 08 Rondo Grzegórzeckie
     rentals: 3
-    returns: 1
+    returns: 2
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 2
 longest_rental: 5401
-short_rentals: 41
+short_rentals: 42
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 15:00:00'
+t1: '2017-03-09 15:10:01'
 total_rentals: 58
-total_returns: 53
-total_time: 54000
+total_returns: 54
+total_time: 54601
 trips:
 - count: 3
   from: 2230
@@ -194,9 +194,6 @@ trips:
   from: 2224
   to: 2037
 - count: 1
-  from: null
-  to: 2035
-- count: 1
   from: 2223
   to: 2021
 - count: 1
@@ -212,6 +209,9 @@ trips:
   from: 2226
   to: 2028
 - count: 1
+  from: 2020
+  to: 2049
+- count: 1
   from: null
   to: 2226
 - count: 1
@@ -223,6 +223,9 @@ trips:
 - count: 1
   from: 2032
   to: 2036
+- count: 1
+  from: null
+  to: 2035
 - count: 1
   from: 2231
   to: 2233
