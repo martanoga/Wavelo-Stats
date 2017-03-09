@@ -1,5 +1,5 @@
-average_rental: 942.7142857142857
-complete_rentals: 14
+average_rental: 919.8666666666667
+complete_rentals: 16
 hubs:
   null:
     id: null
@@ -10,7 +10,7 @@ hubs:
     id: 2020
     name: 02 Teatr Bagatela
     rentals: 1
-    returns: 0
+    returns: 1
   2021:
     id: 2021
     name: 01 Plac Wszystkich Świętych
@@ -19,8 +19,8 @@ hubs:
   2028:
     id: 2028
     name: 03 Cracovia Błonia
-    rentals: 0
-    returns: 0
+    rentals: 1
+    returns: 1
   2029:
     id: 2029
     name: 04 Plac Inwalidów
@@ -84,7 +84,7 @@ hubs:
   2223:
     id: 2223
     name: 16 Szwedzka
-    rentals: 0
+    rentals: 1
     returns: 0
   2224:
     id: 2224
@@ -119,7 +119,7 @@ hubs:
   2230:
     id: 2230
     name: 23 Bratysławska
-    rentals: 2
+    rentals: 3
     returns: 0
   2231:
     id: 2231
@@ -134,7 +134,7 @@ hubs:
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
-    rentals: 1
+    rentals: 2
     returns: 0
   2234:
     id: 2234
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 0
 longest_rental: 2400
-short_rentals: 13
+short_rentals: 14
 shortest_rental: 600
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 07:40:00'
-total_rentals: 17
-total_returns: 14
-total_time: 27600
+t1: '2017-03-09 07:50:00'
+total_rentals: 21
+total_returns: 16
+total_time: 28200
 trips:
 - count: 3
   from: 2038
@@ -182,11 +182,17 @@ trips:
   from: 2031
   to: 2029
 - count: 1
+  from: 2226
+  to: 2028
+- count: 1
   from: 2236
   to: 2032
 - count: 1
   from: 2029
   to: 2021
+- count: 1
+  from: 2028
+  to: 2020
 - count: 1
   from: 2233
   to: 2030
@@ -196,6 +202,6 @@ trips:
 - count: 1
   from: 2040
   to: 2228
-vain_rentals: 0
+vain_rentals: 1
 xlong_rentals: 0
 
