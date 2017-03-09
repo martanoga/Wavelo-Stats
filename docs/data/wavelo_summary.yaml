@@ -129,7 +129,7 @@ hubs:
   2232:
     id: 2232
     name: 25 Mackiewicza
-    rentals: 1
+    rentals: 2
     returns: 0
   2233:
     id: 2233
@@ -161,10 +161,10 @@ longest_rental: 4801
 short_rentals: 26
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 09:10:00'
-total_rentals: 34
+t1: '2017-03-09 09:20:00'
+total_rentals: 35
 total_returns: 32
-total_time: 33000
+total_time: 33600
 trips:
 - count: 3
   from: 2038
