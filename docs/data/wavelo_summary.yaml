@@ -1,5 +1,5 @@
-average_rental: 1261.8659793814434
-complete_rentals: 104
+average_rental: 1255.1224489795918
+complete_rentals: 105
 hubs:
   null:
     id: null
@@ -69,12 +69,12 @@ hubs:
   2039:
     id: 2039
     name: 13 Poczta Główna
-    rentals: 5
+    rentals: 6
     returns: 8
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
-    rentals: 3
+    rentals: 4
     returns: 2
   2049:
     id: 2049
@@ -85,7 +85,7 @@ hubs:
     id: 2223
     name: 16 Szwedzka
     rentals: 3
-    returns: 4
+    returns: 5
   2224:
     id: 2224
     name: 17 Jubilat
@@ -109,7 +109,7 @@ hubs:
   2228:
     id: 2228
     name: Łobzów PKP
-    rentals: 4
+    rentals: 5
     returns: 5
   2229:
     id: 2229
@@ -144,7 +144,7 @@ hubs:
   2235:
     id: 2235
     name: 28 Rondo Kocmyrzowskie
-    rentals: 0
+    rentals: 1
     returns: 0
   2236:
     id: 2236
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 5
 longest_rental: 24000
-short_rentals: 81
+short_rentals: 82
 shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 19:10:00'
-total_rentals: 107
-total_returns: 106
-total_time: 69000
+t1: '2017-03-09 19:20:01'
+total_rentals: 111
+total_returns: 107
+total_time: 69601
 trips:
 - count: 3
   from: 2230
@@ -172,9 +172,6 @@ trips:
 - count: 3
   from: 2038
   to: 2021
-- count: 2
-  from: null
-  to: 2236
 - count: 2
   from: 2231
   to: 2228
@@ -190,6 +187,9 @@ trips:
 - count: 2
   from: 2020
   to: 2032
+- count: 2
+  from: null
+  to: 2236
 - count: 2
   from: 2049
   to: 2020
@@ -218,6 +218,9 @@ trips:
   from: 2037
   to: 2226
 - count: 1
+  from: 2236
+  to: null
+- count: 1
   from: 2037
   to: 2223
 - count: 1
@@ -232,9 +235,6 @@ trips:
 - count: 1
   from: 2236
   to: 2032
-- count: 1
-  from: null
-  to: 2035
 - count: 1
   from: 2039
   to: 2030
@@ -269,9 +269,6 @@ trips:
   from: 2227
   to: 2230
 - count: 1
-  from: 2223
-  to: null
-- count: 1
   from: 2020
   to: 2049
 - count: 1
@@ -280,9 +277,6 @@ trips:
 - count: 1
   from: 2028
   to: 2029
-- count: 1
-  from: null
-  to: 2226
 - count: 1
   from: 2035
   to: 2030
@@ -320,6 +314,9 @@ trips:
   from: 2040
   to: 2228
 - count: 1
+  from: 2039
+  to: null
+- count: 1
   from: 2020
   to: 2035
 - count: 1
@@ -344,9 +341,6 @@ trips:
   from: 2232
   to: 2232
 - count: 1
-  from: 2236
-  to: null
-- count: 1
   from: 2035
   to: 2034
 - count: 1
@@ -367,6 +361,9 @@ trips:
 - count: 1
   from: 2230
   to: 2029
+- count: 1
+  from: null
+  to: 2035
 - count: 1
   from: 2234
   to: 2224
@@ -390,6 +387,9 @@ trips:
   to: 2034
 - count: 1
   from: 2223
+  to: null
+- count: 1
+  from: 2223
   to: 2028
 - count: 1
   from: 2233
@@ -397,6 +397,9 @@ trips:
 - count: 1
   from: 2028
   to: 2223
+- count: 1
+  from: null
+  to: 2226
 - count: 1
   from: 2028
   to: 2020
@@ -422,14 +425,14 @@ trips:
   from: 2021
   to: 2035
 - count: 1
+  from: 2021
+  to: 2223
+- count: 1
   from: 2030
   to: 2228
 - count: 1
   from: 2036
   to: 2039
-- count: 1
-  from: 2039
-  to: null
 - count: 1
   from: 2035
   to: 2032
