@@ -1,5 +1,5 @@
-average_rental: 1073.7894736842106
-complete_rentals: 20
+average_rental: 1009.0454545454545
+complete_rentals: 24
 hubs:
   null:
     id: null
@@ -20,7 +20,7 @@ hubs:
     id: 2028
     name: 03 Cracovia Błonia
     rentals: 1
-    returns: 1
+    returns: 2
   2029:
     id: 2029
     name: 04 Plac Inwalidów
@@ -59,7 +59,7 @@ hubs:
   2037:
     id: 2037
     name: 12 Plac Wolnica
-    rentals: 0
+    rentals: 1
     returns: 0
   2038:
     id: 2038
@@ -70,7 +70,7 @@ hubs:
     id: 2039
     name: 13 Poczta Główna
     rentals: 0
-    returns: 0
+    returns: 1
   2040:
     id: 2040
     name: 15 Centrum Kongresowe ICE
@@ -109,7 +109,7 @@ hubs:
   2228:
     id: 2228
     name: Łobzów PKP
-    rentals: 0
+    rentals: 1
     returns: 2
   2229:
     id: 2229
@@ -120,7 +120,7 @@ hubs:
     id: 2230
     name: 23 Bratysławska
     rentals: 3
-    returns: 0
+    returns: 1
   2231:
     id: 2231
     name: 24 Krowodrza Górka
@@ -135,7 +135,7 @@ hubs:
     id: 2233
     name: 26 Uniwersytet Rolniczy
     rentals: 2
-    returns: 0
+    returns: 1
   2234:
     id: 2234
     name: 27 Wieczysta
@@ -158,13 +158,13 @@ hubs:
     returns: 0
 long_rentals: 1
 longest_rental: 4801
-short_rentals: 17
-shortest_rental: 600
+short_rentals: 20
+shortest_rental: 599
 t0: '2017-03-09 00:00:00'
-t1: '2017-03-09 08:00:01'
-total_rentals: 24
-total_returns: 20
-total_time: 28801
+t1: '2017-03-09 08:10:00'
+total_rentals: 26
+total_returns: 24
+total_time: 29400
 trips:
 - count: 3
   from: 2038
@@ -182,6 +182,9 @@ trips:
   from: 2231
   to: 2228
 - count: 1
+  from: 2036
+  to: 2039
+- count: 1
   from: 2031
   to: 2029
 - count: 1
@@ -194,6 +197,12 @@ trips:
   from: 2236
   to: 2032
 - count: 1
+  from: 2223
+  to: 2028
+- count: 1
+  from: 2228
+  to: 2230
+- count: 1
   from: 2029
   to: 2021
 - count: 1
@@ -203,6 +212,9 @@ trips:
   from: 2028
   to: 2020
 - count: 1
+  from: 2231
+  to: 2233
+- count: 1
   from: 2223
   to: 2021
 - count: 1
@@ -211,6 +223,6 @@ trips:
 - count: 1
   from: 2040
   to: 2228
-vain_rentals: 1
+vain_rentals: 2
 xlong_rentals: 0
 
