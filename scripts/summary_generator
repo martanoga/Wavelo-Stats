@@ -46,11 +46,14 @@ bikes_data = {}
 hubs = {}
 bikes = {}
 
+prev_ts = None
+max_dt = None
+
 for k in sorted(raw_data.keys()):
-    ts = int(time.mktime(datetime.datetime.strptime(k, "%Y-%m-%d %H:%M:%S").timetuple()))
+    ts = raw_data[k]['timestamp']
     if ts < t0 or ts > t1:
         continue
-    
+
     h = raw_data[k]['hubs']
     hubs_data[ts] = h
     for hk in h.keys():
@@ -61,6 +64,15 @@ for k in sorted(raw_data.keys()):
     for bk in b.keys():
         if not bk in bikes:
             bikes[bk] = {'id': b[bk]['id'], 'name': b[bk]['name'], 'rentals': 0, 'returns': 0}
+
+    if not prev_ts is None:
+        dt = ts - prev_ts
+        if max_dt is None:
+            max_dt = dt
+        if dt > max_dt:
+            max_dt = dt
+
+    prev_ts = ts
 
 hubs[None] = {'id': None, 'name': 'out_of_station', 'rentals': 0, 'returns': 0}
 
@@ -74,6 +86,7 @@ res = {
     't0': datetime.datetime.fromtimestamp(t0).strftime('%Y-%m-%d %H:%M:%S'),
     't1': datetime.datetime.fromtimestamp(t1).strftime('%Y-%m-%d %H:%M:%S'),
     'total_time': t1 - t0,
+    'max_dt': max_dt,
     'total_rentals': 0,
     'total_returns': 0
     }
@@ -106,9 +119,10 @@ for t in trips.most_common():
     res['trips'].append({'from': t[0][0], 'to': t[0][1], 'count': t[1]})
 
 res['complete_rentals'] = len(rental_times)
-res['vain_rentals'] = sum(t == 0 for t in rental_times)
+res['spurious_rentals'] = sum(t == 0 for t in rental_times)
 rental_times = [t for t in rental_times if t != 0]
 res['short_rentals'] = sum(t <= 1200 for t in rental_times)
+res['medium_rentals'] = sum(t > 1200 and t <=3600 for t in rental_times)
 res['long_rentals'] = sum(t > 3600 for t in rental_times)
 res['xlong_rentals'] = sum(t > 5400 for t in rental_times)
 res['shortest_rental'] = min(rental_times)
