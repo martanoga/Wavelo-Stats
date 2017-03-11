@@ -15,8 +15,13 @@ if not os.path.exists(path_to_output_dir):
 if not os.path.isdir(path_to_output_dir):
     raise SystemExit('Path %s is not a directory.' %(path_to_output_dir))
 
-data_file = 'wavelo_data.yaml'
-data_file_summary = 'wavelo_data_summary.yaml'
+date = curr_time = datetime.datetime.now().strftime('%Y-%m-%d')
+
+data_file_old = 'wavelo_data.yaml'
+data_file_summary_old = 'wavelo_data_summary.yaml'
+
+data_file = 'wavelo_data-%s.yaml'%(date)
+data_file_summary = 'wavelo_data_summary-%s.yaml'%(date)
 
 network_id = 105 #Wavelo network id
 server = 'https://app.socialbicycles.com/api/'
@@ -88,12 +93,19 @@ data_summary[curr_time]['all_available_bikes'] = all_available_bikes
 data_summary[curr_time]['all_outside_area'] = all_outside_area
 
 
-with open(os.path.join(path_to_output_dir, data_file_summary), 'a') as outfile:
+
+with open(os.path.join(path_to_output_dir + '/split_data/', data_file_summary), 'a') as outfile:
+    yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
+
+with open(os.path.join(path_to_output_dir, data_file_summary_old), 'a') as outfile:
     yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
 
 data_summary[curr_time]['hubs'] = hubs_data
 data_summary[curr_time]['bikes'] = bikes_data
 
-with open(os.path.join(path_to_output_dir, data_file), 'a') as outfile:
+with open(os.path.join(path_to_output_dir + '/split_data/', data_file), 'a') as outfile:
+    yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
+
+with open(os.path.join(path_to_output_dir, data_file_old), 'a') as outfile:
     yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
 
