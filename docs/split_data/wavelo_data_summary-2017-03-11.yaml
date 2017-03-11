@@ -1,4 +1,4 @@
-2017-03-11 00:00:00:
+'2017-03-11 00:00:00':
   all_available_bikes: 293
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -7,7 +7,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489186800.374923
-2017-03-11 00:09:45:
+'2017-03-11 00:09:45':
   all_available_bikes: 294
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -16,7 +16,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489187385.858614
-2017-03-11 00:10:00:
+'2017-03-11 00:10:00':
   all_available_bikes: 294
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -25,7 +25,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489187400.31464
-2017-03-11 00:19:48:
+'2017-03-11 00:19:48':
   all_available_bikes: 295
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -34,7 +34,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489187988.938169
-2017-03-11 00:20:00:
+'2017-03-11 00:20:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -43,7 +43,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489188000.942606
-2017-03-11 00:29:51:
+'2017-03-11 00:29:51':
   all_available_bikes: 295
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -52,7 +52,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489188591.642753
-2017-03-11 00:30:00:
+'2017-03-11 00:30:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -61,7 +61,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489188600.906791
-2017-03-11 00:39:54:
+'2017-03-11 00:39:54':
   all_available_bikes: 296
   all_available_bikes_hubs: 294
   all_current_bikes_hubs: 294
@@ -70,7 +70,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489189194.846762
-2017-03-11 00:40:00:
+'2017-03-11 00:40:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 294
   all_current_bikes_hubs: 294
@@ -79,7 +79,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489189200.46046
-2017-03-11 00:49:57:
+'2017-03-11 00:49:57':
   all_available_bikes: 295
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -88,7 +88,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489189797.678304
-2017-03-11 00:50:00:
+'2017-03-11 00:50:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -97,7 +97,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489189800.225045
-2017-03-11 01:00:00:
+'2017-03-11 01:00:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 294
   all_current_bikes_hubs: 294
@@ -106,7 +106,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489190400.800379
-2017-03-11 01:00:01:
+'2017-03-11 01:00:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 294
   all_current_bikes_hubs: 294
@@ -115,7 +115,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489190401.05829
-2017-03-11 01:10:00:
+'2017-03-11 01:10:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 294
   all_current_bikes_hubs: 294
@@ -124,7 +124,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489191000.960353
-2017-03-11 01:10:03:
+'2017-03-11 01:10:03':
   all_available_bikes: 296
   all_available_bikes_hubs: 294
   all_current_bikes_hubs: 294
@@ -133,7 +133,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489191003.732208
-2017-03-11 01:20:00:
+'2017-03-11 01:20:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -142,7 +142,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489191600.816229
-2017-03-11 01:20:06:
+'2017-03-11 01:20:06':
   all_available_bikes: 295
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -151,7 +151,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489191606.486432
-2017-03-11 01:30:01:
+'2017-03-11 01:30:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -160,7 +160,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489192201.123517
-2017-03-11 01:30:09:
+'2017-03-11 01:30:09':
   all_available_bikes: 296
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -169,7 +169,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489192209.304818
-2017-03-11 01:40:00:
+'2017-03-11 01:40:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -178,7 +178,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489192800.911299
-2017-03-11 01:40:11:
+'2017-03-11 01:40:11':
   all_available_bikes: 296
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -187,7 +187,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489192811.840632
-2017-03-11 01:50:00:
+'2017-03-11 01:50:00':
   all_available_bikes: 294
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -196,7 +196,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489193400.606218
-2017-03-11 01:50:14:
+'2017-03-11 01:50:14':
   all_available_bikes: 294
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -205,7 +205,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489193414.956781
-2017-03-11 02:00:00:
+'2017-03-11 02:00:00':
   all_available_bikes: 294
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -214,7 +214,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489194000.280911
-2017-03-11 02:00:18:
+'2017-03-11 02:00:18':
   all_available_bikes: 294
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -223,7 +223,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489194018.281611
-2017-03-11 02:10:00:
+'2017-03-11 02:10:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -232,7 +232,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489194600.499314
-2017-03-11 02:10:22:
+'2017-03-11 02:10:22':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -241,7 +241,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489194622.569292
-2017-03-11 02:20:01:
+'2017-03-11 02:20:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -250,7 +250,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489195201.168394
-2017-03-11 02:20:25:
+'2017-03-11 02:20:25':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -259,7 +259,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489195225.74541
-2017-03-11 02:30:00:
+'2017-03-11 02:30:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -268,7 +268,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489195800.759864
-2017-03-11 02:30:28:
+'2017-03-11 02:30:28':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -277,7 +277,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489195828.708458
-2017-03-11 02:40:01:
+'2017-03-11 02:40:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -286,7 +286,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489196401.054845
-2017-03-11 02:40:31:
+'2017-03-11 02:40:31':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -295,7 +295,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489196431.555564
-2017-03-11 02:50:01:
+'2017-03-11 02:50:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -304,7 +304,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489197001.023457
-2017-03-11 02:50:34:
+'2017-03-11 02:50:34':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -313,7 +313,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489197034.348659
-2017-03-11 03:00:01:
+'2017-03-11 03:00:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -322,7 +322,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489197601.1009
-2017-03-11 03:00:37:
+'2017-03-11 03:00:37':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -331,7 +331,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489197637.256177
-2017-03-11 03:10:00:
+'2017-03-11 03:10:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -340,7 +340,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489198200.759325
-2017-03-11 03:10:40:
+'2017-03-11 03:10:40':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -349,7 +349,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489198240.214242
-2017-03-11 03:20:00:
+'2017-03-11 03:20:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -358,7 +358,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489198800.239995
-2017-03-11 03:20:43:
+'2017-03-11 03:20:43':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -367,7 +367,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489198843.397353
-2017-03-11 03:30:00:
+'2017-03-11 03:30:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -376,7 +376,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489199400.84112
-2017-03-11 03:30:46:
+'2017-03-11 03:30:46':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -385,7 +385,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489199446.468877
-2017-03-11 03:40:01:
+'2017-03-11 03:40:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -394,7 +394,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489200001.07369
-2017-03-11 03:40:49:
+'2017-03-11 03:40:49':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -403,7 +403,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489200049.070428
-2017-03-11 03:50:00:
+'2017-03-11 03:50:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -412,7 +412,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489200600.30324
-2017-03-11 03:50:51:
+'2017-03-11 03:50:51':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -421,7 +421,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489200651.888134
-2017-03-11 04:00:01:
+'2017-03-11 04:00:01':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -430,7 +430,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489201201.148384
-2017-03-11 04:00:54:
+'2017-03-11 04:00:54':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -439,7 +439,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489201254.679631
-2017-03-11 04:10:00:
+'2017-03-11 04:10:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -448,7 +448,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489201800.591953
-2017-03-11 04:10:57:
+'2017-03-11 04:10:57':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -457,7 +457,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489201857.69092
-2017-03-11 04:20:01:
+'2017-03-11 04:20:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -466,7 +466,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489202401.065899
-2017-03-11 04:21:00:
+'2017-03-11 04:21:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -475,7 +475,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489202460.680535
-2017-03-11 04:30:00:
+'2017-03-11 04:30:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -484,7 +484,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489203000.259339
-2017-03-11 04:31:03:
+'2017-03-11 04:31:03':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -493,7 +493,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489203063.71974
-2017-03-11 04:40:00:
+'2017-03-11 04:40:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -502,7 +502,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489203600.595345
-2017-03-11 04:41:06:
+'2017-03-11 04:41:06':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -511,7 +511,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489203666.332522
-2017-03-11 04:50:01:
+'2017-03-11 04:50:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -520,7 +520,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489204201.081494
-2017-03-11 04:51:09:
+'2017-03-11 04:51:09':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -529,7 +529,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489204269.064763
-2017-03-11 05:00:00:
+'2017-03-11 05:00:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -538,7 +538,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489204800.956169
-2017-03-11 05:01:12:
+'2017-03-11 05:01:12':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -547,7 +547,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489204872.075722
-2017-03-11 05:10:00:
+'2017-03-11 05:10:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -556,7 +556,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489205400.602075
-2017-03-11 05:11:14:
+'2017-03-11 05:11:14':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -565,7 +565,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489205474.651971
-2017-03-11 05:20:00:
+'2017-03-11 05:20:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -574,7 +574,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489206000.596513
-2017-03-11 05:21:17:
+'2017-03-11 05:21:17':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -583,7 +583,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489206077.311981
-2017-03-11 05:30:00:
+'2017-03-11 05:30:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -592,7 +592,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489206600.685324
-2017-03-11 05:31:20:
+'2017-03-11 05:31:20':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -601,7 +601,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489206680.413209
-2017-03-11 05:40:01:
+'2017-03-11 05:40:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -610,7 +610,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489207201.107059
-2017-03-11 05:41:23:
+'2017-03-11 05:41:23':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -619,7 +619,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489207283.403197
-2017-03-11 05:50:00:
+'2017-03-11 05:50:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -628,7 +628,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489207800.827398
-2017-03-11 05:51:26:
+'2017-03-11 05:51:26':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -637,7 +637,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489207886.164935
-2017-03-11 06:00:01:
+'2017-03-11 06:00:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -646,7 +646,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489208401.014466
-2017-03-11 06:01:28:
+'2017-03-11 06:01:28':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -655,7 +655,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489208488.669145
-2017-03-11 06:10:01:
+'2017-03-11 06:10:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -664,7 +664,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489209001.020419
-2017-03-11 06:11:31:
+'2017-03-11 06:11:31':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -673,7 +673,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489209091.63172
-2017-03-11 06:20:00:
+'2017-03-11 06:20:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -682,7 +682,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489209600.594498
-2017-03-11 06:21:34:
+'2017-03-11 06:21:34':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -691,7 +691,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489209694.348318
-2017-03-11 06:30:00:
+'2017-03-11 06:30:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -700,7 +700,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489210200.681063
-2017-03-11 06:31:37:
+'2017-03-11 06:31:37':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -709,7 +709,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489210297.310413
-2017-03-11 06:40:00:
+'2017-03-11 06:40:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -718,7 +718,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489210800.622096
-2017-03-11 06:41:39:
+'2017-03-11 06:41:39':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -727,7 +727,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489210899.871942
-2017-03-11 06:50:00:
+'2017-03-11 06:50:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -736,7 +736,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489211400.319549
-2017-03-11 06:51:42:
+'2017-03-11 06:51:42':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -745,7 +745,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489211502.645306
-2017-03-11 07:00:00:
+'2017-03-11 07:00:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -754,7 +754,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489212000.651887
-2017-03-11 07:01:45:
+'2017-03-11 07:01:45':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -763,7 +763,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489212105.489981
-2017-03-11 07:10:01:
+'2017-03-11 07:10:01':
   all_available_bikes: 294
   all_available_bikes_hubs: 290
   all_current_bikes_hubs: 290
@@ -772,7 +772,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489212601.057528
-2017-03-11 07:11:48:
+'2017-03-11 07:11:48':
   all_available_bikes: 294
   all_available_bikes_hubs: 290
   all_current_bikes_hubs: 290
@@ -781,7 +781,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489212708.379814
-2017-03-11 07:20:00:
+'2017-03-11 07:20:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -790,7 +790,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489213200.800205
-2017-03-11 07:21:51:
+'2017-03-11 07:21:51':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -799,7 +799,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489213311.218036
-2017-03-11 07:30:00:
+'2017-03-11 07:30:00':
   all_available_bikes: 294
   all_available_bikes_hubs: 290
   all_current_bikes_hubs: 290
@@ -808,7 +808,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489213800.690492
-2017-03-11 07:31:53:
+'2017-03-11 07:31:53':
   all_available_bikes: 294
   all_available_bikes_hubs: 290
   all_current_bikes_hubs: 290
@@ -817,7 +817,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489213913.921682
-2017-03-11 07:40:00:
+'2017-03-11 07:40:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -826,7 +826,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489214400.81307
-2017-03-11 07:41:56:
+'2017-03-11 07:41:56':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -835,7 +835,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489214516.833606
-2017-03-11 07:50:01:
+'2017-03-11 07:50:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -844,7 +844,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489215001.198971
-2017-03-11 07:51:59:
+'2017-03-11 07:51:59':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -853,7 +853,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489215119.746135
-2017-03-11 08:00:00:
+'2017-03-11 08:00:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -862,7 +862,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489215600.356881
-2017-03-11 08:02:02:
+'2017-03-11 08:02:02':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -871,7 +871,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489215722.429384
-2017-03-11 08:10:00:
+'2017-03-11 08:10:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -880,7 +880,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489216200.750524
-2017-03-11 08:12:05:
+'2017-03-11 08:12:05':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -889,7 +889,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489216325.232608
-2017-03-11 08:20:01:
+'2017-03-11 08:20:01':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -898,7 +898,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489216801.176413
-2017-03-11 08:22:08:
+'2017-03-11 08:22:08':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -907,7 +907,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489216928.248899
-2017-03-11 08:30:00:
+'2017-03-11 08:30:00':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -916,7 +916,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489217400.457922
-2017-03-11 08:32:10:
+'2017-03-11 08:32:10':
   all_available_bikes: 296
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -925,7 +925,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489217530.700408
-2017-03-11 08:40:00:
+'2017-03-11 08:40:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -934,7 +934,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489218000.543941
-2017-03-11 08:42:13:
+'2017-03-11 08:42:13':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -943,7 +943,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489218133.390788
-2017-03-11 08:50:01:
+'2017-03-11 08:50:01':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -952,7 +952,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489218601.154084
-2017-03-11 08:52:16:
+'2017-03-11 08:52:16':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -961,7 +961,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489218736.235064
-2017-03-11 09:00:00:
+'2017-03-11 09:00:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -970,7 +970,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489219200.496613
-2017-03-11 09:02:18:
+'2017-03-11 09:02:18':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -979,7 +979,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489219338.986165
-2017-03-11 09:10:00:
+'2017-03-11 09:10:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -988,7 +988,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489219800.536887
-2017-03-11 09:12:21:
+'2017-03-11 09:12:21':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -997,7 +997,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489219941.846572
-2017-03-11 09:20:00:
+'2017-03-11 09:20:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -1006,7 +1006,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489220400.940515
-2017-03-11 09:22:24:
+'2017-03-11 09:22:24':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -1015,7 +1015,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489220544.541137
-2017-03-11 09:30:01:
+'2017-03-11 09:30:01':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -1024,7 +1024,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489221001.091143
-2017-03-11 09:32:27:
+'2017-03-11 09:32:27':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -1033,7 +1033,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489221147.447445
-2017-03-11 09:40:00:
+'2017-03-11 09:40:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -1042,7 +1042,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489221600.307006
-2017-03-11 09:42:30:
+'2017-03-11 09:42:30':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -1051,7 +1051,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489221750.599357
-2017-03-11 09:50:01:
+'2017-03-11 09:50:01':
   all_available_bikes: 295
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -1060,7 +1060,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489222201.183523
-2017-03-11 09:52:33:
+'2017-03-11 09:52:33':
   all_available_bikes: 294
   all_available_bikes_hubs: 290
   all_current_bikes_hubs: 290
@@ -1069,7 +1069,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489222353.377311
-2017-03-11 10:00:00:
+'2017-03-11 10:00:00':
   all_available_bikes: 293
   all_available_bikes_hubs: 289
   all_current_bikes_hubs: 289
@@ -1078,7 +1078,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489222800.980528
-2017-03-11 10:02:36:
+'2017-03-11 10:02:36':
   all_available_bikes: 292
   all_available_bikes_hubs: 289
   all_current_bikes_hubs: 289
@@ -1087,7 +1087,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489222956.04532
-2017-03-11 10:10:00:
+'2017-03-11 10:10:00':
   all_available_bikes: 293
   all_available_bikes_hubs: 290
   all_current_bikes_hubs: 290
@@ -1096,7 +1096,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489223400.324284
-2017-03-11 10:12:38:
+'2017-03-11 10:12:38':
   all_available_bikes: 294
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -1105,7 +1105,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489223558.903607
-2017-03-11 10:20:00:
+'2017-03-11 10:20:00':
   all_available_bikes: 292
   all_available_bikes_hubs: 290
   all_current_bikes_hubs: 290
@@ -1114,7 +1114,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489224000.465
-2017-03-11 10:22:41:
+'2017-03-11 10:22:41':
   all_available_bikes: 293
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -1123,7 +1123,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489224161.525348
-2017-03-11 10:30:00:
+'2017-03-11 10:30:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -1132,7 +1132,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489224600.799272
-2017-03-11 10:32:44:
+'2017-03-11 10:32:44':
   all_available_bikes: 294
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -1141,7 +1141,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489224764.43408
-2017-03-11 10:40:00:
+'2017-03-11 10:40:00':
   all_available_bikes: 295
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -1150,7 +1150,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489225200.664176
-2017-03-11 10:42:47:
+'2017-03-11 10:42:47':
   all_available_bikes: 295
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -1159,7 +1159,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489225367.084033
-2017-03-11 10:50:00:
+'2017-03-11 10:50:00':
   all_available_bikes: 291
   all_available_bikes_hubs: 289
   all_current_bikes_hubs: 289
@@ -1168,7 +1168,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489225800.512788
-2017-03-11 10:52:50:
+'2017-03-11 10:52:50':
   all_available_bikes: 290
   all_available_bikes_hubs: 288
   all_current_bikes_hubs: 288
@@ -1177,7 +1177,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489225970.174849
-2017-03-11 11:00:00:
+'2017-03-11 11:00:00':
   all_available_bikes: 291
   all_available_bikes_hubs: 289
   all_current_bikes_hubs: 289
@@ -1186,7 +1186,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489226400.559083
-2017-03-11 11:02:53:
+'2017-03-11 11:02:53':
   all_available_bikes: 293
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -1195,7 +1195,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489226573.089272
-2017-03-11 11:10:00:
+'2017-03-11 11:10:00':
   all_available_bikes: 294
   all_available_bikes_hubs: 292
   all_current_bikes_hubs: 292
@@ -1204,7 +1204,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489227000.22124
-2017-03-11 11:12:55:
+'2017-03-11 11:12:55':
   all_available_bikes: 295
   all_available_bikes_hubs: 293
   all_current_bikes_hubs: 293
@@ -1213,7 +1213,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489227175.771357
-2017-03-11 11:20:00:
+'2017-03-11 11:20:00':
   all_available_bikes: 293
   all_available_bikes_hubs: 291
   all_current_bikes_hubs: 291
@@ -1222,7 +1222,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489227600.491312
-2017-03-11 11:22:58:
+'2017-03-11 11:22:58':
   all_available_bikes: 292
   all_available_bikes_hubs: 290
   all_current_bikes_hubs: 290
@@ -1231,7 +1231,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489227778.364419
-2017-03-11 11:30:01:
+'2017-03-11 11:30:01':
   all_available_bikes: 289
   all_available_bikes_hubs: 287
   all_current_bikes_hubs: 287
@@ -1240,7 +1240,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489228201.211481
-2017-03-11 11:33:01:
+'2017-03-11 11:33:01':
   all_available_bikes: 289
   all_available_bikes_hubs: 287
   all_current_bikes_hubs: 287
@@ -1249,7 +1249,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489228381.48611
-2017-03-11 11:40:00:
+'2017-03-11 11:40:00':
   all_available_bikes: 288
   all_available_bikes_hubs: 287
   all_current_bikes_hubs: 287
@@ -1258,7 +1258,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489228800.665829
-2017-03-11 11:43:04:
+'2017-03-11 11:43:04':
   all_available_bikes: 289
   all_available_bikes_hubs: 288
   all_current_bikes_hubs: 288
@@ -1267,7 +1267,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489228984.313233
-2017-03-11 11:50:00:
+'2017-03-11 11:50:00':
   all_available_bikes: 290
   all_available_bikes_hubs: 289
   all_current_bikes_hubs: 289
@@ -1276,7 +1276,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489229400.77706
-2017-03-11 11:53:07:
+'2017-03-11 11:53:07':
   all_available_bikes: 290
   all_available_bikes_hubs: 289
   all_current_bikes_hubs: 289
@@ -1285,7 +1285,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489229587.319048
-2017-03-11 12:00:00:
+'2017-03-11 12:00:00':
   all_available_bikes: 289
   all_available_bikes_hubs: 288
   all_current_bikes_hubs: 288
@@ -1294,7 +1294,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489230000.445572
-2017-03-11 12:03:10:
+'2017-03-11 12:03:10':
   all_available_bikes: 289
   all_available_bikes_hubs: 288
   all_current_bikes_hubs: 288
@@ -1303,7 +1303,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489230190.380396
-2017-03-11 12:10:00:
+'2017-03-11 12:10:00':
   all_available_bikes: 284
   all_available_bikes_hubs: 282
   all_current_bikes_hubs: 282
@@ -1312,7 +1312,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489230600.673104
-2017-03-11 12:13:13:
+'2017-03-11 12:13:13':
   all_available_bikes: 285
   all_available_bikes_hubs: 283
   all_current_bikes_hubs: 283
@@ -1321,7 +1321,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489230793.203675
-2017-03-11 12:20:00:
+'2017-03-11 12:20:00':
   all_available_bikes: 280
   all_available_bikes_hubs: 279
   all_current_bikes_hubs: 279
@@ -1330,7 +1330,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489231200.864586
-2017-03-11 12:23:16:
+'2017-03-11 12:23:16':
   all_available_bikes: 279
   all_available_bikes_hubs: 278
   all_current_bikes_hubs: 278
@@ -1339,7 +1339,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489231396.102615
-2017-03-11 12:30:00:
+'2017-03-11 12:30:00':
   all_available_bikes: 279
   all_available_bikes_hubs: 278
   all_current_bikes_hubs: 278
@@ -1348,7 +1348,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489231800.352026
-2017-03-11 12:33:19:
+'2017-03-11 12:33:19':
   all_available_bikes: 279
   all_available_bikes_hubs: 278
   all_current_bikes_hubs: 278
@@ -1357,7 +1357,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489231999.605156
-2017-03-11 12:40:00:
+'2017-03-11 12:40:00':
   all_available_bikes: 278
   all_available_bikes_hubs: 277
   all_current_bikes_hubs: 277
@@ -1366,7 +1366,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489232400.639872
-2017-03-11 12:43:22:
+'2017-03-11 12:43:22':
   all_available_bikes: 278
   all_available_bikes_hubs: 277
   all_current_bikes_hubs: 277
@@ -1375,7 +1375,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489232602.459564
-2017-03-11 12:50:00:
+'2017-03-11 12:50:00':
   all_available_bikes: 281
   all_available_bikes_hubs: 279
   all_current_bikes_hubs: 279
@@ -1384,7 +1384,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489233000.412606
-2017-03-11 12:53:25:
+'2017-03-11 12:53:25':
   all_available_bikes: 281
   all_available_bikes_hubs: 279
   all_current_bikes_hubs: 279
@@ -1393,7 +1393,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489233205.528016
-2017-03-11 13:00:00:
+'2017-03-11 13:00:00':
   all_available_bikes: 282
   all_available_bikes_hubs: 279
   all_current_bikes_hubs: 279
@@ -1402,7 +1402,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489233600.877586
-2017-03-11 13:03:28:
+'2017-03-11 13:03:28':
   all_available_bikes: 281
   all_available_bikes_hubs: 278
   all_current_bikes_hubs: 278
@@ -1411,7 +1411,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489233808.079976
-2017-03-11 13:10:00:
+'2017-03-11 13:10:00':
   all_available_bikes: 281
   all_available_bikes_hubs: 278
   all_current_bikes_hubs: 278
@@ -1420,7 +1420,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489234200.829849
-2017-03-11 13:13:30:
+'2017-03-11 13:13:30':
   all_available_bikes: 280
   all_available_bikes_hubs: 277
   all_current_bikes_hubs: 277
@@ -1429,7 +1429,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489234410.773694
-2017-03-11 13:20:00:
+'2017-03-11 13:20:00':
   all_available_bikes: 281
   all_available_bikes_hubs: 278
   all_current_bikes_hubs: 278
@@ -1438,7 +1438,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489234800.865996
-2017-03-11 13:23:34:
+'2017-03-11 13:23:34':
   all_available_bikes: 282
   all_available_bikes_hubs: 279
   all_current_bikes_hubs: 279
@@ -1447,7 +1447,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489235014.796992
-2017-03-11 13:30:01:
+'2017-03-11 13:30:01':
   all_available_bikes: 280
   all_available_bikes_hubs: 277
   all_current_bikes_hubs: 277
@@ -1456,7 +1456,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489235401.214598
-2017-03-11 13:33:37:
+'2017-03-11 13:33:37':
   all_available_bikes: 281
   all_available_bikes_hubs: 279
   all_current_bikes_hubs: 279
@@ -1465,7 +1465,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489235617.604877
-2017-03-11 13:40:01:
+'2017-03-11 13:40:01':
   all_available_bikes: 280
   all_available_bikes_hubs: 278
   all_current_bikes_hubs: 278
@@ -1474,7 +1474,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489236001.052736
-2017-03-11 13:43:40:
+'2017-03-11 13:43:40':
   all_available_bikes: 280
   all_available_bikes_hubs: 278
   all_current_bikes_hubs: 278
@@ -1483,7 +1483,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489236220.372174
-2017-03-11 13:50:00:
+'2017-03-11 13:50:00':
   all_available_bikes: 281
   all_available_bikes_hubs: 279
   all_current_bikes_hubs: 279
@@ -1492,7 +1492,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489236600.905912
-2017-03-11 13:53:42:
+'2017-03-11 13:53:42':
   all_available_bikes: 281
   all_available_bikes_hubs: 279
   all_current_bikes_hubs: 279
@@ -1501,7 +1501,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489236822.931119
-2017-03-11 14:00:00:
+'2017-03-11 14:00:00':
   all_available_bikes: 279
   all_available_bikes_hubs: 278
   all_current_bikes_hubs: 278
@@ -1510,7 +1510,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489237200.335852
-2017-03-11 14:03:45:
+'2017-03-11 14:03:45':
   all_available_bikes: 278
   all_available_bikes_hubs: 277
   all_current_bikes_hubs: 277
@@ -1519,7 +1519,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489237425.691687
-2017-03-11 14:10:01:
+'2017-03-11 14:10:01':
   all_available_bikes: 277
   all_available_bikes_hubs: 273
   all_current_bikes_hubs: 273
@@ -1528,7 +1528,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489237801.040752
-2017-03-11 14:13:48:
+'2017-03-11 14:13:48':
   all_available_bikes: 277
   all_available_bikes_hubs: 272
   all_current_bikes_hubs: 272
@@ -1537,7 +1537,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489238028.378452
-2017-03-11 14:20:00:
+'2017-03-11 14:20:00':
   all_available_bikes: 276
   all_available_bikes_hubs: 271
   all_current_bikes_hubs: 271
@@ -1546,7 +1546,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489238400.393532
-2017-03-11 14:23:50:
+'2017-03-11 14:23:50':
   all_available_bikes: 275
   all_available_bikes_hubs: 270
   all_current_bikes_hubs: 270
@@ -1555,7 +1555,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489238630.878423
-2017-03-11 14:30:01:
+'2017-03-11 14:30:01':
   all_available_bikes: 272
   all_available_bikes_hubs: 267
   all_current_bikes_hubs: 267
@@ -1564,7 +1564,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489239001.200795
-2017-03-11 14:33:53:
+'2017-03-11 14:33:53':
   all_available_bikes: 274
   all_available_bikes_hubs: 269
   all_current_bikes_hubs: 269
@@ -1573,7 +1573,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489239233.713121
-2017-03-11 14:40:00:
+'2017-03-11 14:40:00':
   all_available_bikes: 274
   all_available_bikes_hubs: 269
   all_current_bikes_hubs: 269
@@ -1582,7 +1582,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489239600.626588
-2017-03-11 14:43:56:
+'2017-03-11 14:43:56':
   all_available_bikes: 275
   all_available_bikes_hubs: 269
   all_current_bikes_hubs: 269
@@ -1591,7 +1591,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489239836.34784
-2017-03-11 14:50:00:
+'2017-03-11 14:50:00':
   all_available_bikes: 268
   all_available_bikes_hubs: 263
   all_current_bikes_hubs: 263
@@ -1600,7 +1600,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489240200.545078
-2017-03-11 14:53:59:
+'2017-03-11 14:53:59':
   all_available_bikes: 267
   all_available_bikes_hubs: 264
   all_current_bikes_hubs: 264
@@ -1609,7 +1609,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489240439.434814
-2017-03-11 15:00:00:
+'2017-03-11 15:00:00':
   all_available_bikes: 268
   all_available_bikes_hubs: 265
   all_current_bikes_hubs: 265
@@ -1618,7 +1618,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489240800.840252
-2017-03-11 15:04:02:
+'2017-03-11 15:04:02':
   all_available_bikes: 272
   all_available_bikes_hubs: 269
   all_current_bikes_hubs: 269
@@ -1627,7 +1627,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489241042.402821
-2017-03-11 15:10:00:
+'2017-03-11 15:10:00':
   all_available_bikes: 270
   all_available_bikes_hubs: 267
   all_current_bikes_hubs: 267
@@ -1636,7 +1636,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489241400.40429
-2017-03-11 15:14:07:
+'2017-03-11 15:14:07':
   all_available_bikes: 272
   all_available_bikes_hubs: 269
   all_current_bikes_hubs: 269
@@ -1645,7 +1645,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489241647.064604
-2017-03-11 15:20:01:
+'2017-03-11 15:20:01':
   all_available_bikes: 274
   all_available_bikes_hubs: 271
   all_current_bikes_hubs: 271
@@ -1654,7 +1654,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489242001.183538
-2017-03-11 15:24:09:
+'2017-03-11 15:24:09':
   all_available_bikes: 275
   all_available_bikes_hubs: 272
   all_current_bikes_hubs: 272
@@ -1663,7 +1663,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489242249.841921
-2017-03-11 15:30:00:
+'2017-03-11 15:30:00':
   all_available_bikes: 277
   all_available_bikes_hubs: 273
   all_current_bikes_hubs: 273
@@ -1672,7 +1672,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489242600.480599
-2017-03-11 15:34:13:
+'2017-03-11 15:34:13':
   all_available_bikes: 277
   all_available_bikes_hubs: 273
   all_current_bikes_hubs: 273
@@ -1681,7 +1681,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489242853.194562
-2017-03-11 15:40:00:
+'2017-03-11 15:40:00':
   all_available_bikes: 279
   all_available_bikes_hubs: 275
   all_current_bikes_hubs: 275
@@ -1690,7 +1690,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489243200.856278
-2017-03-11 15:44:15:
+'2017-03-11 15:44:15':
   all_available_bikes: 280
   all_available_bikes_hubs: 276
   all_current_bikes_hubs: 276
@@ -1699,7 +1699,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489243455.899581
-2017-03-11 15:50:00:
+'2017-03-11 15:50:00':
   all_available_bikes: 277
   all_available_bikes_hubs: 274
   all_current_bikes_hubs: 274
@@ -1708,7 +1708,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489243800.885483
-2017-03-11 15:54:18:
+'2017-03-11 15:54:18':
   all_available_bikes: 278
   all_available_bikes_hubs: 275
   all_current_bikes_hubs: 275
@@ -1717,7 +1717,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489244058.818376
-2017-03-11 16:00:01:
+'2017-03-11 16:00:01':
   all_available_bikes: 278
   all_available_bikes_hubs: 275
   all_current_bikes_hubs: 275
@@ -1726,7 +1726,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489244401.176436
-2017-03-11 16:04:21:
+'2017-03-11 16:04:21':
   all_available_bikes: 281
   all_available_bikes_hubs: 278
   all_current_bikes_hubs: 278
@@ -1735,7 +1735,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489244661.592672
-2017-03-11 16:10:00:
+'2017-03-11 16:10:00':
   all_available_bikes: 280
   all_available_bikes_hubs: 275
   all_current_bikes_hubs: 275
@@ -1744,7 +1744,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489245000.921604
-2017-03-11 16:14:24:
+'2017-03-11 16:14:24':
   all_available_bikes: 274
   all_available_bikes_hubs: 269
   all_current_bikes_hubs: 269
@@ -1753,7 +1753,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489245264.603585
-2017-03-11 16:20:00:
+'2017-03-11 16:20:00':
   all_available_bikes: 278
   all_available_bikes_hubs: 273
   all_current_bikes_hubs: 273
@@ -1762,7 +1762,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489245600.985448
-2017-03-11 16:24:27:
+'2017-03-11 16:24:27':
   all_available_bikes: 279
   all_available_bikes_hubs: 274
   all_current_bikes_hubs: 274
@@ -1771,7 +1771,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489245867.637806
-2017-03-11 16:30:00:
+'2017-03-11 16:30:00':
   all_available_bikes: 285
   all_available_bikes_hubs: 280
   all_current_bikes_hubs: 280
@@ -1780,7 +1780,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489246200.814487
-2017-03-11 16:34:30:
+'2017-03-11 16:34:30':
   all_available_bikes: 286
   all_available_bikes_hubs: 281
   all_current_bikes_hubs: 281
@@ -1789,7 +1789,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489246470.436806
-2017-03-11 16:40:00:
+'2017-03-11 16:40:00':
   all_available_bikes: 285
   all_available_bikes_hubs: 280
   all_current_bikes_hubs: 280
@@ -1798,7 +1798,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489246800.684767
-2017-03-11 16:44:33:
+'2017-03-11 16:44:33':
   all_available_bikes: 280
   all_available_bikes_hubs: 275
   all_current_bikes_hubs: 275
@@ -1807,7 +1807,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489247073.292454
-2017-03-11 16:50:00:
+'2017-03-11 16:50:00':
   all_available_bikes: 280
   all_available_bikes_hubs: 275
   all_current_bikes_hubs: 275
@@ -1816,7 +1816,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489247400.760375
-2017-03-11 16:54:36:
+'2017-03-11 16:54:36':
   all_available_bikes: 285
   all_available_bikes_hubs: 280
   all_current_bikes_hubs: 280
@@ -1825,7 +1825,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489247676.701307
-2017-03-11 17:00:00:
+'2017-03-11 17:00:00':
   all_available_bikes: 282
   all_available_bikes_hubs: 277
   all_current_bikes_hubs: 277
@@ -1834,7 +1834,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489248000.658726
-2017-03-11 17:04:39:
+'2017-03-11 17:04:39':
   all_available_bikes: 282
   all_available_bikes_hubs: 277
   all_current_bikes_hubs: 277
@@ -1843,7 +1843,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489248279.427922
-2017-03-11 17:10:01:
+'2017-03-11 17:10:01':
   all_available_bikes: 282
   all_available_bikes_hubs: 277
   all_current_bikes_hubs: 277
@@ -1852,7 +1852,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489248601.036217
-2017-03-11 17:14:42:
+'2017-03-11 17:14:42':
   all_available_bikes: 280
   all_available_bikes_hubs: 275
   all_current_bikes_hubs: 275
@@ -1861,7 +1861,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489248882.498596
-2017-03-11 17:20:00:
+'2017-03-11 17:20:00':
   all_available_bikes: 281
   all_available_bikes_hubs: 276
   all_current_bikes_hubs: 276
@@ -1870,7 +1870,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489249200.951421
-2017-03-11 17:24:45:
+'2017-03-11 17:24:45':
   all_available_bikes: 283
   all_available_bikes_hubs: 278
   all_current_bikes_hubs: 278
@@ -1879,7 +1879,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489249485.519185
-2017-03-11 17:30:01:
+'2017-03-11 17:30:01':
   all_available_bikes: 284
   all_available_bikes_hubs: 279
   all_current_bikes_hubs: 279
@@ -1888,7 +1888,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489249801.190501
-2017-03-11 17:34:48:
+'2017-03-11 17:34:48':
   all_available_bikes: 285
   all_available_bikes_hubs: 280
   all_current_bikes_hubs: 280
@@ -1897,7 +1897,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489250088.525844
-2017-03-11 17:40:00:
+'2017-03-11 17:40:00':
   all_available_bikes: 284
   all_available_bikes_hubs: 279
   all_current_bikes_hubs: 279
@@ -1906,7 +1906,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489250400.520934
-2017-03-11 17:44:51:
+'2017-03-11 17:44:51':
   all_available_bikes: 285
   all_available_bikes_hubs: 280
   all_current_bikes_hubs: 280
@@ -1915,7 +1915,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489250691.451904
-2017-03-11 17:50:00:
+'2017-03-11 17:50:00':
   all_available_bikes: 286
   all_available_bikes_hubs: 281
   all_current_bikes_hubs: 281
@@ -1924,7 +1924,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489251000.90786
-2017-03-11 17:54:54:
+'2017-03-11 17:54:54':
   all_available_bikes: 289
   all_available_bikes_hubs: 284
   all_current_bikes_hubs: 284
@@ -1933,7 +1933,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489251294.000416
-2017-03-11 18:00:00:
+'2017-03-11 18:00:00':
   all_available_bikes: 288
   all_available_bikes_hubs: 283
   all_current_bikes_hubs: 283
@@ -1942,7 +1942,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489251600.406075
-2017-03-11 18:04:56:
+'2017-03-11 18:04:56':
   all_available_bikes: 288
   all_available_bikes_hubs: 283
   all_current_bikes_hubs: 283
@@ -1951,7 +1951,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489251896.927628
-2017-03-11 18:10:00:
+'2017-03-11 18:10:00':
   all_available_bikes: 290
   all_available_bikes_hubs: 285
   all_current_bikes_hubs: 285
@@ -1960,7 +1960,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489252200.601243
-2017-03-11 18:14:59:
+'2017-03-11 18:14:59':
   all_available_bikes: 289
   all_available_bikes_hubs: 284
   all_current_bikes_hubs: 284
@@ -1969,7 +1969,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489252499.488972
-2017-03-11 18:20:00:
+'2017-03-11 18:20:00':
   all_available_bikes: 289
   all_available_bikes_hubs: 284
   all_current_bikes_hubs: 284
@@ -1978,7 +1978,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489252800.495545
-2017-03-11 18:25:02:
+'2017-03-11 18:25:02':
   all_available_bikes: 286
   all_available_bikes_hubs: 281
   all_current_bikes_hubs: 281
@@ -1987,7 +1987,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489253102.701281
-2017-03-11 18:30:01:
+'2017-03-11 18:30:01':
   all_available_bikes: 285
   all_available_bikes_hubs: 280
   all_current_bikes_hubs: 280
@@ -1996,7 +1996,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489253401.169374
-2017-03-11 18:35:05:
+'2017-03-11 18:35:05':
   all_available_bikes: 286
   all_available_bikes_hubs: 281
   all_current_bikes_hubs: 281
@@ -2005,7 +2005,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489253705.499381
-2017-03-11 18:40:00:
+'2017-03-11 18:40:00':
   all_available_bikes: 286
   all_available_bikes_hubs: 281
   all_current_bikes_hubs: 281
@@ -2014,7 +2014,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489254000.426545
-2017-03-11 18:45:08:
+'2017-03-11 18:45:08':
   all_available_bikes: 285
   all_available_bikes_hubs: 280
   all_current_bikes_hubs: 280
@@ -2023,7 +2023,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489254308.319545
-2017-03-11 18:50:00:
+'2017-03-11 18:50:00':
   all_available_bikes: 284
   all_available_bikes_hubs: 279
   all_current_bikes_hubs: 279
@@ -2032,7 +2032,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489254600.285535
-2017-03-11 18:55:10:
+'2017-03-11 18:55:10':
   all_available_bikes: 284
   all_available_bikes_hubs: 279
   all_current_bikes_hubs: 279
@@ -2041,7 +2041,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489254910.950856
-2017-03-11 19:00:00:
+'2017-03-11 19:00:00':
   all_available_bikes: 287
   all_available_bikes_hubs: 282
   all_current_bikes_hubs: 282
@@ -2050,7 +2050,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489255200.780977
-2017-03-11 19:05:13:
+'2017-03-11 19:05:13':
   all_available_bikes: 290
   all_available_bikes_hubs: 285
   all_current_bikes_hubs: 285
@@ -2059,7 +2059,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489255513.924683
-2017-03-11 19:10:00:
+'2017-03-11 19:10:00':
   all_available_bikes: 290
   all_available_bikes_hubs: 285
   all_current_bikes_hubs: 285
@@ -2068,7 +2068,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489255800.770776
-2017-03-11 19:15:16:
+'2017-03-11 19:15:16':
   all_available_bikes: 292
   all_available_bikes_hubs: 286
   all_current_bikes_hubs: 286
@@ -2077,7 +2077,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489256116.643897
-2017-03-11 19:20:00:
+'2017-03-11 19:20:00':
   all_available_bikes: 292
   all_available_bikes_hubs: 286
   all_current_bikes_hubs: 286
@@ -2086,7 +2086,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489256400.99069
-2017-03-11 19:25:19:
+'2017-03-11 19:25:19':
   all_available_bikes: 292
   all_available_bikes_hubs: 286
   all_current_bikes_hubs: 286
@@ -2095,7 +2095,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489256719.964805
-2017-03-11 19:30:01:
+'2017-03-11 19:30:01':
   all_available_bikes: 292
   all_available_bikes_hubs: 286
   all_current_bikes_hubs: 286
@@ -2104,7 +2104,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489257001.355913
-2017-03-11 19:35:22:
+'2017-03-11 19:35:22':
   all_available_bikes: 291
   all_available_bikes_hubs: 284
   all_current_bikes_hubs: 284
@@ -2113,7 +2113,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489257322.585867
-2017-03-11 19:40:00:
+'2017-03-11 19:40:00':
   all_available_bikes: 291
   all_available_bikes_hubs: 284
   all_current_bikes_hubs: 284
@@ -2122,7 +2122,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489257600.763533
-2017-03-11 19:45:25:
+'2017-03-11 19:45:25':
   all_available_bikes: 291
   all_available_bikes_hubs: 284
   all_current_bikes_hubs: 284
@@ -2131,7 +2131,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489257925.513415
-2017-03-11 19:50:00:
+'2017-03-11 19:50:00':
   all_available_bikes: 292
   all_available_bikes_hubs: 285
   all_current_bikes_hubs: 285
@@ -2140,7 +2140,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489258200.651352
-2017-03-11 19:55:28:
+'2017-03-11 19:55:28':
   all_available_bikes: 292
   all_available_bikes_hubs: 285
   all_current_bikes_hubs: 285
@@ -2149,7 +2149,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489258528.450401
-2017-03-11 20:00:00:
+'2017-03-11 20:00:00':
   all_available_bikes: 293
   all_available_bikes_hubs: 286
   all_current_bikes_hubs: 286
@@ -2158,7 +2158,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489258800.870992
-2017-03-11 20:05:31:
+'2017-03-11 20:05:31':
   all_available_bikes: 293
   all_available_bikes_hubs: 286
   all_current_bikes_hubs: 286
@@ -2167,7 +2167,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489259131.800466
-2017-03-11 20:10:00:
+'2017-03-11 20:10:00':
   all_available_bikes: 293
   all_available_bikes_hubs: 286
   all_current_bikes_hubs: 286
@@ -2176,7 +2176,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489259400.834124
-2017-03-11 20:15:34:
+'2017-03-11 20:15:34':
   all_available_bikes: 293
   all_available_bikes_hubs: 286
   all_current_bikes_hubs: 286
@@ -2185,7 +2185,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489259734.588663
-2017-03-11 20:20:00:
+'2017-03-11 20:20:00':
   all_available_bikes: 292
   all_available_bikes_hubs: 285
   all_current_bikes_hubs: 285
@@ -2194,7 +2194,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489260000.835541
-2017-03-11 20:25:37:
+'2017-03-11 20:25:37':
   all_available_bikes: 291
   all_available_bikes_hubs: 285
   all_current_bikes_hubs: 285
@@ -2203,7 +2203,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489260337.543405
-2017-03-11 20:30:00:
+'2017-03-11 20:30:00':
   all_available_bikes: 292
   all_available_bikes_hubs: 285
   all_current_bikes_hubs: 285
@@ -2212,7 +2212,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489260600.653318
-2017-03-11 20:35:40:
+'2017-03-11 20:35:40':
   all_available_bikes: 292
   all_available_bikes_hubs: 285
   all_current_bikes_hubs: 285
@@ -2221,7 +2221,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489260940.711906
-2017-03-11 20:40:00:
+'2017-03-11 20:40:00':
   all_available_bikes: 292
   all_available_bikes_hubs: 285
   all_current_bikes_hubs: 285
@@ -2230,7 +2230,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489261200.73096
-2017-03-11 20:45:43:
+'2017-03-11 20:45:43':
   all_available_bikes: 292
   all_available_bikes_hubs: 286
   all_current_bikes_hubs: 286
@@ -2239,7 +2239,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489261543.686232
-2017-03-11 20:50:00:
+'2017-03-11 20:50:00':
   all_available_bikes: 293
   all_available_bikes_hubs: 287
   all_current_bikes_hubs: 287
@@ -2248,7 +2248,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489261800.9378
-2017-03-11 20:55:46:
+'2017-03-11 20:55:46':
   all_available_bikes: 293
   all_available_bikes_hubs: 287
   all_current_bikes_hubs: 287
@@ -2257,7 +2257,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489262146.774743
-2017-03-11 21:00:00:
+'2017-03-11 21:00:00':
   all_available_bikes: 293
   all_available_bikes_hubs: 287
   all_current_bikes_hubs: 287
@@ -2265,8 +2265,8 @@
   all_outside_area: 0
   all_repair_state_not_working: 0
   all_state_not_available: 0
-  timestamp: 1489262400.507902
-2017-03-11 21:05:50:
+  timestamp: 1489262400.507855
+'2017-03-11 21:05:50':
   all_available_bikes: 294
   all_available_bikes_hubs: 288
   all_current_bikes_hubs: 288
@@ -2275,7 +2275,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489262750.010393
-2017-03-11 21:10:00:
+'2017-03-11 21:10:00':
   all_available_bikes: 289
   all_available_bikes_hubs: 283
   all_current_bikes_hubs: 283
@@ -2284,7 +2284,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489263000.505008
-2017-03-11 21:15:53:
+'2017-03-11 21:15:53':
   all_available_bikes: 286
   all_available_bikes_hubs: 280
   all_current_bikes_hubs: 280
@@ -2293,7 +2293,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489263353.20087
-2017-03-11 21:20:00:
+'2017-03-11 21:20:00':
   all_available_bikes: 286
   all_available_bikes_hubs: 280
   all_current_bikes_hubs: 280
@@ -2302,7 +2302,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489263600.680917
-2017-03-11 21:25:56:
+'2017-03-11 21:25:56':
   all_available_bikes: 286
   all_available_bikes_hubs: 280
   all_current_bikes_hubs: 280
@@ -2311,7 +2311,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489263956.266082
-2017-03-11 21:30:01:
+'2017-03-11 21:30:01':
   all_available_bikes: 287
   all_available_bikes_hubs: 281
   all_current_bikes_hubs: 281
@@ -2320,7 +2320,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489264201.109328
-2017-03-11 21:35:59:
+'2017-03-11 21:35:59':
   all_available_bikes: 287
   all_available_bikes_hubs: 282
   all_current_bikes_hubs: 282
@@ -2329,7 +2329,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489264559.354613
-2017-03-11 21:40:01:
+'2017-03-11 21:40:01':
   all_available_bikes: 287
   all_available_bikes_hubs: 282
   all_current_bikes_hubs: 282
@@ -2338,7 +2338,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489264801.355291
-2017-03-11 21:46:02:
+'2017-03-11 21:46:02':
   all_available_bikes: 288
   all_available_bikes_hubs: 283
   all_current_bikes_hubs: 283
@@ -2347,7 +2347,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489265162.370698
-2017-03-11 21:50:01:
+'2017-03-11 21:50:01':
   all_available_bikes: 287
   all_available_bikes_hubs: 282
   all_current_bikes_hubs: 282
@@ -2356,7 +2356,7 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489265401.54901
-2017-03-11 21:56:05:
+'2017-03-11 21:56:05':
   all_available_bikes: 290
   all_available_bikes_hubs: 285
   all_current_bikes_hubs: 285
@@ -2365,3 +2365,57 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489265765.311106
+'2017-03-11 22:00:01':
+  all_available_bikes: 291
+  all_available_bikes_hubs: 286
+  all_current_bikes_hubs: 286
+  all_not_in_hub: 5
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1489266001.205835
+'2017-03-11 22:06:08':
+  all_available_bikes: 291
+  all_available_bikes_hubs: 286
+  all_current_bikes_hubs: 286
+  all_not_in_hub: 5
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1489266368.31753
+'2017-03-11 22:10:00':
+  all_available_bikes: 291
+  all_available_bikes_hubs: 286
+  all_current_bikes_hubs: 286
+  all_not_in_hub: 5
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1489266600.956863
+'2017-03-11 22:16:11':
+  all_available_bikes: 291
+  all_available_bikes_hubs: 286
+  all_current_bikes_hubs: 286
+  all_not_in_hub: 5
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1489266971.321154
+'2017-03-11 22:20:00':
+  all_available_bikes: 291
+  all_available_bikes_hubs: 286
+  all_current_bikes_hubs: 286
+  all_not_in_hub: 5
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1489267200.839078
+'2017-03-11 22:26:14':
+  all_available_bikes: 291
+  all_available_bikes_hubs: 286
+  all_current_bikes_hubs: 286
+  all_not_in_hub: 5
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1489267574.212582
