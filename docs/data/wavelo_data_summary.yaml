@@ -8231,3 +8231,12 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1489237200.335852
+'2017-03-11 14:10:01':
+  all_available_bikes: 277
+  all_available_bikes_hubs: 273
+  all_current_bikes_hubs: 273
+  all_not_in_hub: 4
+  all_outside_area: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1489237801.040752
