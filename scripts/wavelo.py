@@ -106,3 +106,6 @@ data_summary[curr_time]['bikes'] = bikes_data
 with open(os.path.join(path_to_output_dir + '/split_data/', data_file), 'a') as outfile:
     yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
 
+with open(os.path.join(path_to_output_dir, data_file_old), 'a') as outfile:
+    yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
+
