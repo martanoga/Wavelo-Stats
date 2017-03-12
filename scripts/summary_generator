@@ -16,15 +16,16 @@ except ImportError:
 from collections import Counter
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-d', '--data', nargs=1, default=['wavelo_data.yaml'], type=str, help='data file name', dest='data_fname')
+parser.add_argument('-d', '--data', nargs='+', default=['wavelo_data.yaml'], type=str, help='data file name', dest='data_fnames')
 parser.add_argument('-f', '--from', nargs=1, default=None, type=str, help='start time (localtime, YYYY-mm-dd HH:MM:SS)', dest='t0')
 parser.add_argument('-t', '--to', nargs=1, default=None, type=str, help='end time (localtime, YYYY-mm-dd HH:MM:SS)', dest='t1')
 args = parser.parse_args()
 
-data_fname = args.data_fname[0]
+raw_data = {}
 
-with open(data_fname, 'r') as data_file:
-    raw_data = yaml.load(data_file, Loader=Loader)
+for data_fname in args.data_fnames:
+    with open(data_fname, 'r') as data_file:
+        raw_data = {**raw_data, **yaml.load(data_file, Loader=Loader)}
 
 for k in sorted(raw_data.keys()):
     if 'bikes' not in raw_data[k]:
