@@ -1,109 +1,45 @@
-angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages'])
-    .controller('myCtrl', function ($scope, $http) {
+angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikesDataService'])
+    .controller('myCtrl', function ($scope, $http, BikesData, BikesChart) {
         d3.select("svg g.nv-series-0").style("fill-opacity", 0.15);
-        $http.get('https://krakowska-masa-krytyczna.github.io/Wavelo-Stats/data/wavelo_data_summary.yaml?timestamp=' + Date.now())
-            .then(function (data) {
-                if (!data)
-                    return;
 
-                bike_data = jsyaml.load(data['data']);
+        var firstWeek = 9;
+        $scope.weeks = [];
+        $scope.currentWeek = parseInt(moment().tz("Europe/Warsaw").format("W"));
 
-                allAvailableInHubsBikes = [];
-                borrowedBikes = [];
-                notInHubBikes = [];
-                outsideOfArea = [];
-                tickValues = [];
-                allAvailableBikes = [];
+        for (week = firstWeek; week <= $scope.currentWeek; week++) {
+            var monday = moment(week, 'W').tz("Europe/Warsaw").startOf("isoWeek").format("YYYY-MM-DD");
+            var sunday = moment(week, 'W').tz("Europe/Warsaw").endOf("isoWeek").format("YYYY-MM-DD");
 
-                for (date in bike_data) {
-                    allAvailableInHubsBikes.push({
-                        x: bike_data[date]['timestamp'],
-                        y: bike_data[date]['all_available_bikes_hubs'] != null ? bike_data[date]['all_available_bikes_hubs'] : bike_data[date]['all_available_bikes']
-                    });
-
-                    allAvailableBikes.push({
-                        x: bike_data[date]['timestamp'],
-                        y: bike_data[date]['all_available_bikes']
-                    });
-
-                    borrowedBikes.push({
-                        x: bike_data[date]['timestamp'],
-                        y: 300 - bike_data[date]['all_available_bikes']
-                    });
+            var description = monday + " - " + sunday;
+            $scope.weeks.push({
+                description: description,
+                value: week
+            })
+        }
 
 
 
-                    var bikesOutside = bike_data[date]['all_outside_area'] != null ? bike_data[date]['all_outside_area'] : 0;
-                    outsideOfArea.push({
-                        x: bike_data[date]['timestamp'],
-                        y: bikesOutside
-                    });
 
-                    notInHubBikes.push({
-                        x: bike_data[date]['timestamp'],
-                        y: bike_data[date]['all_not_in_hub'] != null ? bike_data[date]['all_not_in_hub'] - bikesOutside : 0
-                    });
+        $scope.updateData = function (week) {
+            $scope.loading = true;
+            BikesData.getWeek($scope.currentWeek)
+                .then(function (bike_data) {
 
-                    var d = new Date(bike_data[date]['timestamp'] * 1000);
+                    var data = BikesChart.prepareChartData(bike_data);
 
-                    hour = d.getHours();
-                    minutes = d.getMinutes();
+                    $scope.data = data['data'];
+                    $scope.options.chart.xAxis.tickValues = data['tickValues'];
 
-                    if (minutes < 10 && hour % 6 == 0)
-                        tickValues.push(bike_data[date]['timestamp']);
-                }
+                    keys = Object.keys(bike_data);
+                    last_key = keys[keys.length - 1];
 
-                $scope.data = [
-                    {
-                        values: borrowedBikes,      //values - represents the array of {x,y} data points
-                        key: 'rowery wypożyczone', //key  - the name of the series.
-                        color: '#ff7f0e',  //color - optional: choose your own line color.
-                        type: "line",
-                        yAxis: 1
-                    },
+                    $scope.availableNow = data['availableNow'];
+                    $scope.rentedNow = 300 - data['availableNow'];
 
-                    {
-                        values: allAvailableBikes,      //values - represents the array of {x,y} data points
-                        key: 'wszystkie dostępne rowery', //key  - the name of the series.
-                        color: '#337099',  //color - optional: choose your own line color.
-                        type: "line",
-                        yAxis: 1
-                    },
-                    {
-                        values: allAvailableInHubsBikes,      //values - represents the array of {x,y} data points
-                        key: 'dostępne na stacjach', //key  - the name of the series.
-                        color: '#b3d1e6',  //color - optional: choose your own line color.
-                        type: "area",
-                        yAxis: 1
-                    },
-                    {
-                        values: notInHubBikes,      //values - represents the array of {x,y} data points
-                        key: 'poza stacjami, w obszarze systemu', //key  - the name of the series.
-                        color: '#62a0ca',  //color - optional: choose your own line color.
-                        type: "area",
-                        yAxis: 1
-                    },
+                });
+        }
 
-                    {
-                        values: outsideOfArea,      //values - represents the array of {x,y} data points
-                        key: 'poza obszarem systemu', //key  - the name of the series.
-                        color: '#19384d',  //color - optional: choose your own line color.
-                        type: "area",
-                        yAxis: 1
-                    }
-
-
-                ];
-
-                keys = Object.keys(bike_data);
-                last_key = keys[keys.length - 1];
-
-                $scope.availableNow = bike_data[last_key]['all_available_bikes']
-                $scope.rentedNow = 300 - bike_data[last_key]['all_available_bikes']
-
-                $scope.options.chart.xAxis.tickValues = tickValues;
-
-            });
+        $scope.updateData($scope.currentWeek);
 
         $http.get('https://martanoga.github.io/Wavelo-Stats/data/wavelo_summary.yaml?timestamp=' + Date.now())
             .then(function (data) {
@@ -127,16 +63,8 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages'])
                     bottom: 40,
                     left: 55
                 },
-                // x: function (d) { return d.x; },
-                // y: function (d) { return d.y; },
                 useInteractiveGuideline: true,
-                dispatch: {
-                    stateChange: function (e) { console.log("stateChange"); },
-                    changeState: function (e) { console.log("changeState"); },
-                    tooltipShow: function (e) { console.log("tooltipShow"); },
-                    tooltipHide: function (e) { console.log("tooltipHide"); },
-                    renderEnd: function (e) { d3.select("svg g.nv-series-0").style("fill-opacity", 0.15); console.log('renderEnd') }
-                },
+                visible: true,
                 xAxis: {
                     axisLabel: 'Date',
                     tickFormat: function (d) {
@@ -158,28 +86,21 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages'])
                     axisLabel: 'Number of bikes',
                     axisLabelDistance: -5
                 },
-                yDomain1: [0, 400],
-                callback: function (chart) {
-                    d3.select("svg g.nv-series-0").style("fill-opacity", 0.25);
-                }
-            },
-            // title: {
-            //     enable: true,
-            //     html: '<div class="graph_title">Wavelo Statistics</div>'
-            // },
-            // subtitle: {
-            //     enable: true,
-            //     text: 'Subtitle for simple line chart. Lorem ipsum dolor sit amet, at eam blandit sadipscing, vim adhuc sanctus disputando ex, cu usu affert alienum urbanitas.',
-            //     css: {
-            //         'text-align': 'center',
-            //         'margin': '10px 13px 0px 7px'
-            //     }
-            // },
-            // caption: {
-            //     enable: true,
-            //     html: ''
-            // }
+                lines1: {
+                    dispatch: {
+                        renderEnd: function (e) {
+                            $scope.$apply(function () {
+                                $scope.loading = false;
+                            });
+                        }
+                    }
+                },
+                // callback: function (chart, e) {
+                //     console.log("callback");
+                // },
+                yDomain1: [0, 400]
+                
+            }
         };
 
     })
-    .controller('AppCtrl', function ($scope) { });
