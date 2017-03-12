@@ -1,6 +1,5 @@
 angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikesDataService'])
-    .controller('myCtrl', function ($scope, $http, BikesData, BikesChart) {
-        d3.select("svg g.nv-series-0").style("fill-opacity", 0.15);
+    .controller('myCtrl', function ($scope, $http, $timeout, BikesData, BikesChart) {
 
         var firstWeek = 9;
         $scope.weeks = [];
@@ -9,16 +8,13 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
         for (week = firstWeek; week <= $scope.currentWeek; week++) {
             var monday = moment(week, 'W').tz("Europe/Warsaw").startOf("isoWeek").format("YYYY-MM-DD");
             var sunday = moment(week, 'W').tz("Europe/Warsaw").endOf("isoWeek").format("YYYY-MM-DD");
-
             var description = monday + " - " + sunday;
+
             $scope.weeks.push({
                 description: description,
                 value: week
             })
         }
-
-
-
 
         $scope.updateData = function (week) {
             $scope.loading = true;
@@ -29,13 +25,9 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
 
                     $scope.data = data['data'];
                     $scope.options.chart.xAxis.tickValues = data['tickValues'];
-
-                    keys = Object.keys(bike_data);
-                    last_key = keys[keys.length - 1];
-
                     $scope.availableNow = data['availableNow'];
                     $scope.rentedNow = 300 - data['availableNow'];
-
+                    $scope.loading = false;
                 });
         }
 
@@ -50,7 +42,7 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
 
                 $scope.totalRentals = bike_data['total_rentals'];
                 $scope.totalReturns = bike_data['total_returns'];
-                $scope.from = bike_data['t0'];
+                // $scope.from = bike_data['t0'];
             });
 
         $scope.options = {
