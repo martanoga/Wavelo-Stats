@@ -1,8 +1,12 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import argparse
-import datetime
+from datetime import datetime, tzinfo, timezone
+import metar
+from metar import Metar
+import re
 import time
+import urllib.request
 import yaml
 try:
     from yaml import CLoader as Loader
@@ -12,15 +16,16 @@ except ImportError:
 from collections import Counter
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-d', '--data', nargs=1, default=['wavelo_data.yaml'], type=str, help='data file name', dest='data_fname')
+parser.add_argument('-d', '--data', nargs='+', default=['wavelo_data.yaml'], type=str, help='data file name', dest='data_fnames')
 parser.add_argument('-f', '--from', nargs=1, default=None, type=str, help='start time (localtime, YYYY-mm-dd HH:MM:SS)', dest='t0')
 parser.add_argument('-t', '--to', nargs=1, default=None, type=str, help='end time (localtime, YYYY-mm-dd HH:MM:SS)', dest='t1')
 args = parser.parse_args()
 
-data_fname = args.data_fname[0]
+raw_data = {}
 
-with open(data_fname, 'r') as data_file:
-    raw_data = yaml.load(data_file, Loader=Loader)
+for data_fname in args.data_fnames:
+    with open(data_fname, 'r') as data_file:
+        raw_data = {**raw_data, **yaml.load(data_file, Loader=Loader)}
 
 for k in sorted(raw_data.keys()):
     if 'bikes' not in raw_data[k]:
@@ -38,8 +43,19 @@ if t1 == None:
 else:
     t1 = t1[0]
 
-t0 = int(time.mktime(datetime.datetime.strptime(t0, "%Y-%m-%d %H:%M:%S").timetuple()))
-t1 = int(time.mktime(datetime.datetime.strptime(t1, "%Y-%m-%d %H:%M:%S").timetuple()))
+t0 = int(time.mktime(datetime.strptime(t0, "%Y-%m-%d %H:%M:%S").timetuple()))
+t1 = int(time.mktime(datetime.strptime(t1, "%Y-%m-%d %H:%M:%S").timetuple()))
+
+utc0 = datetime.utcfromtimestamp(t0).utctimetuple()
+utc1 = datetime.utcfromtimestamp(t1).utctimetuple()
+
+metars = {}
+with urllib.request.urlopen('http://www.ogimet.com/display_metars2.php?lang=en&lugar=EPKK&tipo=SA&ord=REV&nil=NO&fmt=txt&ano=%d&mes=%d&day=%d&hora=%d&min=%d&anof=%d&mesf=%d&dayf=%d&horaf=%d&minf=%d&send=send' % (utc0.tm_year, utc0.tm_mon, utc0.tm_mday, utc0.tm_hour, utc0.tm_min, utc1.tm_year, utc1.tm_mon, utc1.tm_mday, utc1.tm_hour, utc1.tm_min)) as f:
+    data = f.read().decode('utf-8').replace('\n', ' ')
+    for m in re.finditer('METAR EPKK[^=]+', data):
+        metar = Metar.Metar(m.group(0))
+        metar.time = metar.time.replace(tzinfo=timezone.utc)
+        metars[metar.time.astimezone().strftime('%Y-%m-%d %H:%M:%S')] = metar
 
 hubs_data = {}
 bikes_data = {}
@@ -83,14 +99,21 @@ trips = Counter()
 rental_times = []
 
 res = {
-    't0': datetime.datetime.fromtimestamp(t0).strftime('%Y-%m-%d %H:%M:%S'),
-    't1': datetime.datetime.fromtimestamp(t1).strftime('%Y-%m-%d %H:%M:%S'),
+    't0': datetime.fromtimestamp(t0).strftime('%Y-%m-%d %H:%M:%S'),
+    't1': datetime.fromtimestamp(t1).strftime('%Y-%m-%d %H:%M:%S'),
+    'meteo': {},
     'total_time': t1 - t0,
     'max_dt': max_dt,
     'total_rentals': 0,
     'total_returns': 0
     }
 
+for d in metars:
+    metar = metars[d]
+    res['meteo'][d] = { 'metar': metar.code, 'temp': metar.temp.value('C'), 'dewpt': metar.dewpt.value('C'), 'wind_speed': metar.wind_speed.value('KMH'), 'vis': metar.vis.value('M') }
+    if metar.weather:
+        res['meteo'][d]['weather'] = metar.present_weather()
+    
 pb = bikes_data[sorted(bikes_data.keys())[0]]
 for ts in sorted(bikes_data.keys()):
     b = bikes_data[ts]
