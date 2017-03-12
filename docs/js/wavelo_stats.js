@@ -99,8 +99,16 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
                 //     console.log("callback");
                 // },
                 yDomain1: [0, 400]
-                
+
             }
         };
+
+        $scope.intervalFunction = function () {
+            $timeout(function () {
+                $scope.updateData($scope.currentWeek)
+            }, 10*60*1000)
+        };
+
+        $scope.intervalFunction();
 
     })
