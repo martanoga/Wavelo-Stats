@@ -18,29 +18,53 @@
     <script src="js/lib/angular-messages.min.js"></script>
     <link rel="stylesheet" href="js/lib/angular-material.min.css">
 
+    <script src="js/lib/moment-with-locales.min.js"></script>
+    <script src="js/lib/moment-timezone-with-data.min.js"></script>
+    <script src="js/lib/angular-moment.min.js"></script>
+
     <script src="js/lib/angular-material.min.js"></script>
 
     <link rel="stylesheet" href="css/style.css">
     <script src="js/wavelo_stats.js"></script>
+    <script src="js/bikes_data_service.js"></script>
 </head>
 
 <body>
     <!-- page content -->
     <table id="header">
-        <tr><td><a href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna' id="logo"><img src='img/masa_logo.png' height="120" widht="120" /></a></td>
-        <td><h1> Krakowski Rower Miejski - Statystyki Wypożyczeń </h1></td>
+        <tr>
+            <td>
+                <a href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna' id="logo"><img src='img/masa_logo.png' height="120" widht="120" /></a>
+            </td>
+            <td>
+                <h1> Krakowski Rower Miejski - Statystyki Wypożyczeń </h1>
+            </td>
     </table>
-    
+
     <div ng-app="myApp">
         <div ng-controller="myCtrl">
+
+            <div layout="row" layout-align="space-between center" layout-margin layout-padding>
+                <span flex></span>
+                <span>Tydzień: </span>
+                <md-select ng-model="currentWeek" placeholder="Tydzień" ng-change="updateData(week.value)">
+                    <md-option ng-repeat="week in weeks" ng-value="week.value">
+                        {{week.description}}
+                    </md-option
+                </md-select>
+            </div>
+
+            <div ng-show="loading" layout="row" layout-align="center">
+                <md-progress-linear md-mode="indeterminate"></md-progress-linear>
+            </div>
+
             <div class=chart>
-                <nvd3 options="options" data="data"></nvd3>
+                <nvd3 options="options" data="data" events="events" api="api" on-ready="hideProgress"></nvd3>
             </div>
 
             <div ng-cloak="" class="DetailedDataGrid">
 
-                <md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6" 
-                    md-gutter="6px" md-gutter-gt-sm="4px" md-row-height="1:1" >
+                <md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6" md-gutter="6px" md-gutter-gt-sm="4px" md-row-height="1:1">
 
                     <md-grid-tile class="blue" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1">
                         <md-grid-tile-header>
@@ -103,9 +127,10 @@
                 </md-grid-list>
             </div>
 
-            <div class="graph_caption">Statystyki dostępności i użycia rowerów sieci <a href="https://wavelo.pl">Wavelo</a> w Krakowie. Dane uzyskane za pośrednictwem <a href="https://app.socialbicycles.com/developer/">api</a> udostępnionego przez <a href="http://socialbicycles.com">socialbikes</a>.</div>
+            <div class="graph_caption">Statystyki dostępności i użycia rowerów sieci <a href="https://wavelo.pl">Wavelo</a> w Krakowie. Dane uzyskane
+                za pośrednictwem <a href="https://app.socialbicycles.com/developer/">api</a> udostępnionego przez <a href="http://socialbicycles.com">socialbikes</a>.</div>
 
-            
+
         </div>
     </div>
 </body>
