@@ -14,9 +14,16 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         if (!data)
                             return Null;
 
-                        return jsyaml.load(data['data']);
-                    }, function(response){
-                        return null;
+                        var bike_data = jsyaml.load(data['data']);
+
+                        return bike_data;
+
+                    }, function (response) {
+
+
+
+
+                        return null;//toReturn;
                     })
 
             },
@@ -35,9 +42,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         deferred.resolve(results);
                         var week_data = {};
                         for (day_data in results) {
-                            if (results[day_data]) {
-                                angular.extend(week_data, results[day_data]);
-                            }
+                            week_data[monday + parseInt(day_data)] = results[day_data];
                         }
                         return week_data;
                     },
@@ -49,64 +54,103 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
     })
     .factory('BikesChart', function () {
         return {
-            prepareChartData: function (bike_data) {
-                allAvailableInHubsBikes = [];
-                borrowedBikes = [];
-                notInHubBikes = [];
-                outsideOfArea = [];
-                unavailableBikes = [];
-                tickValues = [];
-                allAvailableBikes = [];
+            prepareChartData: function (week_data) {
 
-                for (date in bike_data) {
-                    allAvailableInHubsBikes.push({
-                        x: bike_data[date]['timestamp'],
-                        y: bike_data[date]['all_available_bikes_hubs'] != null ? bike_data[date]['all_available_bikes_hubs'] : bike_data[date]['all_available_bikes']
-                    });
+                var allAvailableInHubsBikes = [];
+                var borrowedBikes = [];
+                var notInHubBikes = [];
+                var outsideOfArea = [];
+                var unavailableBikes = [];
+                var tickValues = [];
+                var allAvailableBikes = [];
+                var availableNow = null;
 
-                    allAvailableBikes.push({
-                        x: bike_data[date]['timestamp'],
-                        y: bike_data[date]['all_available_bikes']
-                    });
+                for (var day in week_data) {
+                    var day_data = week_data[day];
+                    var timestamp = parseFloat(moment(day + ' 00:00', 'DDD HH:mm').tz("Europe/Warsaw").format('X'));
+                    tickValues.push(timestamp);
+                    
+                    if (day_data == null) {
+                        toAdd = [0, 23 * 60 * 60 + 50 * 60];
+                        for (var dayPoint = 0; dayPoint < toAdd.length; dayPoint++) {
 
-                    borrowedBikes.push({
-                        x: bike_data[date]['timestamp'],
-                        y: bike_data[date]['all_rented_bikes'] != null ? bike_data[date]['all_rented_bikes'] : 300 - bike_data[date]['all_available_bikes']
-                    });
+                            var point = {
+                                x: timestamp + toAdd[dayPoint],
+                                y: null
+                            }
 
-                    unavailableBikes.push({
-                        x: bike_data[date]['timestamp'],
-                        y: bike_data[date]['all_repair_state_not_working'] != null ? bike_data[date]['all_repair_state_not_working'] : null
-                    });
+                            allAvailableInHubsBikes.push(point);
+                            allAvailableBikes.push(point);
+                            borrowedBikes.push(point);
+                            unavailableBikes.push(point);
+                            outsideOfArea.push(point);
+                            notInHubBikes.push(point);
+
+                        }
+                        continue;
+                    }
+                    
+                    for (date in day_data) {
+
+                        allAvailableInHubsBikes.push({
+                            x: day_data[date]['timestamp'],
+                            y: day_data[date]['all_available_bikes_hubs'] != null ? day_data[date]['all_available_bikes_hubs'] : day_data[date]['all_available_bikes']
+                        });
+
+                        allAvailableBikes.push({
+                            x: day_data[date]['timestamp'],
+                            y: day_data[date]['all_available_bikes']
+                        });
+
+                        borrowedBikes.push({
+                            x: day_data[date]['timestamp'],
+                            y: day_data[date]['all_rented_bikes'] != null ? day_data[date]['all_rented_bikes'] : 300 - day_data[date]['all_available_bikes']
+                        });
+
+                        unavailableBikes.push({
+                            x: day_data[date]['timestamp'],
+                            y: day_data[date]['all_repair_state_not_working'] != null ? day_data[date]['all_repair_state_not_working'] : null
+                        });
 
 
-                    var bikesOutside = bike_data[date]['all_outside_area'] != null ? bike_data[date]['all_outside_area'] : 0;
-                    outsideOfArea.push({
-                        x: bike_data[date]['timestamp'],
-                        y: bikesOutside
-                    });
+                        var bikesOutside = day_data[date]['all_outside_area'] != null ? day_data[date]['all_outside_area'] : 0;
+                        outsideOfArea.push({
+                            x: day_data[date]['timestamp'],
+                            y: bikesOutside
+                        });
 
-                    notInHubBikes.push({
-                        x: bike_data[date]['timestamp'],
-                        y: bike_data[date]['all_not_in_hub'] != null ? bike_data[date]['all_not_in_hub'] - bikesOutside : 0
-                    });
+                        notInHubBikes.push({
+                            x: day_data[date]['timestamp'],
+                            y: day_data[date]['all_not_in_hub'] != null ? day_data[date]['all_not_in_hub'] - bikesOutside : 0
+                        });
+                    }
 
-                    var d = new Date(bike_data[date]['timestamp'] * 1000);
+                    var today = parseInt(moment().tz("Europe/Warsaw").format("DDD"));
 
+                    if (today == day) {
+                        keys = Object.keys(day_data);
+                        last_key = keys[keys.length - 1];
 
-                    hour = d.getHours();
-                    minutes = d.getMinutes();
+                        availableNow = day_data[last_key]['all_available_bikes'];
 
-                    if (minutes < 10 && hour == 0)
-                        tickValues.push(bike_data[date]['timestamp']);
+                        var point = {
+                            x: parseFloat(moment(today + ' 23:50', 'DDD HH:mm').tz("Europe/Warsaw").format('X')),
+                            y: null
+                        }
+
+                        allAvailableInHubsBikes.push(point);
+                        allAvailableBikes.push(point);
+                        borrowedBikes.push(point);
+                        unavailableBikes.push(point);
+                        outsideOfArea.push(point);
+                        notInHubBikes.push(point);
+                    }
+
                 }
 
-                keys = Object.keys(bike_data);
-                last_key = keys[keys.length - 1];
 
-                var availableNow = bike_data[last_key]['all_available_bikes'];
 
-                var data =  [
+                var data = [
                     {
                         values: borrowedBikes,      //values - represents the array of {x,y} data points
                         key: 'rowery wypożyczone', //key  - the name of the series.
@@ -157,11 +201,11 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                 ];
 
                 return {
-                    data: data, 
+                    data: data,
                     tickValues: tickValues,
                     availableNow: availableNow
                 }
-                
+
             },
             drawChart: function (chartData) {
                 return;
