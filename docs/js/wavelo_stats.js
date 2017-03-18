@@ -16,7 +16,7 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
             })
         }
 
-        $scope.updateData = function (week) {
+        $scope.updateData = function () {
             $scope.loading = true;
             BikesData.getWeek($scope.currentWeek)
                 .then(function (bike_data) {
@@ -31,7 +31,7 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
                 });
         }
 
-        $scope.updateData($scope.currentWeek);
+        $scope.updateData();
 
         $http.get('https://martanoga.github.io/Wavelo-Stats/data/wavelo_summary.yaml?timestamp=' + Date.now())
             .then(function (data) {
