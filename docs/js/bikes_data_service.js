@@ -148,7 +148,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                     {
                         values: unavailableBikes,      //values - represents the array of {x,y} data points
                         key: 'uszkodzone', //key  - the name of the series.
-                        color: 'red',  //color - optional: choose your own line color.
+                        color: '#b20c0e',  //color - optional: choose your own line color.
                         type: "area",
                         yAxis: 1
                     }
