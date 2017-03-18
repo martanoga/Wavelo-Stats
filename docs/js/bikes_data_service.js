@@ -12,18 +12,12 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                 })
                     .then(function (data) {
                         if (!data)
-                            return Null;
+                            return null;
 
-                        var bike_data = jsyaml.load(data['data']);
-
-                        return bike_data;
+                        return jsyaml.load(data['data']);
 
                     }, function (response) {
-
-
-
-
-                        return null;//toReturn;
+                        return null;
                     })
 
             },
@@ -77,7 +71,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                             var point = {
                                 x: timestamp + toAdd[dayPoint],
                                 y: null
-                            }
+                            };
 
                             allAvailableInHubsBikes.push(point);
                             allAvailableBikes.push(point);
@@ -112,7 +106,6 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                             y: day_data[date]['all_repair_state_not_working'] != null ? day_data[date]['all_repair_state_not_working'] : null
                         });
 
-
                         var bikesOutside = day_data[date]['all_outside_area'] != null ? day_data[date]['all_outside_area'] : 0;
                         outsideOfArea.push({
                             x: day_data[date]['timestamp'],
@@ -136,7 +129,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         var point = {
                             x: parseFloat(moment(today + ' 23:50', 'DDD HH:mm').tz("Europe/Warsaw").format('X')),
                             y: null
-                        }
+                        };
 
                         allAvailableInHubsBikes.push(point);
                         allAvailableBikes.push(point);
@@ -145,10 +138,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         outsideOfArea.push(point);
                         notInHubBikes.push(point);
                     }
-
                 }
-
-
 
                 var data = [
                     {
@@ -196,8 +186,6 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         type: "area",
                         yAxis: 1
                     }
-
-
                 ];
 
                 return {
@@ -205,7 +193,6 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                     tickValues: tickValues,
                     availableNow: availableNow
                 }
-
             },
             drawChart: function (chartData) {
                 return;
