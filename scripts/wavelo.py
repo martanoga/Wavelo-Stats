@@ -97,8 +97,6 @@ rented_bikes_data = {}
 unavailable_bikes_data = {}
 
 for bike in unavailable_bikes:
-    print bike
-    url = server + bike_endpoint%(bike)
     r = requests.get(server + bike_endpoint%(bike), auth=(user, password))
     bike_d = r.json()
     keys = ['id', 'name', 'hub_id', 'state', 'repair_state', 'distance', 'inside_area']
