@@ -1,5 +1,5 @@
 angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikesDataService'])
-    .controller('myCtrl', function ($scope, $http, $timeout, BikesData, BikesChart) {
+    .controller('myCtrl', function ($scope, $http, $interval, BikesData, BikesChart) {
 
         var firstWeek = 9;
         $scope.weeks = [];
@@ -96,8 +96,8 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
         };
 
         $scope.intervalFunction = function () {
-            $timeout(function () {
-                $scope.updateData($scope.currentWeek)
+            $interval(function () {
+                $scope.updateData();
             }, 10*60*1000)
         };
 
