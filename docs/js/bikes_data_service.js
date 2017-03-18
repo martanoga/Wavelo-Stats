@@ -54,6 +54,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                 borrowedBikes = [];
                 notInHubBikes = [];
                 outsideOfArea = [];
+                unavailableBikes = [];
                 tickValues = [];
                 allAvailableBikes = [];
 
@@ -70,9 +71,13 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
 
                     borrowedBikes.push({
                         x: bike_data[date]['timestamp'],
-                        y: 300 - bike_data[date]['all_available_bikes']
+                        y: bike_data[date]['all_rented_bikes'] != null ? bike_data[date]['all_rented_bikes'] : 300 - bike_data[date]['all_available_bikes']
                     });
 
+                    unavailableBikes.push({
+                        x: bike_data[date]['timestamp'],
+                        y: bike_data[date]['all_repair_state_not_working'] != null ? bike_data[date]['all_repair_state_not_working'] : null
+                    });
 
 
                     var bikesOutside = bike_data[date]['all_outside_area'] != null ? bike_data[date]['all_outside_area'] : 0;
@@ -136,6 +141,14 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         values: outsideOfArea,      //values - represents the array of {x,y} data points
                         key: 'poza obszarem systemu', //key  - the name of the series.
                         color: '#19384d',  //color - optional: choose your own line color.
+                        type: "area",
+                        yAxis: 1
+                    },
+
+                    {
+                        values: unavailableBikes,      //values - represents the array of {x,y} data points
+                        key: 'uszkodzone', //key  - the name of the series.
+                        color: 'red',  //color - optional: choose your own line color.
                         type: "area",
                         yAxis: 1
                     }
