@@ -104,6 +104,7 @@ res = {
     'meteo': {},
     'total_time': t1 - t0,
     'max_dt': max_dt,
+    'bikes_accounted_for': len(bikes),
     'total_rentals': 0,
     'total_returns': 0
     }
