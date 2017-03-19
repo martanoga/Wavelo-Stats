@@ -63,7 +63,8 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                     var day_data = week_data[day];
                     var timestamp = parseFloat(moment(day + ' 00:00', 'DDD HH:mm').tz("Europe/Warsaw").format('X'));
                     tickValues.push(timestamp);
-                    
+
+                    /* Days where there are no data: generate points on 00:00 and 23:00, ticks are not enough */
                     if (day_data == null) {
                         toAdd = [0, 23 * 60 * 60 + 50 * 60];
                         for (var dayPoint = 0; dayPoint < toAdd.length; dayPoint++) {
@@ -83,7 +84,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         }
                         continue;
                     }
-                    
+
                     for (date in day_data) {
 
                         allAvailableInHubsBikes.push({
@@ -125,7 +126,9 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         last_key = keys[keys.length - 1];
 
                         availableNow = day_data[last_key]['all_available_bikes'];
+                        rentedNow = day_data[last_key]['all_rented_bikes'] != null ? day_data[last_key]['all_rented_bikes'] : 300 - day_data[last_key]['all_available_bikes']
 
+                        /* Add 23:50 for current day, so if it's the last one in the week, the weeks ends still on 23:50 */
                         var point = {
                             x: parseFloat(moment(today + ' 23:50', 'DDD HH:mm').tz("Europe/Warsaw").format('X')),
                             y: null
@@ -191,11 +194,59 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                 return {
                     data: data,
                     tickValues: tickValues,
-                    availableNow: availableNow
+                    availableNow: availableNow,
+                    rentedNow: rentedNow
                 }
             },
             drawChart: function (chartData) {
+
                 return;
+            },
+            setUpChart: function () {
+                var options = {
+                    chart: {
+                        type: 'multiChart',
+                        height: 450,
+                        margin: {
+                            top: 20,
+                            right: 20,
+                            bottom: 40,
+                            left: 55
+                        },
+                        useInteractiveGuideline: true,
+                        visible: true,
+                        xAxis: {
+                            axisLabel: 'Date',
+                            tickFormat: function (d) {
+                                var date = new Date(d * 1000);
+
+                                hour = date.getHours();
+                                minutes = date.getMinutes();
+
+                                if (hour == 0 && minutes < 10)
+                                    var format = d3.time.format("%Y-%m-%d");
+                                else
+                                    var format = d3.time.format("%H:%M");
+
+                                return format(date);
+                            }
+
+                        },
+                        yAxis1: {
+                            axisLabel: 'Number of bikes',
+                            axisLabelDistance: -5
+                        },
+
+                        // callback: function (chart, e) {
+                        //     console.log("callback");
+                        // },
+                        yDomain1: [0, 400]
+
+                    }
+                };
+
+
+                return options;
             }
         }
     })
