@@ -48,7 +48,7 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
 
         $scope.updateData = function () {
             $scope.loading = true;
-            for(day in $scope.dailyStats){
+            for (day in $scope.dailyStats) {
                 if ($scope.dailyStats[day]) $scope.dailyStats[day].loading = true;
             }
 
@@ -59,8 +59,11 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
                     $scope.chart.data = chartData['data'];
                     $scope.chart.options.chart.xAxis.tickValues = chartData['tickValues'];
                     $scope.loading = false;
-                    $scope.availableNow = chartData['availableNow'];
-                    $scope.rentedNow = chartData['rentedNow'];
+
+                    if ($scope.currentWeek == $scope.displayedWeek) {
+                        $scope.availableNow = chartData['availableNow'];
+                        $scope.rentedNow = chartData['rentedNow'];
+                    }
 
                 });
             $scope.updateDailyStats();
@@ -74,5 +77,4 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
         };
 
         $scope.intervalFunction();
-
     })
