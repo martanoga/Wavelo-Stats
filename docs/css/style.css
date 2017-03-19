@@ -37,6 +37,9 @@ a{
   height: 120%;
 }
 
+.DetailedDataGrid md-grid-list{
+    margin: 8px;
+}
 .DetailedDataGrid .green {
   background: #b9f6ca; }
 
