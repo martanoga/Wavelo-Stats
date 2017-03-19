@@ -1,18 +1,15 @@
 angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikesDataService'])
     .controller('myCtrl', function ($scope, $http, $interval, BikesData, BikesChart) {
-
+        moment.locale('pl');
+        
         $scope.chart = {};
         $scope.chart.options = BikesChart.setUpChart();
-        $scope.chart.options.chart.lines1.dispatch.renderEnd =  function (e) {
-                            $scope.$apply(function () {
-                                $scope.loading = false;
-                            });
-                        }
 
         var firstWeek = 9;
         $scope.weeks = [];
         $scope.currentWeek = parseInt(moment().tz("Europe/Warsaw").format("W"));
         $scope.displayedWeek = $scope.currentWeek;
+        $scope.today = parseInt(moment().tz("Europe/Warsaw").format("DDD"));
 
 
         for (week = firstWeek; week <= $scope.currentWeek; week++) {
@@ -37,24 +34,31 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
                     $scope.loading = false;
                     $scope.availableNow = chartData['availableNow'];
                     $scope.rentedNow = chartData['rentedNow'];
-                    
+
                 });
         }
 
         $scope.updateData();
 
-        $http.get('https://martanoga.github.io/Wavelo-Stats/data/wavelo_summary.yaml?timestamp=' + Date.now())
-            .then(function (data) {
-                if (!data)
-                    return;
+        $scope.dailyStats = [];
+        var monday = parseInt(moment($scope.displayedWeek, 'W').tz("Europe/Warsaw").startOf("isoWeek").format("DDD"));
+        for (var i = 0; i < 7; i++) {
+            BikesData.getDailyStatistics(monday + i)
+                .then((function (index, bike_data) {
+                    if (!bike_data) {
+                        return;
+                    }    
+                    if (!$scope.dailyStats[index]){
+                        $scope.dailyStats[index] = {};
+                    }                
+                    
+                    $scope.dailyStats[index].nameOfDay = moment(monday+index, "DDD").tz("Europe/Warsaw").format("dddd");
 
-                bike_data = jsyaml.load(data['data']);
-
-                $scope.totalRentals = bike_data['total_rentals'];
-                $scope.totalReturns = bike_data['total_returns'];
-                // $scope.from = bike_data['t0'];
-            });
-
+                    $scope.dailyStats[index].totalRentals = bike_data['total_rentals'];
+                    $scope.dailyStats[index].totalReturns = bike_data['total_returns'];
+                    
+                }).bind(null, i));
+        }
 
 
         $scope.intervalFunction = function () {

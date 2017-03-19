@@ -43,6 +43,22 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                     function (errors) {
                         deferred.reject(errors);
                     })
+            },
+            getDailyStatistics: function (dayOfYear) {
+                var datePart = moment(dayOfYear, 'DDD').tz("Europe/Warsaw").format("YYYY-MM-DD");
+                var url = serverUrl + '/split_data/wavelo_data-' + datePart + '_summary.yaml?timestamp=' + Date.now();
+                return $http({
+                    method: 'GET',
+                    url: url
+                })
+                    .then(function (data) {
+                        if (!data)
+                            return null;
+                        return jsyaml.load(data['data']);
+                    }, function (response) {
+                        return null;
+                    })
+
             }
         }
     })
