@@ -33,8 +33,9 @@ a{
     font-size: x-small;
 }
 
-.DetailedDataGrid md-grid-list {
-  margin: 8px; }
+.DetailedDataGrid md-grid-list md-grid-tile figure{
+  height: 120%;
+}
 
 .DetailedDataGrid .green {
   background: #b9f6ca; }
@@ -44,6 +45,11 @@ a{
 
 .DetailedDataGrid h3{
     font-weight: bold
+}
+
+.DetailedDataGrid .rentedNumber{
+    font-size: 40px;
+    text-align: center;
 }
 
 .DetailedDataGrid .yellow {
