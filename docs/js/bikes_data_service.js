@@ -232,7 +232,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         useInteractiveGuideline: true,
                         visible: true,
                         xAxis: {
-                            axisLabel: 'Date',
+                            axisLabel: 'Data',
                             tickFormat: function (d) {
                                 var date = new Date(d * 1000);
 
@@ -248,8 +248,9 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                             }
 
                         },
+                        noData: "Pobieranie danych...",
                         yAxis1: {
-                            axisLabel: 'Number of bikes',
+                            axisLabel: 'Liczba rowerów',
                             axisLabelDistance: -5
                         },
 

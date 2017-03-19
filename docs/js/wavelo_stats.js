@@ -48,6 +48,7 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
 
         $scope.updateData = function () {
             $scope.loading = true;
+            $scope.chart.data = [];
             for (day in $scope.dailyStats) {
                 if ($scope.dailyStats[day]) $scope.dailyStats[day].loading = true;
             }
