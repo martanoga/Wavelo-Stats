@@ -47,11 +47,10 @@
             <div layout="row" layout-align="space-between center" layout-margin layout-padding>
                 <span flex></span>
                 <span>Tydzień: </span>
-                <md-select ng-model="currentWeek" placeholder="Tydzień" ng-change="updateData()">
+                <md-select ng-model="displayedWeek" placeholder="Tydzień" ng-change="updateData()">
                     <md-option ng-repeat="week in weeks" ng-value="week.value">
                         {{week.description}}
-                    </md-option
-                </md-select>
+                    </md-option </md-select>
             </div>
 
             <div ng-show="loading" layout="row" layout-align="center">
@@ -59,14 +58,45 @@
             </div>
 
             <div class=chart>
-                <nvd3 options="options" data="data" events="events" api="api" on-ready="hideProgress"></nvd3>
+                <nvd3 options="chart.options" data="chart.data" on-ready="hideProgress"></nvd3>
             </div>
 
             <div ng-cloak="" class="DetailedDataGrid">
 
-                <md-grid-list md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6" md-gutter="6px" md-gutter-gt-sm="4px" md-row-height="1:1">
+                <md-grid-list md-cols-xs="2" md-cols-sm="4" md-cols-md="6" md-cols-gt-md="8" md-gutter="6px" md-gutter-gt-sm="4px" md-row-height="1:1">
 
-                    <md-grid-tile class="blue" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1">
+
+
+                    <md-grid-tile class="gray" md-colspan="1" ng-repeat="day in dailyStats track by $index" ng-if="day">
+                        <md-grid-tile-header>
+                            <h3>{{day.nameOfDay}}</h3>
+                        </md-grid-tile-header>
+                        <div>
+                            <div ng-show="day.loading" layout="row" layout-align="center">
+                                <md-progress-circular md-mode="indeterminate"></md-progress-circular>
+                            </div>
+
+                            <table ng-show="!day.loading">
+                                <tr>
+                                    <td>Wypożyczono rowery</td>
+                                </tr>
+                                <tr>
+                                    <td class="rentedNumber"> <span  md-colors="{color:'primary'}">{{day.totalRentals}}</span></td>
+                                </tr>
+                                <tr>
+                                    <td>razy.</td>
+                                </tr>
+                                <!--<tr>
+                                    <td>Oddano je <span md-colors="{color:'primary'}">{{day.totalReturns}}</span> razy.</td>
+                                </tr>-->
+                            </table>
+
+                            <!--<div class='disclaimer'>*Dane przybliożone</div> -->
+                        </div>
+
+                    </md-grid-tile>
+
+                    <md-grid-tile class="blue" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1" ng-if="currentWeek==displayedWeek">
                         <md-grid-tile-header>
                             <h3>W tej chwili...</h3>
                         </md-grid-tile-header>
@@ -80,25 +110,6 @@
                         </table>
 
                     </md-grid-tile>
-
-                    <!-- <md-grid-tile class="gray" md-colspan="2"> -->
-                    <!--     <md-grid-tile-header> -->
-                    <!--         <h3>Dzisiaj...</h3> -->
-                    <!--     </md-grid-tile-header> -->
-                    <!--     <div> -->
-                    <!--     <table> -->
-                    <!--         <tr> -->
-                    <!--             <td>Wypożyczono rowery <span md-colors="{color:'primary'}">{{totalRentals}}</span> razy,</td> -->
-                    <!--         </tr> -->
-                    <!--         <tr> -->
-                    <!--             <td>Oddano je <span md-colors="{color:'primary'}">{{totalReturns}}</span> razy.</td> -->
-                    <!--         </tr> -->
-                    <!--     </table> -->
-
-                    <!--     <div class='disclaimer'>*Dane przybliożone</div> -->
-                    <!--     </div> -->
-
-                    <!-- </md-grid-tile> -->
 
                     <!--<md-grid-tile class="yellow">
                         <md-grid-tile-footer>
@@ -133,6 +144,9 @@
 
         </div>
     </div>
+
+
+
 </body>
 
 </html>

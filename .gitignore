@@ -9,3 +9,6 @@ node_modules/
 
 # Emacs backup files
 *~
+
+# Visual Studio files
+.vscode
