@@ -81,7 +81,7 @@
                                     <td>Wypożyczono rowery</td>
                                 </tr>
                                 <tr>
-                                    <td class="rentedNumber"> <span  md-colors="{color:'primary'}">{{day.totalRentals}}</span></td>
+                                    <td class="rentedNumber"> <span md-colors="{color:'primary'}">{{day.totalRentals}}</span></td>
                                 </tr>
                                 <tr>
                                     <td>razy.</td>
@@ -106,6 +106,9 @@
                             </tr>
                             <tr>
                                 <td>Pożyczone: <span md-colors="{color:'accent'}">{{rentedNow}}</span></td>
+                            </tr>
+                            <tr ng-if="brokenNow">
+                                <td>Uszkodzone: <span md-colors="{color:'accent'}">{{brokenNow}}</span></td>
                             </tr>
                         </table>
 
