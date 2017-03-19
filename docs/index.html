@@ -50,8 +50,7 @@
                 <md-select ng-model="displayedWeek" placeholder="Tydzień" ng-change="updateData()">
                     <md-option ng-repeat="week in weeks" ng-value="week.value">
                         {{week.description}}
-                    </md-option
-                </md-select>
+                    </md-option </md-select>
             </div>
 
             <div ng-show="loading" layout="row" layout-align="center">
@@ -59,7 +58,7 @@
             </div>
 
             <div class=chart>
-                <nvd3 options="chart.options" data="chart.data"  on-ready="hideProgress"></nvd3>
+                <nvd3 options="chart.options" data="chart.data" on-ready="hideProgress"></nvd3>
             </div>
 
             <div ng-cloak="" class="DetailedDataGrid">
@@ -78,28 +77,31 @@
                                 <td>Pożyczone: <span md-colors="{color:'accent'}">{{rentedNow}}</span></td>
                             </tr>
                         </table>
-                        
+
                     </md-grid-tile>
 
-                     <md-grid-tile class="gray" md-colspan="1" ng-repeat="day in dailyStats track by $index" ng-show="day"> 
-                         <md-grid-tile-header> 
-                             <h3>{{day.nameOfDay}}</h3> 
-                         </md-grid-tile-header> 
-                         <div> 
-                             
-                         <table> 
-                             <tr> 
-                                 <td>Wypożyczono rowery <span md-colors="{color:'primary'}">{{day.totalRentals}}</span> razy,</td> 
-                             </tr> 
-                             <tr> 
-                                 <td>Oddano je <span md-colors="{color:'primary'}">{{day.totalReturns}}</span> razy.</td> 
-                             </tr> 
-                         </table> 
+                    <md-grid-tile class="gray" md-colspan="1" ng-repeat="day in dailyStats track by $index" ng-show="day">
+                        <md-grid-tile-header>
+                            <h3>{{day.nameOfDay}}</h3>
+                        </md-grid-tile-header>
+                        <div>
+                            <div ng-show="day.loading" layout="row" layout-align="center">
+                                <md-progress-circular md-mode="indeterminate"></md-progress-circular>
+                            </div>
 
-                         <!--<div class='disclaimer'>*Dane przybliożone</div> -->
-                         </div> 
+                            <table ng-show="!day.loading">
+                                <tr>
+                                    <td>Wypożyczono rowery <span md-colors="{color:'primary'}">{{day.totalRentals}}</span> razy,</td>
+                                </tr>
+                                <tr>
+                                    <td>Oddano je <span md-colors="{color:'primary'}">{{day.totalReturns}}</span> razy.</td>
+                                </tr>
+                            </table>
 
-                     </md-grid-tile> 
+                            <!--<div class='disclaimer'>*Dane przybliożone</div> -->
+                        </div>
+
+                    </md-grid-tile>
 
                     <!--<md-grid-tile class="yellow">
                         <md-grid-tile-footer>
@@ -135,7 +137,7 @@
         </div>
     </div>
 
-  
+
 
 </body>
 

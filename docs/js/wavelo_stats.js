@@ -26,6 +26,7 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
 
         $scope.updateDailyStats = function () {
             var monday = parseInt(moment($scope.displayedWeek, 'W').tz("Europe/Warsaw").startOf("isoWeek").format("DDD"));
+
             for (var i = 0; i < 7; i++) {
                 BikesData.getDailyStatistics(monday + i)
                     .then((function (index, bike_data) {
@@ -35,12 +36,10 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
                         }
 
                         $scope.dailyStats[index] = {};
-
-
                         $scope.dailyStats[index].nameOfDay = moment(monday + index, "DDD").tz("Europe/Warsaw").format("dddd");
-
                         $scope.dailyStats[index].totalRentals = bike_data['total_rentals'];
                         $scope.dailyStats[index].totalReturns = bike_data['total_returns'];
+                        $scope.dailyStats[index].loading = false;
 
                     }).bind(null, i));
             }
@@ -49,6 +48,10 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
 
         $scope.updateData = function () {
             $scope.loading = true;
+            for(day in $scope.dailyStats){
+                if ($scope.dailyStats[day]) $scope.dailyStats[day].loading = true;
+            }
+
             BikesData.getWeek($scope.displayedWeek)
                 .then(function (bike_data) {
 
