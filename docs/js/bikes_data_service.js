@@ -143,6 +143,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
 
                         availableNow = day_data[last_key]['all_available_bikes'];
                         rentedNow = day_data[last_key]['all_rented_bikes'] != null ? day_data[last_key]['all_rented_bikes'] : 300 - day_data[last_key]['all_available_bikes']
+                        brokenNow = day_data[last_key]['all_repair_state_not_working'] != null ? day_data[last_key]['all_repair_state_not_working'] : null;
 
                         /* Add 23:50 for current day, so if it's the last one in the week, the weeks ends still on 23:50 */
                         var point = {
@@ -211,7 +212,8 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                     data: data,
                     tickValues: tickValues,
                     availableNow: availableNow,
-                    rentedNow: rentedNow
+                    rentedNow: rentedNow,
+                    brokenNow: brokenNow
                 }
             },
             drawChart: function (chartData) {
