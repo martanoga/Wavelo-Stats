@@ -1,4 +1,5 @@
 average_rental: 1398.9725415235037
+bikes_accounted_for: 298
 complete_rentals: 190
 hubs:
   2049:
@@ -16,11 +17,6 @@ hubs:
     name: 24 Krowodrza Górka
     rentals: 3
     returns: 0
-  null:
-    id: null
-    name: out_of_station
-    rentals: 11
-    returns: 12
   2232:
     id: 2232
     name: 25 Mackiewicza
@@ -41,6 +37,11 @@ hubs:
     name: 17 Jubilat
     rentals: 2
     returns: 5
+  null:
+    id: null
+    name: out_of_station
+    rentals: 11
+    returns: 12
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -514,6 +515,9 @@ trips:
   from: 2040
   to: 2049
 - count: 2
+  from: 2049
+  to: 2039
+- count: 2
   from: 2020
   to: 2031
 - count: 2
@@ -522,9 +526,6 @@ trips:
 - count: 2
   from: 2020
   to: 2034
-- count: 2
-  from: 2049
-  to: 2039
 - count: 2
   from: null
   to: 2226
@@ -553,6 +554,9 @@ trips:
   from: 2228
   to: 2230
 - count: 2
+  from: null
+  to: 2035
+- count: 2
   from: 2021
   to: 2223
 - count: 2
@@ -561,9 +565,6 @@ trips:
 - count: 2
   from: 2224
   to: 2225
-- count: 2
-  from: null
-  to: 2035
 - count: 2
   from: 2020
   to: 2035
@@ -637,14 +638,14 @@ trips:
   from: 2227
   to: 2226
 - count: 1
-  from: null
-  to: null
-- count: 1
   from: 2227
   to: 2232
 - count: 1
   from: 2030
   to: 2032
+- count: 1
+  from: 2232
+  to: null
 - count: 1
   from: 2235
   to: 2235
@@ -663,9 +664,6 @@ trips:
 - count: 1
   from: 2237
   to: 2235
-- count: 1
-  from: 2035
-  to: null
 - count: 1
   from: 2049
   to: 2036
@@ -724,11 +722,17 @@ trips:
   from: 2021
   to: 2021
 - count: 1
+  from: null
+  to: null
+- count: 1
   from: 2020
   to: 2223
 - count: 1
   from: 2226
   to: 2030
+- count: 1
+  from: 2035
+  to: null
 - count: 1
   from: null
   to: 2032
@@ -805,9 +809,6 @@ trips:
   from: 2226
   to: 2028
 - count: 1
-  from: 2232
-  to: null
-- count: 1
   from: null
   to: 2021
 - count: 1
@@ -838,9 +839,6 @@ trips:
   from: 2029
   to: 2031
 - count: 1
-  from: 2231
-  to: 2228
-- count: 1
   from: 2233
   to: 2030
 - count: 1
@@ -855,6 +853,9 @@ trips:
 - count: 1
   from: 2223
   to: 2039
+- count: 1
+  from: 2231
+  to: 2228
 - count: 1
   from: 2028
   to: 2228

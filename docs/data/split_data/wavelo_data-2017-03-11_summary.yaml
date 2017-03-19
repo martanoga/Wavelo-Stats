@@ -1,4 +1,5 @@
 average_rental: 2972.6043469127594
+bikes_accounted_for: 298
 complete_rentals: 195
 hubs:
   2049:
@@ -6,6 +7,11 @@ hubs:
     name: 08 Rondo Grzegórzeckie
     rentals: 5
     returns: 6
+  null:
+    id: null
+    name: out_of_station
+    rentals: 16
+    returns: 18
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -21,11 +27,6 @@ hubs:
     name: 25 Mackiewicza
     rentals: 1
     returns: 2
-  null:
-    id: null
-    name: out_of_station
-    rentals: 16
-    returns: 18
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
@@ -530,6 +531,9 @@ trips:
   from: 2020
   to: 2034
 - count: 2
+  from: 2226
+  to: null
+- count: 2
   from: 2039
   to: 2021
 - count: 2
@@ -568,9 +572,6 @@ trips:
 - count: 2
   from: 2226
   to: 2227
-- count: 2
-  from: 2226
-  to: null
 - count: 2
   from: 2234
   to: 2036

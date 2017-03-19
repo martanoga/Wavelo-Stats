@@ -1,4 +1,5 @@
 average_rental: 1224.2371682529301
+bikes_accounted_for: 299
 complete_rentals: 134
 hubs:
   2049:
@@ -6,11 +7,6 @@ hubs:
     name: 08 Rondo Grzegórzeckie
     rentals: 7
     returns: 5
-  null:
-    id: null
-    name: out_of_station
-    rentals: 4
-    returns: 4
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -21,6 +17,11 @@ hubs:
     name: 24 Krowodrza Górka
     rentals: 4
     returns: 1
+  null:
+    id: null
+    name: out_of_station
+    rentals: 4
+    returns: 4
   2232:
     id: 2232
     name: 25 Mackiewicza
