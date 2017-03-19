@@ -64,6 +64,7 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
                     if ($scope.currentWeek == $scope.displayedWeek) {
                         $scope.availableNow = chartData['availableNow'];
                         $scope.rentedNow = chartData['rentedNow'];
+                        $scope.brokenNow = chartData['brokenNow'];
                     }
 
                 });
