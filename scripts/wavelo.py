@@ -96,6 +96,8 @@ for bike in bikes:
 rented_bikes_data = {}
 unavailable_bikes_data = {}
 
+# State: available (?), rented, hold, booked
+# Repair_state: working, soft_broken
 for bike in unavailable_bikes:
     r = requests.get(server + bike_endpoint%(bike), auth=(user, password))
     bike_d = r.json()
