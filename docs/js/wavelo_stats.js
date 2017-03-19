@@ -1,7 +1,8 @@
 angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikesDataService'])
     .controller('myCtrl', function ($scope, $http, $interval, BikesData, BikesChart) {
         moment.locale('pl');
-        
+        $scope.dailyStats = [];
+
         $scope.chart = {};
         $scope.chart.options = BikesChart.setUpChart();
 
@@ -23,6 +24,29 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
             })
         }
 
+        $scope.updateDailyStats = function () {
+            var monday = parseInt(moment($scope.displayedWeek, 'W').tz("Europe/Warsaw").startOf("isoWeek").format("DDD"));
+            for (var i = 0; i < 7; i++) {
+                BikesData.getDailyStatistics(monday + i)
+                    .then((function (index, bike_data) {
+                        if (!bike_data) {
+                            $scope.dailyStats[index] = null;
+                            return;
+                        }
+
+                        $scope.dailyStats[index] = {};
+
+
+                        $scope.dailyStats[index].nameOfDay = moment(monday + index, "DDD").tz("Europe/Warsaw").format("dddd");
+
+                        $scope.dailyStats[index].totalRentals = bike_data['total_rentals'];
+                        $scope.dailyStats[index].totalReturns = bike_data['total_returns'];
+
+                    }).bind(null, i));
+            }
+
+        }
+
         $scope.updateData = function () {
             $scope.loading = true;
             BikesData.getWeek($scope.displayedWeek)
@@ -36,31 +60,10 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
                     $scope.rentedNow = chartData['rentedNow'];
 
                 });
+            $scope.updateDailyStats();
         }
 
         $scope.updateData();
-
-        $scope.dailyStats = [];
-        var monday = parseInt(moment($scope.displayedWeek, 'W').tz("Europe/Warsaw").startOf("isoWeek").format("DDD"));
-        for (var i = 0; i < 7; i++) {
-            BikesData.getDailyStatistics(monday + i)
-                .then((function (index, bike_data) {
-                    if (!bike_data) {
-                        return;
-                    }    
-                    if (!$scope.dailyStats[index]){
-                        $scope.dailyStats[index] = {};
-                    }                
-                    
-                    $scope.dailyStats[index].nameOfDay = moment(monday+index, "DDD").tz("Europe/Warsaw").format("dddd");
-
-                    $scope.dailyStats[index].totalRentals = bike_data['total_rentals'];
-                    $scope.dailyStats[index].totalReturns = bike_data['total_returns'];
-                    
-                }).bind(null, i));
-        }
-
-
         $scope.intervalFunction = function () {
             $interval(function () {
                 $scope.updateData();
