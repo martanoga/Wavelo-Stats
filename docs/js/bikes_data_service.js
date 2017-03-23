@@ -165,17 +165,17 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         values: borrowedBikes,      //values - represents the array of {x,y} data points
                         key: 'rowery wypożyczone', //key  - the name of the series.
                         color: '#ff7f0e',  //color - optional: choose your own line color.
-                        type: "line",
+                        type: "area",
                         yAxis: 1
                     },
 
-                    {
-                        values: allAvailableBikes,      //values - represents the array of {x,y} data points
-                        key: 'wszystkie dostępne rowery', //key  - the name of the series.
-                        color: '#337099',  //color - optional: choose your own line color.
-                        type: "line",
-                        yAxis: 1
-                    },
+                    // {
+                    //     values: allAvailableBikes,      //values - represents the array of {x,y} data points
+                    //     key: 'wszystkie dostępne rowery', //key  - the name of the series.
+                    //     color: '#337099',  //color - optional: choose your own line color.
+                    //     type: "line",
+                    //     yAxis: 1
+                    // },
                     {
                         values: allAvailableInHubsBikes,      //values - represents the array of {x,y} data points
                         key: 'dostępne na stacjach', //key  - the name of the series.
@@ -259,7 +259,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         // callback: function (chart, e) {
                         //     console.log("callback");
                         // },
-                        yDomain1: [0, 400]
+                        yDomain1: [0, 350]
 
                     }
                 };
