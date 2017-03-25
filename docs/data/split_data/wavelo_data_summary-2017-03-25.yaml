@@ -668,3 +668,13 @@
   all_repair_state_not_working: 0
   all_state_not_available: 0
   timestamp: 1490416201.212349
+'2017-03-25 05:35:00':
+  all_available_bikes: 300
+  all_available_bikes_hubs: 293
+  all_current_bikes_hubs: 293
+  all_not_in_hub: 7
+  all_outside_area: 0
+  all_rented_bikes: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  timestamp: 1490416500.679299
