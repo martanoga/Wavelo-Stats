@@ -192354,3 +192354,2602 @@
       name: 0185
       repair_state: broken
       state: available
+'2017-04-01 06:10:00':
+  all_available_bikes: 294
+  all_available_bikes_hubs: 284
+  all_current_bikes_hubs: 284
+  all_not_in_hub: 10
+  all_outside_area: 0
+  all_rented_bikes: 1
+  all_repair_state_not_working: 5
+  all_state_not_available: 0
+  bikes:
+    8374:
+      distance: null
+      hub_id: 2229
+      id: 8374
+      inside_area: true
+      name: 0094
+      repair_state: working
+      state: available
+    8959:
+      distance: null
+      hub_id: 2035
+      id: 8959
+      inside_area: true
+      name: '0073'
+      repair_state: working
+      state: available
+    8960:
+      distance: null
+      hub_id: 2237
+      id: 8960
+      inside_area: true
+      name: 0068
+      repair_state: working
+      state: available
+    8961:
+      distance: null
+      hub_id: 2031
+      id: 8961
+      inside_area: true
+      name: '0063'
+      repair_state: working
+      state: available
+    8962:
+      distance: null
+      hub_id: 2236
+      id: 8962
+      inside_area: true
+      name: '0051'
+      repair_state: working
+      state: available
+    8963:
+      distance: null
+      hub_id: 2038
+      id: 8963
+      inside_area: true
+      name: 0097
+      repair_state: working
+      state: available
+    8964:
+      distance: null
+      hub_id: 2235
+      id: 8964
+      inside_area: true
+      name: '0013'
+      repair_state: working
+      state: available
+    8965:
+      distance: null
+      hub_id: 2229
+      id: 8965
+      inside_area: true
+      name: 0080
+      repair_state: working
+      state: available
+    8966:
+      distance: null
+      hub_id: 2230
+      id: 8966
+      inside_area: true
+      name: 0079
+      repair_state: working
+      state: available
+    8967:
+      distance: null
+      hub_id: 2049
+      id: 8967
+      inside_area: true
+      name: 0078
+      repair_state: working
+      state: available
+    8968:
+      distance: null
+      hub_id: 2234
+      id: 8968
+      inside_area: true
+      name: 0069
+      repair_state: working
+      state: available
+    8969:
+      distance: null
+      hub_id: 2037
+      id: 8969
+      inside_area: true
+      name: '0056'
+      repair_state: working
+      state: available
+    8970:
+      distance: null
+      hub_id: 2228
+      id: 8970
+      inside_area: true
+      name: '0015'
+      repair_state: working
+      state: available
+    8971:
+      distance: null
+      hub_id: 2223
+      id: 8971
+      inside_area: true
+      name: '0072'
+      repair_state: working
+      state: available
+    8972:
+      distance: null
+      hub_id: 2036
+      id: 8972
+      inside_area: true
+      name: 0019
+      repair_state: working
+      state: available
+    8973:
+      distance: null
+      hub_id: 2030
+      id: 8973
+      inside_area: true
+      name: '0071'
+      repair_state: working
+      state: available
+    8974:
+      distance: null
+      hub_id: 2231
+      id: 8974
+      inside_area: true
+      name: '0005'
+      repair_state: working
+      state: available
+    8975:
+      distance: null
+      hub_id: 2035
+      id: 8975
+      inside_area: true
+      name: '0016'
+      repair_state: working
+      state: available
+    8976:
+      distance: null
+      hub_id: 2231
+      id: 8976
+      inside_area: true
+      name: '0021'
+      repair_state: working
+      state: available
+    8977:
+      distance: null
+      hub_id: 2237
+      id: 8977
+      inside_area: true
+      name: '0020'
+      repair_state: working
+      state: available
+    8978:
+      distance: null
+      hub_id: 2230
+      id: 8978
+      inside_area: true
+      name: 0083
+      repair_state: working
+      state: available
+    8979:
+      distance: null
+      hub_id: 2228
+      id: 8979
+      inside_area: true
+      name: '0023'
+      repair_state: working
+      state: available
+    8980:
+      distance: null
+      hub_id: 2034
+      id: 8980
+      inside_area: true
+      name: '0025'
+      repair_state: working
+      state: available
+    8981:
+      distance: null
+      hub_id: 2020
+      id: 8981
+      inside_area: true
+      name: '0026'
+      repair_state: working
+      state: available
+    8982:
+      distance: null
+      hub_id: 2036
+      id: 8982
+      inside_area: true
+      name: '0004'
+      repair_state: working
+      state: available
+    8983:
+      distance: null
+      hub_id: null
+      id: 8983
+      inside_area: true
+      name: 0058
+      repair_state: working
+      state: available
+    8984:
+      distance: null
+      hub_id: 2034
+      id: 8984
+      inside_area: true
+      name: '0052'
+      repair_state: working
+      state: available
+    8985:
+      distance: null
+      hub_id: null
+      id: 8985
+      inside_area: true
+      name: 0009
+      repair_state: working
+      state: available
+    8986:
+      distance: null
+      hub_id: 2037
+      id: 8986
+      inside_area: true
+      name: '0075'
+      repair_state: working
+      state: available
+    8987:
+      distance: null
+      hub_id: 2231
+      id: 8987
+      inside_area: true
+      name: '0024'
+      repair_state: working
+      state: available
+    8988:
+      distance: null
+      hub_id: 2229
+      id: 8988
+      inside_area: true
+      name: '0012'
+      repair_state: working
+      state: available
+    8989:
+      distance: null
+      hub_id: 2028
+      id: 8989
+      inside_area: true
+      name: '0055'
+      repair_state: working
+      state: available
+    8990:
+      distance: null
+      hub_id: 2021
+      id: 8990
+      inside_area: true
+      name: '0047'
+      repair_state: working
+      state: available
+    8991:
+      distance: null
+      hub_id: 2034
+      id: 8991
+      inside_area: true
+      name: '0070'
+      repair_state: working
+      state: available
+    8992:
+      distance: null
+      hub_id: 2034
+      id: 8992
+      inside_area: true
+      name: 0048
+      repair_state: working
+      state: available
+    8993:
+      distance: null
+      hub_id: 2225
+      id: 8993
+      inside_area: true
+      name: 0090
+      repair_state: working
+      state: available
+    8994:
+      distance: null
+      hub_id: 2032
+      id: 8994
+      inside_area: true
+      name: '0044'
+      repair_state: working
+      state: available
+    8995:
+      distance: null
+      hub_id: 2040
+      id: 8995
+      inside_area: true
+      name: 0095
+      repair_state: working
+      state: available
+    8996:
+      distance: null
+      hub_id: 2231
+      id: 8996
+      inside_area: true
+      name: '0030'
+      repair_state: working
+      state: available
+    8997:
+      distance: null
+      hub_id: 2236
+      id: 8997
+      inside_area: true
+      name: '0001'
+      repair_state: working
+      state: available
+    8998:
+      distance: null
+      hub_id: 2030
+      id: 8998
+      inside_area: true
+      name: '0006'
+      repair_state: working
+      state: available
+    8999:
+      distance: null
+      hub_id: 2224
+      id: 8999
+      inside_area: true
+      name: '0057'
+      repair_state: working
+      state: available
+    9001:
+      distance: null
+      hub_id: 2232
+      id: 9001
+      inside_area: true
+      name: '0060'
+      repair_state: working
+      state: available
+    9002:
+      distance: null
+      hub_id: 2032
+      id: 9002
+      inside_area: true
+      name: '0033'
+      repair_state: working
+      state: available
+    9003:
+      distance: null
+      hub_id: 2036
+      id: 9003
+      inside_area: true
+      name: '0045'
+      repair_state: working
+      state: available
+    9004:
+      distance: null
+      hub_id: 2236
+      id: 9004
+      inside_area: true
+      name: 0088
+      repair_state: working
+      state: available
+    9005:
+      distance: null
+      hub_id: 2233
+      id: 9005
+      inside_area: true
+      name: '0032'
+      repair_state: working
+      state: available
+    9006:
+      distance: null
+      hub_id: 2029
+      id: 9006
+      inside_area: true
+      name: '0014'
+      repair_state: working
+      state: available
+    9007:
+      distance: null
+      hub_id: 2233
+      id: 9007
+      inside_area: true
+      name: '0100'
+      repair_state: working
+      state: available
+    9008:
+      distance: null
+      hub_id: 2231
+      id: 9008
+      inside_area: true
+      name: '0074'
+      repair_state: working
+      state: available
+    9009:
+      distance: null
+      hub_id: 2234
+      id: 9009
+      inside_area: true
+      name: '0043'
+      repair_state: working
+      state: available
+    9010:
+      distance: null
+      hub_id: null
+      id: 9010
+      inside_area: true
+      name: 0093
+      repair_state: working
+      state: available
+    9011:
+      distance: null
+      hub_id: 2236
+      id: 9011
+      inside_area: true
+      name: 0008
+      repair_state: working
+      state: available
+    9012:
+      distance: null
+      hub_id: 2230
+      id: 9012
+      inside_area: true
+      name: '0067'
+      repair_state: working
+      state: available
+    9013:
+      distance: null
+      hub_id: 2035
+      id: 9013
+      inside_area: true
+      name: 0086
+      repair_state: working
+      state: available
+    9014:
+      distance: null
+      hub_id: 2226
+      id: 9014
+      inside_area: true
+      name: '0061'
+      repair_state: working
+      state: available
+    9015:
+      distance: null
+      hub_id: 2029
+      id: 9015
+      inside_area: true
+      name: '0076'
+      repair_state: working
+      state: available
+    9016:
+      distance: null
+      hub_id: 2225
+      id: 9016
+      inside_area: true
+      name: '0010'
+      repair_state: working
+      state: available
+    9017:
+      distance: null
+      hub_id: 2032
+      id: 9017
+      inside_area: true
+      name: 0039
+      repair_state: working
+      state: available
+    9018:
+      distance: null
+      hub_id: 2226
+      id: 9018
+      inside_area: true
+      name: '0041'
+      repair_state: working
+      state: available
+    9019:
+      distance: null
+      hub_id: 2034
+      id: 9019
+      inside_area: true
+      name: 0085
+      repair_state: working
+      state: available
+    9020:
+      distance: null
+      hub_id: 2223
+      id: 9020
+      inside_area: true
+      name: '0017'
+      repair_state: working
+      state: available
+    9021:
+      distance: null
+      hub_id: 2032
+      id: 9021
+      inside_area: true
+      name: 0098
+      repair_state: working
+      state: available
+    9022:
+      distance: null
+      hub_id: 2029
+      id: 9022
+      inside_area: true
+      name: '0042'
+      repair_state: working
+      state: available
+    9023:
+      distance: null
+      hub_id: 2038
+      id: 9023
+      inside_area: true
+      name: 0091
+      repair_state: working
+      state: available
+    9024:
+      distance: null
+      hub_id: 2034
+      id: 9024
+      inside_area: true
+      name: '0022'
+      repair_state: working
+      state: available
+    9025:
+      distance: null
+      hub_id: 2224
+      id: 9025
+      inside_area: true
+      name: 0096
+      repair_state: working
+      state: available
+    9026:
+      distance: null
+      hub_id: 2228
+      id: 9026
+      inside_area: true
+      name: 0089
+      repair_state: working
+      state: available
+    9027:
+      distance: null
+      hub_id: 2028
+      id: 9027
+      inside_area: true
+      name: 0092
+      repair_state: working
+      state: available
+    9028:
+      distance: null
+      hub_id: 2229
+      id: 9028
+      inside_area: true
+      name: 0059
+      repair_state: working
+      state: available
+    9029:
+      distance: null
+      hub_id: 2040
+      id: 9029
+      inside_area: true
+      name: 0029
+      repair_state: working
+      state: available
+    9030:
+      distance: null
+      hub_id: 2230
+      id: 9030
+      inside_area: true
+      name: '0027'
+      repair_state: working
+      state: available
+    9031:
+      distance: null
+      hub_id: 2037
+      id: 9031
+      inside_area: true
+      name: 0038
+      repair_state: working
+      state: available
+    9032:
+      distance: null
+      hub_id: 2028
+      id: 9032
+      inside_area: true
+      name: '0036'
+      repair_state: working
+      state: available
+    9033:
+      distance: null
+      hub_id: 2224
+      id: 9033
+      inside_area: true
+      name: '0037'
+      repair_state: working
+      state: available
+    9034:
+      distance: null
+      hub_id: 2035
+      id: 9034
+      inside_area: true
+      name: '0035'
+      repair_state: working
+      state: available
+    9035:
+      distance: null
+      hub_id: 2230
+      id: 9035
+      inside_area: true
+      name: '0003'
+      repair_state: working
+      state: available
+    9036:
+      distance: null
+      hub_id: 2224
+      id: 9036
+      inside_area: true
+      name: '0002'
+      repair_state: working
+      state: available
+    9037:
+      distance: null
+      hub_id: 2230
+      id: 9037
+      inside_area: true
+      name: 0028
+      repair_state: working
+      state: available
+    9038:
+      distance: null
+      hub_id: 2230
+      id: 9038
+      inside_area: true
+      name: '0011'
+      repair_state: working
+      state: available
+    9039:
+      distance: null
+      hub_id: 2234
+      id: 9039
+      inside_area: true
+      name: 0087
+      repair_state: working
+      state: available
+    9040:
+      distance: null
+      hub_id: 2031
+      id: 9040
+      inside_area: true
+      name: '0062'
+      repair_state: working
+      state: available
+    9041:
+      distance: null
+      hub_id: 2028
+      id: 9041
+      inside_area: true
+      name: 0081
+      repair_state: working
+      state: available
+    9042:
+      distance: null
+      hub_id: 2237
+      id: 9042
+      inside_area: true
+      name: '0065'
+      repair_state: working
+      state: available
+    9043:
+      distance: null
+      hub_id: 2236
+      id: 9043
+      inside_area: true
+      name: '0053'
+      repair_state: working
+      state: available
+    9044:
+      distance: null
+      hub_id: 2236
+      id: 9044
+      inside_area: true
+      name: '0082 '
+      repair_state: working
+      state: available
+    9045:
+      distance: null
+      hub_id: 2037
+      id: 9045
+      inside_area: true
+      name: 0018
+      repair_state: working
+      state: available
+    9046:
+      distance: null
+      hub_id: null
+      id: 9046
+      inside_area: true
+      name: '0066'
+      repair_state: working
+      state: available
+    9047:
+      distance: null
+      hub_id: 2039
+      id: 9047
+      inside_area: true
+      name: '0046'
+      repair_state: working
+      state: available
+    9048:
+      distance: null
+      hub_id: 2235
+      id: 9048
+      inside_area: true
+      name: '0007'
+      repair_state: working
+      state: available
+    9049:
+      distance: null
+      hub_id: 2028
+      id: 9049
+      inside_area: true
+      name: '0054'
+      repair_state: working
+      state: available
+    9050:
+      distance: null
+      hub_id: 2224
+      id: 9050
+      inside_area: true
+      name: '0077'
+      repair_state: working
+      state: available
+    9051:
+      distance: null
+      hub_id: 2031
+      id: 9051
+      inside_area: true
+      name: 0099
+      repair_state: working
+      state: available
+    9052:
+      distance: null
+      hub_id: 2223
+      id: 9052
+      inside_area: true
+      name: '0064'
+      repair_state: working
+      state: available
+    9053:
+      distance: null
+      hub_id: 2040
+      id: 9053
+      inside_area: true
+      name: 0084
+      repair_state: working
+      state: available
+    9054:
+      distance: null
+      hub_id: 2227
+      id: 9054
+      inside_area: true
+      name: 0049
+      repair_state: working
+      state: available
+    9055:
+      distance: null
+      hub_id: 2226
+      id: 9055
+      inside_area: true
+      name: '0050'
+      repair_state: working
+      state: available
+    9056:
+      distance: null
+      hub_id: 2228
+      id: 9056
+      inside_area: true
+      name: '0040'
+      repair_state: working
+      state: available
+    9073:
+      distance: null
+      hub_id: 2231
+      id: 9073
+      inside_area: true
+      name: '0031'
+      repair_state: working
+      state: available
+    10302:
+      distance: null
+      hub_id: 2035
+      id: 10302
+      inside_area: true
+      name: '0145'
+      repair_state: working
+      state: available
+    10303:
+      distance: null
+      hub_id: 2049
+      id: 10303
+      inside_area: true
+      name: '0126'
+      repair_state: working
+      state: available
+    10304:
+      distance: null
+      hub_id: 2227
+      id: 10304
+      inside_area: true
+      name: '0143'
+      repair_state: working
+      state: available
+    10305:
+      distance: null
+      hub_id: 2230
+      id: 10305
+      inside_area: true
+      name: '0155'
+      repair_state: working
+      state: available
+    10306:
+      distance: null
+      hub_id: 2035
+      id: 10306
+      inside_area: true
+      name: '0157'
+      repair_state: working
+      state: available
+    10307:
+      distance: null
+      hub_id: 2036
+      id: 10307
+      inside_area: true
+      name: '0133'
+      repair_state: working
+      state: available
+    10308:
+      distance: null
+      hub_id: 2029
+      id: 10308
+      inside_area: true
+      name: '0111'
+      repair_state: working
+      state: available
+    10309:
+      distance: null
+      hub_id: 2232
+      id: 10309
+      inside_area: true
+      name: '0122'
+      repair_state: working
+      state: available
+    10310:
+      distance: null
+      hub_id: 2030
+      id: 10310
+      inside_area: true
+      name: 0149
+      repair_state: working
+      state: available
+    10311:
+      distance: null
+      hub_id: 2236
+      id: 10311
+      inside_area: true
+      name: '0116'
+      repair_state: working
+      state: available
+    10312:
+      distance: null
+      hub_id: 2228
+      id: 10312
+      inside_area: true
+      name: '0130'
+      repair_state: working
+      state: available
+    10313:
+      distance: null
+      hub_id: 2230
+      id: 10313
+      inside_area: true
+      name: '0115'
+      repair_state: working
+      state: available
+    10314:
+      distance: null
+      hub_id: 2226
+      id: 10314
+      inside_area: true
+      name: 0249
+      repair_state: working
+      state: available
+    10315:
+      distance: null
+      hub_id: 2231
+      id: 10315
+      inside_area: true
+      name: '0232'
+      repair_state: working
+      state: available
+    10316:
+      distance: null
+      hub_id: 2234
+      id: 10316
+      inside_area: true
+      name: '0311'
+      repair_state: working
+      state: available
+    10317:
+      distance: null
+      hub_id: 2035
+      id: 10317
+      inside_area: true
+      name: '0274'
+      repair_state: working
+      state: available
+    10318:
+      distance: null
+      hub_id: 2223
+      id: 10318
+      inside_area: true
+      name: '0310'
+      repair_state: working
+      state: available
+    10319:
+      distance: null
+      hub_id: 2037
+      id: 10319
+      inside_area: true
+      name: 0278
+      repair_state: working
+      state: available
+    10320:
+      distance: null
+      hub_id: 2034
+      id: 10320
+      inside_area: true
+      name: '0205'
+      repair_state: working
+      state: available
+    10321:
+      distance: null
+      hub_id: 2225
+      id: 10321
+      inside_area: true
+      name: '0234'
+      repair_state: working
+      state: available
+    10322:
+      distance: null
+      hub_id: 2228
+      id: 10322
+      inside_area: true
+      name: 0238
+      repair_state: working
+      state: available
+    10323:
+      distance: null
+      hub_id: 2234
+      id: 10323
+      inside_area: true
+      name: '0176'
+      repair_state: working
+      state: available
+    10324:
+      distance: null
+      hub_id: 2227
+      id: 10324
+      inside_area: true
+      name: '0316'
+      repair_state: working
+      state: available
+    10325:
+      distance: null
+      hub_id: 2237
+      id: 10325
+      inside_area: true
+      name: '0271'
+      repair_state: working
+      state: available
+    10326:
+      distance: null
+      hub_id: 2237
+      id: 10326
+      inside_area: true
+      name: '0211'
+      repair_state: working
+      state: available
+    10327:
+      distance: null
+      hub_id: 2234
+      id: 10327
+      inside_area: true
+      name: '0236'
+      repair_state: working
+      state: available
+    10328:
+      distance: null
+      hub_id: 2236
+      id: 10328
+      inside_area: true
+      name: '0235'
+      repair_state: working
+      state: available
+    10329:
+      distance: null
+      hub_id: 2031
+      id: 10329
+      inside_area: true
+      name: 0228
+      repair_state: working
+      state: available
+    10330:
+      distance: null
+      hub_id: 2226
+      id: 10330
+      inside_area: true
+      name: 0318
+      repair_state: working
+      state: available
+    10331:
+      distance: null
+      hub_id: 2040
+      id: 10331
+      inside_area: true
+      name: 0209
+      repair_state: working
+      state: available
+    10333:
+      distance: null
+      hub_id: 2232
+      id: 10333
+      inside_area: true
+      name: '0242'
+      repair_state: working
+      state: available
+    10334:
+      distance: null
+      hub_id: 2036
+      id: 10334
+      inside_area: true
+      name: 0199
+      repair_state: working
+      state: available
+    10335:
+      distance: null
+      hub_id: 2034
+      id: 10335
+      inside_area: true
+      name: '0273'
+      repair_state: working
+      state: available
+    10336:
+      distance: null
+      hub_id: null
+      id: 10336
+      inside_area: true
+      name: 0129
+      repair_state: working
+      state: available
+    10337:
+      distance: null
+      hub_id: 2235
+      id: 10337
+      inside_area: true
+      name: '0151'
+      repair_state: working
+      state: available
+    10338:
+      distance: null
+      hub_id: 2223
+      id: 10338
+      inside_area: true
+      name: '0152'
+      repair_state: working
+      state: available
+    10339:
+      distance: null
+      hub_id: 2029
+      id: 10339
+      inside_area: true
+      name: '0262'
+      repair_state: working
+      state: available
+    10340:
+      distance: null
+      hub_id: 2034
+      id: 10340
+      inside_area: true
+      name: '0261'
+      repair_state: working
+      state: available
+    10342:
+      distance: null
+      hub_id: 2230
+      id: 10342
+      inside_area: true
+      name: '0244'
+      repair_state: working
+      state: available
+    10343:
+      distance: null
+      hub_id: 2237
+      id: 10343
+      inside_area: true
+      name: 0192
+      repair_state: working
+      state: available
+    10344:
+      distance: null
+      hub_id: 2227
+      id: 10344
+      inside_area: true
+      name: '0267'
+      repair_state: working
+      state: available
+    10345:
+      distance: null
+      hub_id: 2037
+      id: 10345
+      inside_area: true
+      name: 0108
+      repair_state: working
+      state: available
+    10346:
+      distance: null
+      hub_id: 2223
+      id: 10346
+      inside_area: true
+      name: '0160'
+      repair_state: working
+      state: available
+    10347:
+      distance: null
+      hub_id: 2223
+      id: 10347
+      inside_area: true
+      name: 0148
+      repair_state: working
+      state: available
+    10348:
+      distance: null
+      hub_id: 2032
+      id: 10348
+      inside_area: true
+      name: 0159
+      repair_state: working
+      state: available
+    10349:
+      distance: null
+      hub_id: 2224
+      id: 10349
+      inside_area: true
+      name: '0107'
+      repair_state: working
+      state: available
+    10350:
+      distance: null
+      hub_id: 2233
+      id: 10350
+      inside_area: true
+      name: '0136'
+      repair_state: working
+      state: available
+    10351:
+      distance: null
+      hub_id: 2036
+      id: 10351
+      inside_area: true
+      name: '0147'
+      repair_state: working
+      state: available
+    10352:
+      distance: null
+      hub_id: 2021
+      id: 10352
+      inside_area: true
+      name: 0118
+      repair_state: working
+      state: available
+    10353:
+      distance: null
+      hub_id: 2038
+      id: 10353
+      inside_area: true
+      name: '0154'
+      repair_state: working
+      state: available
+    10354:
+      distance: null
+      hub_id: 2029
+      id: 10354
+      inside_area: true
+      name: '0156'
+      repair_state: working
+      state: available
+    10355:
+      distance: null
+      hub_id: 2231
+      id: 10355
+      inside_area: true
+      name: '0173'
+      repair_state: working
+      state: available
+    10356:
+      distance: null
+      hub_id: 2049
+      id: 10356
+      inside_area: true
+      name: '0226'
+      repair_state: working
+      state: available
+    10357:
+      distance: null
+      hub_id: 2237
+      id: 10357
+      inside_area: true
+      name: '0212'
+      repair_state: working
+      state: available
+    10358:
+      distance: null
+      hub_id: 2226
+      id: 10358
+      inside_area: true
+      name: '0203'
+      repair_state: working
+      state: available
+    10359:
+      distance: null
+      hub_id: 2235
+      id: 10359
+      inside_area: true
+      name: 0187
+      repair_state: working
+      state: available
+    10360:
+      distance: null
+      hub_id: 2229
+      id: 10360
+      inside_area: true
+      name: 0258
+      repair_state: working
+      state: available
+    10361:
+      distance: null
+      hub_id: 2229
+      id: 10361
+      inside_area: true
+      name: '0172'
+      repair_state: working
+      state: available
+    10362:
+      distance: null
+      hub_id: 2231
+      id: 10362
+      inside_area: true
+      name: '0170'
+      repair_state: working
+      state: available
+    10363:
+      distance: null
+      hub_id: 2228
+      id: 10363
+      inside_area: true
+      name: '0256'
+      repair_state: working
+      state: available
+    10364:
+      distance: null
+      hub_id: 2231
+      id: 10364
+      inside_area: true
+      name: '0171'
+      repair_state: working
+      state: available
+    10365:
+      distance: null
+      hub_id: 2028
+      id: 10365
+      inside_area: true
+      name: 0269
+      repair_state: working
+      state: available
+    10366:
+      distance: null
+      hub_id: 2039
+      id: 10366
+      inside_area: true
+      name: 0193
+      repair_state: working
+      state: available
+    10367:
+      distance: null
+      hub_id: 2028
+      id: 10367
+      inside_area: true
+      name: '0200'
+      repair_state: working
+      state: available
+    10368:
+      distance: null
+      hub_id: 2034
+      id: 10368
+      inside_area: true
+      name: '0315'
+      repair_state: working
+      state: available
+    10369:
+      distance: null
+      hub_id: 2230
+      id: 10369
+      inside_area: true
+      name: 0290
+      repair_state: working
+      state: available
+    10370:
+      distance: null
+      hub_id: 2036
+      id: 10370
+      inside_area: true
+      name: 0279
+      repair_state: working
+      state: available
+    10371:
+      distance: null
+      hub_id: 2225
+      id: 10371
+      inside_area: true
+      name: '0300'
+      repair_state: working
+      state: available
+    10372:
+      distance: null
+      hub_id: 2237
+      id: 10372
+      inside_area: true
+      name: '0254'
+      repair_state: working
+      state: available
+    10373:
+      distance: null
+      hub_id: null
+      id: 10373
+      inside_area: true
+      name: 0128
+      repair_state: working
+      state: available
+    10374:
+      distance: null
+      hub_id: 2237
+      id: 10374
+      inside_area: true
+      name: 0139
+      repair_state: working
+      state: available
+    10375:
+      distance: null
+      hub_id: 2037
+      id: 10375
+      inside_area: true
+      name: '0142'
+      repair_state: working
+      state: available
+    10376:
+      distance: null
+      hub_id: 2235
+      id: 10376
+      inside_area: true
+      name: '0277'
+      repair_state: working
+      state: available
+    10377:
+      distance: null
+      hub_id: 2225
+      id: 10377
+      inside_area: true
+      name: '0260'
+      repair_state: working
+      state: available
+    10378:
+      distance: null
+      hub_id: 2030
+      id: 10378
+      inside_area: true
+      name: 0259
+      repair_state: working
+      state: available
+    10379:
+      distance: null
+      hub_id: 2226
+      id: 10379
+      inside_area: true
+      name: '0222'
+      repair_state: working
+      state: available
+    10380:
+      distance: null
+      hub_id: 2029
+      id: 10380
+      inside_area: true
+      name: '0225'
+      repair_state: working
+      state: available
+    10381:
+      distance: null
+      hub_id: 2040
+      id: 10381
+      inside_area: true
+      name: '0270'
+      repair_state: working
+      state: available
+    10382:
+      distance: null
+      hub_id: 2228
+      id: 10382
+      inside_area: true
+      name: 0282
+      repair_state: working
+      state: available
+    10383:
+      distance: null
+      hub_id: 2034
+      id: 10383
+      inside_area: true
+      name: 0295
+      repair_state: working
+      state: available
+    10384:
+      distance: null
+      hub_id: 2040
+      id: 10384
+      inside_area: true
+      name: 0297
+      repair_state: working
+      state: available
+    10386:
+      distance: null
+      hub_id: 2031
+      id: 10386
+      inside_area: true
+      name: '0216'
+      repair_state: working
+      state: available
+    10387:
+      distance: null
+      hub_id: 2040
+      id: 10387
+      inside_area: true
+      name: 0291
+      repair_state: working
+      state: available
+    10388:
+      distance: null
+      hub_id: 2036
+      id: 10388
+      inside_area: true
+      name: 0283
+      repair_state: working
+      state: available
+    10389:
+      distance: null
+      hub_id: 2234
+      id: 10389
+      inside_area: true
+      name: '0135'
+      repair_state: working
+      state: available
+    10390:
+      distance: null
+      hub_id: 2231
+      id: 10390
+      inside_area: true
+      name: '0124'
+      repair_state: working
+      state: available
+    10391:
+      distance: null
+      hub_id: 2040
+      id: 10391
+      inside_area: true
+      name: 0158
+      repair_state: working
+      state: available
+    10392:
+      distance: null
+      hub_id: 2030
+      id: 10392
+      inside_area: true
+      name: '0144'
+      repair_state: working
+      state: available
+    10393:
+      distance: null
+      hub_id: 2233
+      id: 10393
+      inside_area: true
+      name: '0153'
+      repair_state: working
+      state: available
+    10394:
+      distance: null
+      hub_id: 2224
+      id: 10394
+      inside_area: true
+      name: '0134'
+      repair_state: working
+      state: available
+    10395:
+      distance: null
+      hub_id: 2028
+      id: 10395
+      inside_area: true
+      name: '0123'
+      repair_state: working
+      state: available
+    10396:
+      distance: null
+      hub_id: 2223
+      id: 10396
+      inside_area: true
+      name: '0113'
+      repair_state: working
+      state: available
+    10397:
+      distance: null
+      hub_id: 2223
+      id: 10397
+      inside_area: true
+      name: '0105'
+      repair_state: working
+      state: available
+    10398:
+      distance: null
+      hub_id: 2236
+      id: 10398
+      inside_area: true
+      name: '0125'
+      repair_state: working
+      state: available
+    10399:
+      distance: null
+      hub_id: 2235
+      id: 10399
+      inside_area: true
+      name: '0257'
+      repair_state: working
+      state: available
+    10400:
+      distance: null
+      hub_id: 2224
+      id: 10400
+      inside_area: true
+      name: '0313'
+      repair_state: working
+      state: available
+    10401:
+      distance: null
+      hub_id: 2237
+      id: 10401
+      inside_area: true
+      name: '0237'
+      repair_state: working
+      state: available
+    10402:
+      distance: null
+      hub_id: 2227
+      id: 10402
+      inside_area: true
+      name: '0312'
+      repair_state: working
+      state: available
+    10403:
+      distance: null
+      hub_id: 2226
+      id: 10403
+      inside_area: true
+      name: 0287
+      repair_state: working
+      state: available
+    10404:
+      distance: null
+      hub_id: 2236
+      id: 10404
+      inside_area: true
+      name: '0245'
+      repair_state: working
+      state: available
+    10405:
+      distance: null
+      hub_id: 2035
+      id: 10405
+      inside_area: true
+      name: '0304'
+      repair_state: working
+      state: available
+    10406:
+      distance: null
+      hub_id: 2028
+      id: 10406
+      inside_area: true
+      name: '0314'
+      repair_state: working
+      state: available
+    10407:
+      distance: null
+      hub_id: 2040
+      id: 10407
+      inside_area: true
+      name: 0188
+      repair_state: working
+      state: available
+    10408:
+      distance: null
+      hub_id: 2040
+      id: 10408
+      inside_area: true
+      name: 0178
+      repair_state: working
+      state: available
+    10409:
+      distance: null
+      hub_id: 2233
+      id: 10409
+      inside_area: true
+      name: '0164'
+      repair_state: working
+      state: available
+    10410:
+      distance: null
+      hub_id: 2229
+      id: 10410
+      inside_area: true
+      name: '0177'
+      repair_state: working
+      state: available
+    10411:
+      distance: null
+      hub_id: 2029
+      id: 10411
+      inside_area: true
+      name: '0253'
+      repair_state: working
+      state: available
+    10412:
+      distance: null
+      hub_id: 2227
+      id: 10412
+      inside_area: true
+      name: 0169
+      repair_state: working
+      state: available
+    10413:
+      distance: null
+      hub_id: 2225
+      id: 10413
+      inside_area: true
+      name: 0184
+      repair_state: working
+      state: available
+    10414:
+      distance: null
+      hub_id: 2040
+      id: 10414
+      inside_area: true
+      name: '0101'
+      repair_state: working
+      state: available
+    10415:
+      distance: null
+      hub_id: 2233
+      id: 10415
+      inside_area: true
+      name: '0102'
+      repair_state: working
+      state: available
+    10416:
+      distance: null
+      hub_id: 2049
+      id: 10416
+      inside_area: true
+      name: '0140'
+      repair_state: working
+      state: available
+    10417:
+      distance: null
+      hub_id: 2230
+      id: 10417
+      inside_area: true
+      name: '0223'
+      repair_state: working
+      state: available
+    10418:
+      distance: null
+      hub_id: 2226
+      id: 10418
+      inside_area: true
+      name: 0286
+      repair_state: working
+      state: available
+    10419:
+      distance: null
+      hub_id: 2035
+      id: 10419
+      inside_area: true
+      name: 0248
+      repair_state: working
+      state: available
+    10420:
+      distance: null
+      hub_id: 2032
+      id: 10420
+      inside_area: true
+      name: '0305'
+      repair_state: working
+      state: available
+    10421:
+      distance: null
+      hub_id: 2228
+      id: 10421
+      inside_area: true
+      name: 0196
+      repair_state: working
+      state: available
+    10422:
+      distance: null
+      hub_id: 2030
+      id: 10422
+      inside_area: true
+      name: 0186
+      repair_state: working
+      state: available
+    10423:
+      distance: null
+      hub_id: 2230
+      id: 10423
+      inside_area: true
+      name: '0204'
+      repair_state: working
+      state: available
+    10424:
+      distance: null
+      hub_id: 2235
+      id: 10424
+      inside_area: true
+      name: '0265'
+      repair_state: working
+      state: available
+    10425:
+      distance: null
+      hub_id: 2049
+      id: 10425
+      inside_area: true
+      name: '0247'
+      repair_state: working
+      state: available
+    10426:
+      distance: null
+      hub_id: 2034
+      id: 10426
+      inside_area: true
+      name: '0206'
+      repair_state: working
+      state: available
+    10427:
+      distance: null
+      hub_id: 2234
+      id: 10427
+      inside_area: true
+      name: '0266'
+      repair_state: working
+      state: available
+    10428:
+      distance: null
+      hub_id: 2225
+      id: 10428
+      inside_area: true
+      name: '0117'
+      repair_state: working
+      state: available
+    10429:
+      distance: null
+      hub_id: 2229
+      id: 10429
+      inside_area: true
+      name: 0119
+      repair_state: working
+      state: available
+    10430:
+      distance: null
+      hub_id: 2231
+      id: 10430
+      inside_area: true
+      name: '0174'
+      repair_state: working
+      state: available
+    10431:
+      distance: null
+      hub_id: null
+      id: 10431
+      inside_area: true
+      name: 0109
+      repair_state: working
+      state: available
+    10432:
+      distance: null
+      hub_id: 2230
+      id: 10432
+      inside_area: true
+      name: '0221'
+      repair_state: working
+      state: available
+    10433:
+      distance: null
+      hub_id: 2036
+      id: 10433
+      inside_area: true
+      name: '0165'
+      repair_state: working
+      state: available
+    10434:
+      distance: null
+      hub_id: 2029
+      id: 10434
+      inside_area: true
+      name: '0263'
+      repair_state: working
+      state: available
+    10435:
+      distance: null
+      hub_id: 2234
+      id: 10435
+      inside_area: true
+      name: 0180
+      repair_state: working
+      state: available
+    10436:
+      distance: null
+      hub_id: 2031
+      id: 10436
+      inside_area: true
+      name: '0255'
+      repair_state: working
+      state: available
+    10437:
+      distance: null
+      hub_id: 2028
+      id: 10437
+      inside_area: true
+      name: '0252'
+      repair_state: working
+      state: available
+    10438:
+      distance: null
+      hub_id: 2038
+      id: 10438
+      inside_area: true
+      name: '0301'
+      repair_state: working
+      state: available
+    10439:
+      distance: null
+      hub_id: 2223
+      id: 10439
+      inside_area: true
+      name: 0218
+      repair_state: working
+      state: available
+    10440:
+      distance: null
+      hub_id: 2035
+      id: 10440
+      inside_area: true
+      name: '0161'
+      repair_state: working
+      state: available
+    10441:
+      distance: null
+      hub_id: 2224
+      id: 10441
+      inside_area: true
+      name: 0219
+      repair_state: working
+      state: available
+    10442:
+      distance: null
+      hub_id: 2040
+      id: 10442
+      inside_area: true
+      name: 0285
+      repair_state: working
+      state: available
+    10443:
+      distance: null
+      hub_id: null
+      id: 10443
+      inside_area: true
+      name: '0275'
+      repair_state: working
+      state: available
+    10444:
+      distance: null
+      hub_id: 2040
+      id: 10444
+      inside_area: true
+      name: 0319
+      repair_state: working
+      state: available
+    10445:
+      distance: null
+      hub_id: 2029
+      id: 10445
+      inside_area: true
+      name: '0251'
+      repair_state: working
+      state: available
+    10446:
+      distance: null
+      hub_id: 2021
+      id: 10446
+      inside_area: true
+      name: '0246'
+      repair_state: working
+      state: available
+    10447:
+      distance: null
+      hub_id: 2226
+      id: 10447
+      inside_area: true
+      name: 0299
+      repair_state: working
+      state: available
+    10448:
+      distance: null
+      hub_id: 2233
+      id: 10448
+      inside_area: true
+      name: 0293
+      repair_state: working
+      state: available
+    10449:
+      distance: null
+      hub_id: 2223
+      id: 10449
+      inside_area: true
+      name: 0280
+      repair_state: working
+      state: available
+    10450:
+      distance: null
+      hub_id: 2049
+      id: 10450
+      inside_area: true
+      name: 0281
+      repair_state: working
+      state: available
+    10451:
+      distance: null
+      hub_id: 2235
+      id: 10451
+      inside_area: true
+      name: 0284
+      repair_state: working
+      state: available
+    10452:
+      distance: null
+      hub_id: 2228
+      id: 10452
+      inside_area: true
+      name: '0217'
+      repair_state: working
+      state: available
+    10453:
+      distance: null
+      hub_id: 2230
+      id: 10453
+      inside_area: true
+      name: 0183
+      repair_state: working
+      state: available
+    10454:
+      distance: null
+      hub_id: 2029
+      id: 10454
+      inside_area: true
+      name: '0231'
+      repair_state: working
+      state: available
+    10455:
+      distance: null
+      hub_id: 2235
+      id: 10455
+      inside_area: true
+      name: 0194
+      repair_state: working
+      state: available
+    10456:
+      distance: null
+      hub_id: 2224
+      id: 10456
+      inside_area: true
+      name: '0264'
+      repair_state: working
+      state: available
+    10457:
+      distance: null
+      hub_id: 2029
+      id: 10457
+      inside_area: true
+      name: '0127'
+      repair_state: working
+      state: available
+    10458:
+      distance: null
+      hub_id: 2021
+      id: 10458
+      inside_area: true
+      name: '0167'
+      repair_state: working
+      state: available
+    10459:
+      distance: null
+      hub_id: 2035
+      id: 10459
+      inside_area: true
+      name: 0181
+      repair_state: working
+      state: available
+    10460:
+      distance: null
+      hub_id: 2036
+      id: 10460
+      inside_area: true
+      name: 0179
+      repair_state: working
+      state: available
+    10461:
+      distance: null
+      hub_id: 2028
+      id: 10461
+      inside_area: true
+      name: '0112'
+      repair_state: working
+      state: available
+    10462:
+      distance: null
+      hub_id: 2031
+      id: 10462
+      inside_area: true
+      name: '0150'
+      repair_state: working
+      state: available
+    10464:
+      distance: null
+      hub_id: 2235
+      id: 10464
+      inside_area: true
+      name: '0243'
+      repair_state: working
+      state: available
+    10465:
+      distance: null
+      hub_id: 2235
+      id: 10465
+      inside_area: true
+      name: '0106'
+      repair_state: working
+      state: available
+    10466:
+      distance: null
+      hub_id: 2233
+      id: 10466
+      inside_area: true
+      name: '0110'
+      repair_state: working
+      state: available
+    10467:
+      distance: null
+      hub_id: 2036
+      id: 10467
+      inside_area: true
+      name: 0138
+      repair_state: working
+      state: available
+    10468:
+      distance: null
+      hub_id: 2029
+      id: 10468
+      inside_area: true
+      name: '0120'
+      repair_state: working
+      state: available
+    10469:
+      distance: null
+      hub_id: 2035
+      id: 10469
+      inside_area: true
+      name: '0121'
+      repair_state: working
+      state: available
+    10470:
+      distance: null
+      hub_id: 2227
+      id: 10470
+      inside_area: true
+      name: '0220'
+      repair_state: working
+      state: available
+    10471:
+      distance: null
+      hub_id: 2028
+      id: 10471
+      inside_area: true
+      name: '0132'
+      repair_state: working
+      state: available
+    10472:
+      distance: null
+      hub_id: 2237
+      id: 10472
+      inside_area: true
+      name: '0272'
+      repair_state: working
+      state: available
+    10473:
+      distance: null
+      hub_id: null
+      id: 10473
+      inside_area: true
+      name: '0175'
+      repair_state: working
+      state: available
+    10474:
+      distance: null
+      hub_id: 2037
+      id: 10474
+      inside_area: true
+      name: '0131'
+      repair_state: working
+      state: available
+    10475:
+      distance: null
+      hub_id: 2039
+      id: 10475
+      inside_area: true
+      name: 0195
+      repair_state: working
+      state: available
+    10477:
+      distance: null
+      hub_id: 2035
+      id: 10477
+      inside_area: true
+      name: 0289
+      repair_state: working
+      state: available
+    10478:
+      distance: null
+      hub_id: 2229
+      id: 10478
+      inside_area: true
+      name: '0240'
+      repair_state: working
+      state: available
+    10479:
+      distance: null
+      hub_id: 2230
+      id: 10479
+      inside_area: true
+      name: '0210'
+      repair_state: working
+      state: available
+    10480:
+      distance: null
+      hub_id: 2226
+      id: 10480
+      inside_area: true
+      name: '0250'
+      repair_state: working
+      state: available
+    10481:
+      distance: null
+      hub_id: 2037
+      id: 10481
+      inside_area: true
+      name: 0198
+      repair_state: working
+      state: available
+    10482:
+      distance: null
+      hub_id: 2231
+      id: 10482
+      inside_area: true
+      name: '0201'
+      repair_state: working
+      state: available
+    10483:
+      distance: null
+      hub_id: 2028
+      id: 10483
+      inside_area: true
+      name: 0208
+      repair_state: working
+      state: available
+    10484:
+      distance: null
+      hub_id: 2040
+      id: 10484
+      inside_area: true
+      name: '0303'
+      repair_state: working
+      state: available
+    10485:
+      distance: null
+      hub_id: 2230
+      id: 10485
+      inside_area: true
+      name: '0213'
+      repair_state: working
+      state: available
+    10486:
+      distance: null
+      hub_id: 2038
+      id: 10486
+      inside_area: true
+      name: '0224'
+      repair_state: working
+      state: available
+    10487:
+      distance: null
+      hub_id: 2233
+      id: 10487
+      inside_area: true
+      name: 0298
+      repair_state: working
+      state: available
+    10488:
+      distance: null
+      hub_id: 2039
+      id: 10488
+      inside_area: true
+      name: '0307'
+      repair_state: working
+      state: available
+    10489:
+      distance: null
+      hub_id: 2034
+      id: 10489
+      inside_area: true
+      name: 0308
+      repair_state: working
+      state: available
+    10490:
+      distance: null
+      hub_id: 2224
+      id: 10490
+      inside_area: true
+      name: 0309
+      repair_state: working
+      state: available
+    10491:
+      distance: null
+      hub_id: 2039
+      id: 10491
+      inside_area: true
+      name: '0104'
+      repair_state: working
+      state: available
+    10492:
+      distance: null
+      hub_id: 2029
+      id: 10492
+      inside_area: true
+      name: '0141'
+      repair_state: working
+      state: available
+    10493:
+      distance: null
+      hub_id: 2231
+      id: 10493
+      inside_area: true
+      name: 0190
+      repair_state: working
+      state: available
+    10494:
+      distance: null
+      hub_id: 2233
+      id: 10494
+      inside_area: true
+      name: '0166'
+      repair_state: working
+      state: available
+    10495:
+      distance: null
+      hub_id: 2235
+      id: 10495
+      inside_area: true
+      name: 0191
+      repair_state: working
+      state: available
+    10496:
+      distance: null
+      hub_id: 2223
+      id: 10496
+      inside_area: true
+      name: '0162'
+      repair_state: working
+      state: available
+    10497:
+      distance: null
+      hub_id: 2231
+      id: 10497
+      inside_area: true
+      name: '0163'
+      repair_state: working
+      state: available
+    10498:
+      distance: null
+      hub_id: 2225
+      id: 10498
+      inside_area: true
+      name: '0103'
+      repair_state: working
+      state: available
+    10499:
+      distance: null
+      hub_id: 2227
+      id: 10499
+      inside_area: true
+      name: '0114'
+      repair_state: working
+      state: available
+    10523:
+      distance: null
+      hub_id: 2226
+      id: 10523
+      inside_area: true
+      name: '0137'
+      repair_state: working
+      state: available
+    10524:
+      distance: null
+      hub_id: null
+      id: 10524
+      inside_area: true
+      name: 0288
+      repair_state: working
+      state: available
+  hubs:
+    2020:
+      available_bikes: 1
+      current_bikes: 1
+      free_racks: 15
+      id: 2020
+      name: 02 Teatr Bagatela
+    2021:
+      available_bikes: 4
+      current_bikes: 4
+      free_racks: 13
+      id: 2021
+      name: 01 Plac Wszystkich Świętych
+    2028:
+      available_bikes: 13
+      current_bikes: 13
+      free_racks: 2
+      id: 2028
+      name: 03 Cracovia Błonia
+    2029:
+      available_bikes: 14
+      current_bikes: 14
+      free_racks: 6
+      id: 2029
+      name: 04 Plac Inwalidów
+    2030:
+      available_bikes: 6
+      current_bikes: 6
+      free_racks: 9
+      id: 2030
+      name: 05 Politechnika
+    2031:
+      available_bikes: 7
+      current_bikes: 7
+      free_racks: 9
+      id: 2031
+      name: 06 Dworzec Główny Wschód
+    2032:
+      available_bikes: 6
+      current_bikes: 6
+      free_racks: 23
+      id: 2032
+      name: 07 Rondo Mogilskie
+    2034:
+      available_bikes: 13
+      current_bikes: 13
+      free_racks: 2
+      id: 2034
+      name: 09 Miodowa
+    2035:
+      available_bikes: 13
+      current_bikes: 13
+      free_racks: 6
+      id: 2035
+      name: 10 Plac Bohaterów Getta
+    2036:
+      available_bikes: 11
+      current_bikes: 11
+      free_racks: 1
+      id: 2036
+      name: 11 Korona
+    2037:
+      available_bikes: 9
+      current_bikes: 9
+      free_racks: 10
+      id: 2037
+      name: 12 Plac Wolnica
+    2038:
+      available_bikes: 5
+      current_bikes: 5
+      free_racks: 7
+      id: 2038
+      name: 14 Wawel
+    2039:
+      available_bikes: 5
+      current_bikes: 5
+      free_racks: 10
+      id: 2039
+      name: 13 Poczta Główna
+    2040:
+      available_bikes: 14
+      current_bikes: 14
+      free_racks: 5
+      id: 2040
+      name: 15 Centrum Kongresowe ICE
+    2049:
+      available_bikes: 6
+      current_bikes: 6
+      free_racks: 9
+      id: 2049
+      name: 08 Rondo Grzegórzeckie
+    2223:
+      available_bikes: 12
+      current_bikes: 12
+      free_racks: 8
+      id: 2223
+      name: 16 Szwedzka
+    2224:
+      available_bikes: 11
+      current_bikes: 11
+      free_racks: 8
+      id: 2224
+      name: 17 Jubilat
+    2225:
+      available_bikes: 8
+      current_bikes: 8
+      free_racks: 7
+      id: 2225
+      name: 18 Salwator
+    2226:
+      available_bikes: 12
+      current_bikes: 12
+      free_racks: 0
+      id: 2226
+      name: 19 Cichy Kącik
+    2227:
+      available_bikes: 8
+      current_bikes: 8
+      free_racks: 12
+      id: 2227
+      name: 20 Uniwersytet Pedagogiczny
+    2228:
+      available_bikes: 10
+      current_bikes: 10
+      free_racks: 9
+      id: 2228
+      name: Łobzów PKP
+    2229:
+      available_bikes: 9
+      current_bikes: 9
+      free_racks: 5
+      id: 2229
+      name: 22 Nowy Kleparz
+    2230:
+      available_bikes: 17
+      current_bikes: 17
+      free_racks: 3
+      id: 2230
+      name: 23 Bratysławska
+    2231:
+      available_bikes: 15
+      current_bikes: 15
+      free_racks: 5
+      id: 2231
+      name: 24 Krowodrza Górka
+    2232:
+      available_bikes: 3
+      current_bikes: 3
+      free_racks: 8
+      id: 2232
+      name: 25 Mackiewicza
+    2233:
+      available_bikes: 10
+      current_bikes: 10
+      free_racks: 9
+      id: 2233
+      name: 26 Uniwersytet Rolniczy
+    2234:
+      available_bikes: 9
+      current_bikes: 9
+      free_racks: 10
+      id: 2234
+      name: 27 Wieczysta
+    2235:
+      available_bikes: 12
+      current_bikes: 12
+      free_racks: 3
+      id: 2235
+      name: 28 Rondo Kocmyrzowskie
+    2236:
+      available_bikes: 10
+      current_bikes: 10
+      free_racks: 4
+      id: 2236
+      name: 29 DH Wanda
+    2237:
+      available_bikes: 11
+      current_bikes: 11
+      free_racks: 4
+      id: 2237
+      name: '30 Rondo Czyżyńskie '
+  rented_bikes:
+    10385:
+      current_position:
+        coordinates:
+        - 19.935535
+        - 50.04519666666667
+        type: Point
+      distance: null
+      hub_id: null
+      id: 10385
+      inside_area: true
+      name: 0296
+      repair_state: working
+      state: hold
+  timestamp: 1491019800.475588
+  unavailable_bikes:
+    9000:
+      distance: null
+      hub_id: null
+      id: 9000
+      inside_area: false
+      name: '0034'
+      repair_state: broken
+      state: available
+    10332:
+      distance: null
+      hub_id: null
+      id: 10332
+      inside_area: true
+      name: '0320'
+      repair_state: soft_broken
+      state: available
+    10341:
+      distance: null
+      hub_id: null
+      id: 10341
+      inside_area: true
+      name: '0276'
+      repair_state: soft_broken
+      state: available
+    10463:
+      distance: null
+      hub_id: 2236
+      id: 10463
+      inside_area: true
+      name: 0168
+      repair_state: broken
+      state: available
+    10476:
+      distance: null
+      hub_id: 2229
+      id: 10476
+      inside_area: true
+      name: 0185
+      repair_state: broken
+      state: available
