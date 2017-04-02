@@ -79,6 +79,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                     var day_data = week_data[day];
                     var timestamp = parseFloat(moment(day + ' 00:00', 'DDD HH:mm').tz("Europe/Warsaw").format('X'));
                     tickValues.push(timestamp);
+                    tickValues.push(timestamp + 12 * 60 * 60);
 
                     /* Days where there are no data: generate points on 00:00 and 23:00, ticks are not enough */
                     if (day_data == null) {
@@ -242,11 +243,11 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                                 minutes = date.getMinutes();
 
                                 if (hour == 0 && minutes < 10)
-                                    var format = d3.time.format("%Y-%m-%d");
-                                else
-                                    var format = d3.time.format("%H:%M");
-
-                                return format(date);
+                                    return moment(d, 'X').tz("Europe/Warsaw").format('YYYY-MM-DD');
+                                if (hour == 12 && minutes < 10)
+                                    return moment(d, 'X').tz("Europe/Warsaw").format('dddd');
+                                
+                                return moment(d, 'X').tz("Europe/Warsaw").format('HH:mm');
                             }
 
                         },
