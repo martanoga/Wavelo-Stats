@@ -22,16 +22,16 @@ hubs:
     name: 25 Mackiewicza
     rentals: 6
     returns: 7
-  2233:
-    id: 2233
-    name: 26 Uniwersytet Rolniczy
-    rentals: 8
-    returns: 6
   null:
     id: null
     name: out_of_station
     rentals: 8
     returns: 9
+  2233:
+    id: 2233
+    name: 26 Uniwersytet Rolniczy
+    rentals: 8
+    returns: 6
   2223:
     id: 2223
     name: 16 Szwedzka
@@ -157,9 +157,10 @@ hubs:
     name: 12 Plac Wolnica
     rentals: 5
     returns: 4
-long_rentals: 28
+long_rentals: 13
 longest_rental: 16392.277848005295
 max_dt: 611.7106997966766
+max_temp: 8.0
 medium_rentals: 73
 meteo:
   '2017-03-19 00:30:00':
@@ -453,6 +454,7 @@ meteo:
     vis: 5000.0
     weather: light rain; mist
     wind_speed: 7.4079936
+min_temp: 1.0
 short_rentals: 48
 shortest_rental: 603.1145210266113
 spurious_rentals: 12
@@ -604,9 +606,6 @@ trips:
   from: 2227
   to: 2021
 - count: 1
-  from: null
-  to: null
-- count: 1
   from: 2224
   to: 2031
 - count: 1
@@ -631,14 +630,8 @@ trips:
   from: 2030
   to: 2232
 - count: 1
-  from: 2035
-  to: null
-- count: 1
   from: 2036
   to: 2035
-- count: 1
-  from: null
-  to: 2228
 - count: 1
   from: 2227
   to: 2034
@@ -681,6 +674,12 @@ trips:
 - count: 1
   from: 2035
   to: 2038
+- count: 1
+  from: null
+  to: 2228
+- count: 1
+  from: 2035
+  to: null
 - count: 1
   from: 2233
   to: 2236
@@ -757,6 +756,9 @@ trips:
   from: 2039
   to: 2035
 - count: 1
+  from: null
+  to: null
+- count: 1
   from: 2223
   to: 2040
 - count: 1
@@ -793,4 +795,3 @@ trips:
   from: 2020
   to: 2038
 xlong_rentals: 15
-

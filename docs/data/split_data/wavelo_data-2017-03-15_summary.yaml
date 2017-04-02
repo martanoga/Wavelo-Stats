@@ -7,6 +7,11 @@ hubs:
     name: 08 Rondo Grzegórzeckie
     rentals: 8
     returns: 12
+  null:
+    id: null
+    name: out_of_station
+    rentals: 11
+    returns: 15
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -37,11 +42,6 @@ hubs:
     name: 17 Jubilat
     rentals: 8
     returns: 4
-  null:
-    id: null
-    name: out_of_station
-    rentals: 11
-    returns: 15
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -157,9 +157,10 @@ hubs:
     name: 12 Plac Wolnica
     rentals: 9
     returns: 4
-long_rentals: 18
+long_rentals: 11
 longest_rental: 22916.242423057556
 max_dt: 604.3283169269562
+max_temp: 12.0
 medium_rentals: 108
 meteo:
   '2017-03-15 00:00:00':
@@ -477,6 +478,7 @@ meteo:
     temp: 0.0
     vis: 10000.0
     wind_speed: 9.259992
+min_temp: -1.0
 short_rentals: 99
 shortest_rental: 602.6689040660858
 spurious_rentals: 16
@@ -706,7 +708,7 @@ trips:
   from: 2040
   to: 2035
 - count: 1
-  from: 2036
+  from: 2227
   to: null
 - count: 1
   from: 2233
@@ -828,6 +830,9 @@ trips:
 - count: 1
   from: 2040
   to: 2036
+- count: 1
+  from: 2036
+  to: null
 - count: 1
   from: 2035
   to: 2034
@@ -1003,9 +1008,6 @@ trips:
   from: 2020
   to: 2029
 - count: 1
-  from: 2227
-  to: null
-- count: 1
   from: 2231
   to: 2049
 - count: 1
@@ -1021,4 +1023,3 @@ trips:
   from: 2039
   to: 2233
 xlong_rentals: 7
-

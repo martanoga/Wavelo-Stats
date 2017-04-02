@@ -32,6 +32,11 @@ hubs:
     name: 16 Szwedzka
     rentals: 7
     returns: 10
+  null:
+    id: null
+    name: out_of_station
+    rentals: 22
+    returns: 17
   2224:
     id: 2224
     name: 17 Jubilat
@@ -57,11 +62,6 @@ hubs:
     name: 10 Plac Bohaterów Getta
     rentals: 14
     returns: 10
-  null:
-    id: null
-    name: out_of_station
-    rentals: 22
-    returns: 17
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -157,9 +157,10 @@ hubs:
     name: 12 Plac Wolnica
     rentals: 5
     returns: 4
-long_rentals: 15
+long_rentals: 3
 longest_rental: 15683.075043916702
 max_dt: 608.7418360710144
+max_temp: 6.0
 medium_rentals: 81
 meteo:
   '2017-03-13 00:00:00':
@@ -450,6 +451,7 @@ meteo:
     temp: 3.0
     vis: 8000.0
     wind_speed: 1.8519984
+min_temp: 2.0
 short_rentals: 103
 shortest_rental: 602.7880351543427
 spurious_rentals: 16
@@ -946,4 +948,3 @@ trips:
   from: 2227
   to: 2037
 xlong_rentals: 12
-
