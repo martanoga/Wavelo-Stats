@@ -7,11 +7,6 @@ hubs:
     name: 08 Rondo Grzegórzeckie
     rentals: 9
     returns: 5
-  null:
-    id: null
-    name: out_of_station
-    rentals: 12
-    returns: 14
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -62,6 +57,11 @@ hubs:
     name: 10 Plac Bohaterów Getta
     rentals: 9
     returns: 9
+  null:
+    id: null
+    name: out_of_station
+    rentals: 12
+    returns: 14
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -559,14 +559,14 @@ trips:
   from: 2037
   to: 2021
 - count: 2
+  from: 2227
+  to: 2039
+- count: 2
   from: 2029
   to: null
 - count: 2
   from: 2020
   to: 2028
-- count: 2
-  from: 2227
-  to: 2039
 - count: 2
   from: 2236
   to: 2235
@@ -609,9 +609,6 @@ trips:
 - count: 1
   from: 2230
   to: 2031
-- count: 1
-  from: 2020
-  to: null
 - count: 1
   from: 2035
   to: 2031
@@ -667,14 +664,8 @@ trips:
   from: 2029
   to: 2229
 - count: 1
-  from: null
-  to: 2039
-- count: 1
-  from: null
-  to: 2236
-- count: 1
-  from: null
-  to: 2232
+  from: 2020
+  to: null
 - count: 1
   from: 2037
   to: 2035
@@ -708,6 +699,9 @@ trips:
 - count: 1
   from: 2035
   to: null
+- count: 1
+  from: null
+  to: 2236
 - count: 1
   from: 2021
   to: 2039
@@ -783,6 +777,9 @@ trips:
 - count: 1
   from: 2229
   to: 2035
+- count: 1
+  from: null
+  to: 2039
 - count: 1
   from: 2231
   to: 2020
@@ -925,9 +922,6 @@ trips:
   from: 2224
   to: 2035
 - count: 1
-  from: null
-  to: 2020
-- count: 1
   from: 2229
   to: 2031
 - count: 1
@@ -948,6 +942,9 @@ trips:
 - count: 1
   from: 2029
   to: 2021
+- count: 1
+  from: null
+  to: 2020
 - count: 1
   from: 2031
   to: 2031
@@ -975,5 +972,8 @@ trips:
 - count: 1
   from: 2232
   to: 2231
+- count: 1
+  from: null
+  to: 2232
 weather_icon: cloudy
 xlong_rentals: 6

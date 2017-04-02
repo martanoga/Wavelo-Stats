@@ -4,11 +4,6 @@ hubs:
     name: 08 Rondo Grzegórzeckie
     rentals: 9
     returns: 7
-  null:
-    id: null
-    name: out_of_station
-    rentals: 18
-    returns: 14
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -59,6 +54,11 @@ hubs:
     name: 10 Plac Bohaterów Getta
     rentals: 6
     returns: 7
+  null:
+    id: null
+    name: out_of_station
+    rentals: 18
+    returns: 14
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -510,6 +510,9 @@ trips:
   from: 2226
   to: 2036
 - count: 1
+  from: null
+  to: 2232
+- count: 1
   from: 2228
   to: 2030
 - count: 1
@@ -591,6 +594,9 @@ trips:
   from: 2225
   to: 2020
 - count: 1
+  from: 2021
+  to: null
+- count: 1
   from: 2034
   to: 2039
 - count: 1
@@ -615,9 +621,6 @@ trips:
   from: 2228
   to: 2049
 - count: 1
-  from: null
-  to: 2232
-- count: 1
   from: 2028
   to: 2020
 - count: 1
@@ -629,9 +632,6 @@ trips:
 - count: 1
   from: 2031
   to: 2034
-- count: 1
-  from: 2021
-  to: null
 - count: 1
   from: 2035
   to: 2039

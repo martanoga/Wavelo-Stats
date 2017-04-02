@@ -12,11 +12,6 @@ hubs:
     name: 23 Bratysławska
     rentals: 4
     returns: 1
-  null:
-    id: null
-    name: out_of_station
-    rentals: 16
-    returns: 16
   2231:
     id: 2231
     name: 24 Krowodrza Górka
@@ -42,6 +37,11 @@ hubs:
     name: 17 Jubilat
     rentals: 4
     returns: 6
+  null:
+    id: null
+    name: out_of_station
+    rentals: 16
+    returns: 16
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -834,14 +834,14 @@ trips:
   from: 2232
   to: 2231
 - count: 1
+  from: null
+  to: 2237
+- count: 1
   from: 2229
   to: 2225
 - count: 1
   from: 2233
   to: 2230
-- count: 1
-  from: 2234
-  to: null
 - count: 1
   from: 2040
   to: 2035
@@ -851,9 +851,6 @@ trips:
 - count: 1
   from: 2034
   to: 2038
-- count: 1
-  from: null
-  to: 2237
 - count: 1
   from: 2039
   to: 2040
@@ -938,6 +935,9 @@ trips:
 - count: 1
   from: 2038
   to: 2021
+- count: 1
+  from: 2234
+  to: null
 - count: 1
   from: 2028
   to: 2020

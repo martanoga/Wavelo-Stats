@@ -9,11 +9,6 @@ hubs:
     name: 23 Bratysławska
     rentals: 1
     returns: 1
-  null:
-    id: null
-    name: out_of_station
-    rentals: 4
-    returns: 5
   2231:
     id: 2231
     name: 24 Krowodrza Górka
@@ -34,6 +29,11 @@ hubs:
     name: 16 Szwedzka
     rentals: 5
     returns: 3
+  null:
+    id: null
+    name: out_of_station
+    rentals: 4
+    returns: 5
   2224:
     id: 2224
     name: 17 Jubilat
@@ -213,6 +213,9 @@ trips:
   from: 2039
   to: 2020
 - count: 1
+  from: 2029
+  to: null
+- count: 1
   from: 2040
   to: 2035
 - count: 1
@@ -291,7 +294,7 @@ trips:
   from: 2037
   to: 2035
 - count: 1
-  from: 2029
+  from: 2039
   to: null
 - count: 1
   from: 2224
@@ -302,9 +305,6 @@ trips:
 - count: 1
   from: 2031
   to: 2233
-- count: 1
-  from: 2039
-  to: null
 - count: 1
   from: 2049
   to: 2032
@@ -348,9 +348,6 @@ trips:
   from: 2039
   to: 2021
 - count: 1
-  from: 2034
-  to: null
-- count: 1
   from: 2030
   to: 2233
 - count: 1
@@ -371,3 +368,6 @@ trips:
 - count: 1
   from: 2021
   to: 2035
+- count: 1
+  from: 2034
+  to: null

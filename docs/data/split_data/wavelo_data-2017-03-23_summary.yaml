@@ -22,6 +22,11 @@ hubs:
     name: 25 Mackiewicza
     rentals: 2
     returns: 4
+  null:
+    id: null
+    name: out_of_station
+    rentals: 9
+    returns: 8
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
@@ -55,11 +60,6 @@ hubs:
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
-    rentals: 9
-    returns: 8
-  null:
-    id: null
-    name: out_of_station
     rentals: 9
     returns: 8
   2028:
