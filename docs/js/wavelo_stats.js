@@ -24,7 +24,7 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
             })
         }
 
-        $scope.updateDailyStats = function () {
+        $scope.getDailyStats = function () {
             var monday = parseInt(moment($scope.displayedWeek, 'W').tz("Europe/Warsaw").startOf("isoWeek").format("DDD"));
 
             for (var i = 0; i < 7; i++) {
@@ -71,10 +71,15 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
                         $scope.brokenNow = chartData['brokenNow'];
                     }
 
-                });
-            $scope.updateDailyStats();
+                });         
         }
 
+        $scope.changeWeek = function(){
+            $scope.getDailyStats();
+            $scope.updateData();
+        }
+
+        $scope.getDailyStats();
         $scope.updateData();
         $scope.intervalFunction = function () {
             $interval(function () {
