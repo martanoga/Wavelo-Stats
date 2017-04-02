@@ -33,8 +33,8 @@
 <body>
     <!-- page content -->
 
-    
-    <table id="header">
+
+    <!--<table id="header">
         <tr>
             <td>
                 <a href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna' id="logo"><img src='img/masa_logo.png' height="120" widht="120" /></a>
@@ -42,10 +42,18 @@
             <td>
                 <h1> Krakowski Rower Miejski - Statystyki Wypożyczeń </h1>
             </td>
-    </table>
+    </table>-->
 
     <div ng-app="myApp">
         <div ng-controller="myCtrl">
+            <md-toolbar class="md-hue-2">
+                <div class="md-toolbar-tools">
+                    
+                    <h2 flex md-truncate>Krakowski Rower Miejski - Statystyki Wypożyczeń </h2>
+                    
+
+                </div>
+            </md-toolbar>
 
             <div layout="row" layout-align="space-between center" layout-margin layout-padding>
                 <span flex></span>
@@ -57,7 +65,7 @@
             </div>
 
             <div ng-show="loading" layout="row" layout-align="center">
-                <md-progress-linear md-mode="indeterminate"></md-progress-linear>
+                <md-progress-linear md-mode="indeterminate" class="md-warn"></md-progress-linear>
             </div>
 
             <div class=chart>
@@ -70,7 +78,7 @@
 
 
 
-                    <md-grid-tile md-colors="{background: 'primary-50'}"  md-colspan="1" ng-repeat="day in dailyStats track by $index" ng-if="day">
+                    <md-grid-tile md-colors="{background: 'primary-50'}" md-colspan="1" ng-repeat="day in dailyStats track by $index" ng-if="day">
                         <md-grid-tile-header md-colors="{background: 'primary'}">
                             <span class="header">{{day.nameOfDay}}</span><br>
                             <span class="subheader">{{day.date}}</span>
@@ -88,11 +96,11 @@
                                     <td class="rentedNumber"> <span md-colors="{color:'warn'}">{{day.totalRentals}}</span></td>
                                 </tr>
                             </table>
-                        
-                        <br>
 
-                        <div ng-show="!day.loading" class="weather"><span class="temperature"><i class="wi wi-thermometer-internal"></i> {{day.tempMin}}/{{day.tempMax}}<i class="wi wi-celsius"></i></span> <span class="weatherIcon"><i class={{day.weatherClass}}></i></span></div>
-                    
+                            <br>
+
+                            <div ng-show="!day.loading" class="weather"><span class="temperature"><i class="wi wi-thermometer-internal"></i> {{day.tempMin}}/{{day.tempMax}}<i class="wi wi-celsius"></i></span>                                <span class="weatherIcon"><i class={{day.weatherClass}}></i></span></div>
+
                         </div>
                     </md-grid-tile>
 
@@ -101,8 +109,8 @@
                             <span class="header">W tej chwili...</span>
                         </md-grid-tile-header>
                         <div ng-show="loading" layout="row" layout-align="center">
-                                <md-progress-circular md-mode="indeterminate"></md-progress-circular>
-                            </div>
+                            <md-progress-circular md-mode="indeterminate"></md-progress-circular>
+                        </div>
 
                         <table ng-show="!loading" class="todayTable">
                             <tr>
