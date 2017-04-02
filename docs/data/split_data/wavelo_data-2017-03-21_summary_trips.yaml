@@ -14,6 +14,11 @@ hubs:
     name: 24 Krowodrza Górka
     rentals: 4
     returns: 8
+  null:
+    id: null
+    name: out_of_station
+    rentals: 28
+    returns: 28
   2232:
     id: 2232
     name: 25 Mackiewicza
@@ -54,11 +59,6 @@ hubs:
     name: 10 Plac Bohaterów Getta
     rentals: 17
     returns: 23
-  null:
-    id: null
-    name: out_of_station
-    rentals: 28
-    returns: 28
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -426,9 +426,6 @@ trips:
   from: 2035
   to: 2224
 - count: 1
-  from: 2227
-  to: 2228
-- count: 1
   from: 2034
   to: 2030
 - count: 1
@@ -455,6 +452,9 @@ trips:
 - count: 1
   from: 2037
   to: 2229
+- count: 1
+  from: 2232
+  to: null
 - count: 1
   from: 2227
   to: 2225
@@ -549,8 +549,14 @@ trips:
   from: 2032
   to: 2232
 - count: 1
+  from: null
+  to: 2035
+- count: 1
   from: 2223
   to: 2225
+- count: 1
+  from: null
+  to: 2232
 - count: 1
   from: 2233
   to: 2029
@@ -717,11 +723,8 @@ trips:
   from: null
   to: 2236
 - count: 1
-  from: 2232
-  to: null
-- count: 1
-  from: null
-  to: 2035
+  from: 2227
+  to: 2228
 - count: 1
   from: 2234
   to: 2223
@@ -758,9 +761,6 @@ trips:
 - count: 1
   from: 2037
   to: 2227
-- count: 1
-  from: null
-  to: 2232
 - count: 1
   from: 2038
   to: 2040

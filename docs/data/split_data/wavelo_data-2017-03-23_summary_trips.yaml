@@ -44,11 +44,6 @@ hubs:
     name: 01 Plac Wszystkich Świętych
     rentals: 24
     returns: 26
-  null:
-    id: null
-    name: out_of_station
-    rentals: 9
-    returns: 8
   2226:
     id: 2226
     name: 19 Cichy Kącik
@@ -57,6 +52,11 @@ hubs:
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
+    rentals: 9
+    returns: 8
+  null:
+    id: null
+    name: out_of_station
     rentals: 9
     returns: 8
   2028:

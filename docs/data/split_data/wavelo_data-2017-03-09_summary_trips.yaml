@@ -14,11 +14,6 @@ hubs:
     name: 24 Krowodrza Górka
     rentals: 4
     returns: 1
-  null:
-    id: null
-    name: out_of_station
-    rentals: 4
-    returns: 4
   2232:
     id: 2232
     name: 25 Mackiewicza
@@ -39,6 +34,11 @@ hubs:
     name: 17 Jubilat
     rentals: 5
     returns: 3
+  null:
+    id: null
+    name: out_of_station
+    rentals: 4
+    returns: 4
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -186,8 +186,8 @@ trips:
   from: 2224
   to: 2030
 - count: 2
-  from: 2231
-  to: 2228
+  from: 2039
+  to: 2036
 - count: 2
   from: 2233
   to: 2030
@@ -195,8 +195,8 @@ trips:
   from: 2224
   to: 2225
 - count: 2
-  from: 2039
-  to: 2036
+  from: 2231
+  to: 2228
 - count: 2
   from: 2020
   to: 2035
@@ -328,6 +328,9 @@ trips:
   to: 2020
 - count: 1
   from: null
+  to: 2035
+- count: 1
+  from: null
   to: 2226
 - count: 1
   from: 2030
@@ -436,9 +439,6 @@ trips:
   to: null
 - count: 1
   from: 2021
-  to: 2035
-- count: 1
-  from: null
   to: 2035
 - count: 1
   from: 2031

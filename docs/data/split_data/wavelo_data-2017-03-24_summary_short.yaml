@@ -15,4 +15,5 @@ t1: '2017-03-24 23:55:02'
 total_rentals: 256
 total_returns: 255
 total_time: 85915
+weather_icon: cloudy
 xlong_rentals: 11

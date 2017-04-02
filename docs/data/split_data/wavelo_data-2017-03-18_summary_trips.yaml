@@ -19,11 +19,6 @@ hubs:
     name: 25 Mackiewicza
     rentals: 4
     returns: 5
-  null:
-    id: null
-    name: out_of_station
-    rentals: 3
-    returns: 7
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
@@ -149,6 +144,11 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 0
+  null:
+    id: null
+    name: out_of_station
+    rentals: 3
+    returns: 7
   2037:
     id: 2037
     name: 12 Plac Wolnica
@@ -219,9 +219,6 @@ trips:
   from: 2232
   to: 2230
 - count: 1
-  from: 2236
-  to: null
-- count: 1
   from: 2228
   to: 2030
 - count: 1
@@ -271,6 +268,9 @@ trips:
   to: 2049
 - count: 1
   from: 2021
+  to: null
+- count: 1
+  from: 2236
   to: null
 - count: 1
   from: 2236

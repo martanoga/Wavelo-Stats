@@ -15,4 +15,5 @@ t1: '2017-04-01 23:55:02'
 total_rentals: 687
 total_returns: 684
 total_time: 86099
+weather_icon: day-sunny
 xlong_rentals: 142

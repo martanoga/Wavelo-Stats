@@ -9,6 +9,11 @@ hubs:
     name: 23 Bratysławska
     rentals: 1
     returns: 1
+  null:
+    id: null
+    name: out_of_station
+    rentals: 4
+    returns: 5
   2231:
     id: 2231
     name: 24 Krowodrza Górka
@@ -19,11 +24,6 @@ hubs:
     name: 25 Mackiewicza
     rentals: 3
     returns: 4
-  null:
-    id: null
-    name: out_of_station
-    rentals: 4
-    returns: 5
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
@@ -252,9 +252,6 @@ trips:
   from: 2228
   to: 2230
 - count: 1
-  from: 2039
-  to: null
-- count: 1
   from: null
   to: 2228
 - count: 1
@@ -306,6 +303,9 @@ trips:
   from: 2031
   to: 2233
 - count: 1
+  from: 2039
+  to: null
+- count: 1
   from: 2049
   to: 2032
 - count: 1
@@ -348,14 +348,14 @@ trips:
   from: 2039
   to: 2021
 - count: 1
+  from: 2034
+  to: null
+- count: 1
   from: 2030
   to: 2233
 - count: 1
   from: 2031
   to: 2229
-- count: 1
-  from: 2034
-  to: null
 - count: 1
   from: 2231
   to: 2231

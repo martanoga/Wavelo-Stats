@@ -12,6 +12,11 @@ hubs:
     name: 23 Bratysławska
     rentals: 2
     returns: 5
+  null:
+    id: null
+    name: out_of_station
+    rentals: 16
+    returns: 6
   2231:
     id: 2231
     name: 24 Krowodrza Górka
@@ -57,11 +62,6 @@ hubs:
     name: 10 Plac Bohaterów Getta
     rentals: 9
     returns: 5
-  null:
-    id: null
-    name: out_of_station
-    rentals: 16
-    returns: 6
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -168,235 +168,252 @@ meteo:
     metar: METAR EPKK 052300Z 20004KT 8000 RA SCT010 BKN025 07/06 Q1002
     temp: 7.0
     vis: 8000.0
-    weather: rain
+    weather: scattered clouds at 1000 feet; broken clouds at 2500 feet
     wind_speed: 7.4079936
   '2017-03-06 00:30:00':
     dewpt: 6.0
     metar: METAR EPKK 052330Z 25005KT 9999 -RA BKN035 07/06 Q1002 RERA
     temp: 7.0
     vis: 10000.0
-    weather: light rain
+    weather: broken clouds at 3500 feet
     wind_speed: 9.259992
   '2017-03-06 01:00:00':
     dewpt: 6.0
     metar: METAR EPKK 060000Z 28007KT 9999 -RA OVC030 07/06 Q1002
     temp: 7.0
     vis: 10000.0
-    weather: light rain
+    weather: overcast at 3000 feet
     wind_speed: 12.963988800000001
   '2017-03-06 01:30:00':
     dewpt: 5.0
     metar: METAR EPKK 060030Z 28006KT 9999 -RA OVC026 07/05 Q1002
     temp: 7.0
     vis: 10000.0
-    weather: light rain
+    weather: overcast at 2600 feet
     wind_speed: 11.1119904
   '2017-03-06 02:00:00':
     dewpt: 5.0
     metar: METAR EPKK 060100Z 26005KT 9999 RA BKN025 06/05 Q1001
     temp: 6.0
     vis: 10000.0
-    weather: rain
+    weather: broken clouds at 2500 feet
     wind_speed: 9.259992
   '2017-03-06 02:30:00':
     dewpt: 5.0
     metar: METAR EPKK 060130Z 26004KT 9999 -RA BKN023 06/05 Q1001 RERA
     temp: 6.0
     vis: 10000.0
-    weather: light rain
+    weather: broken clouds at 2300 feet
     wind_speed: 7.4079936
   '2017-03-06 03:00:00':
     dewpt: 5.0
     metar: METAR EPKK 060200Z 27004KT 9999 -RA FEW020 BKN030 06/05 Q1001
     temp: 6.0
     vis: 10000.0
-    weather: light rain
+    weather: a few clouds at 2000 feet; broken clouds at 3000 feet
     wind_speed: 7.4079936
   '2017-03-06 03:30:00':
     dewpt: 5.0
     metar: METAR EPKK 060230Z 22005KT 9999 -RA BKN023 06/05 Q1001
     temp: 6.0
     vis: 10000.0
-    weather: light rain
+    weather: broken clouds at 2300 feet
     wind_speed: 9.259992
   '2017-03-06 04:00:00':
     dewpt: 5.0
     metar: METAR EPKK 060300Z 22003KT 9999 -RA BKN023 06/05 Q1001
     temp: 6.0
     vis: 10000.0
-    weather: light rain
+    weather: broken clouds at 2300 feet
     wind_speed: 5.5559952
   '2017-03-06 04:30:00':
     dewpt: 5.0
     metar: METAR EPKK 060330Z 22005KT 8000 -RA FEW010 BKN023 06/05 Q1001
     temp: 6.0
     vis: 8000.0
-    weather: light rain
+    weather: a few clouds at 1000 feet; broken clouds at 2300 feet
     wind_speed: 9.259992
   '2017-03-06 05:00:00':
     dewpt: 5.0
     metar: METAR EPKK 060400Z 23009KT 8000 -RA SCT007 BKN020 06/05 Q1001
     temp: 6.0
     vis: 8000.0
-    weather: light rain
+    weather: scattered clouds at 700 feet; broken clouds at 2000 feet
     wind_speed: 16.6679856
   '2017-03-06 05:30:00':
     dewpt: 4.0
     metar: METAR EPKK 060430Z 23007KT 9999 -RA FEW008 BKN023 05/04 Q1001
     temp: 5.0
     vis: 10000.0
-    weather: light rain
+    weather: a few clouds at 800 feet; broken clouds at 2300 feet
     wind_speed: 12.963988800000001
   '2017-03-06 06:00:00':
     dewpt: 4.0
     metar: METAR EPKK 060500Z 22007KT 9999 -RA BKN020 05/04 Q1001
     temp: 5.0
     vis: 10000.0
-    weather: light rain
+    weather: broken clouds at 2000 feet
     wind_speed: 12.963988800000001
   '2017-03-06 06:30:00':
     dewpt: 4.0
     metar: METAR EPKK 060530Z 23005KT 9999 -RA BKN017 05/04 Q1001
     temp: 5.0
     vis: 10000.0
-    weather: light rain
+    weather: broken clouds at 1700 feet
     wind_speed: 9.259992
   '2017-03-06 07:00:00':
     dewpt: 4.0
     metar: METAR EPKK 060600Z 22007KT 9999 -RA BKN012 BKN020 05/04 Q1001
     temp: 5.0
     vis: 10000.0
-    weather: light rain
+    weather: broken clouds at 1200 feet; broken clouds at 2000 feet
     wind_speed: 12.963988800000001
   '2017-03-06 07:30:00':
     dewpt: 4.0
     metar: METAR EPKK 060630Z 24007KT 9999 -RA BKN010 BKN020 05/04 Q1001
     temp: 5.0
     vis: 10000.0
-    weather: light rain
+    weather: broken clouds at 1000 feet; broken clouds at 2000 feet
     wind_speed: 12.963988800000001
   '2017-03-06 08:00:00':
     dewpt: 4.0
     metar: METAR EPKK 060700Z 25007KT 9999 -RA SCT010 BKN026 06/04 Q1001
     temp: 6.0
     vis: 10000.0
-    weather: light rain
+    weather: scattered clouds at 1000 feet; broken clouds at 2600 feet
     wind_speed: 12.963988800000001
   '2017-03-06 08:30:00':
     dewpt: 4.0
     metar: METAR EPKK 060730Z 27008KT 9999 SCT012 BKN030 06/04 Q1002
     temp: 6.0
     vis: 10000.0
+    weather: scattered clouds at 1200 feet; broken clouds at 3000 feet
     wind_speed: 14.8159872
   '2017-03-06 09:00:00':
     dewpt: 4.0
     metar: METAR EPKK 060800Z 26010KT 9999 -RA SCT016 BKN025 06/04 Q1002
     temp: 6.0
     vis: 10000.0
-    weather: light rain
+    weather: scattered clouds at 1600 feet; broken clouds at 2500 feet
     wind_speed: 18.519984
   '2017-03-06 09:30:00':
     dewpt: 4.0
     metar: METAR EPKK 060830Z 26008KT 9999 FEW011 BKN023 06/04 Q1002
     temp: 6.0
     vis: 10000.0
+    weather: a few clouds at 1100 feet; broken clouds at 2300 feet
     wind_speed: 14.8159872
   '2017-03-06 10:00:00':
     dewpt: 4.0
     metar: METAR EPKK 060900Z 28006KT 9999 SCT013 BKN023 06/04 Q1002
     temp: 6.0
     vis: 10000.0
+    weather: scattered clouds at 1300 feet; broken clouds at 2300 feet
     wind_speed: 11.1119904
   '2017-03-06 10:30:00':
     dewpt: 4.0
     metar: METAR EPKK 060930Z 25005KT 9999 BKN010 BKN013 06/04 Q1002
     temp: 6.0
     vis: 10000.0
+    weather: broken clouds at 1000 feet; broken clouds at 1300 feet
     wind_speed: 9.259992
   '2017-03-06 11:00:00':
     dewpt: 5.0
     metar: METAR EPKK 061000Z 25005KT 220V300 9999 BKN010 BKN015 07/05                         Q1002
     temp: 7.0
     vis: 10000.0
+    weather: broken clouds at 1000 feet; broken clouds at 1500 feet
     wind_speed: 9.259992
   '2017-03-06 11:30:00':
     dewpt: 5.0
     metar: METAR EPKK 061030Z 22003KT 160V240 9999 BKN012 BKN020 07/05                         Q1002
     temp: 7.0
     vis: 10000.0
+    weather: broken clouds at 1200 feet; broken clouds at 2000 feet
     wind_speed: 5.5559952
   '2017-03-06 12:00:00':
     dewpt: 5.0
     metar: METAR EPKK 061100Z 26006KT 220V280 9999 BKN012 BKN033 08/05                         Q1002
     temp: 8.0
     vis: 10000.0
+    weather: broken clouds at 1200 feet; broken clouds at 3300 feet
     wind_speed: 11.1119904
   '2017-03-06 12:30:00':
     dewpt: 5.0
     metar: METAR EPKK 061130Z 25009KT 220V280 9999 SCT015 BKN040 08/05                         Q1002
     temp: 8.0
     vis: 10000.0
+    weather: scattered clouds at 1500 feet; broken clouds at 4000 feet
     wind_speed: 16.6679856
   '2017-03-06 13:00:00':
     dewpt: 6.0
     metar: METAR EPKK 061200Z 25007KT 210V270 9999 SCT015 SCT040 09/06                         Q1001
     temp: 9.0
     vis: 10000.0
+    weather: scattered clouds at 1500 feet; scattered clouds at 4000 feet
     wind_speed: 12.963988800000001
   '2017-03-06 13:30:00':
     dewpt: 5.0
     metar: METAR EPKK 061230Z 23006KT 170V270 9999 SCT016 SCT040 10/05                         Q1001
     temp: 10.0
     vis: 10000.0
+    weather: scattered clouds at 1600 feet; scattered clouds at 4000 feet
     wind_speed: 11.1119904
   '2017-03-06 14:00:00':
     dewpt: 2.0
     metar: METAR EPKK 061300Z 23013KT 9999 -SHRA SCT023TCU BKN033 08/02                         Q1001
     temp: 8.0
     vis: 10000.0
-    weather: light rain showers
+    weather: scattered towering cumulus at 2300 feet; broken clouds at 3300 feet
     wind_speed: 24.0759792
   '2017-03-06 14:30:00':
     dewpt: 4.0
     metar: METAR EPKK 061330Z 23007KT 9999 FEW023TCU BKN060 09/04 Q1001
     temp: 9.0
     vis: 10000.0
+    weather: a few towering cumulus at 2300 feet; broken clouds at 6000 feet
     wind_speed: 12.963988800000001
   '2017-03-06 15:00:00':
     dewpt: 4.0
     metar: METAR EPKK 061400Z 23010KT 9999 FEW030TCU SCT060 09/04 Q1001
     temp: 9.0
     vis: 10000.0
+    weather: a few towering cumulus at 3000 feet; scattered clouds at 6000 feet
     wind_speed: 18.519984
   '2017-03-06 15:30:00':
     dewpt: 3.0
     metar: METAR EPKK 061430Z 23012KT 9999 FEW030 BKN066 09/03 Q1001
     temp: 9.0
     vis: 10000.0
+    weather: a few clouds at 3000 feet; broken clouds at 6600 feet
     wind_speed: 22.2239808
   '2017-03-06 16:00:00':
     dewpt: 2.0
     metar: METAR EPKK 061500Z 23011KT 9999 FEW030 BKN066 08/02 Q1001
     temp: 8.0
     vis: 10000.0
+    weather: a few clouds at 3000 feet; broken clouds at 6600 feet
     wind_speed: 20.371982400000004
   '2017-03-06 16:30:00':
     dewpt: 2.0
     metar: METAR EPKK 061530Z 23008KT 9999 FEW030 BKN060 08/02 Q1001
     temp: 8.0
     vis: 10000.0
+    weather: a few clouds at 3000 feet; broken clouds at 6000 feet
     wind_speed: 14.8159872
   '2017-03-06 17:00:00':
     dewpt: 3.0
     metar: METAR EPKK 061600Z 24006KT 9999 FEW030 BKN060 08/03 Q1001
     temp: 8.0
     vis: 10000.0
+    weather: a few clouds at 3000 feet; broken clouds at 6000 feet
     wind_speed: 11.1119904
   '2017-03-06 17:30:00':
     dewpt: 2.0
     metar: METAR EPKK 061630Z 23007KT 9999 FEW030 SCT063 08/02 Q1001
     temp: 8.0
     vis: 10000.0
+    weather: a few clouds at 3000 feet; scattered clouds at 6300 feet
     wind_speed: 12.963988800000001
   '2017-03-06 18:00:00':
     dewpt: 2.0
@@ -415,60 +432,70 @@ meteo:
     metar: METAR EPKK 061800Z 25003KT 210V290 9999 SCT039 06/02 Q1002
     temp: 6.0
     vis: 10000.0
+    weather: scattered clouds at 3900 feet
     wind_speed: 5.5559952
   '2017-03-06 19:30:00':
     dewpt: 2.0
     metar: METAR EPKK 061830Z VRB01KT 9999 FEW038 05/02 Q1002
     temp: 5.0
     vis: 10000.0
+    weather: a few clouds at 3800 feet
     wind_speed: 1.8519984
   '2017-03-06 20:00:00':
     dewpt: 2.0
     metar: METAR EPKK 061900Z 18003KT 9999 SCT040 04/02 Q1002
     temp: 4.0
     vis: 10000.0
+    weather: scattered clouds at 4000 feet
     wind_speed: 5.5559952
   '2017-03-06 20:30:00':
     dewpt: 1.0
     metar: METAR EPKK 061930Z VRB02KT 9999 FEW037 04/01 Q1002
     temp: 4.0
     vis: 10000.0
+    weather: a few clouds at 3700 feet
     wind_speed: 3.7039968
   '2017-03-06 21:00:00':
     dewpt: 1.0
     metar: METAR EPKK 062000Z 24002KT 8000 NSC 03/01 Q1002
     temp: 3.0
     vis: 8000.0
+    weather: clearclouds at None
     wind_speed: 3.7039968
   '2017-03-06 21:30:00':
     dewpt: 1.0
     metar: METAR EPKK 062030Z VRB01KT 8000 NSC 04/01 Q1002
     temp: 4.0
     vis: 8000.0
+    weather: clearclouds at None
     wind_speed: 1.8519984
   '2017-03-06 22:00:00':
     dewpt: 1.0
     metar: METAR EPKK 062100Z VRB01KT 8000 NSC 03/01 Q1002
     temp: 3.0
     vis: 8000.0
+    weather: clearclouds at None
     wind_speed: 1.8519984
   '2017-03-06 22:30:00':
     dewpt: 1.0
     metar: METAR EPKK 062130Z VRB01KT 8000 NSC 02/01 Q1002
     temp: 2.0
     vis: 8000.0
+    weather: clearclouds at None
     wind_speed: 1.8519984
   '2017-03-06 23:00:00':
     dewpt: -0.0
     metar: METAR EPKK 062200Z VRB02KT 7000 NSC 01/M00 Q1002
     temp: 1.0
     vis: 7000.0
+    weather: clearclouds at None
     wind_speed: 3.7039968
   '2017-03-06 23:30:00':
     dewpt: 0.0
     metar: METAR EPKK 062230Z VRB01KT 7000 NSC 01/00 Q1002
     temp: 1.0
     vis: 7000.0
+    weather: clearclouds at None
     wind_speed: 1.8519984
 min_temp: 1.0
 short_rentals: 69
@@ -496,11 +523,11 @@ trips:
   from: null
   to: 2049
 - count: 3
-  from: 2034
-  to: 2231
-- count: 3
   from: null
   to: 2223
+- count: 3
+  from: 2034
+  to: 2231
 - count: 2
   from: 2034
   to: 2029
@@ -769,9 +796,6 @@ trips:
   from: 2029
   to: 2036
 - count: 1
-  from: 2029
-  to: 2029
-- count: 1
   from: 2226
   to: 2036
 - count: 1
@@ -807,6 +831,9 @@ trips:
 - count: 1
   from: 2032
   to: 2037
+- count: 1
+  from: 2029
+  to: 2029
 - count: 1
   from: 2035
   to: 2029
@@ -864,4 +891,5 @@ trips:
 - count: 1
   from: 2039
   to: 2233
+weather_icon: sprinkle
 xlong_rentals: 7

@@ -22,11 +22,6 @@ hubs:
     name: 25 Mackiewicza
     rentals: 3
     returns: 6
-  null:
-    id: null
-    name: out_of_station
-    rentals: 16
-    returns: 16
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
@@ -152,6 +147,11 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 1
     returns: 4
+  null:
+    id: null
+    name: out_of_station
+    rentals: 16
+    returns: 16
   2037:
     id: 2037
     name: 12 Plac Wolnica
@@ -168,150 +168,175 @@ meteo:
     metar: METAR EPKK 292200Z 27012KT 9999 FEW026 10/06 Q1022
     temp: 10.0
     vis: 10000.0
+    weather: a few clouds at 2600 feet
     wind_speed: 22.2239808
   '2017-03-30 00:30:00':
     dewpt: 6.0
     metar: METAR EPKK 292230Z 28012KT 9999 SCT022 10/06 Q1022
     temp: 10.0
     vis: 10000.0
+    weather: scattered clouds at 2200 feet
     wind_speed: 22.2239808
   '2017-03-30 01:00:00':
     dewpt: 7.0
     metar: METAR EPKK 292300Z 27012KT 9999 BKN023 10/07 Q1022
     temp: 10.0
     vis: 10000.0
+    weather: broken clouds at 2300 feet
     wind_speed: 22.2239808
   '2017-03-30 01:30:00':
     dewpt: 7.0
     metar: METAR EPKK 292330Z 27009KT 9999 BKN023 10/07 Q1022
     temp: 10.0
     vis: 10000.0
+    weather: broken clouds at 2300 feet
     wind_speed: 16.6679856
   '2017-03-30 02:00:00':
     dewpt: 7.0
     metar: METAR EPKK 300000Z 29005KT 9999 BKN021 10/07 Q1023
     temp: 10.0
     vis: 10000.0
+    weather: broken clouds at 2100 feet
     wind_speed: 9.259992
   '2017-03-30 02:30:00':
     dewpt: 7.0
     metar: METAR EPKK 300030Z 27007KT 9999 FEW020 BKN024 10/07 Q1023
     temp: 10.0
     vis: 10000.0
+    weather: a few clouds at 2000 feet; broken clouds at 2400 feet
     wind_speed: 12.963988800000001
   '2017-03-30 03:00:00':
     dewpt: 6.0
     metar: METAR EPKK 300100Z 25007KT 9999 FEW023 BKN033 08/06 Q1023
     temp: 8.0
     vis: 10000.0
+    weather: a few clouds at 2300 feet; broken clouds at 3300 feet
     wind_speed: 12.963988800000001
   '2017-03-30 03:30:00':
     dewpt: 6.0
     metar: METAR EPKK 300130Z 27006KT 9999 FEW021 BKN030 08/06 Q1023
     temp: 8.0
     vis: 10000.0
+    weather: a few clouds at 2100 feet; broken clouds at 3000 feet
     wind_speed: 11.1119904
   '2017-03-30 04:00:00':
     dewpt: 6.0
     metar: METAR EPKK 300200Z 26006KT 9999 FEW020 BKN033 09/06 Q1023
     temp: 9.0
     vis: 10000.0
+    weather: a few clouds at 2000 feet; broken clouds at 3300 feet
     wind_speed: 11.1119904
   '2017-03-30 04:30:00':
     dewpt: 6.0
     metar: METAR EPKK 300230Z 25009KT 9999 FEW027 BKN061 09/06 Q1023
     temp: 9.0
     vis: 10000.0
+    weather: a few clouds at 2700 feet; broken clouds at 6100 feet
     wind_speed: 16.6679856
   '2017-03-30 05:00:00':
     dewpt: 6.0
     metar: METAR EPKK 300300Z 26007KT 9999 BKN056 09/06 Q1023
     temp: 9.0
     vis: 10000.0
+    weather: broken clouds at 5600 feet
     wind_speed: 12.963988800000001
   '2017-03-30 05:30:00':
     dewpt: 6.0
     metar: METAR EPKK 300330Z 26006KT 9999 BKN055 09/06 Q1023
     temp: 9.0
     vis: 10000.0
+    weather: broken clouds at 5500 feet
     wind_speed: 11.1119904
   '2017-03-30 06:00:00':
     dewpt: 6.0
     metar: METAR EPKK 300400Z 26008KT 9999 FEW024 BKN057 09/06 Q1024
     temp: 9.0
     vis: 10000.0
+    weather: a few clouds at 2400 feet; broken clouds at 5700 feet
     wind_speed: 14.8159872
   '2017-03-30 06:30:00':
     dewpt: 7.0
     metar: METAR EPKK 300430Z 24005KT 9999 SCT023 BKN033 09/07 Q1024
     temp: 9.0
     vis: 10000.0
+    weather: scattered clouds at 2300 feet; broken clouds at 3300 feet
     wind_speed: 9.259992
   '2017-03-30 07:00:00':
     dewpt: 7.0
     metar: METAR EPKK 300500Z 25007KT 9999 FEW023 BKN040 09/07 Q1024
     temp: 9.0
     vis: 10000.0
+    weather: a few clouds at 2300 feet; broken clouds at 4000 feet
     wind_speed: 12.963988800000001
   '2017-03-30 07:30:00':
     dewpt: 7.0
     metar: METAR EPKK 300530Z 27007KT 9000 FEW046 BKN060 09/07 Q1024
     temp: 9.0
     vis: 9000.0
+    weather: a few clouds at 4600 feet; broken clouds at 6000 feet
     wind_speed: 12.963988800000001
   '2017-03-30 08:00:00':
     dewpt: 7.0
     metar: METAR EPKK 300600Z 27005KT 9000 FEW019 BKN058 09/07 Q1025
     temp: 9.0
     vis: 9000.0
+    weather: a few clouds at 1900 feet; broken clouds at 5800 feet
     wind_speed: 9.259992
   '2017-03-30 08:30:00':
     dewpt: 7.0
     metar: METAR EPKK 300630Z 26006KT 9999 BKN046 10/07 Q1025
     temp: 10.0
     vis: 10000.0
+    weather: broken clouds at 4600 feet
     wind_speed: 11.1119904
   '2017-03-30 09:00:00':
     dewpt: 7.0
     metar: METAR EPKK 300700Z 26006KT 9999 FEW032 BKN060 10/07 Q1025
     temp: 10.0
     vis: 10000.0
+    weather: a few clouds at 3200 feet; broken clouds at 6000 feet
     wind_speed: 11.1119904
   '2017-03-30 09:30:00':
     dewpt: 6.0
     metar: METAR EPKK 300730Z 28006KT 9999 BKN060 10/06 Q1026
     temp: 10.0
     vis: 10000.0
+    weather: broken clouds at 6000 feet
     wind_speed: 11.1119904
   '2017-03-30 10:00:00':
     dewpt: 6.0
     metar: METAR EPKK 300800Z 28006KT 240V300 9999 BKN053 10/06 Q1026
     temp: 10.0
     vis: 10000.0
+    weather: broken clouds at 5300 feet
     wind_speed: 11.1119904
   '2017-03-30 10:30:00':
     dewpt: 6.0
     metar: METAR EPKK 300830Z 27007KT 9999 BKN056 11/06 Q1026
     temp: 11.0
     vis: 10000.0
+    weather: broken clouds at 5600 feet
     wind_speed: 12.963988800000001
   '2017-03-30 11:00:00':
     dewpt: 5.0
     metar: METAR EPKK 300900Z 29007KT 9999 FEW023 BKN050 11/05 Q1026
     temp: 11.0
     vis: 10000.0
+    weather: a few clouds at 2300 feet; broken clouds at 5000 feet
     wind_speed: 12.963988800000001
   '2017-03-30 11:30:00':
     dewpt: 7.0
     metar: METAR EPKK 300930Z 23005KT 190V250 9999 FEW020 BKN050 11/07                         Q1026
     temp: 11.0
     vis: 10000.0
+    weather: a few clouds at 2000 feet; broken clouds at 5000 feet
     wind_speed: 9.259992
   '2017-03-30 12:00:00':
     dewpt: 7.0
     metar: METAR EPKK 301000Z 23006KT 9999 SCT020 BKN033 11/07 Q1026
     temp: 11.0
     vis: 10000.0
+    weather: scattered clouds at 2000 feet; broken clouds at 3300 feet
     wind_speed: 11.1119904
   '2017-03-30 12:30:00':
     dewpt: 7.0
@@ -319,90 +344,107 @@ meteo:
       Q1026
     temp: 11.0
     vis: 10000.0
+    weather: a few clouds at 1900 feet; scattered clouds at 2300 feet; broken clouds
+      at 3700 feet
     wind_speed: 5.5559952
   '2017-03-30 13:00:00':
     dewpt: 6.0
     metar: METAR EPKK 301100Z VRB02KT 9999 FEW021 SCT029 BKN043 11/06                         Q1026
     temp: 11.0
     vis: 10000.0
+    weather: a few clouds at 2100 feet; scattered clouds at 2900 feet; broken clouds
+      at 4300 feet
     wind_speed: 3.7039968
   '2017-03-30 13:30:00':
     dewpt: 6.0
     metar: METAR EPKK 301130Z 28008KT 9999 FEW026 BKN040 12/06 Q1026
     temp: 12.0
     vis: 10000.0
+    weather: a few clouds at 2600 feet; broken clouds at 4000 feet
     wind_speed: 14.8159872
   '2017-03-30 14:00:00':
     dewpt: 7.0
     metar: METAR EPKK 301200Z 25007KT 9999 SCT033 BKN053 12/07 Q1026
     temp: 12.0
     vis: 10000.0
+    weather: scattered clouds at 3300 feet; broken clouds at 5300 feet
     wind_speed: 12.963988800000001
   '2017-03-30 14:30:00':
     dewpt: 6.0
     metar: METAR EPKK 301230Z 28007KT 230V320 9999 SCT034 BKN056 14/06                         Q1026
     temp: 14.0
     vis: 10000.0
+    weather: scattered clouds at 3400 feet; broken clouds at 5600 feet
     wind_speed: 12.963988800000001
   '2017-03-30 15:00:00':
     dewpt: 5.0
     metar: METAR EPKK 301300Z 28008KT 250V320 9999 SCT033 BKN046 13/05                         Q1026
     temp: 13.0
     vis: 10000.0
+    weather: scattered clouds at 3300 feet; broken clouds at 4600 feet
     wind_speed: 14.8159872
   '2017-03-30 15:30:00':
     dewpt: 5.0
     metar: METAR EPKK 301330Z 27008KT 9999 FEW033 BKN045 14/05 Q1026
     temp: 14.0
     vis: 10000.0
+    weather: a few clouds at 3300 feet; broken clouds at 4500 feet
     wind_speed: 14.8159872
   '2017-03-30 16:00:00':
     dewpt: 5.0
     metar: METAR EPKK 301400Z 27008KT 240V310 9999 SCT040 BKN060 14/05                         Q1026
     temp: 14.0
     vis: 10000.0
+    weather: scattered clouds at 4000 feet; broken clouds at 6000 feet
     wind_speed: 14.8159872
   '2017-03-30 16:30:00':
     dewpt: 5.0
     metar: METAR EPKK 301430Z 29006KT 9999 FEW043 BKN052 15/05 Q1025
     temp: 15.0
     vis: 10000.0
+    weather: a few clouds at 4300 feet; broken clouds at 5200 feet
     wind_speed: 11.1119904
   '2017-03-30 17:00:00':
     dewpt: 4.0
     metar: METAR EPKK 301500Z 27009KT 9999 FEW044 BKN056 14/04 Q1025
     temp: 14.0
     vis: 10000.0
+    weather: a few clouds at 4400 feet; broken clouds at 5600 feet
     wind_speed: 16.6679856
   '2017-03-30 17:30:00':
     dewpt: 4.0
     metar: METAR EPKK 301530Z 29007KT 9999 FEW044 BKN056 14/04 Q1025
     temp: 14.0
     vis: 10000.0
+    weather: a few clouds at 4400 feet; broken clouds at 5600 feet
     wind_speed: 12.963988800000001
   '2017-03-30 18:00:00':
     dewpt: 5.0
     metar: METAR EPKK 301600Z 27004KT 230V310 9999 FEW042 SCT059 14/05                         Q1025
     temp: 14.0
     vis: 10000.0
+    weather: a few clouds at 4200 feet; scattered clouds at 5900 feet
     wind_speed: 7.4079936
   '2017-03-30 18:30:00':
     dewpt: 5.0
     metar: METAR EPKK 301630Z 27006KT 9999 FEW042 SCT056 13/05 Q1026
     temp: 13.0
     vis: 10000.0
+    weather: a few clouds at 4200 feet; scattered clouds at 5600 feet
     wind_speed: 11.1119904
   '2017-03-30 19:00:00':
     dewpt: 5.0
     metar: METAR EPKK 301700Z 27004KT 9999 FEW062 12/05 Q1026
     temp: 12.0
     vis: 10000.0
+    weather: a few clouds at 6200 feet
     wind_speed: 7.4079936
   '2017-03-30 19:30:00':
     dewpt: 4.0
     metar: METAR EPKK 301730Z 25003KT 9999 FEW061 11/04 Q1026
     temp: 11.0
     vis: 10000.0
+    weather: a few clouds at 6100 feet
     wind_speed: 5.5559952
   '2017-03-30 20:00:00':
     dewpt: 6.0
@@ -451,6 +493,7 @@ meteo:
     metar: METAR EPKK 302130Z VRB01KT 8000 NSC 05/04 Q1026
     temp: 5.0
     vis: 8000.0
+    weather: clearclouds at None
     wind_speed: 1.8519984
 min_temp: 5.0
 short_rentals: 216
@@ -517,6 +560,9 @@ trips:
   from: 2032
   to: 2236
 - count: 3
+  from: 2031
+  to: 2229
+- count: 3
   from: 2029
   to: 2028
 - count: 3
@@ -548,9 +594,6 @@ trips:
   to: 2031
 - count: 3
   from: 2031
-  to: 2229
-- count: 3
-  from: 2031
   to: 2030
 - count: 3
   from: 2228
@@ -571,9 +614,6 @@ trips:
   from: 2039
   to: 2020
 - count: 2
-  from: 2032
-  to: 2049
-- count: 2
   from: 2037
   to: 2037
 - count: 2
@@ -582,6 +622,9 @@ trips:
 - count: 2
   from: 2030
   to: 2223
+- count: 2
+  from: 2036
+  to: 2035
 - count: 2
   from: 2231
   to: 2232
@@ -594,9 +637,6 @@ trips:
 - count: 2
   from: 2021
   to: 2021
-- count: 2
-  from: 2036
-  to: 2040
 - count: 2
   from: 2029
   to: 2038
@@ -616,9 +656,6 @@ trips:
   from: 2049
   to: 2031
 - count: 2
-  from: 2032
-  to: null
-- count: 2
   from: 2233
   to: 2228
 - count: 2
@@ -637,11 +674,17 @@ trips:
   from: 2031
   to: 2021
 - count: 2
+  from: 2032
+  to: 2049
+- count: 2
   from: 2030
   to: 2233
 - count: 2
   from: 2029
   to: 2021
+- count: 2
+  from: null
+  to: 2030
 - count: 2
   from: 2034
   to: 2030
@@ -670,11 +713,11 @@ trips:
   from: 2021
   to: 2029
 - count: 2
-  from: 2036
-  to: 2035
-- count: 2
   from: 2030
   to: 2224
+- count: 2
+  from: 2036
+  to: 2040
 - count: 2
   from: 2236
   to: 2235
@@ -684,6 +727,9 @@ trips:
 - count: 2
   from: 2039
   to: 2034
+- count: 2
+  from: 2032
+  to: null
 - count: 2
   from: 2231
   to: 2029
@@ -711,9 +757,6 @@ trips:
 - count: 2
   from: 2229
   to: 2237
-- count: 2
-  from: null
-  to: 2030
 - count: 1
   from: 2032
   to: 2020
@@ -721,8 +764,8 @@ trips:
   from: 2030
   to: 2040
 - count: 1
-  from: null
-  to: 2020
+  from: 2230
+  to: 2228
 - count: 1
   from: 2229
   to: 2020
@@ -742,9 +785,6 @@ trips:
   from: 2029
   to: 2231
 - count: 1
-  from: 2232
-  to: 2030
-- count: 1
   from: 2223
   to: 2034
 - count: 1
@@ -759,9 +799,6 @@ trips:
 - count: 1
   from: 2049
   to: 2049
-- count: 1
-  from: 2029
-  to: null
 - count: 1
   from: 2039
   to: 2032
@@ -778,9 +815,6 @@ trips:
   from: 2039
   to: 2030
 - count: 1
-  from: 2035
-  to: null
-- count: 1
   from: 2229
   to: 2029
 - count: 1
@@ -796,8 +830,8 @@ trips:
   from: 2020
   to: 2232
 - count: 1
-  from: 2228
-  to: 2231
+  from: 2020
+  to: 2020
 - count: 1
   from: 2029
   to: 2030
@@ -814,9 +848,6 @@ trips:
   from: 2229
   to: 2030
 - count: 1
-  from: 2020
-  to: 2020
-- count: 1
   from: 2035
   to: 2035
 - count: 1
@@ -826,11 +857,17 @@ trips:
   from: 2049
   to: 2224
 - count: 1
+  from: null
+  to: 2234
+- count: 1
   from: 2020
   to: 2030
 - count: 1
   from: 2031
   to: 2029
+- count: 1
+  from: 2020
+  to: null
 - count: 1
   from: 2227
   to: 2230
@@ -847,8 +884,8 @@ trips:
   from: 2028
   to: 2029
 - count: 1
-  from: null
-  to: 2021
+  from: 2232
+  to: 2030
 - count: 1
   from: 2225
   to: 2040
@@ -856,17 +893,26 @@ trips:
   from: 2227
   to: 2028
 - count: 1
-  from: 2030
-  to: 2227
-- count: 1
   from: 2036
   to: 2223
+- count: 1
+  from: 2030
+  to: null
 - count: 1
   from: 2225
   to: 2225
 - count: 1
   from: 2031
+  to: null
+- count: 1
+  from: 2031
   to: 2040
+- count: 1
+  from: 2039
+  to: 2036
+- count: 1
+  from: null
+  to: 2029
 - count: 1
   from: 2228
   to: 2234
@@ -877,8 +923,8 @@ trips:
   from: 2037
   to: 2039
 - count: 1
-  from: null
-  to: 2223
+  from: 2030
+  to: 2227
 - count: 1
   from: 2020
   to: 2229
@@ -892,14 +938,14 @@ trips:
   from: 2032
   to: 2223
 - count: 1
-  from: null
-  to: 2035
-- count: 1
   from: 2229
   to: 2223
 - count: 1
   from: 2228
   to: 2232
+- count: 1
+  from: 2229
+  to: null
 - count: 1
   from: 2224
   to: 2230
@@ -919,14 +965,14 @@ trips:
   from: 2224
   to: 2032
 - count: 1
-  from: 2228
-  to: 2037
-- count: 1
   from: 2020
   to: 2021
 - count: 1
   from: 2029
   to: 2223
+- count: 1
+  from: null
+  to: 2020
 - count: 1
   from: 2029
   to: 2236
@@ -936,9 +982,6 @@ trips:
 - count: 1
   from: 2232
   to: 2230
-- count: 1
-  from: 2030
-  to: null
 - count: 1
   from: 2234
   to: 2031
@@ -1009,6 +1052,9 @@ trips:
   from: 2031
   to: 2237
 - count: 1
+  from: 2035
+  to: null
+- count: 1
   from: 2227
   to: 2228
 - count: 1
@@ -1018,6 +1064,9 @@ trips:
   from: 2049
   to: 2034
 - count: 1
+  from: 2228
+  to: 2231
+- count: 1
   from: 2037
   to: 2038
 - count: 1
@@ -1026,9 +1075,6 @@ trips:
 - count: 1
   from: 2049
   to: 2020
-- count: 1
-  from: 2230
-  to: 2228
 - count: 1
   from: 2032
   to: 2038
@@ -1045,6 +1091,9 @@ trips:
   from: 2228
   to: 2020
 - count: 1
+  from: 2029
+  to: null
+- count: 1
   from: 2030
   to: 2034
 - count: 1
@@ -1054,23 +1103,14 @@ trips:
   from: 2040
   to: 2021
 - count: 1
-  from: null
-  to: 2234
-- count: 1
   from: 2226
   to: 2020
-- count: 1
-  from: 2020
-  to: null
 - count: 1
   from: 2028
   to: 2032
 - count: 1
   from: 2030
   to: 2036
-- count: 1
-  from: 2031
-  to: 2049
 - count: 1
   from: 2223
   to: 2028
@@ -1090,6 +1130,9 @@ trips:
   from: 2227
   to: 2237
 - count: 1
+  from: null
+  to: 2021
+- count: 1
   from: 2034
   to: 2034
 - count: 1
@@ -1108,26 +1151,23 @@ trips:
   from: 2029
   to: 2049
 - count: 1
-  from: 2031
-  to: null
-- count: 1
   from: 2225
   to: 2035
 - count: 1
   from: 2032
   to: 2031
 - count: 1
-  from: null
-  to: 2029
-- count: 1
   from: 2030
   to: 2020
+- count: 1
+  from: null
+  to: 2223
 - count: 1
   from: 2028
   to: 2223
 - count: 1
-  from: 2039
-  to: 2036
+  from: null
+  to: 2035
 - count: 1
   from: 2029
   to: 2225
@@ -1144,8 +1184,8 @@ trips:
   from: 2040
   to: 2034
 - count: 1
-  from: 2229
-  to: null
+  from: 2228
+  to: 2037
 - count: 1
   from: 2021
   to: 2028
@@ -1159,6 +1199,9 @@ trips:
   from: 2227
   to: 2031
 - count: 1
+  from: 2031
+  to: 2049
+- count: 1
   from: 2020
   to: 2029
 - count: 1
@@ -1167,4 +1210,5 @@ trips:
 - count: 1
   from: 2029
   to: 2228
+weather_icon: cloudy
 xlong_rentals: 11
