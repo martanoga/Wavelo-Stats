@@ -17,6 +17,11 @@ hubs:
     name: 24 Krowodrza Górka
     rentals: 3
     returns: 0
+  null:
+    id: null
+    name: out_of_station
+    rentals: 11
+    returns: 12
   2232:
     id: 2232
     name: 25 Mackiewicza
@@ -37,11 +42,6 @@ hubs:
     name: 17 Jubilat
     rentals: 2
     returns: 5
-  null:
-    id: null
-    name: out_of_station
-    rentals: 11
-    returns: 12
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -157,9 +157,10 @@ hubs:
     name: 12 Plac Wolnica
     rentals: 1
     returns: 4
-long_rentals: 12
+long_rentals: 6
 longest_rental: 25199.9979660511
 max_dt: 578.6570799350739
+max_temp: 8.0
 medium_rentals: 55
 meteo:
   '2017-03-10 00:00:00':
@@ -469,6 +470,7 @@ meteo:
     temp: 3.0
     vis: 10000.0
     wind_speed: 5.5559952
+min_temp: -1.0
 short_rentals: 115
 shortest_rental: 83.05530405044556
 spurious_rentals: 8
@@ -644,9 +646,6 @@ trips:
   from: 2030
   to: 2032
 - count: 1
-  from: 2232
-  to: null
-- count: 1
   from: 2235
   to: 2235
 - count: 1
@@ -731,9 +730,6 @@ trips:
   from: 2226
   to: 2030
 - count: 1
-  from: 2035
-  to: null
-- count: 1
   from: null
   to: 2032
 - count: 1
@@ -760,6 +756,9 @@ trips:
 - count: 1
   from: 2233
   to: 2230
+- count: 1
+  from: 2232
+  to: null
 - count: 1
   from: 2021
   to: 2037
@@ -790,6 +789,9 @@ trips:
 - count: 1
   from: 2040
   to: 2040
+- count: 1
+  from: 2035
+  to: null
 - count: 1
   from: null
   to: 2049
@@ -890,4 +892,3 @@ trips:
   from: 2032
   to: 2034
 xlong_rentals: 6
-

@@ -22,6 +22,11 @@ hubs:
     name: 25 Mackiewicza
     rentals: 4
     returns: 5
+  null:
+    id: null
+    name: out_of_station
+    rentals: 3
+    returns: 7
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
@@ -57,11 +62,6 @@ hubs:
     name: 10 Plac Bohaterów Getta
     rentals: 0
     returns: 0
-  null:
-    id: null
-    name: out_of_station
-    rentals: 3
-    returns: 7
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -157,9 +157,10 @@ hubs:
     name: 12 Plac Wolnica
     rentals: 1
     returns: 2
-long_rentals: 4
+long_rentals: 0
 longest_rental: 9046.826061964035
 max_dt: 704.0314359664917
+max_temp: 8.0
 medium_rentals: 16
 meteo:
   '2017-03-18 00:30:00':
@@ -477,6 +478,7 @@ meteo:
     vis: 10000.0
     weather: light rain showers
     wind_speed: 16.6679856
+min_temp: 2.0
 short_rentals: 21
 shortest_rental: 602.6177351474762
 spurious_rentals: 4
@@ -607,4 +609,3 @@ trips:
   from: 2223
   to: 2223
 xlong_rentals: 4
-

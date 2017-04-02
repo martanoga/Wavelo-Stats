@@ -1,0 +1,18 @@
+average_rental: 2225.225254903566
+bikes_accounted_for: 299
+complete_rentals: 151
+long_rentals: 12
+longest_rental: 12900.271961927414
+max_dt: 303.0443458557129
+max_temp: 7.0
+medium_rentals: 46
+min_temp: -2.0
+short_rentals: 77
+shortest_rental: 298.65969586372375
+spurious_rentals: 0
+t0: '2017-03-26 00:00:03'
+t1: '2017-03-26 23:55:02'
+total_rentals: 155
+total_returns: 153
+total_time: 82499
+xlong_rentals: 16

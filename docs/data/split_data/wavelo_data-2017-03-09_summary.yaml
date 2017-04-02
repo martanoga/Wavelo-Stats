@@ -157,9 +157,10 @@ hubs:
     name: 12 Plac Wolnica
     rentals: 3
     returns: 3
-long_rentals: 7
+long_rentals: 5
 longest_rental: 24049.6632668972
 max_dt: 603.3849558830261
+max_temp: 6.0
 medium_rentals: 27
 meteo:
   '2017-03-09 00:00:00':
@@ -487,6 +488,7 @@ meteo:
     vis: 2000.0
     weather: mist
     wind_speed: 7.4079936
+min_temp: -2.0
 short_rentals: 95
 shortest_rental: 29.321380853652954
 spurious_rentals: 5
@@ -839,4 +841,3 @@ trips:
   from: 2030
   to: 2039
 xlong_rentals: 2
-

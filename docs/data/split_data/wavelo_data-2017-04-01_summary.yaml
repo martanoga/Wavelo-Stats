@@ -157,9 +157,10 @@ hubs:
     name: 12 Plac Wolnica
     rentals: 45
     returns: 50
-long_rentals: 217
+long_rentals: 75
 longest_rental: 31501.324779987335
 max_dt: 307.0761139392853
+max_temp: 23.0
 medium_rentals: 234
 meteo:
   '2017-04-01 00:00:00':
@@ -450,6 +451,7 @@ meteo:
     temp: 10.0
     vis: 10000.0
     wind_speed: 1.8519984
+min_temp: 4.0
 short_rentals: 224
 shortest_rental: 296.6668519973755
 spurious_rentals: 7
@@ -565,6 +567,9 @@ trips:
   from: 2233
   to: 2233
 - count: 4
+  from: 2036
+  to: null
+- count: 4
   from: 2020
   to: 2038
 - count: 4
@@ -604,9 +609,6 @@ trips:
   from: 2037
   to: 2029
 - count: 4
-  from: 2036
-  to: null
-- count: 4
   from: 2020
   to: 2029
 - count: 3
@@ -628,11 +630,11 @@ trips:
   from: null
   to: 2225
 - count: 3
-  from: 2021
-  to: 2021
-- count: 3
   from: 2038
   to: 2035
+- count: 3
+  from: 2021
+  to: 2021
 - count: 3
   from: 2225
   to: null
@@ -648,9 +650,6 @@ trips:
 - count: 3
   from: 2029
   to: 2029
-- count: 3
-  from: null
-  to: 2228
 - count: 3
   from: 2030
   to: 2021
@@ -690,6 +689,9 @@ trips:
 - count: 3
   from: 2237
   to: 2034
+- count: 3
+  from: null
+  to: 2228
 - count: 3
   from: null
   to: 2224
@@ -775,9 +777,6 @@ trips:
   from: 2227
   to: 2034
 - count: 2
-  from: 2228
-  to: 2234
-- count: 2
   from: 2034
   to: 2233
 - count: 2
@@ -825,6 +824,9 @@ trips:
 - count: 2
   from: 2038
   to: 2040
+- count: 2
+  from: 2228
+  to: 2234
 - count: 2
   from: null
   to: 2223
@@ -913,6 +915,9 @@ trips:
   from: 2226
   to: 2040
 - count: 2
+  from: null
+  to: 2233
+- count: 2
   from: 2035
   to: 2227
 - count: 2
@@ -934,6 +939,9 @@ trips:
   from: 2230
   to: 2228
 - count: 2
+  from: 2040
+  to: 2040
+- count: 2
   from: 2034
   to: 2226
 - count: 2
@@ -951,9 +959,6 @@ trips:
 - count: 2
   from: 2226
   to: 2020
-- count: 2
-  from: 2040
-  to: 2040
 - count: 2
   from: 2226
   to: 2035
@@ -982,9 +987,6 @@ trips:
   from: 2031
   to: 2233
 - count: 2
-  from: null
-  to: 2233
-- count: 2
   from: 2037
   to: 2034
 - count: 2
@@ -1003,6 +1005,9 @@ trips:
   from: 2030
   to: 2223
 - count: 1
+  from: 2020
+  to: 2030
+- count: 1
   from: 2038
   to: 2029
 - count: 1
@@ -1014,6 +1019,9 @@ trips:
 - count: 1
   from: 2233
   to: 2028
+- count: 1
+  from: null
+  to: 2232
 - count: 1
   from: 2227
   to: 2029
@@ -1036,25 +1044,19 @@ trips:
   from: 2230
   to: 2021
 - count: 1
-  from: null
-  to: 2038
-- count: 1
   from: 2224
   to: 2029
 - count: 1
   from: 2021
   to: null
 - count: 1
-  from: 2030
-  to: 2038
+  from: 2232
+  to: 2231
 - count: 1
   from: 2235
   to: 2034
 - count: 1
   from: 2029
-  to: null
-- count: 1
-  from: 2226
   to: null
 - count: 1
   from: 2236
@@ -1075,6 +1077,12 @@ trips:
   from: 2029
   to: 2035
 - count: 1
+  from: 2030
+  to: 2038
+- count: 1
+  from: 2223
+  to: 2032
+- count: 1
   from: 2231
   to: 2037
 - count: 1
@@ -1092,6 +1100,9 @@ trips:
 - count: 1
   from: 2038
   to: 2223
+- count: 1
+  from: 2229
+  to: null
 - count: 1
   from: 2237
   to: 2020
@@ -1113,9 +1124,6 @@ trips:
 - count: 1
   from: 2020
   to: 2231
-- count: 1
-  from: 2229
-  to: null
 - count: 1
   from: 2031
   to: 2226
@@ -1152,9 +1160,6 @@ trips:
 - count: 1
   from: 2227
   to: 2224
-- count: 1
-  from: 2020
-  to: 2030
 - count: 1
   from: 2224
   to: 2230
@@ -1198,6 +1203,9 @@ trips:
   from: 2230
   to: 2224
 - count: 1
+  from: null
+  to: 2049
+- count: 1
   from: 2228
   to: 2228
 - count: 1
@@ -1216,17 +1224,11 @@ trips:
   from: 2049
   to: 2226
 - count: 1
-  from: 2031
-  to: 2237
-- count: 1
   from: 2232
   to: 2020
 - count: 1
   from: 2029
   to: 2229
-- count: 1
-  from: null
-  to: 2049
 - count: 1
   from: 2049
   to: 2034
@@ -1250,9 +1252,6 @@ trips:
   to: 2234
 - count: 1
   from: null
-  to: 2232
-- count: 1
-  from: null
   to: 2231
 - count: 1
   from: 2020
@@ -1261,8 +1260,14 @@ trips:
   from: 2031
   to: 2225
 - count: 1
+  from: 2226
+  to: null
+- count: 1
   from: 2032
   to: 2035
+- count: 1
+  from: 2235
+  to: null
 - count: 1
   from: 2233
   to: 2234
@@ -1274,12 +1279,6 @@ trips:
   to: 2233
 - count: 1
   from: 2028
-  to: null
-- count: 1
-  from: 2232
-  to: 2231
-- count: 1
-  from: 2235
   to: null
 - count: 1
   from: 2228
@@ -1299,6 +1298,9 @@ trips:
 - count: 1
   from: 2030
   to: 2232
+- count: 1
+  from: 2031
+  to: 2237
 - count: 1
   from: 2224
   to: 2039
@@ -1327,8 +1329,8 @@ trips:
   from: 2037
   to: 2031
 - count: 1
-  from: 2223
-  to: 2032
+  from: null
+  to: 2038
 - count: 1
   from: 2021
   to: 2036

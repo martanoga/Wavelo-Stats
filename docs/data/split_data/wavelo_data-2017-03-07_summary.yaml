@@ -1,4 +1,5 @@
 average_rental: 1858.1406182935557
+bikes_accounted_for: 299
 complete_rentals: 218
 hubs:
   2049:
@@ -36,11 +37,6 @@ hubs:
     name: 17 Jubilat
     rentals: 6
     returns: 4
-  null:
-    id: null
-    name: out_of_station
-    rentals: 11
-    returns: 11
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -51,6 +47,11 @@ hubs:
     name: 01 Plac Wszystkich Świętych
     rentals: 12
     returns: 14
+  null:
+    id: null
+    name: out_of_station
+    rentals: 11
+    returns: 11
   2226:
     id: 2226
     name: 19 Cichy Kącik
@@ -156,9 +157,10 @@ hubs:
     name: 12 Plac Wolnica
     rentals: 5
     returns: 2
-long_rentals: 24
+long_rentals: 10
 longest_rental: 22914.724556922913
 max_dt: 6229.219272136688
+max_temp: 9.0
 medium_rentals: 88
 meteo:
   '2017-03-07 00:00:00':
@@ -457,6 +459,7 @@ meteo:
     temp: 3.0
     vis: 7000.0
     wind_speed: 3.7039968
+min_temp: 0.0
 short_rentals: 82
 shortest_rental: 141.15114998817444
 spurious_rentals: 24
@@ -614,8 +617,8 @@ trips:
   from: 2037
   to: 2226
 - count: 1
-  from: 2036
-  to: null
+  from: null
+  to: 2040
 - count: 1
   from: 2032
   to: 2225
@@ -634,6 +637,9 @@ trips:
 - count: 1
   from: 2035
   to: 2224
+- count: 1
+  from: 2231
+  to: 2232
 - count: 1
   from: 2020
   to: 2031
@@ -713,8 +719,8 @@ trips:
   from: 2032
   to: 2236
 - count: 1
-  from: 2231
-  to: 2232
+  from: 2230
+  to: null
 - count: 1
   from: 2224
   to: 2028
@@ -776,8 +782,8 @@ trips:
   from: 2038
   to: 2039
 - count: 1
-  from: null
-  to: 2040
+  from: 2036
+  to: null
 - count: 1
   from: 2234
   to: 2032
@@ -847,9 +853,6 @@ trips:
 - count: 1
   from: 2028
   to: 2040
-- count: 1
-  from: 2230
-  to: null
 - count: 1
   from: 2224
   to: 2228
@@ -962,4 +965,3 @@ trips:
   from: 2226
   to: 2020
 xlong_rentals: 14
-
