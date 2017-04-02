@@ -41,6 +41,9 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
                         $scope.dailyStats[index].totalRentals = bike_data['total_rentals'];
                         $scope.dailyStats[index].totalReturns = bike_data['total_returns'];
                         $scope.dailyStats[index].loading = false;
+                        $scope.dailyStats[index].weatherClass ="wi wi-day-sunny";
+                        $scope.dailyStats[index].tempMin = -5;
+                        $scope.dailyStats[index].tempMax = 25;
 
                     }).bind(null, i));
             }

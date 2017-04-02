@@ -25,12 +25,15 @@
     <script src="js/lib/angular-material.min.js"></script>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/weather-icons.min.css">
     <script src="js/wavelo_stats.js"></script>
     <script src="js/bikes_data_service.js"></script>
 </head>
 
 <body>
     <!-- page content -->
+
+    
     <table id="header">
         <tr>
             <td>
@@ -72,7 +75,7 @@
                             <span class="header">{{day.nameOfDay}}</span><br>
                             <span class="subheader">{{day.date}}</span>
                         </md-grid-tile-header>
-                        <div>
+                        <div class="gridContent">
                             <div ng-show="day.loading" layout="row" layout-align="center">
                                 <md-progress-circular md-mode="indeterminate"></md-progress-circular>
                             </div>
@@ -87,12 +90,13 @@
                                 <tr>
                                     <td>razy.</td>
                                 </tr>
-                                <!--<tr>
-                                    <td>Oddano je <span md-colors="{color:'primary'}">{{day.totalReturns}}</span> razy.</td>
-                                </tr>-->
                             </table>
-                        </div>
+                        
+                        <br>
 
+                        <div class="weather"><span class="temperature"><i class="wi wi-thermometer-internal"></i> {{day.tempMin}}/{{day.tempMax}}<i class="wi wi-celsius"></i></span> <span class="weatherIcon"><i class={{day.weatherClass}}></i></span></div>
+                    
+                        </div>
                     </md-grid-tile>
 
                     <md-grid-tile class="blue" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1" ng-if="currentWeek==displayedWeek">
