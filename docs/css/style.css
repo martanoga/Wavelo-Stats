@@ -4,11 +4,6 @@ div {
 .chart {
     margin: 10px 10px 10px 10px
 }
-div.graph_title {
-    color: #19384d;
-    font-size: 30px;
-    margin: 0px 0px 20px 0px
-}
 
 h1{
     color: #19384d;
@@ -40,36 +35,41 @@ a{
 .DetailedDataGrid md-grid-list{
     margin: 8px;
 }
-.DetailedDataGrid .green {
-  background: #b9f6ca; }
+
 
 .DetailedDataGrid .gray {
   background: #f5f5f5; }
 
-.DetailedDataGrid h3{
-    font-weight: bold
-}
 
 .DetailedDataGrid .rentedNumber{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
-
-.DetailedDataGrid .yellow {
-  background: #ffff8d; }
 
 .DetailedDataGrid .blue {
   background: #337099; 
   color: white
-  }
+}
 
-.DetailedDataGrid .purple {
-  background: #f5f5f5; }
-
-.DetailedDataGrid .red {
-  background: #ff8a80; }
 
 .DetailedDataGrid md-grid-tile {
-  transition: all 400ms ease-out 50ms; }
+  transition: all 400ms ease-out 50ms;
+}
 
 
+.header {
+font-weight: bold;
+font-size: 15px;
+margin-left: 10px
+}
+
+.subheader {
+
+font-size: 12px;
+margin-left: 10px
+}
+
+.DetailedDataGrid{
+
+    font-size: 15px
+}
