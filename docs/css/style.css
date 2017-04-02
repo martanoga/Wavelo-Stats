@@ -5,10 +5,9 @@ div {
     margin: 10px 10px 10px 10px
 }
 
-h1{
-    color: #19384d;
-    font-size: 30px;
-    margin: 0px 0px 20px 0px
+#logo {
+    margin-right:5px;
+    margin-left:-5px;
 }
 
 table#header{
@@ -35,8 +34,6 @@ a{
 .DetailedDataGrid md-grid-list{
     margin: 8px;
 }
-
-
 
 .DetailedDataGrid .rentedNumber{
     font-size: 1.6em;
