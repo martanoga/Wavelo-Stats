@@ -37,6 +37,7 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
 
                         $scope.dailyStats[index] = {};
                         $scope.dailyStats[index].nameOfDay = moment(monday + index, "DDD").tz("Europe/Warsaw").format("dddd");
+                        $scope.dailyStats[index].date = moment(monday + index, "DDD").tz("Europe/Warsaw").format("YYYY-MM-DD");
                         $scope.dailyStats[index].totalRentals = bike_data['total_rentals'];
                         $scope.dailyStats[index].totalReturns = bike_data['total_returns'];
                         $scope.dailyStats[index].loading = false;
