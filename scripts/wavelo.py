@@ -24,7 +24,7 @@ all_bikes_data = 'bike_ids.yaml'
 network_id = 105 #Wavelo network id
 server = 'https://app.socialbicycles.com/api/'
 hubs_endpoint = 'networks/%d/hubs.json'%(network_id)
-bikes_endpoint = 'networks/%d/bikes.json?per_page=300'%(network_id)
+bikes_endpoint = 'networks/%d/bikes.json'%(network_id)
 bike_endpoint = 'bikes/%d' #%d for bike_id
 
 user = os.environ['SOCIALB_USER']
@@ -67,9 +67,11 @@ all_not_in_hub = 0
 all_outside_area = 0
 all_rented_bikes = 0
 
-r = requests.get(server + bikes_endpoint, auth=(user, password))
-bikes = r.json()['items']
+r = requests.get(server + bikes_endpoint + '?per_page=%d'%(1), auth=(user, password))
 all_available_bikes = r.json()['total_entries']
+
+r = requests.get(server + bikes_endpoint+ '?per_page=%d'%(all_available_bikes), auth=(user, password))
+bikes = r.json()['items']
 
 with open(os.path.join(path_to_output_dir + '/split_data/', all_bikes_data), 'r') as infile:
     all_bike_ids = yaml.load(infile)['bike_ids']
@@ -80,14 +82,32 @@ for bike_id in all_bike_ids:
 
 unavailable_bikes = all_bikes_in_system.copy()
 
+new_bikes = []
+test_bikes = {}
+
+all_new_bikes = 0
+all_test_bikes = 0
+
 for bike in bikes:
     keys = ['id', 'name', 'hub_id', 'state', 'repair_state', 'distance', 'inside_area']
     bike_data = { key: bike[key] for key in keys }
 
     unavailable_bikes.pop(bike['id'], None)
 
+    if not bike['id'] in all_bikes_in_system:
+        if bike['name'].startswith('_'):
+            bike_data['current_position'] = bike['current_position']
+            test_bikes[bike['id']] = bike_data
+            all_test_bikes += 1
+            continue
+        else:
+            new_bikes.append(bike['id'])
+            all_bike_ids.append(bike['id'])
+            all_new_bikes += 1
+
     if bike['hub_id'] == None:
         all_not_in_hub += 1
+        bike_data['current_position'] = bike['current_position']
     if bike['inside_area'] == False:
         all_outside_area += 1
     
@@ -118,6 +138,8 @@ data_summary[curr_time]['all_not_in_hub'] = all_not_in_hub
 data_summary[curr_time]['all_available_bikes'] = all_available_bikes
 data_summary[curr_time]['all_outside_area'] = all_outside_area
 data_summary[curr_time]['all_rented_bikes'] = all_rented_bikes
+data_summary[curr_time]['all_new_bikes'] = all_new_bikes
+data_summary[curr_time]['all_test_bikes'] = all_test_bikes
 
 with open(os.path.join(path_to_output_dir + '/split_data/', data_file_summary), 'a') as outfile:
     yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
@@ -126,6 +148,11 @@ data_summary[curr_time]['hubs'] = hubs_data
 data_summary[curr_time]['bikes'] = bikes_data
 data_summary[curr_time]['rented_bikes'] = rented_bikes_data
 data_summary[curr_time]['unavailable_bikes'] = unavailable_bikes_data
+data_summary[curr_time]['new_bikes'] = new_bikes
+data_summary[curr_time]['test_bikes'] = test_bikes
 
 with open(os.path.join(path_to_output_dir + '/split_data/', data_file), 'a') as outfile:
     yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
+
+with open(os.path.join(path_to_output_dir + '/split_data/', all_bikes_data), 'w') as outfile:
+    yaml.safe_dump({'bike_ids' : all_bike_ids}, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
