@@ -37,9 +37,6 @@ a{
 }
 
 
-.DetailedDataGrid .gray {
-  background: #f5f5f5; }
-
 
 .DetailedDataGrid .rentedNumber{
     font-size: 1.6em;
@@ -103,4 +100,8 @@ div.gridContent table{
 div.weather .temperature{
     font-size: 0.8em;
     margin-right: 0.2em;
+}
+
+table.todayTable {
+    margin:auto;
 }

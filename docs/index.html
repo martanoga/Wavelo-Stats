@@ -70,8 +70,8 @@
 
 
 
-                    <md-grid-tile class="gray" md-colspan="1" ng-repeat="day in dailyStats track by $index" ng-if="day">
-                        <md-grid-tile-header>
+                    <md-grid-tile md-colors="{background: 'primary-50'}"  md-colspan="1" ng-repeat="day in dailyStats track by $index" ng-if="day">
+                        <md-grid-tile-header md-colors="{background: 'primary'}">
                             <span class="header">{{day.nameOfDay}}</span><br>
                             <span class="subheader">{{day.date}}</span>
                         </md-grid-tile-header>
@@ -85,23 +85,26 @@
                                     <td>Liczba wypożyczeń:</td>
                                 </tr>
                                 <tr>
-                                    <td class="rentedNumber"> <span md-colors="{color:'primary'}">{{day.totalRentals}}</span></td>
+                                    <td class="rentedNumber"> <span md-colors="{color:'warn'}">{{day.totalRentals}}</span></td>
                                 </tr>
                             </table>
                         
                         <br>
 
-                        <div class="weather"><span class="temperature"><i class="wi wi-thermometer-internal"></i> {{day.tempMin}}/{{day.tempMax}}<i class="wi wi-celsius"></i></span> <span class="weatherIcon"><i class={{day.weatherClass}}></i></span></div>
+                        <div ng-show="!day.loading" class="weather"><span class="temperature"><i class="wi wi-thermometer-internal"></i> {{day.tempMin}}/{{day.tempMax}}<i class="wi wi-celsius"></i></span> <span class="weatherIcon"><i class={{day.weatherClass}}></i></span></div>
                     
                         </div>
                     </md-grid-tile>
 
-                    <md-grid-tile class="blue" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1" ng-if="currentWeek==displayedWeek">
-                        <md-grid-tile-header>
+                    <md-grid-tile md-colors="{background: 'primary-50'}" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1" ng-if="currentWeek==displayedWeek">
+                        <md-grid-tile-header md-colors="{background: 'accent-600'}">
                             <span class="header">W tej chwili...</span>
                         </md-grid-tile-header>
-                        
-                        <table>
+                        <div ng-show="loading" layout="row" layout-align="center">
+                                <md-progress-circular md-mode="indeterminate"></md-progress-circular>
+                            </div>
+
+                        <table ng-show="!loading" class="todayTable">
                             <tr>
                                 <td>Dostępne rowery: <span md-colors="{color:'accent'}">{{availableNow}}</span></td>
                             </tr>
