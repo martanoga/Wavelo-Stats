@@ -41,6 +41,9 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
                         $scope.dailyStats[index].totalRentals = bike_data['total_rentals'];
                         $scope.dailyStats[index].totalReturns = bike_data['total_returns'];
                         $scope.dailyStats[index].loading = false;
+                        $scope.dailyStats[index].weatherClass ="wi wi-" + bike_data['weather_icon'];
+                        $scope.dailyStats[index].tempMin = bike_data['min_temp'];
+                        $scope.dailyStats[index].tempMax = bike_data['max_temp'];
 
                     }).bind(null, i));
             }
@@ -81,3 +84,10 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
 
         $scope.intervalFunction();
     })
+    .config(function($mdThemingProvider) {
+
+  $mdThemingProvider.theme('default')
+    .primaryPalette('blue-grey')
+    .accentPalette('blue');
+
+});
