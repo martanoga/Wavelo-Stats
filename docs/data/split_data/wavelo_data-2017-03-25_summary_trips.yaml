@@ -4,16 +4,16 @@ hubs:
     name: 08 Rondo Grzegórzeckie
     rentals: 3
     returns: 3
-  null:
-    id: null
-    name: out_of_station
-    rentals: 16
-    returns: 16
   2230:
     id: 2230
     name: 23 Bratysławska
     rentals: 4
     returns: 1
+  null:
+    id: null
+    name: out_of_station
+    rentals: 16
+    returns: 16
   2231:
     id: 2231
     name: 24 Krowodrza Górka
@@ -405,9 +405,6 @@ trips:
   from: 2040
   to: 2049
 - count: 1
-  from: 2234
-  to: null
-- count: 1
   from: 2036
   to: null
 - count: 1
@@ -483,9 +480,6 @@ trips:
   from: null
   to: null
 - count: 1
-  from: null
-  to: 2237
-- count: 1
   from: 2020
   to: 2223
 - count: 1
@@ -507,6 +501,9 @@ trips:
   from: 2233
   to: 2230
 - count: 1
+  from: 2234
+  to: null
+- count: 1
   from: 2040
   to: 2035
 - count: 1
@@ -515,6 +512,9 @@ trips:
 - count: 1
   from: 2034
   to: 2038
+- count: 1
+  from: null
+  to: 2237
 - count: 1
   from: 2039
   to: 2040

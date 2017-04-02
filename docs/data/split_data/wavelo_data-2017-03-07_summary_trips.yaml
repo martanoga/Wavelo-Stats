@@ -34,6 +34,11 @@ hubs:
     name: 17 Jubilat
     rentals: 6
     returns: 4
+  null:
+    id: null
+    name: out_of_station
+    rentals: 11
+    returns: 11
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -44,11 +49,6 @@ hubs:
     name: 01 Plac Wszystkich Świętych
     rentals: 12
     returns: 14
-  null:
-    id: null
-    name: out_of_station
-    rentals: 11
-    returns: 11
   2226:
     id: 2226
     name: 19 Cichy Kącik
@@ -306,8 +306,8 @@ trips:
   from: 2037
   to: 2226
 - count: 1
-  from: null
-  to: 2040
+  from: 2036
+  to: null
 - count: 1
   from: 2032
   to: 2225
@@ -326,9 +326,6 @@ trips:
 - count: 1
   from: 2035
   to: 2224
-- count: 1
-  from: 2231
-  to: 2232
 - count: 1
   from: 2020
   to: 2031
@@ -408,8 +405,8 @@ trips:
   from: 2032
   to: 2236
 - count: 1
-  from: 2230
-  to: null
+  from: 2231
+  to: 2232
 - count: 1
   from: 2224
   to: 2028
@@ -447,8 +444,8 @@ trips:
   from: 2035
   to: 2233
 - count: 1
-  from: 2030
-  to: 2030
+  from: 2230
+  to: null
 - count: 1
   from: 2020
   to: 2229
@@ -471,8 +468,8 @@ trips:
   from: 2038
   to: 2039
 - count: 1
-  from: 2036
-  to: null
+  from: null
+  to: 2040
 - count: 1
   from: 2234
   to: 2032
@@ -497,6 +494,9 @@ trips:
 - count: 1
   from: 2028
   to: 2226
+- count: 1
+  from: 2030
+  to: 2030
 - count: 1
   from: 2020
   to: null

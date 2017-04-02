@@ -19,11 +19,6 @@ hubs:
     name: 25 Mackiewicza
     rentals: 6
     returns: 2
-  null:
-    id: null
-    name: out_of_station
-    rentals: 6
-    returns: 7
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
@@ -34,6 +29,11 @@ hubs:
     name: 16 Szwedzka
     rentals: 2
     returns: 3
+  null:
+    id: null
+    name: out_of_station
+    rentals: 6
+    returns: 7
   2224:
     id: 2224
     name: 17 Jubilat
@@ -291,14 +291,14 @@ trips:
   from: 2020
   to: 2224
 - count: 1
-  from: 2039
-  to: 2036
+  from: null
+  to: 2035
 - count: 1
   from: 2028
   to: 2034
 - count: 1
-  from: 2020
-  to: 2233
+  from: 2034
+  to: 2035
 - count: 1
   from: 2035
   to: null
@@ -315,8 +315,8 @@ trips:
   from: 2235
   to: 2235
 - count: 1
-  from: null
-  to: 2035
+  from: 2039
+  to: 2036
 - count: 1
   from: 2030
   to: 2224
@@ -345,8 +345,8 @@ trips:
   from: 2031
   to: 2034
 - count: 1
-  from: 2034
-  to: 2035
+  from: 2020
+  to: 2233
 - count: 1
   from: 2039
   to: 2035

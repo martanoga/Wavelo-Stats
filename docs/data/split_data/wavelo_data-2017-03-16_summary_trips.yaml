@@ -14,6 +14,11 @@ hubs:
     name: 24 Krowodrza Górka
     rentals: 3
     returns: 3
+  null:
+    id: null
+    name: out_of_station
+    rentals: 22
+    returns: 18
   2232:
     id: 2232
     name: 25 Mackiewicza
@@ -54,11 +59,6 @@ hubs:
     name: 10 Plac Bohaterów Getta
     rentals: 11
     returns: 10
-  null:
-    id: null
-    name: out_of_station
-    rentals: 22
-    returns: 18
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -192,6 +192,9 @@ trips:
   from: 2034
   to: null
 - count: 3
+  from: null
+  to: 2036
+- count: 3
   from: 2229
   to: 2228
 - count: 3
@@ -209,9 +212,6 @@ trips:
 - count: 3
   from: 2229
   to: 2232
-- count: 3
-  from: null
-  to: 2036
 - count: 2
   from: 2038
   to: 2029
@@ -228,9 +228,6 @@ trips:
   from: 2038
   to: 2020
 - count: 2
-  from: 2035
-  to: null
-- count: 2
   from: 2030
   to: 2224
 - count: 2
@@ -246,6 +243,9 @@ trips:
   from: 2020
   to: 2039
 - count: 2
+  from: 2035
+  to: null
+- count: 2
   from: 2029
   to: 2020
 - count: 2
@@ -258,6 +258,9 @@ trips:
   from: 2034
   to: 2224
 - count: 2
+  from: 2234
+  to: 2234
+- count: 2
   from: null
   to: 2029
 - count: 2
@@ -266,9 +269,6 @@ trips:
 - count: 2
   from: 2228
   to: 2020
-- count: 2
-  from: 2234
-  to: 2234
 - count: 2
   from: 2020
   to: 2035
@@ -339,17 +339,14 @@ trips:
   from: null
   to: 2034
 - count: 1
-  from: 2037
-  to: 2224
-- count: 1
   from: 2225
   to: 2020
 - count: 1
   from: null
   to: 2236
 - count: 1
-  from: 2225
-  to: 2223
+  from: 2234
+  to: 2034
 - count: 1
   from: 2049
   to: 2049
@@ -386,6 +383,9 @@ trips:
 - count: 1
   from: 2039
   to: 2030
+- count: 1
+  from: 2037
+  to: 2224
 - count: 1
   from: 2029
   to: 2035
@@ -435,8 +435,8 @@ trips:
   from: 2232
   to: 2231
 - count: 1
-  from: 2227
-  to: 2229
+  from: 2231
+  to: 2233
 - count: 1
   from: null
   to: 2037
@@ -534,8 +534,8 @@ trips:
   from: 2039
   to: 2226
 - count: 1
-  from: 2231
-  to: 2233
+  from: 2227
+  to: 2229
 - count: 1
   from: 2229
   to: 2030
@@ -573,8 +573,8 @@ trips:
   from: 2234
   to: 2233
 - count: 1
-  from: 2234
-  to: 2034
+  from: 2225
+  to: 2223
 - count: 1
   from: 2224
   to: 2225

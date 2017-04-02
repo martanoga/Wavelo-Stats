@@ -6,7 +6,7 @@ longest_rental: 22914.724556922913
 max_dt: 6229.219272136688
 max_temp: 9.0
 medium_rentals: 88
-min_temp: 0.0
+min_temp: -0.0
 short_rentals: 82
 shortest_rental: 141.15114998817444
 spurious_rentals: 24
@@ -15,4 +15,5 @@ t1: '2017-03-07 23:58:16'
 total_rentals: 222
 total_returns: 220
 total_time: 86296
+weather_icon: sprinkle
 xlong_rentals: 14

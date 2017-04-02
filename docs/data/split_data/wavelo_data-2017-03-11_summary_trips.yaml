@@ -4,6 +4,11 @@ hubs:
     name: 08 Rondo Grzegórzeckie
     rentals: 5
     returns: 6
+  null:
+    id: null
+    name: out_of_station
+    rentals: 16
+    returns: 18
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -34,11 +39,6 @@ hubs:
     name: 17 Jubilat
     rentals: 6
     returns: 3
-  null:
-    id: null
-    name: out_of_station
-    rentals: 16
-    returns: 18
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -225,6 +225,9 @@ trips:
   from: 2020
   to: 2034
 - count: 2
+  from: 2226
+  to: null
+- count: 2
   from: 2039
   to: 2021
 - count: 2
@@ -233,9 +236,6 @@ trips:
 - count: 2
   from: 2233
   to: 2038
-- count: 2
-  from: 2226
-  to: null
 - count: 2
   from: 2223
   to: 2226
@@ -393,6 +393,9 @@ trips:
   from: 2049
   to: 2020
 - count: 1
+  from: 2020
+  to: 2039
+- count: 1
   from: null
   to: 2226
 - count: 1
@@ -440,9 +443,6 @@ trips:
 - count: 1
   from: 2028
   to: 2029
-- count: 1
-  from: 2020
-  to: 2039
 - count: 1
   from: 2223
   to: 2049

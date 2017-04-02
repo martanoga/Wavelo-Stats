@@ -4,6 +4,11 @@ hubs:
     name: 08 Rondo Grzegórzeckie
     rentals: 9
     returns: 5
+  null:
+    id: null
+    name: out_of_station
+    rentals: 12
+    returns: 14
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -19,11 +24,6 @@ hubs:
     name: 25 Mackiewicza
     rentals: 3
     returns: 2
-  null:
-    id: null
-    name: out_of_station
-    rentals: 12
-    returns: 14
   2233:
     id: 2233
     name: 26 Uniwersytet Rolniczy
@@ -213,14 +213,14 @@ trips:
   from: 2037
   to: 2021
 - count: 2
-  from: 2227
-  to: 2039
-- count: 2
   from: 2029
   to: null
 - count: 2
   from: 2020
   to: 2028
+- count: 2
+  from: 2227
+  to: 2039
 - count: 2
   from: 2236
   to: 2235
@@ -263,6 +263,9 @@ trips:
 - count: 1
   from: 2230
   to: 2031
+- count: 1
+  from: 2020
+  to: null
 - count: 1
   from: 2035
   to: 2031
@@ -318,6 +321,15 @@ trips:
   from: 2029
   to: 2229
 - count: 1
+  from: null
+  to: 2039
+- count: 1
+  from: null
+  to: 2236
+- count: 1
+  from: null
+  to: 2232
+- count: 1
   from: 2037
   to: 2035
 - count: 1
@@ -349,12 +361,6 @@ trips:
   to: 2229
 - count: 1
   from: 2035
-  to: null
-- count: 1
-  from: null
-  to: 2236
-- count: 1
-  from: 2020
   to: null
 - count: 1
   from: 2021
@@ -486,9 +492,6 @@ trips:
   from: 2224
   to: null
 - count: 1
-  from: null
-  to: 2039
-- count: 1
   from: 2229
   to: 2034
 - count: 1
@@ -508,9 +511,6 @@ trips:
   to: 2228
 - count: 1
   from: 2223
-  to: 2020
-- count: 1
-  from: null
   to: 2020
 - count: 1
   from: 2032
@@ -580,7 +580,7 @@ trips:
   to: 2035
 - count: 1
   from: null
-  to: 2232
+  to: 2020
 - count: 1
   from: 2229
   to: 2031

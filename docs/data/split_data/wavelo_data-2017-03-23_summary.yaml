@@ -47,11 +47,6 @@ hubs:
     name: 01 Plac Wszystkich Świętych
     rentals: 24
     returns: 26
-  null:
-    id: null
-    name: out_of_station
-    rentals: 9
-    returns: 8
   2226:
     id: 2226
     name: 19 Cichy Kącik
@@ -60,6 +55,11 @@ hubs:
   2035:
     id: 2035
     name: 10 Plac Bohaterów Getta
+    rentals: 9
+    returns: 8
+  null:
+    id: null
+    name: out_of_station
     rentals: 9
     returns: 8
   2028:
@@ -168,255 +168,287 @@ meteo:
     metar: METAR EPKK 222300Z 06009KT 9999 OVC007 04/03 Q1019
     temp: 4.0
     vis: 10000.0
+    weather: overcast at 700 feet
     wind_speed: 16.6679856
   '2017-03-23 00:30:00':
     dewpt: 3.0
     metar: METAR EPKK 222330Z 05010KT 9999 OVC007 04/03 Q1019
     temp: 4.0
     vis: 10000.0
+    weather: overcast at 700 feet
     wind_speed: 18.519984
   '2017-03-23 01:00:00':
     dewpt: 3.0
     metar: METAR EPKK 230000Z 06011KT 9999 OVC006 04/03 Q1019
     temp: 4.0
     vis: 10000.0
+    weather: overcast at 600 feet
     wind_speed: 20.371982400000004
   '2017-03-23 01:30:00':
     dewpt: 3.0
     metar: METAR EPKK 230030Z 06012KT 9999 OVC006 04/03 Q1019
     temp: 4.0
     vis: 10000.0
+    weather: overcast at 600 feet
     wind_speed: 22.2239808
   '2017-03-23 02:00:00':
     dewpt: 3.0
     metar: METAR EPKK 230100Z 06013KT 9999 OVC006 04/03 Q1019
     temp: 4.0
     vis: 10000.0
+    weather: overcast at 600 feet
     wind_speed: 24.0759792
   '2017-03-23 02:30:00':
     dewpt: 3.0
     metar: METAR EPKK 230130Z 06013KT 9999 OVC005 04/03 Q1019
     temp: 4.0
     vis: 10000.0
+    weather: overcast at 500 feet
     wind_speed: 24.0759792
   '2017-03-23 03:00:00':
     dewpt: 3.0
     metar: METAR EPKK 230200Z 06014KT 9999 OVC005 04/03 Q1019
     temp: 4.0
     vis: 10000.0
+    weather: overcast at 500 feet
     wind_speed: 25.927977600000002
   '2017-03-23 03:30:00':
     dewpt: 3.0
     metar: METAR EPKK 230230Z 06013KT 8000 OVC004 04/03 Q1019
     temp: 4.0
     vis: 8000.0
+    weather: overcast at 400 feet
     wind_speed: 24.0759792
   '2017-03-23 04:00:00':
     dewpt: 3.0
     metar: METAR EPKK 230300Z 07015KT 7000 OVC004 04/03 Q1019
     temp: 4.0
     vis: 7000.0
+    weather: overcast at 400 feet
     wind_speed: 27.779976
   '2017-03-23 04:30:00':
     dewpt: 4.0
     metar: METAR EPKK 230330Z 06013KT 6000 OVC003 04/04 Q1019
     temp: 4.0
     vis: 6000.0
+    weather: overcast at 300 feet
     wind_speed: 24.0759792
   '2017-03-23 05:00:00':
     dewpt: 4.0
     metar: METAR EPKK 230400Z 06014KT 6000 -RA OVC003 04/04 Q1018
     temp: 4.0
     vis: 6000.0
-    weather: light rain
+    weather: overcast at 300 feet
     wind_speed: 25.927977600000002
   '2017-03-23 05:30:00':
     dewpt: 4.0
     metar: METAR EPKK 230430Z 07013KT 5000 -RA BR OVC003 04/04 Q1019
     temp: 4.0
     vis: 5000.0
-    weather: light rain; mist
+    weather: overcast at 300 feet
     wind_speed: 24.0759792
   '2017-03-23 06:00:00':
     dewpt: 4.0
     metar: METAR EPKK 230500Z 06013KT 5000 BR OVC003 04/04 Q1019
     temp: 4.0
     vis: 5000.0
-    weather: mist
+    weather: overcast at 300 feet
     wind_speed: 24.0759792
   '2017-03-23 06:30:00':
     dewpt: 4.0
     metar: METAR EPKK 230530Z 06014KT 5000 BR OVC003 04/04 Q1019
     temp: 4.0
     vis: 5000.0
-    weather: mist
+    weather: overcast at 300 feet
     wind_speed: 25.927977600000002
   '2017-03-23 07:00:00':
     dewpt: 3.0
     metar: METAR EPKK 230600Z 06014KT 6000 OVC003 04/03 Q1019
     temp: 4.0
     vis: 6000.0
+    weather: overcast at 300 feet
     wind_speed: 25.927977600000002
   '2017-03-23 07:30:00':
     dewpt: 3.0
     metar: METAR EPKK 230630Z 06014KT 7000 OVC003 04/03 Q1019
     temp: 4.0
     vis: 7000.0
+    weather: overcast at 300 feet
     wind_speed: 25.927977600000002
   '2017-03-23 08:00:00':
     dewpt: 3.0
     metar: METAR EPKK 230700Z 07015KT 7000 OVC003 04/03 Q1019
     temp: 4.0
     vis: 7000.0
+    weather: overcast at 300 feet
     wind_speed: 27.779976
   '2017-03-23 08:30:00':
     dewpt: 3.0
     metar: METAR EPKK 230730Z 05015KT 7000 OVC003 04/03 Q1019
     temp: 4.0
     vis: 7000.0
+    weather: overcast at 300 feet
     wind_speed: 27.779976
   '2017-03-23 09:00:00':
     dewpt: 4.0
     metar: METAR EPKK 230800Z 06013KT 7000 OVC003 04/04 Q1019
     temp: 4.0
     vis: 7000.0
+    weather: overcast at 300 feet
     wind_speed: 24.0759792
   '2017-03-23 09:30:00':
     dewpt: 4.0
     metar: METAR EPKK 230830Z 06014KT 9999 OVC004 04/04 Q1019
     temp: 4.0
     vis: 10000.0
+    weather: overcast at 400 feet
     wind_speed: 25.927977600000002
   '2017-03-23 10:00:00':
     dewpt: 4.0
     metar: METAR EPKK 230900Z 06015KT 9999 OVC005 05/04 Q1019
     temp: 5.0
     vis: 10000.0
+    weather: overcast at 500 feet
     wind_speed: 27.779976
   '2017-03-23 10:30:00':
     dewpt: 4.0
     metar: METAR EPKK 230930Z 06013KT 9999 OVC005 05/04 Q1019
     temp: 5.0
     vis: 10000.0
+    weather: overcast at 500 feet
     wind_speed: 24.0759792
   '2017-03-23 11:00:00':
     dewpt: 4.0
     metar: METAR EPKK 231000Z 06013KT 9999 OVC005 05/04 Q1019
     temp: 5.0
     vis: 10000.0
+    weather: overcast at 500 feet
     wind_speed: 24.0759792
   '2017-03-23 11:30:00':
     dewpt: 5.0
     metar: METAR EPKK 231030Z 06014KT 9999 OVC005 06/05 Q1018
     temp: 6.0
     vis: 10000.0
+    weather: overcast at 500 feet
     wind_speed: 25.927977600000002
   '2017-03-23 12:00:00':
     dewpt: 5.0
     metar: METAR EPKK 231100Z 07013KT 9999 OVC005 06/05 Q1018
     temp: 6.0
     vis: 10000.0
+    weather: overcast at 500 feet
     wind_speed: 24.0759792
   '2017-03-23 12:30:00':
     dewpt: 5.0
     metar: METAR EPKK 231130Z 06012KT 9999 OVC006 06/05 Q1018
     temp: 6.0
     vis: 10000.0
+    weather: overcast at 600 feet
     wind_speed: 22.2239808
   '2017-03-23 13:00:00':
     dewpt: 6.0
     metar: METAR EPKK 231200Z 06012KT 9999 OVC006 07/06 Q1018
     temp: 7.0
     vis: 10000.0
+    weather: overcast at 600 feet
     wind_speed: 22.2239808
   '2017-03-23 13:30:00':
     dewpt: 6.0
     metar: METAR EPKK 231230Z 07013KT 9999 OVC006 07/06 Q1018
     temp: 7.0
     vis: 10000.0
+    weather: overcast at 600 feet
     wind_speed: 24.0759792
   '2017-03-23 14:00:00':
     dewpt: 6.0
     metar: METAR EPKK 231300Z 06012KT 9999 OVC006 07/06 Q1018
     temp: 7.0
     vis: 10000.0
+    weather: overcast at 600 feet
     wind_speed: 22.2239808
   '2017-03-23 14:30:00':
     dewpt: 6.0
     metar: METAR EPKK 231330Z 06014KT 9999 OVC006 07/06 Q1017
     temp: 7.0
     vis: 10000.0
+    weather: overcast at 600 feet
     wind_speed: 25.927977600000002
   '2017-03-23 15:00:00':
     dewpt: 6.0
     metar: METAR EPKK 231400Z 06010KT 9999 BKN006 07/06 Q1017
     temp: 7.0
     vis: 10000.0
+    weather: broken clouds at 600 feet
     wind_speed: 18.519984
   '2017-03-23 15:30:00':
     dewpt: 6.0
     metar: METAR EPKK 231430Z 06012KT 8000 OVC006 07/06 Q1017
     temp: 7.0
     vis: 8000.0
+    weather: overcast at 600 feet
     wind_speed: 22.2239808
   '2017-03-23 16:00:00':
     dewpt: 6.0
     metar: METAR EPKK 231500Z 06012KT 7000 OVC006 07/06 Q1017
     temp: 7.0
     vis: 7000.0
+    weather: overcast at 600 feet
     wind_speed: 22.2239808
   '2017-03-23 16:30:00':
     dewpt: 6.0
     metar: METAR EPKK 231530Z 06012KT 7000 OVC006 07/06 Q1017
     temp: 7.0
     vis: 7000.0
+    weather: overcast at 600 feet
     wind_speed: 22.2239808
   '2017-03-23 17:00:00':
     dewpt: 6.0
     metar: METAR EPKK 231600Z 05007KT 360V080 7000 OVC006 07/06 Q1017
     temp: 7.0
     vis: 7000.0
+    weather: overcast at 600 feet
     wind_speed: 12.963988800000001
   '2017-03-23 17:30:00':
     dewpt: 6.0
     metar: METAR EPKK 231630Z 05009KT 6000 OVC005 07/06 Q1017
     temp: 7.0
     vis: 6000.0
+    weather: overcast at 500 feet
     wind_speed: 16.6679856
   '2017-03-23 18:00:00':
     dewpt: 6.0
     metar: METAR EPKK 231700Z 03005KT 5000 BR OVC005 07/06 Q1017
     temp: 7.0
     vis: 5000.0
-    weather: mist
+    weather: overcast at 500 feet
     wind_speed: 9.259992
   '2017-03-23 18:30:00':
     dewpt: 6.0
     metar: METAR EPKK 231730Z 35004KT 4000 BR OVC005 07/06 Q1018
     temp: 7.0
     vis: 4000.0
-    weather: mist
+    weather: overcast at 500 feet
     wind_speed: 7.4079936
   '2017-03-23 19:00:00':
     dewpt: 6.0
     metar: METAR EPKK 231800Z 01004KT 340V040 3500 BR OVC004 07/06 Q1018
     temp: 7.0
     vis: 3500.0
-    weather: mist
+    weather: overcast at 400 feet
     wind_speed: 7.4079936
   '2017-03-23 19:30:00':
     dewpt: 6.0
     metar: METAR EPKK 231830Z 35003KT 3600 BR OVC004 07/06 Q1018
     temp: 7.0
     vis: 3600.0
-    weather: mist
+    weather: overcast at 400 feet
     wind_speed: 5.5559952
   '2017-03-23 20:00:00':
     dewpt: 6.0
     metar: METAR EPKK 231900Z 27002KT 2500 BR OVC003 07/06 Q1018
     temp: 7.0
     vis: 2500.0
-    weather: mist
+    weather: overcast at 300 feet
     wind_speed: 3.7039968
   '2017-03-23 20:30:00':
     dewpt: 6.0
@@ -424,7 +456,7 @@ meteo:
       Q1019
     temp: 7.0
     vis: 1400.0
-    weather: mist
+    weather: scattered clouds at 200 feet; overcast at 300 feet
     wind_speed: 3.7039968
   '2017-03-23 21:00:00':
     dewpt: 6.0
@@ -432,42 +464,42 @@ meteo:
       Q1019
     temp: 7.0
     vis: 1000.0
-    weather: mist
+    weather: scattered clouds at 300 feet; overcast at 600 feet
     wind_speed: 5.5559952
   '2017-03-23 21:30:00':
     dewpt: 6.0
     metar: METAR EPKK 232030Z 22004KT 1500 BR SCT004 OVC006 07/06 Q1019
     temp: 7.0
     vis: 1500.0
-    weather: mist
+    weather: scattered clouds at 400 feet; overcast at 600 feet
     wind_speed: 7.4079936
   '2017-03-23 22:00:00':
     dewpt: 6.0
     metar: METAR EPKK 232100Z 22005KT 2500 BR SCT003 OVC005 07/06 Q1019
     temp: 7.0
     vis: 2500.0
-    weather: mist
+    weather: scattered clouds at 300 feet; overcast at 500 feet
     wind_speed: 9.259992
   '2017-03-23 22:30:00':
     dewpt: 6.0
     metar: METAR EPKK 232130Z 25006KT 4600 BR BKN003 OVC004 07/06 Q1019
     temp: 7.0
     vis: 4600.0
-    weather: mist
+    weather: broken clouds at 300 feet; overcast at 400 feet
     wind_speed: 11.1119904
   '2017-03-23 23:00:00':
     dewpt: 6.0
     metar: METAR EPKK 232200Z 24006KT 4000 BR OVC003 07/06 Q1019
     temp: 7.0
     vis: 4000.0
-    weather: mist
+    weather: overcast at 300 feet
     wind_speed: 11.1119904
   '2017-03-23 23:30:00':
     dewpt: 6.0
     metar: METAR EPKK 232230Z 25005KT 2500 BR OVC003 07/06 Q1019
     temp: 7.0
     vis: 2500.0
-    weather: mist
+    weather: overcast at 300 feet
     wind_speed: 9.259992
 min_temp: 4.0
 short_rentals: 99
@@ -971,4 +1003,5 @@ trips:
 - count: 1
   from: 2020
   to: 2038
+weather_icon: cloudy
 xlong_rentals: 10
