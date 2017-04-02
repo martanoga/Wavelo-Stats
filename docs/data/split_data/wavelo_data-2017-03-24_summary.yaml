@@ -7,11 +7,6 @@ hubs:
     name: 08 Rondo Grzegórzeckie
     rentals: 8
     returns: 6
-  null:
-    id: null
-    name: out_of_station
-    rentals: 12
-    returns: 17
   2230:
     id: 2230
     name: 23 Bratysławska
@@ -37,6 +32,11 @@ hubs:
     name: 16 Szwedzka
     rentals: 9
     returns: 8
+  null:
+    id: null
+    name: out_of_station
+    rentals: 12
+    returns: 17
   2224:
     id: 2224
     name: 17 Jubilat
@@ -697,6 +697,9 @@ trips:
   from: 2224
   to: 2034
 - count: 1
+  from: 2227
+  to: null
+- count: 1
   from: 2028
   to: 2028
 - count: 1
@@ -763,6 +766,9 @@ trips:
   from: 2029
   to: 2227
 - count: 1
+  from: null
+  to: 2231
+- count: 1
   from: 2237
   to: 2237
 - count: 1
@@ -774,6 +780,9 @@ trips:
 - count: 1
   from: 2227
   to: 2028
+- count: 1
+  from: 2226
+  to: null
 - count: 1
   from: 2233
   to: 2228
@@ -835,8 +844,8 @@ trips:
   from: 2029
   to: 2233
 - count: 1
-  from: null
-  to: 2231
+  from: 2030
+  to: 2233
 - count: 1
   from: 2029
   to: 2021
@@ -901,9 +910,6 @@ trips:
   from: 2020
   to: 2224
 - count: 1
-  from: 2226
-  to: null
-- count: 1
   from: 2020
   to: 2028
 - count: 1
@@ -934,9 +940,6 @@ trips:
   from: 2233
   to: 2230
 - count: 1
-  from: 2030
-  to: 2233
-- count: 1
   from: 2031
   to: 2034
 - count: 1
@@ -951,9 +954,6 @@ trips:
 - count: 1
   from: null
   to: 2234
-- count: 1
-  from: 2227
-  to: null
 - count: 1
   from: 2040
   to: 2040

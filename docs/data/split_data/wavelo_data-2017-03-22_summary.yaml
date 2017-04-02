@@ -17,6 +17,11 @@ hubs:
     name: 24 Krowodrza Górka
     rentals: 2
     returns: 1
+  null:
+    id: null
+    name: out_of_station
+    rentals: 6
+    returns: 7
   2232:
     id: 2232
     name: 25 Mackiewicza
@@ -32,11 +37,6 @@ hubs:
     name: 16 Szwedzka
     rentals: 2
     returns: 3
-  null:
-    id: null
-    name: out_of_station
-    rentals: 6
-    returns: 7
   2224:
     id: 2224
     name: 17 Jubilat
@@ -654,8 +654,8 @@ trips:
   from: 2020
   to: 2224
 - count: 1
-  from: null
-  to: 2035
+  from: 2039
+  to: 2036
 - count: 1
   from: 2028
   to: 2034
@@ -678,8 +678,8 @@ trips:
   from: 2235
   to: 2235
 - count: 1
-  from: 2039
-  to: 2036
+  from: null
+  to: 2035
 - count: 1
   from: 2030
   to: 2224

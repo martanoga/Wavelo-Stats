@@ -32,16 +32,16 @@ hubs:
     name: 16 Szwedzka
     rentals: 8
     returns: 6
-  2224:
-    id: 2224
-    name: 17 Jubilat
-    rentals: 6
-    returns: 4
   null:
     id: null
     name: out_of_station
     rentals: 11
     returns: 11
+  2224:
+    id: 2224
+    name: 17 Jubilat
+    rentals: 6
+    returns: 4
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -499,7 +499,7 @@ meteo:
     vis: 7000.0
     weather: broken clouds at 4300 feet
     wind_speed: 3.7039968
-min_temp: -0.0
+min_temp: 0.0
 short_rentals: 82
 shortest_rental: 141.15114998817444
 spurious_rentals: 24
@@ -573,6 +573,9 @@ trips:
   from: 2228
   to: 2226
 - count: 2
+  from: 2021
+  to: 2029
+- count: 2
   from: 2020
   to: 2020
 - count: 2
@@ -605,9 +608,6 @@ trips:
 - count: 2
   from: 2227
   to: 2020
-- count: 2
-  from: 2021
-  to: 2029
 - count: 2
   from: 2029
   to: 2039
@@ -657,8 +657,8 @@ trips:
   from: 2037
   to: 2226
 - count: 1
-  from: 2036
-  to: null
+  from: null
+  to: 2040
 - count: 1
   from: 2032
   to: 2225
@@ -795,8 +795,8 @@ trips:
   from: 2035
   to: 2233
 - count: 1
-  from: 2230
-  to: null
+  from: 2030
+  to: 2030
 - count: 1
   from: 2020
   to: 2229
@@ -819,8 +819,8 @@ trips:
   from: 2038
   to: 2039
 - count: 1
-  from: null
-  to: 2040
+  from: 2036
+  to: null
 - count: 1
   from: 2234
   to: 2032
@@ -845,9 +845,6 @@ trips:
 - count: 1
   from: 2028
   to: 2226
-- count: 1
-  from: 2030
-  to: 2030
 - count: 1
   from: 2020
   to: null
@@ -926,6 +923,9 @@ trips:
 - count: 1
   from: 2032
   to: 2231
+- count: 1
+  from: 2230
+  to: null
 - count: 1
   from: 2039
   to: 2036

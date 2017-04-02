@@ -37,11 +37,6 @@ hubs:
     name: 17 Jubilat
     rentals: 5
     returns: 3
-  null:
-    id: null
-    name: out_of_station
-    rentals: 4
-    returns: 4
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -62,6 +57,11 @@ hubs:
     name: 10 Plac Bohaterów Getta
     rentals: 10
     returns: 7
+  null:
+    id: null
+    name: out_of_station
+    rentals: 4
+    returns: 4
   2028:
     id: 2028
     name: 03 Cracovia Błonia
@@ -548,11 +548,11 @@ trips:
   from: 2224
   to: 2030
 - count: 2
-  from: 2039
-  to: 2036
-- count: 2
   from: 2233
   to: 2030
+- count: 2
+  from: 2039
+  to: 2036
 - count: 2
   from: 2224
   to: 2225
@@ -690,16 +690,13 @@ trips:
   to: 2020
 - count: 1
   from: null
-  to: 2035
-- count: 1
-  from: null
   to: 2226
 - count: 1
   from: 2030
   to: 2229
 - count: 1
-  from: 2020
-  to: 2229
+  from: 2031
+  to: 2020
 - count: 1
   from: 2227
   to: 2229
@@ -803,11 +800,14 @@ trips:
   from: 2021
   to: 2035
 - count: 1
-  from: 2031
-  to: 2020
+  from: 2020
+  to: 2229
 - count: 1
   from: 2021
   to: 2223
+- count: 1
+  from: null
+  to: 2035
 - count: 1
   from: 2035
   to: 2029

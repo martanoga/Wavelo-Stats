@@ -34,6 +34,11 @@ hubs:
     name: 17 Jubilat
     rentals: 0
     returns: 2
+  null:
+    id: null
+    name: out_of_station
+    rentals: 3
+    returns: 7
   2020:
     id: 2020
     name: 02 Teatr Bagatela
@@ -144,11 +149,6 @@ hubs:
     name: '30 Rondo Czyżyńskie '
     rentals: 0
     returns: 0
-  null:
-    id: null
-    name: out_of_station
-    rentals: 3
-    returns: 7
   2037:
     id: 2037
     name: 12 Plac Wolnica
@@ -261,6 +261,9 @@ trips:
   from: 2227
   to: 2021
 - count: 1
+  from: 2236
+  to: null
+- count: 1
   from: 2232
   to: 2231
 - count: 1
@@ -268,9 +271,6 @@ trips:
   to: 2049
 - count: 1
   from: 2021
-  to: null
-- count: 1
-  from: 2236
   to: null
 - count: 1
   from: 2236
