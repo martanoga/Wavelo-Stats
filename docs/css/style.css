@@ -36,7 +36,7 @@ a{
 }
 
 .DetailedDataGrid .rentedNumber{
-    font-size: 1.6em;
+    font-size: 1.8em;
     text-align: center;
     padding-top: 0.3em;
 }
@@ -71,13 +71,13 @@ a{
 div.weather{
     width: 100%;
     text-align: right;
-    margin-bottom: -1.2em;
+    margin-bottom: -1.3em;
     margin-top: 0em;
 }
 
 div.weather .weatherIcon{
     font-size: 1.5em;
-    margin-right: 0.2em;
+    margin-right: 0.5em;
 }
 
 div.gridContent{
