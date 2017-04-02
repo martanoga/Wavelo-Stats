@@ -1,0 +1,1305 @@
+average_rental: 1717.7260419752745
+bikes_accounted_for: 300
+complete_rentals: 459
+hubs:
+  2049:
+    id: 2049
+    name: 08 Rondo Grzegórzeckie
+    rentals: 18
+    returns: 15
+  2230:
+    id: 2230
+    name: 23 Bratysławska
+    rentals: 10
+    returns: 8
+  2231:
+    id: 2231
+    name: 24 Krowodrza Górka
+    rentals: 7
+    returns: 15
+  2232:
+    id: 2232
+    name: 25 Mackiewicza
+    rentals: 10
+    returns: 8
+  2233:
+    id: 2233
+    name: 26 Uniwersytet Rolniczy
+    rentals: 19
+    returns: 25
+  2223:
+    id: 2223
+    name: 16 Szwedzka
+    rentals: 18
+    returns: 17
+  null:
+    id: null
+    name: out_of_station
+    rentals: 27
+    returns: 25
+  2224:
+    id: 2224
+    name: 17 Jubilat
+    rentals: 12
+    returns: 12
+  2020:
+    id: 2020
+    name: 02 Teatr Bagatela
+    rentals: 42
+    returns: 37
+  2021:
+    id: 2021
+    name: 01 Plac Wszystkich Świętych
+    rentals: 19
+    returns: 19
+  2226:
+    id: 2226
+    name: 19 Cichy Kącik
+    rentals: 12
+    returns: 11
+  2035:
+    id: 2035
+    name: 10 Plac Bohaterów Getta
+    rentals: 14
+    returns: 15
+  2028:
+    id: 2028
+    name: 03 Cracovia Błonia
+    rentals: 15
+    returns: 18
+  2029:
+    id: 2029
+    name: 04 Plac Inwalidów
+    rentals: 26
+    returns: 23
+  2030:
+    id: 2030
+    name: 05 Politechnika
+    rentals: 15
+    returns: 15
+  2031:
+    id: 2031
+    name: 06 Dworzec Główny Wschód
+    rentals: 17
+    returns: 15
+  2032:
+    id: 2032
+    name: 07 Rondo Mogilskie
+    rentals: 17
+    returns: 19
+  2225:
+    id: 2225
+    name: 18 Salwator
+    rentals: 9
+    returns: 9
+  2034:
+    id: 2034
+    name: 09 Miodowa
+    rentals: 13
+    returns: 15
+  2227:
+    id: 2227
+    name: 20 Uniwersytet Pedagogiczny
+    rentals: 16
+    returns: 23
+  2228:
+    id: 2228
+    name: Łobzów PKP
+    rentals: 13
+    returns: 13
+  2229:
+    id: 2229
+    name: 22 Nowy Kleparz
+    rentals: 10
+    returns: 10
+  2038:
+    id: 2038
+    name: 14 Wawel
+    rentals: 16
+    returns: 12
+  2039:
+    id: 2039
+    name: 13 Poczta Główna
+    rentals: 20
+    returns: 21
+  2040:
+    id: 2040
+    name: 15 Centrum Kongresowe ICE
+    rentals: 6
+    returns: 11
+  2036:
+    id: 2036
+    name: 11 Korona
+    rentals: 8
+    returns: 8
+  2234:
+    id: 2234
+    name: 27 Wieczysta
+    rentals: 17
+    returns: 14
+  2235:
+    id: 2235
+    name: 28 Rondo Kocmyrzowskie
+    rentals: 3
+    returns: 1
+  2236:
+    id: 2236
+    name: 29 DH Wanda
+    rentals: 9
+    returns: 11
+  2237:
+    id: 2237
+    name: '30 Rondo Czyżyńskie '
+    rentals: 6
+    returns: 5
+  2037:
+    id: 2037
+    name: 12 Plac Wolnica
+    rentals: 17
+    returns: 16
+long_rentals: 46
+longest_rental: 36300.787508010864
+max_dt: 301.34659004211426
+medium_rentals: 151
+meteo:
+  '2017-03-29 00:00:00':
+    dewpt: 2.0
+    metar: METAR EPKK 282200Z 20002KT CAVOK 07/02 Q1020
+    temp: 7.0
+    vis: 10000.0
+    wind_speed: 3.7039968
+  '2017-03-29 00:30:00':
+    dewpt: 2.0
+    metar: METAR EPKK 282230Z 25002KT CAVOK 06/02 Q1020
+    temp: 6.0
+    vis: 10000.0
+    wind_speed: 3.7039968
+  '2017-03-29 01:00:00':
+    dewpt: 1.0
+    metar: METAR EPKK 282300Z VRB01KT CAVOK 05/01 Q1020
+    temp: 5.0
+    vis: 10000.0
+    wind_speed: 1.8519984
+  '2017-03-29 01:30:00':
+    dewpt: 2.0
+    metar: METAR EPKK 282330Z VRB02KT CAVOK 05/02 Q1020
+    temp: 5.0
+    vis: 10000.0
+    wind_speed: 3.7039968
+  '2017-03-29 02:00:00':
+    dewpt: 2.0
+    metar: METAR EPKK 290000Z VRB01KT CAVOK 05/02 Q1020
+    temp: 5.0
+    vis: 10000.0
+    wind_speed: 1.8519984
+  '2017-03-29 02:30:00':
+    dewpt: 2.0
+    metar: METAR EPKK 290030Z 11001KT CAVOK 05/02 Q1020
+    temp: 5.0
+    vis: 10000.0
+    wind_speed: 1.8519984
+  '2017-03-29 03:00:00':
+    dewpt: 2.0
+    metar: METAR EPKK 290100Z VRB01KT CAVOK 04/02 Q1020
+    temp: 4.0
+    vis: 10000.0
+    wind_speed: 1.8519984
+  '2017-03-29 03:30:00':
+    dewpt: 2.0
+    metar: METAR EPKK 290130Z VRB02KT CAVOK 04/02 Q1020
+    temp: 4.0
+    vis: 10000.0
+    wind_speed: 3.7039968
+  '2017-03-29 04:00:00':
+    dewpt: 2.0
+    metar: METAR EPKK 290200Z 22003KT CAVOK 05/02 Q1020
+    temp: 5.0
+    vis: 10000.0
+    wind_speed: 5.5559952
+  '2017-03-29 04:30:00':
+    dewpt: 1.0
+    metar: METAR EPKK 290230Z VRB01KT CAVOK 04/01 Q1020
+    temp: 4.0
+    vis: 10000.0
+    wind_speed: 1.8519984
+  '2017-03-29 05:00:00':
+    dewpt: 1.0
+    metar: METAR EPKK 290300Z VRB01KT CAVOK 04/01 Q1020
+    temp: 4.0
+    vis: 10000.0
+    wind_speed: 1.8519984
+  '2017-03-29 05:30:00':
+    dewpt: 1.0
+    metar: METAR EPKK 290330Z VRB02KT CAVOK 03/01 Q1020
+    temp: 3.0
+    vis: 10000.0
+    wind_speed: 3.7039968
+  '2017-03-29 06:00:00':
+    dewpt: 1.0
+    metar: METAR EPKK 290400Z VRB01KT 8000 NSC 03/01 Q1020
+    temp: 3.0
+    vis: 8000.0
+    wind_speed: 1.8519984
+  '2017-03-29 06:30:00':
+    dewpt: 2.0
+    metar: METAR EPKK 290430Z VRB01KT 8000 NSC 04/02 Q1020
+    temp: 4.0
+    vis: 8000.0
+    wind_speed: 1.8519984
+  '2017-03-29 07:00:00':
+    dewpt: 1.0
+    metar: METAR EPKK 290500Z VRB02KT 8000 NSC 03/01 Q1020
+    temp: 3.0
+    vis: 8000.0
+    wind_speed: 3.7039968
+  '2017-03-29 07:30:00':
+    dewpt: 2.0
+    metar: METAR EPKK 290530Z VRB02KT 8000 NSC 04/02 Q1020
+    temp: 4.0
+    vis: 8000.0
+    wind_speed: 3.7039968
+  '2017-03-29 08:00:00':
+    dewpt: 3.0
+    metar: METAR EPKK 290600Z VRB02KT 8000 NSC 05/03 Q1020
+    temp: 5.0
+    vis: 8000.0
+    wind_speed: 3.7039968
+  '2017-03-29 08:30:00':
+    dewpt: 4.0
+    metar: METAR EPKK 290630Z VRB01KT 8000 NSC 07/04 Q1020
+    temp: 7.0
+    vis: 8000.0
+    wind_speed: 1.8519984
+  '2017-03-29 09:00:00':
+    dewpt: 4.0
+    metar: METAR EPKK 290700Z 20008KT CAVOK 10/04 Q1020
+    temp: 10.0
+    vis: 10000.0
+    wind_speed: 14.8159872
+  '2017-03-29 09:30:00':
+    dewpt: 4.0
+    metar: METAR EPKK 290730Z 23012KT CAVOK 14/04 Q1020
+    temp: 14.0
+    vis: 10000.0
+    wind_speed: 22.2239808
+  '2017-03-29 10:00:00':
+    dewpt: 4.0
+    metar: METAR EPKK 290800Z 23011KT CAVOK 15/04 Q1020
+    temp: 15.0
+    vis: 10000.0
+    wind_speed: 20.371982400000004
+  '2017-03-29 10:30:00':
+    dewpt: 4.0
+    metar: METAR EPKK 290830Z 25013KT CAVOK 16/04 Q1021
+    temp: 16.0
+    vis: 10000.0
+    wind_speed: 24.0759792
+  '2017-03-29 11:00:00':
+    dewpt: 4.0
+    metar: METAR EPKK 290900Z 28014KT 240V310 CAVOK 16/04 Q1021
+    temp: 16.0
+    vis: 10000.0
+    wind_speed: 25.927977600000002
+  '2017-03-29 11:30:00':
+    dewpt: 3.0
+    metar: METAR EPKK 290930Z 27013KT CAVOK 17/03 Q1021
+    temp: 17.0
+    vis: 10000.0
+    wind_speed: 24.0759792
+  '2017-03-29 12:00:00':
+    dewpt: 4.0
+    metar: METAR EPKK 291000Z 25015KT CAVOK 18/04 Q1020
+    temp: 18.0
+    vis: 10000.0
+    wind_speed: 27.779976
+  '2017-03-29 12:30:00':
+    dewpt: 5.0
+    metar: METAR EPKK 291030Z 27016KT CAVOK 19/05 Q1020
+    temp: 19.0
+    vis: 10000.0
+    wind_speed: 29.6319744
+  '2017-03-29 13:00:00':
+    dewpt: 4.0
+    metar: METAR EPKK 291100Z 25017KT 210V270 9999 FEW060 19/04 Q1020
+    temp: 19.0
+    vis: 10000.0
+    wind_speed: 31.4839728
+  '2017-03-29 13:30:00':
+    dewpt: 4.0
+    metar: METAR EPKK 291130Z 26015KT 220V280 9999 SCT064 19/04 Q1019
+    temp: 19.0
+    vis: 10000.0
+    wind_speed: 27.779976
+  '2017-03-29 14:00:00':
+    dewpt: 4.0
+    metar: METAR EPKK 291200Z 26014KT 9999 SCT066 20/04 Q1019
+    temp: 20.0
+    vis: 10000.0
+    wind_speed: 25.927977600000002
+  '2017-03-29 14:30:00':
+    dewpt: 3.0
+    metar: METAR EPKK 291230Z 28014KT 9999 SCT069 19/03 Q1019
+    temp: 19.0
+    vis: 10000.0
+    wind_speed: 25.927977600000002
+  '2017-03-29 15:00:00':
+    dewpt: 2.0
+    metar: METAR EPKK 291300Z 28016KT CAVOK 19/02 Q1018
+    temp: 19.0
+    vis: 10000.0
+    wind_speed: 29.6319744
+  '2017-03-29 15:30:00':
+    dewpt: 3.0
+    metar: METAR EPKK 291330Z 28011KT 240V300 9999 SCT064 19/03 Q1018
+    temp: 19.0
+    vis: 10000.0
+    wind_speed: 20.371982400000004
+  '2017-03-29 16:00:00':
+    dewpt: 3.0
+    metar: METAR EPKK 291400Z 25022KT CAVOK 18/03 Q1018
+    temp: 18.0
+    vis: 10000.0
+    wind_speed: 40.74396480000001
+  '2017-03-29 16:30:00':
+    dewpt: 3.0
+    metar: METAR EPKK 291430Z 26022KT 9999 FEW053CB SCT065 19/03 Q1018
+    temp: 19.0
+    vis: 10000.0
+    wind_speed: 40.74396480000001
+  '2017-03-29 17:00:00':
+    dewpt: 4.0
+    metar: METAR EPKK 291500Z 26019KT 9999 FEW053CB SCT066 18/04 Q1018
+    temp: 18.0
+    vis: 10000.0
+    wind_speed: 35.1879696
+  '2017-03-29 17:30:00':
+    dewpt: 4.0
+    metar: METAR EPKK 291530Z 29016KT 260V330 9999 SCT065 17/04 Q1018
+    temp: 17.0
+    vis: 10000.0
+    wind_speed: 29.6319744
+  '2017-03-29 18:00:00':
+    dewpt: 5.0
+    metar: METAR EPKK 291600Z 29016KT 9999 FEW053 16/05 Q1018
+    temp: 16.0
+    vis: 10000.0
+    wind_speed: 29.6319744
+  '2017-03-29 18:30:00':
+    dewpt: 5.0
+    metar: METAR EPKK 291630Z 28013KT CAVOK 16/05 Q1018
+    temp: 16.0
+    vis: 10000.0
+    wind_speed: 24.0759792
+  '2017-03-29 19:00:00':
+    dewpt: 5.0
+    metar: METAR EPKK 291700Z 29014KT CAVOK 15/05 Q1018
+    temp: 15.0
+    vis: 10000.0
+    wind_speed: 25.927977600000002
+  '2017-03-29 19:30:00':
+    dewpt: 4.0
+    metar: METAR EPKK 291730Z 29019KT 9999 FEW050CB 15/04 Q1019
+    temp: 15.0
+    vis: 10000.0
+    wind_speed: 35.1879696
+  '2017-03-29 20:00:00':
+    dewpt: 6.0
+    metar: METAR EPKK 291800Z 29018KT 9999 -SHRA FEW033CB SCT060 13/06                         Q1020
+    temp: 13.0
+    vis: 10000.0
+    weather: light rain showers
+    wind_speed: 33.3359712
+  '2017-03-29 20:30:00':
+    dewpt: 6.0
+    metar: METAR EPKK 291830Z 29013KT 9999 -SHRA SCT021CB BKN060 12/06                         Q1020
+    temp: 12.0
+    vis: 10000.0
+    weather: light rain showers
+    wind_speed: 24.0759792
+  '2017-03-29 21:00:00':
+    dewpt: 7.0
+    metar: METAR EPKK 291900Z 28012KT 9999 FEW028CB SCT053 11/07 Q1020
+    temp: 11.0
+    vis: 10000.0
+    wind_speed: 22.2239808
+  '2017-03-29 21:30:00':
+    dewpt: 7.0
+    metar: METAR EPKK 291930Z 29013KT 9999 FEW027CB SCT064 11/07 Q1021
+    temp: 11.0
+    vis: 10000.0
+    wind_speed: 24.0759792
+  '2017-03-29 22:00:00':
+    dewpt: 7.0
+    metar: METAR EPKK 292000Z 29012KT 250V310 9999 FEW017CB BKN067 12/07                         Q1021
+    temp: 12.0
+    vis: 10000.0
+    wind_speed: 22.2239808
+  '2017-03-29 22:30:00':
+    dewpt: 6.0
+    metar: METAR EPKK 292030Z 28009KT 9999 FEW020CB SCT053 11/06 Q1021
+    temp: 11.0
+    vis: 10000.0
+    wind_speed: 16.6679856
+  '2017-03-29 23:00:00':
+    dewpt: 6.0
+    metar: METAR EPKK 292100Z 26008KT 9999 FEW043 10/06 Q1021
+    temp: 10.0
+    vis: 10000.0
+    wind_speed: 14.8159872
+  '2017-03-29 23:30:00':
+    dewpt: 6.0
+    metar: METAR EPKK 292130Z 27011KT 9999 SCT069 11/06 Q1021
+    temp: 11.0
+    vis: 10000.0
+    wind_speed: 20.371982400000004
+short_rentals: 255
+shortest_rental: 298.4225070476532
+spurious_rentals: 7
+t0: '2017-03-29 00:00:02'
+t1: '2017-03-29 23:55:02'
+total_rentals: 461
+total_returns: 466
+total_time: 86100
+trips:
+- count: 7
+  from: 2037
+  to: 2039
+- count: 6
+  from: 2031
+  to: 2032
+- count: 6
+  from: 2049
+  to: 2227
+- count: 5
+  from: 2223
+  to: 2021
+- count: 5
+  from: 2028
+  to: 2028
+- count: 5
+  from: 2020
+  to: 2020
+- count: 5
+  from: 2234
+  to: 2030
+- count: 5
+  from: 2226
+  to: 2028
+- count: 5
+  from: 2223
+  to: 2223
+- count: 5
+  from: 2224
+  to: 2020
+- count: 5
+  from: 2037
+  to: 2031
+- count: 4
+  from: 2039
+  to: 2020
+- count: 4
+  from: 2029
+  to: 2231
+- count: 4
+  from: 2233
+  to: 2031
+- count: 4
+  from: 2049
+  to: 2032
+- count: 4
+  from: 2234
+  to: 2049
+- count: 4
+  from: 2020
+  to: 2021
+- count: 4
+  from: 2232
+  to: 2232
+- count: 4
+  from: 2228
+  to: 2228
+- count: 4
+  from: null
+  to: null
+- count: 4
+  from: 2029
+  to: 2228
+- count: 3
+  from: 2232
+  to: 2227
+- count: 3
+  from: 2038
+  to: 2029
+- count: 3
+  from: 2225
+  to: 2226
+- count: 3
+  from: 2034
+  to: 2035
+- count: 3
+  from: 2223
+  to: 2020
+- count: 3
+  from: 2227
+  to: null
+- count: 3
+  from: 2038
+  to: 2037
+- count: 3
+  from: 2029
+  to: 2230
+- count: 3
+  from: null
+  to: 2049
+- count: 3
+  from: 2224
+  to: null
+- count: 3
+  from: 2020
+  to: 2227
+- count: 3
+  from: 2049
+  to: 2233
+- count: 3
+  from: 2032
+  to: 2236
+- count: 3
+  from: null
+  to: 2020
+- count: 3
+  from: 2233
+  to: 2020
+- count: 3
+  from: 2236
+  to: 2236
+- count: 3
+  from: 2228
+  to: null
+- count: 3
+  from: 2237
+  to: 2237
+- count: 3
+  from: 2030
+  to: 2233
+- count: 3
+  from: 2021
+  to: 2037
+- count: 3
+  from: 2031
+  to: 2233
+- count: 3
+  from: 2032
+  to: 2234
+- count: 3
+  from: 2020
+  to: 2038
+- count: 3
+  from: 2020
+  to: 2029
+- count: 2
+  from: 2032
+  to: 2020
+- count: 2
+  from: 2230
+  to: 2231
+- count: 2
+  from: null
+  to: 2034
+- count: 2
+  from: 2236
+  to: 2032
+- count: 2
+  from: 2034
+  to: 2020
+- count: 2
+  from: 2021
+  to: 2229
+- count: 2
+  from: 2229
+  to: 2020
+- count: 2
+  from: 2020
+  to: 2039
+- count: 2
+  from: null
+  to: 2227
+- count: 2
+  from: 2020
+  to: 2223
+- count: 2
+  from: 2031
+  to: 2038
+- count: 2
+  from: 2039
+  to: 2224
+- count: 2
+  from: 2020
+  to: 2030
+- count: 2
+  from: 2038
+  to: 2224
+- count: 2
+  from: 2028
+  to: 2226
+- count: 2
+  from: null
+  to: 2029
+- count: 2
+  from: 2020
+  to: 2036
+- count: 2
+  from: null
+  to: 2233
+- count: 2
+  from: 2032
+  to: 2038
+- count: 2
+  from: 2234
+  to: 2031
+- count: 2
+  from: 2035
+  to: 2034
+- count: 2
+  from: 2233
+  to: 2030
+- count: 2
+  from: 2035
+  to: 2029
+- count: 2
+  from: 2035
+  to: 2049
+- count: 2
+  from: 2038
+  to: 2227
+- count: 2
+  from: 2031
+  to: 2034
+- count: 2
+  from: 2020
+  to: 2233
+- count: 2
+  from: 2229
+  to: 2232
+- count: 2
+  from: 2021
+  to: 2020
+- count: 2
+  from: 2234
+  to: 2234
+- count: 2
+  from: 2039
+  to: 2227
+- count: 2
+  from: 2230
+  to: 2224
+- count: 2
+  from: 2226
+  to: 2226
+- count: 2
+  from: null
+  to: 2226
+- count: 2
+  from: 2233
+  to: 2233
+- count: 2
+  from: 2020
+  to: 2028
+- count: 2
+  from: 2233
+  to: 2040
+- count: 2
+  from: 2020
+  to: 2234
+- count: 2
+  from: 2228
+  to: 2233
+- count: 2
+  from: 2031
+  to: 2231
+- count: 2
+  from: null
+  to: 2021
+- count: 2
+  from: 2233
+  to: 2029
+- count: 2
+  from: 2236
+  to: 2029
+- count: 2
+  from: 2032
+  to: 2032
+- count: 2
+  from: 2227
+  to: 2035
+- count: 2
+  from: 2030
+  to: 2020
+- count: 2
+  from: 2038
+  to: 2223
+- count: 2
+  from: 2021
+  to: 2223
+- count: 2
+  from: 2020
+  to: 2224
+- count: 2
+  from: 2020
+  to: 2225
+- count: 2
+  from: 2039
+  to: 2223
+- count: 2
+  from: 2020
+  to: 2040
+- count: 2
+  from: 2037
+  to: 2040
+- count: 1
+  from: 2049
+  to: 2038
+- count: 1
+  from: 2029
+  to: 2029
+- count: 1
+  from: 2036
+  to: 2036
+- count: 1
+  from: 2030
+  to: 2229
+- count: 1
+  from: 2233
+  to: 2028
+- count: 1
+  from: 2039
+  to: 2228
+- count: 1
+  from: 2035
+  to: 2031
+- count: 1
+  from: 2030
+  to: 2049
+- count: 1
+  from: 2039
+  to: null
+- count: 1
+  from: 2227
+  to: 2029
+- count: 1
+  from: 2230
+  to: 2049
+- count: 1
+  from: 2037
+  to: 2226
+- count: 1
+  from: 2020
+  to: null
+- count: 1
+  from: 2034
+  to: 2036
+- count: 1
+  from: 2237
+  to: 2234
+- count: 1
+  from: 2030
+  to: 2037
+- count: 1
+  from: 2227
+  to: 2039
+- count: 1
+  from: 2034
+  to: 2228
+- count: 1
+  from: 2036
+  to: 2224
+- count: 1
+  from: 2036
+  to: 2034
+- count: 1
+  from: 2227
+  to: 2236
+- count: 1
+  from: null
+  to: 2039
+- count: 1
+  from: 2020
+  to: 2034
+- count: 1
+  from: 2034
+  to: null
+- count: 1
+  from: 2036
+  to: 2035
+- count: 1
+  from: 2029
+  to: 2035
+- count: 1
+  from: 2231
+  to: 2232
+- count: 1
+  from: 2229
+  to: 2029
+- count: 1
+  from: 2021
+  to: 2021
+- count: 1
+  from: 2030
+  to: 2021
+- count: 1
+  from: 2049
+  to: 2234
+- count: 1
+  from: 2225
+  to: 2225
+- count: 1
+  from: 2236
+  to: 2037
+- count: 1
+  from: 2036
+  to: 2230
+- count: 1
+  from: 2029
+  to: 2237
+- count: 1
+  from: 2232
+  to: 2231
+- count: 1
+  from: 2040
+  to: 2037
+- count: 1
+  from: 2021
+  to: 2049
+- count: 1
+  from: 2229
+  to: 2035
+- count: 1
+  from: 2029
+  to: 2038
+- count: 1
+  from: 2035
+  to: 2035
+- count: 1
+  from: 2233
+  to: 2021
+- count: 1
+  from: 2029
+  to: 2227
+- count: 1
+  from: 2021
+  to: 2040
+- count: 1
+  from: 2032
+  to: 2229
+- count: 1
+  from: 2032
+  to: null
+- count: 1
+  from: 2234
+  to: 2032
+- count: 1
+  from: 2227
+  to: 2233
+- count: 1
+  from: 2030
+  to: 2230
+- count: 1
+  from: 2030
+  to: 2223
+- count: 1
+  from: 2031
+  to: 2040
+- count: 1
+  from: 2028
+  to: 2029
+- count: 1
+  from: 2039
+  to: 2231
+- count: 1
+  from: 2021
+  to: 2030
+- count: 1
+  from: 2224
+  to: 2038
+- count: 1
+  from: 2227
+  to: 2028
+- count: 1
+  from: 2032
+  to: 2223
+- count: 1
+  from: 2225
+  to: 2031
+- count: 1
+  from: 2230
+  to: 2039
+- count: 1
+  from: 2228
+  to: 2230
+- count: 1
+  from: 2034
+  to: 2031
+- count: 1
+  from: 2229
+  to: 2225
+- count: 1
+  from: 2030
+  to: 2030
+- count: 1
+  from: 2030
+  to: 2227
+- count: 1
+  from: 2231
+  to: 2228
+- count: 1
+  from: 2036
+  to: 2028
+- count: 1
+  from: 2236
+  to: 2234
+- count: 1
+  from: 2034
+  to: 2229
+- count: 1
+  from: 2237
+  to: 2032
+- count: 1
+  from: 2040
+  to: 2228
+- count: 1
+  from: 2230
+  to: 2233
+- count: 1
+  from: 2020
+  to: 2035
+- count: 1
+  from: 2227
+  to: 2224
+- count: 1
+  from: 2029
+  to: 2233
+- count: 1
+  from: 2235
+  to: 2034
+- count: 1
+  from: 2029
+  to: 2021
+- count: 1
+  from: 2038
+  to: 2021
+- count: 1
+  from: 2235
+  to: 2234
+- count: 1
+  from: 2234
+  to: 2035
+- count: 1
+  from: 2226
+  to: 2034
+- count: 1
+  from: 2028
+  to: 2039
+- count: 1
+  from: 2235
+  to: 2236
+- count: 1
+  from: 2039
+  to: 2233
+- count: 1
+  from: 2223
+  to: 2029
+- count: 1
+  from: 2230
+  to: 2029
+- count: 1
+  from: 2038
+  to: null
+- count: 1
+  from: 2028
+  to: 2233
+- count: 1
+  from: 2226
+  to: 2225
+- count: 1
+  from: 2029
+  to: 2236
+- count: 1
+  from: 2039
+  to: 2028
+- count: 1
+  from: 2229
+  to: null
+- count: 1
+  from: 2034
+  to: 2037
+- count: 1
+  from: 2229
+  to: 2034
+- count: 1
+  from: 2029
+  to: 2037
+- count: 1
+  from: 2233
+  to: 2039
+- count: 1
+  from: 2226
+  to: 2039
+- count: 1
+  from: 2038
+  to: 2233
+- count: 1
+  from: 2229
+  to: 2031
+- count: 1
+  from: 2223
+  to: 2039
+- count: 1
+  from: 2233
+  to: 2232
+- count: 1
+  from: 2028
+  to: 2227
+- count: 1
+  from: 2227
+  to: 2021
+- count: 1
+  from: 2225
+  to: 2229
+- count: 1
+  from: 2021
+  to: 2036
+- count: 1
+  from: 2039
+  to: 2037
+- count: 1
+  from: 2032
+  to: 2233
+- count: 1
+  from: 2035
+  to: null
+- count: 1
+  from: 2037
+  to: 2035
+- count: 1
+  from: 2237
+  to: 2236
+- count: 1
+  from: 2037
+  to: null
+- count: 1
+  from: 2029
+  to: 2040
+- count: 1
+  from: 2231
+  to: 2227
+- count: 1
+  from: 2029
+  to: null
+- count: 1
+  from: 2225
+  to: 2039
+- count: 1
+  from: 2021
+  to: 2029
+- count: 1
+  from: 2020
+  to: 2037
+- count: 1
+  from: 2224
+  to: 2021
+- count: 1
+  from: 2029
+  to: 2229
+- count: 1
+  from: 2228
+  to: 2231
+- count: 1
+  from: 2039
+  to: 2021
+- count: 1
+  from: 2030
+  to: 2224
+- count: 1
+  from: 2021
+  to: 2224
+- count: 1
+  from: 2049
+  to: 2039
+- count: 1
+  from: null
+  to: 2230
+- count: 1
+  from: null
+  to: 2229
+- count: 1
+  from: 2231
+  to: 2231
+- count: 1
+  from: 2049
+  to: 2020
+- count: 1
+  from: 2230
+  to: 2228
+- count: 1
+  from: 2035
+  to: 2028
+- count: 1
+  from: 2224
+  to: 2036
+- count: 1
+  from: 2049
+  to: 2237
+- count: 1
+  from: 2040
+  to: 2229
+- count: 1
+  from: null
+  to: 2037
+- count: 1
+  from: 2227
+  to: 2227
+- count: 1
+  from: 2029
+  to: 2020
+- count: 1
+  from: 2035
+  to: 2225
+- count: 1
+  from: null
+  to: 2236
+- count: 1
+  from: 2040
+  to: 2040
+- count: 1
+  from: 2226
+  to: 2035
+- count: 1
+  from: 2231
+  to: 2234
+- count: 1
+  from: 2028
+  to: 2032
+- count: 1
+  from: 2224
+  to: 2030
+- count: 1
+  from: 2228
+  to: 2030
+- count: 1
+  from: 2031
+  to: 2234
+- count: 1
+  from: 2028
+  to: 2035
+- count: 1
+  from: 2223
+  to: 2028
+- count: 1
+  from: 2040
+  to: 2233
+- count: 1
+  from: 2028
+  to: 2223
+- count: 1
+  from: 2021
+  to: 2032
+- count: 1
+  from: 2231
+  to: 2039
+- count: 1
+  from: 2234
+  to: 2231
+- count: 1
+  from: 2034
+  to: 2034
+- count: 1
+  from: 2232
+  to: 2030
+- count: 1
+  from: 2029
+  to: 2036
+- count: 1
+  from: 2032
+  to: 2029
+- count: 1
+  from: 2226
+  to: 2036
+- count: 1
+  from: 2039
+  to: 2226
+- count: 1
+  from: 2035
+  to: 2037
+- count: 1
+  from: 2036
+  to: 2029
+- count: 1
+  from: 2029
+  to: 2049
+- count: 1
+  from: 2223
+  to: 2038
+- count: 1
+  from: 2231
+  to: 2049
+- count: 1
+  from: 2227
+  to: 2020
+- count: 1
+  from: 2021
+  to: 2035
+- count: 1
+  from: 2225
+  to: null
+- count: 1
+  from: 2228
+  to: 2034
+- count: 1
+  from: 2232
+  to: 2230
+- count: 1
+  from: 2038
+  to: 2234
+- count: 1
+  from: 2225
+  to: 2020
+- count: 1
+  from: 2234
+  to: 2034
+- count: 1
+  from: 2034
+  to: 2049
+- count: 1
+  from: 2036
+  to: 2039
+- count: 1
+  from: 2223
+  to: 2040
+- count: 1
+  from: 2040
+  to: 2034
+- count: 1
+  from: 2039
+  to: 2225
+- count: 1
+  from: 2035
+  to: 2032
+- count: 1
+  from: 2030
+  to: 2039
+- count: 1
+  from: 2227
+  to: 2030
+- count: 1
+  from: 2028
+  to: 2225
+- count: 1
+  from: 2021
+  to: 2038
+- count: 1
+  from: 2227
+  to: 2231
+- count: 1
+  from: 2035
+  to: 2229
+xlong_rentals: 18
+
