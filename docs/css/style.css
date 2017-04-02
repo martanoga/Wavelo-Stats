@@ -37,13 +37,11 @@ a{
 }
 
 
-.DetailedDataGrid .gray {
-  background: #f5f5f5; }
-
 
 .DetailedDataGrid .rentedNumber{
-    font-size: 30px;
+    font-size: 1.6em;
     text-align: center;
+    padding-top: 0.3em;
 }
 
 .DetailedDataGrid .blue {
@@ -58,18 +56,52 @@ a{
 
 
 .header {
-font-weight: bold;
-font-size: 15px;
-margin-left: 10px
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 0.6em
 }
 
 .subheader {
-
-font-size: 12px;
-margin-left: 10px
+    font-size: 0.7em;
+    margin-left: 0.8em
 }
 
 .DetailedDataGrid{
+    font-size: 1em
+}
 
-    font-size: 15px
+
+div.weather{
+    width: 100%;
+    text-align: right;
+    margin-bottom: -1.2em;
+    margin-top: 0em;
+}
+
+div.weather .weatherIcon{
+    font-size: 1.5em;
+    margin-right: 0.2em;
+}
+
+div.gridContent{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+div.gridContent table{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+}
+
+div.weather .temperature{
+    font-size: 0.8em;
+    margin-right: 0.2em;
+}
+
+table.todayTable {
+    margin:auto;
 }
