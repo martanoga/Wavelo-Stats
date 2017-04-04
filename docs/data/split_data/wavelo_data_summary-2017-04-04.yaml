@@ -1210,3 +1210,15 @@
   all_state_not_available: 0
   all_test_bikes: 0
   timestamp: 1491286800.378286
+'2017-04-04 08:25:00':
+  all_available_bikes: 281
+  all_available_bikes_hubs: 271
+  all_current_bikes_hubs: 271
+  all_new_bikes: 0
+  all_not_in_hub: 10
+  all_outside_area: 0
+  all_rented_bikes: 14
+  all_repair_state_not_working: 5
+  all_state_not_available: 0
+  all_test_bikes: 0
+  timestamp: 1491287100.500259
