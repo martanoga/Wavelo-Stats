@@ -63,8 +63,24 @@ angular.module('myApp', ['nvd3', 'ngMaterial', 'ngMessages', 'wavelo.stats.bikes
                 .then(function (bike_data) {
 
                     var chartData = BikesChart.prepareChartData(bike_data);
+
+                    var ns = chartData.data.length;
+                    var nd = chartData.data[0].values.length;
+                    for (var s = 0; s < ns; s++)
+                        nd = Math.min(nd, chartData.data[s].values.length);
+
+                    var maxNoBikes = 0;
+                    for (var d = 0; d < nd; d++) {
+                        var y = 0;
+                        for (var s = 0; s < ns; s++)
+                            y += chartData.data[s].values[d].y;
+
+                        maxNoBikes = Math.max(maxNoBikes, y);
+                    }
+
                     $scope.chart.data = chartData['data'];
                     $scope.chart.options.chart.xAxis.tickValues = chartData['tickValues'];
+                    $scope.chart.options.chart.yDomain1 = [0, Math.max(15, Math.floor(1.15 * maxNoBikes))];
                     $scope.loading = false;
 
                     if ($scope.currentWeek == $scope.displayedWeek) {

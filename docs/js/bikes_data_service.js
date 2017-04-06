@@ -255,13 +255,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         yAxis1: {
                             axisLabel: 'Liczba rowerów',
                             axisLabelDistance: -5
-                        },
-
-                        // callback: function (chart, e) {
-                        //     console.log("callback");
-                        // },
-                        yDomain1: [0, 350]
-
+                        }
                     }
                 };
 
