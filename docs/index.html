@@ -59,7 +59,7 @@
             </div>
 
             <div class=chart>
-                <nvd3 options="chart.options" data="chart.data" on-ready="hideProgress"></nvd3>
+                <nvd3 config="{refreshDataOnly: false}" options="chart.options" data="chart.data" on-ready="hideProgress"></nvd3>
             </div>
 
             <div ng-cloak="" class="DetailedDataGrid">
