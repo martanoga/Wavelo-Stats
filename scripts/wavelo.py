@@ -23,7 +23,7 @@ all_bikes_data = 'bike_ids.yaml'
 
 network_id = 105 #Wavelo network id
 server = 'https://app.socialbicycles.com/api/'
-hubs_endpoint = 'networks/%d/hubs.json'%(network_id)
+hubs_endpoint = 'networks/%d/hubs.json?per_page=300'%(network_id)
 bikes_endpoint = 'networks/%d/bikes.json'%(network_id)
 bike_endpoint = 'bikes/%d' #%d for bike_id
 
