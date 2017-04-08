@@ -20,6 +20,7 @@ date = curr_time = datetime.datetime.now().strftime('%Y-%m-%d')
 data_file = 'wavelo_data-%s.yaml'%(date)
 data_file_summary = 'wavelo_data_summary-%s.yaml'%(date)
 all_bikes_data = 'bike_ids.yaml'
+known_hubs_data = 'hubs.yaml'
 
 network_id = 105 #Wavelo network id
 server = 'https://app.socialbicycles.com/api/'
@@ -42,6 +43,12 @@ data_summary = {
     }
 }
 
+if os.path.exists(os.path.join(path_to_output_dir + '/split_data/', known_hubs_data)):
+    with open(os.path.join(path_to_output_dir + '/split_data/', known_hubs_data), 'r') as infile:
+        known_hubs = yaml.load(infile)['hubs']
+else:
+    known_hubs = {}
+
 #Hubs data
 all_available_bikes_hubs = 0
 all_current_bikes_hubs = 0
@@ -52,6 +59,11 @@ hubs = r.json()['items']
 for hub in hubs:
     keys = ['id', 'name', 'available_bikes', 'current_bikes', 'free_racks']
     hub_data = { key: hub[key] for key in keys }
+    
+    hub_id = hub['id']
+    if not hub_id in known_hubs:
+        keys = ['id', 'name', 'racks_amount', 'description', 'has_kiosk', 'address', 'sponsored', 'polygon', 'middle_point']
+        known_hubs[hub_id] = { key: hub[key] for key in keys }
 
     all_available_bikes_hubs += hub['available_bikes']
     all_current_bikes_hubs += hub['current_bikes']
@@ -156,3 +168,6 @@ with open(os.path.join(path_to_output_dir + '/split_data/', data_file), 'a') as 
 
 with open(os.path.join(path_to_output_dir + '/split_data/', all_bikes_data), 'w') as outfile:
     yaml.safe_dump({'bike_ids' : all_bike_ids}, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
+
+with open(os.path.join(path_to_output_dir + '/split_data/', known_hubs_data), 'w') as outfile:
+    yaml.safe_dump({'hubs' : known_hubs}, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)

@@ -1,0 +1,3769 @@
+hubs:
+  2020:
+    address: Szewska 27, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2020
+    middle_point:
+      coordinates:
+      - 19.933555126190186
+      - 50.063130414885435
+      type: Point
+    name: 02 Teatr Bagatela I
+    polygon:
+      coordinates:
+      - - - 19.93344783782959
+          - 50.06324405538475
+        - - 19.933319091796875
+          - 50.06316829517153
+        - - 19.93369460105896
+          - 50.06301677438612
+        - - 19.933791160583496
+          - 50.063106309453524
+        - - 19.93344783782959
+          - 50.06324405538475
+      type: Polygon
+    racks_amount: 16
+    sponsored: false
+  2021:
+    address: plac Wszystkich Świętych 20, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2021
+    middle_point:
+      coordinates:
+      - 19.937463104724884
+      - 50.05909239149709
+      type: Point
+    name: 01 Plac Wszystkich Świętych
+    polygon:
+      coordinates:
+      - - - 19.937198236584663
+          - 50.0591350102591
+        - - 19.937256574630737
+          - 50.059135871243676
+        - - 19.937580451369286
+          - 50.059126830904916
+        - - 19.93776485323906
+          - 50.05911822105691
+        - - 19.937768206000325
+          - 50.05903771890316
+        - - 19.937224388122555
+          - 50.05908464263487
+        - - 19.937198236584663
+          - 50.0591350102591
+      type: Polygon
+    racks_amount: 18
+    sponsored: false
+  2028:
+    address: Focha 1, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2028
+    middle_point:
+      coordinates:
+      - 19.923405647277832
+      - 50.05918279483235
+      type: Point
+    name: 03 Cracovia Błonia
+    polygon:
+      coordinates:
+      - - - 19.92355316877365
+          - 50.05932571796401
+        - - 19.92391929030418
+          - 50.059272337102676
+        - - 19.923891127109528
+          - 50.059172463073594
+        - - 19.923130720853806
+          - 50.05905795207752
+        - - 19.923036843538284
+          - 50.05925942236925
+        - - 19.92355316877365
+          - 50.05932571796401
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2029:
+    address: Królewska 2, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2029
+    middle_point:
+      coordinates:
+      - 19.925651997327805
+      - 50.06953414613764
+      type: Point
+    name: 04 Plac Inwalidów
+    polygon:
+      coordinates:
+      - - - 19.92550581693649
+          - 50.06976656108647
+        - - 19.926077127456665
+          - 50.069279349338906
+        - - 19.92596983909607
+          - 50.06922942276716
+        - - 19.925819635391235
+          - 50.06934649188792
+        - - 19.92558091878891
+          - 50.06935165669548
+        - - 19.925267100334167
+          - 50.06961506114397
+        - - 19.92550581693649
+          - 50.06976656108647
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2030:
+    address: Warszawska 23, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2030
+    middle_point:
+      coordinates:
+      - 19.943673759698868
+      - 50.07064800580462
+      type: Point
+    name: 05 Politechnika
+    polygon:
+      coordinates:
+      - - - 19.943350553512573
+          - 50.070524053620055
+        - - 19.943750202655792
+          - 50.0704758499062
+        - - 19.943838715553284
+          - 50.07091656777211
+        - - 19.943538308143616
+          - 50.0709406694136
+        - - 19.943350553512573
+          - 50.070524053620055
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2031:
+    address: Wita Stwosza , Kraków
+    description: ''
+    has_kiosk: false
+    id: 2031
+    middle_point:
+      coordinates:
+      - 19.94964972138405
+      - 50.06877835965966
+      type: Point
+    name: 06 Dworzec Główny Wschód
+    polygon:
+      coordinates:
+      - - - 19.949647039175034
+          - 50.068846363720326
+        - - 19.949982315301895
+          - 50.06862857822389
+        - - 19.949689954519272
+          - 50.06850289918695
+        - - 19.94943380355835
+          - 50.06875511774337
+        - - 19.949647039175034
+          - 50.068846363720326
+      type: Polygon
+    racks_amount: 16
+    sponsored: false
+  2032:
+    address: rondo Mogilskie 1, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2032
+    middle_point:
+      coordinates:
+      - 19.95924800634384
+      - 50.06574992917475
+      type: Point
+    name: 07 Rondo Mogilskie
+    polygon:
+      coordinates:
+      - - - 19.958714246749878
+          - 50.065844624325884
+        - - 19.95888590812683
+          - 50.065557094834475
+        - - 19.959835410118103
+          - 50.06579641590868
+        - - 19.959636926651
+          - 50.066058118162516
+        - - 19.958714246749878
+          - 50.065844624325884
+      type: Polygon
+    racks_amount: 29
+    sponsored: false
+  2034:
+    address: Starowiślna 59, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2034
+    middle_point:
+      coordinates:
+      - 19.947848618030548
+      - 50.05356885259019
+      type: Point
+    name: 09 Miodowa
+    polygon:
+      coordinates:
+      - - - 19.948124885559082
+          - 50.053791872958186
+        - - 19.948244243860245
+          - 50.05363085064158
+        - - 19.947571009397507
+          - 50.05346810561211
+        - - 19.947486519813538
+          - 50.05364635013941
+        - - 19.948124885559082
+          - 50.053791872958186
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2035:
+    address: Na Zjeździe 13, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2035
+    middle_point:
+      coordinates:
+      - 19.955340027809143
+      - 50.04661681418889
+      type: Point
+    name: 10 Plac Bohaterów Getta
+    polygon:
+      coordinates:
+      - - - 19.95519384741783
+          - 50.04675202384436
+        - - 19.95530784130096
+          - 50.04639634412486
+        - - 19.955594837665554
+          - 50.046452322947985
+        - - 19.955439269542694
+          - 50.04679594537023
+        - - 19.95519384741783
+          - 50.04675202384436
+      type: Polygon
+    racks_amount: 19
+    sponsored: false
+  2036:
+    address: Kalwaryjska 9, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2036
+    middle_point:
+      coordinates:
+      - 19.94696080684662
+      - 50.04365760810532
+      type: Point
+    name: 11 Korona
+    polygon:
+      coordinates:
+      - - - 19.947161972522736
+          - 50.04380832879377
+        - - 19.947314858436584
+          - 50.043698087438294
+        - - 19.94689106941223
+          - 50.04347071384303
+        - - 19.946724772453308
+          - 50.04358267824803
+        - - 19.947161972522736
+          - 50.04380832879377
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2037:
+    address: plac Wolnica 1, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2037
+    middle_point:
+      coordinates:
+      - 19.943752884864807
+      - 50.04844082062142
+      type: Point
+    name: 12 Plac Wolnica
+    polygon:
+      coordinates:
+      - - - 19.943518191576004
+          - 50.04847957356172
+        - - 19.943558424711227
+          - 50.04833145109795
+        - - 19.94408681988716
+          - 50.04842531945654
+        - - 19.94396612048149
+          - 50.04855277344771
+        - - 19.943518191576004
+          - 50.04847957356172
+      type: Polygon
+    racks_amount: 19
+    sponsored: false
+  2038:
+    address: Bernardyńska 2, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2038
+    middle_point:
+      coordinates:
+      - 19.938734471797943
+      - 50.053982171363
+      type: Point
+    name: 14 Wawel
+    polygon:
+      coordinates:
+      - - - 19.938855171203613
+          - 50.05420605087308
+        - - 19.939107298851013
+          - 50.05407000114147
+        - - 19.93839919567108
+          - 50.053782401072155
+        - - 19.93817925453186
+          - 50.05397700490046
+        - - 19.938855171203613
+          - 50.05420605087308
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2039:
+    address: Starowiślna 1, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2039
+    middle_point:
+      coordinates:
+      - 19.942529797554016
+      - 50.0593394936605
+      type: Point
+    name: 13 Poczta Główna
+    polygon:
+      coordinates:
+      - - - 19.94233936071396
+          - 50.05950049682014
+        - - 19.94256198406219
+          - 50.05940320620538
+        - - 19.942920058965683
+          - 50.05920604143419
+        - - 19.942634403705597
+          - 50.05909669643008
+        - - 19.942246824502945
+          - 50.05945744789989
+        - - 19.94233936071396
+          - 50.05950049682014
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2040:
+    address: Monte Cassino , Kraków
+    description: ''
+    has_kiosk: false
+    id: 2040
+    middle_point:
+      coordinates:
+      - 19.93106335401535
+      - 50.0487353420475
+      type: Point
+    name: 15 Centrum Kongresowe ICE
+    polygon:
+      coordinates:
+      - - - 19.931334257125854
+          - 50.04890327017825
+        - - 19.93147239089012
+          - 50.04879820754488
+        - - 19.930960088968277
+          - 50.048575163978796
+        - - 19.93083268404007
+          - 50.04867678241156
+        - - 19.931334257125854
+          - 50.04890327017825
+      type: Polygon
+    racks_amount: 19
+    sponsored: false
+  2049:
+    address: Aleja Pokoju 2, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2049
+    middle_point:
+      coordinates:
+      - 19.96016800403595
+      - 50.058261532682295
+      type: Point
+    name: 08 Rondo Grzegórzeckie I
+    polygon:
+      coordinates:
+      - - - 19.960495233535767
+          - 50.058533608762254
+        - - 19.960801005363464
+          - 50.05829597345152
+        - - 19.95987296104431
+          - 50.05798945660234
+        - - 19.959535002708435
+          - 50.05816854533633
+        - - 19.960495233535767
+          - 50.058533608762254
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2223:
+    address: Monte Cassino 18, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2223
+    middle_point:
+      coordinates:
+      - 19.924754798412323
+      - 50.04678044343913
+      type: Point
+    name: 16 Szwedzka
+    polygon:
+      coordinates:
+      - - - 19.924406111240387
+          - 50.04676924797692
+        - - 19.92452412843704
+          - 50.04663489957889
+        - - 19.92510348558426
+          - 50.046805418635245
+        - - 19.9249666929245
+          - 50.04692598729938
+        - - 19.924406111240387
+          - 50.04676924797692
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2224:
+    address: Aleja Krasińskiego 1, Kraków-Śródmieście
+    description: ''
+    has_kiosk: false
+    id: 2224
+    middle_point:
+      coordinates:
+      - 19.927643537521362
+      - 50.05565951979328
+      type: Point
+    name: 17 Jubilat
+    polygon:
+      coordinates:
+      - - - 19.927391409873962
+          - 50.05575079102362
+        - - 19.927622079849243
+          - 50.05547869993431
+        - - 19.927895665168762
+          - 50.055578581652675
+        - - 19.92765963077545
+          - 50.055840339652256
+        - - 19.92741286754608
+          - 50.05577490028623
+        - - 19.927391409873962
+          - 50.05575079102362
+      type: Polygon
+    racks_amount: 19
+    sponsored: false
+  2225:
+    address: ', Apartment 1, Kraków'
+    description: ''
+    has_kiosk: false
+    id: 2225
+    middle_point:
+      coordinates:
+      - 19.91706222295761
+      - 50.05317240730694
+      type: Point
+    name: 18 Salwator
+    polygon:
+      coordinates:
+      - - - 19.916753768920895
+          - 50.05309318716356
+        - - 19.916898608207703
+          - 50.052989855892335
+        - - 19.917370676994324
+          - 50.053261961094755
+        - - 19.91722583770752
+          - 50.05335495872154
+        - - 19.916753768920895
+          - 50.05309318716356
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2226:
+    address: Piastowska 20, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2226
+    middle_point:
+      coordinates:
+      - 19.902658760547638
+      - 50.062708393500046
+      type: Point
+    name: 19 Cichy Kącik
+    polygon:
+      coordinates:
+      - - - 19.90251660346985
+          - 50.06262316246244
+        - - 19.90275800228119
+          - 50.06258356003512
+        - - 19.902800917625427
+          - 50.0626421027422
+        - - 19.902723133563995
+          - 50.06280223389947
+        - - 19.902645349502563
+          - 50.06283322696496
+        - - 19.90252196788788
+          - 50.06263693721207
+        - - 19.90251660346985
+          - 50.06262316246244
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2227:
+    address: Podchorążych 2, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2227
+    middle_point:
+      coordinates:
+      - 19.909656643867493
+      - 50.07448692151225
+      type: Point
+    name: 20 Uniwersytet Pedagogiczny
+    polygon:
+      coordinates:
+      - - - 19.909114837646484
+          - 50.07451102163234
+        - - 19.910048246383667
+          - 50.07432510821272
+        - - 19.9101984500885
+          - 50.07447659327569
+        - - 19.90924894809723
+          - 50.07464873481179
+        - - 19.909114837646484
+          - 50.07452823580142
+        - - 19.909114837646484
+          - 50.07451102163234
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2228:
+    address: Wrocławska 91, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2228
+    middle_point:
+      coordinates:
+      - 19.915711730718613
+      - 50.08172218453383
+      type: Point
+    name: 21 Łobzów PKP
+    polygon:
+      coordinates:
+      - - - 19.915447533130646
+          - 50.081794473183216
+        - - 19.91542339324951
+          - 50.081706694160964
+        - - 19.91597324609756
+          - 50.08164989588444
+        - - 19.916000068187714
+          - 50.08172562690485
+        - - 19.915447533130646
+          - 50.081794473183216
+      type: Polygon
+    racks_amount: 19
+    sponsored: false
+  2229:
+    address: Prądnicka 4, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2229
+    middle_point:
+      coordinates:
+      - 19.935908764600754
+      - 50.0736876605636
+      type: Point
+    name: 22 Nowy Kleparz
+    polygon:
+      coordinates:
+      - - - 19.935829639434814
+          - 50.073795251033175
+        - - 19.93585377931595
+          - 50.07356113422574
+        - - 19.935987889766693
+          - 50.0735783487358
+        - - 19.935939610004425
+          - 50.07381418690146
+        - - 19.935829639434814
+          - 50.073795251033175
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2230:
+    address: Bratysławska 134, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2230
+    middle_point:
+      coordinates:
+      - 19.933581948280334
+      - 50.08447217145953
+      type: Point
+    name: 23 Bratysławska
+    polygon:
+      coordinates:
+      - - - 19.93297576904297
+          - 50.084331045301575
+        - - 19.933147430419922
+          - 50.08417270709239
+        - - 19.9341881275177
+          - 50.08453757261446
+        - - 19.93396282196045
+          - 50.08477163582667
+        - - 19.93297576904297
+          - 50.084331045301575
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2231:
+    address: Generała Augusta Fieldorfa-Nila 17/JU-3, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2231
+    middle_point:
+      coordinates:
+      - 19.93196189403534
+      - 50.08837916250239
+      type: Point
+    name: 24 Krowodrza Górka
+    polygon:
+      coordinates:
+      - - - 19.9319189786911
+          - 50.088513394207396
+        - - 19.932173788547516
+          - 50.088294837570714
+        - - 19.932058453559875
+          - 50.08824493079739
+        - - 19.93174999952316
+          - 50.0884531621629
+        - - 19.9319189786911
+          - 50.088513394207396
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2232:
+    address: Imbramowska 1, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2232
+    middle_point:
+      coordinates:
+      - 19.943978190422058
+      - 50.09006494526537
+      type: Point
+    name: 25 Mackiewicza
+    polygon:
+      coordinates:
+      - - - 19.943731427192688
+          - 50.09008731675185
+        - - 19.944096207618713
+          - 50.08988769681289
+        - - 19.944224953651428
+          - 50.089990948609234
+        - - 19.943865537643433
+          - 50.09024219371784
+        - - 19.943731427192688
+          - 50.09008731675185
+      type: Polygon
+    racks_amount: 11
+    sponsored: false
+  2233:
+    address: aleja 29 Listopada 59, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2233
+    middle_point:
+      coordinates:
+      - 19.952228665351868
+      - 50.08256623294734
+      type: Point
+    name: 26 Uniwersytet Rolniczy
+    polygon:
+      coordinates:
+      - - - 19.9520543217659
+          - 50.082442311809444
+        - - 19.952185750007626
+          - 50.0824147736821
+        - - 19.952403008937836
+          - 50.082683269748685
+        - - 19.952260851860046
+          - 50.08271769221258
+        - - 19.9520543217659
+          - 50.082442311809444
+      type: Polygon
+    racks_amount: 19
+    sponsored: false
+  2234:
+    address: Stanisława Lema 41, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2234
+    middle_point:
+      coordinates:
+      - 19.984643161296844
+      - 50.070985084461846
+      type: Point
+    name: 27 Wieczysta
+    polygon:
+      coordinates:
+      - - - 19.98416841030121
+          - 50.07112797316502
+        - - 19.98487651348114
+          - 50.07071135899867
+        - - 19.98511791229248
+          - 50.07087318476591
+        - - 19.984425902366638
+          - 50.07125880992502
+        - - 19.98416841030121
+          - 50.07112797316502
+      type: Polygon
+    racks_amount: 19
+    sponsored: false
+  2235:
+    address: aleja Generała Władysława Andersa 614, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2235
+    middle_point:
+      coordinates:
+      - 20.02680480480194
+      - 50.080425101453486
+      type: Point
+    name: 28 Rondo Kocmyrzowskie
+    polygon:
+      coordinates:
+      - - - 20.026418566703793
+          - 50.08055419231404
+        - - 20.026944279670715
+          - 50.08017208433483
+        - - 20.027191042900085
+          - 50.080282241902545
+        - - 20.026659965515137
+          - 50.080678118572145
+        - - 20.026418566703793
+          - 50.08055419231404
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2236:
+    address: Rondo Generała Maczka 808, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2236
+    middle_point:
+      coordinates:
+      - 20.019707679748535
+      - 50.08428285492882
+      type: Point
+    name: 29 DH Wanda
+    polygon:
+      coordinates:
+      - - - 20.019385814666748
+          - 50.08451003569082
+        - - 20.018860101699826
+          - 50.08428973973221
+        - - 20.020147562026978
+          - 50.08405567416683
+        - - 20.02055525779724
+          - 50.08419335993195
+        - - 20.019385814666748
+          - 50.08451003569082
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2237:
+    address: Bieńczycka 2310, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2237
+    middle_point:
+      coordinates:
+      - 20.018940567970276
+      - 50.074440442770054
+      type: Point
+    name: '30 Rondo Czyżyńskie '
+    polygon:
+      coordinates:
+      - - - 20.018463134765625
+          - 50.07428035117071
+        - - 20.018704533576965
+          - 50.074180508388004
+        - - 20.019418001174927
+          - 50.07457987827151
+        - - 20.019101500511166
+          - 50.074700377152105
+        - - 20.018468499183655
+          - 50.07431477966827
+        - - 20.018463134765625
+          - 50.07428035117071
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2340:
+    address: Krakow
+    description: ''
+    has_kiosk: false
+    id: 2340
+    middle_point:
+      coordinates:
+      - 19.90881711244583
+      - 50.086406432220656
+      type: Point
+    name: 31 Azory
+    polygon:
+      coordinates:
+      - - - 19.90866556763649
+          - 50.08650624964819
+        - - 19.908583760261536
+          - 50.08641331628461
+        - - 19.908972680568695
+          - 50.086306614793116
+        - - 19.909050464630127
+          - 50.08641675826428
+        - - 19.90866556763649
+          - 50.08650624964819
+      type: Polygon
+    racks_amount: 8
+    sponsored: false
+  2341:
+    address: Nawojki 225, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2341
+    middle_point:
+      coordinates:
+      - 19.90564674139023
+      - 50.06965121427996
+      type: Point
+    name: 32 Miasteczko Studenckie AGH
+    polygon:
+      coordinates:
+      - - - 19.906175136566162
+          - 50.0696873679944
+        - - 19.905311465263367
+          - 50.069821651855975
+        - - 19.905118346214294
+          - 50.06965982254044
+        - - 19.906041026115417
+          - 50.06948077670394
+        - - 19.906175136566162
+          - 50.0696873679944
+      type: Polygon
+    racks_amount: 19
+    sponsored: false
+  2342:
+    address: Dietla 80/82, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2342
+    middle_point:
+      coordinates:
+      - 19.945429265499115
+      - 50.057189403076976
+      type: Point
+    name: 33 Starowiślna
+    polygon:
+      coordinates:
+      - - - 19.945769906044003
+          - 50.05741154651683
+        - - 19.945507049560547
+          - 50.057487315821604
+        - - 19.945088624954224
+          - 50.05702925410884
+        - - 19.94535684585571
+          - 50.05689149033234
+        - - 19.945769906044003
+          - 50.05741154651683
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2343:
+    address: Dietla 45, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2343
+    middle_point:
+      coordinates:
+      - 19.942036271095276
+      - 50.052146319497425
+      type: Point
+    name: 34 Stradom I
+    polygon:
+      coordinates:
+      - - - 19.942342042922974
+          - 50.05225826414854
+        - - 19.941987991333004
+          - 50.05236159699514
+        - - 19.941730499267578
+          - 50.05203093110278
+        - - 19.942004084587097
+          - 50.0519310419997
+        - - 19.942342042922974
+          - 50.05225826414854
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2344:
+    address: Dietla, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2344
+    middle_point:
+      coordinates:
+      - 19.935845732688904
+      - 50.04986087905614
+      type: Point
+    name: 35 Most Grunwaldzki
+    polygon:
+      coordinates:
+      - - - 19.936280250549316
+          - 50.05009855673233
+        - - 19.93647336959839
+          - 50.049905659475826
+        - - 19.935497045516964
+          - 50.04962320137995
+        - - 19.93521809577942
+          - 50.04978854290612
+        - - 19.936280250549316
+          - 50.05009855673233
+      type: Polygon
+    racks_amount: 19
+    sponsored: false
+  2345:
+    address: Tadeusza Kościuszki 3, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2345
+    middle_point:
+      coordinates:
+      - 19.927057742843317
+      - 50.05480996908388
+      type: Point
+    name: 36 Kościuszki
+    polygon:
+      coordinates:
+      - - - 19.927300214767456
+          - 50.05496840452734
+        - - 19.92745900141017
+          - 50.054860944158136
+        - - 19.926789522105537
+          - 50.054651533640424
+        - - 19.926656484276464
+          - 50.05472041879384
+        - - 19.927300214767456
+          - 50.05496840452734
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2346:
+    address: Reymonta 10, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2346
+    middle_point:
+      coordinates:
+      - 19.914135932922363
+      - 50.06558051037513
+      type: Point
+    name: 37 Reymonta
+    polygon:
+      coordinates:
+      - - - 19.914318323135376
+          - 50.06558223217004
+        - - 19.91422712802887
+          - 50.06550647564967
+        - - 19.913953542709347
+          - 50.065585675645394
+        - - 19.91399645805359
+          - 50.06565454510059
+        - - 19.914318323135376
+          - 50.06558223217004
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2347:
+    address: Czarnowiejska 41/43, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2347
+    middle_point:
+      coordinates:
+      - 19.921651482582092
+      - 50.06672166466257
+      type: Point
+    name: 38 Czarnowiejska
+    polygon:
+      coordinates:
+      - - - 19.92145299911499
+          - 50.0668163579887
+        - - 19.921361804008484
+          - 50.06674749020167
+        - - 19.921833872795105
+          - 50.06662697133645
+        - - 19.9219411611557
+          - 50.06669239590086
+        - - 19.92145299911499
+          - 50.0668163579887
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2348:
+    address: Aleja Kijowska, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2348
+    middle_point:
+      coordinates:
+      - 19.913619607686996
+      - 50.06867196209764
+      type: Point
+    name: 39 Kawiory
+    polygon:
+      coordinates:
+      - - - 19.9138730764389
+          - 50.068844125634556
+        - - 19.913905262947083
+          - 50.068966360544906
+        - - 19.913543164730072
+          - 50.06900595770257
+        - - 19.91333395242691
+          - 50.068396502176846
+        - - 19.9137470126152
+          - 50.06833796649271
+        - - 19.9138730764389
+          - 50.068844125634556
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2349:
+    address: Czysta 18, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2349
+    middle_point:
+      coordinates:
+      - 19.924612641334534
+      - 50.06376473140594
+      type: Point
+    name: 40 AGH Czysta
+    polygon:
+      coordinates:
+      - - - 19.924296140670776
+          - 50.06377850584276
+        - - 19.924317598342892
+          - 50.0637268517404
+        - - 19.92492914199829
+          - 50.063737182565326
+        - - 19.924902319908142
+          - 50.06380261107148
+        - - 19.924296140670776
+          - 50.06377850584276
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2350:
+    address: Osiedle Jagiellońskie 37, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2350
+    middle_point:
+      coordinates:
+      - 20.024286210536957
+      - 50.0899513686653
+      type: Point
+    name: 41 Rondo Hipokratesa
+    polygon:
+      coordinates:
+      - - - 20.024020671844482
+          - 50.09005634129856
+        - - 20.023940205574036
+          - 50.08994620619147
+        - - 20.02452492713928
+          - 50.08984639603202
+        - - 20.024632215499878
+          - 50.089932439285285
+        - - 20.024020671844482
+          - 50.09005634129856
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2351:
+    address: Obrońców Krzyża 130, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2351
+    middle_point:
+      coordinates:
+      - 20.031890273094177
+      - 50.082373810307914
+      type: Point
+    name: 42 Plac Bieńczycki
+    polygon:
+      coordinates:
+      - - - 20.031681060791012
+          - 50.08257001968911
+        - - 20.03157377243042
+          - 50.08250805904545
+        - - 20.03201365470886
+          - 50.08217760092672
+        - - 20.032206773757935
+          - 50.08226021566997
+        - - 20.031681060791012
+          - 50.08257001968911
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2352:
+    address: Xawerego Dunikowskiego, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2352
+    middle_point:
+      coordinates:
+      - 20.01686990261078
+      - 50.09067584615839
+      type: Point
+    name: 43 Dunikowskiego
+    polygon:
+      coordinates:
+      - - - 20.016950368881226
+          - 50.09087202155651
+        - - 20.017154216766357
+          - 50.090789421655835
+        - - 20.016778707504272
+          - 50.09047967076028
+        - - 20.0165855884552
+          - 50.09053473773247
+        - - 20.016950368881226
+          - 50.09087202155651
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2353:
+    address: Izydora Stella-Sawickiego, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2353
+    middle_point:
+      coordinates:
+      - 20.000991225242615
+      - 50.08807318178654
+      type: Point
+    name: 44 Wiślicka
+    polygon:
+      coordinates:
+      - - - 20.00082492828369
+          - 50.08786667015269
+        - - 20.001157522201538
+          - 50.08787355390299
+        - - 20.001168251037598
+          - 50.08827969342039
+        - - 20.00086784362793
+          - 50.08826592603547
+        - - 20.000814199447632
+          - 50.08789420514792
+        - - 20.00082492828369
+          - 50.08786667015269
+      type: Polygon
+    racks_amount: 14
+    sponsored: false
+  2354:
+    address: Grzegórzecka 40, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2354
+    middle_point:
+      coordinates:
+      - 19.957590401172638
+      - 50.05775440145301
+      type: Point
+    name: 45 Rondo Grzegórzeckie II
+    polygon:
+      coordinates:
+      - - - 19.957324862480164
+          - 50.057626111059285
+        - - 19.95790958404541
+          - 50.05769499194232
+        - - 19.957880079746246
+          - 50.057882691846736
+        - - 19.957271218299866
+          - 50.05774320850161
+        - - 19.957324862480164
+          - 50.057626111059285
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2355:
+    address: Lipowa 4, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2355
+    middle_point:
+      coordinates:
+      - 19.961487650871277
+      - 50.0473703663003
+      type: Point
+    name: 46 Fabryka Schindlera
+    polygon:
+      coordinates:
+      - - - 19.961214065551758
+          - 50.04735314241507
+        - - 19.961240887641907
+          - 50.04731524977622
+        - - 19.961761236190796
+          - 50.04735314241507
+        - - 19.96169686317444
+          - 50.04742548282437
+        - - 19.961214065551758
+          - 50.04737036633193
+        - - 19.961214065551758
+          - 50.04735314241507
+      type: Polygon
+    racks_amount: 9
+    sponsored: false
+  2356:
+    address: Balicka, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2356
+    middle_point:
+      coordinates:
+      - 19.882898926734924
+      - 50.081967621106756
+      type: Point
+    name: 47 Bronowice Małe
+    polygon:
+      coordinates:
+      - - - 19.882609248161316
+          - 50.08202958248899
+        - - 19.882577061653137
+          - 50.08192287123874
+        - - 19.883188605308533
+          - 50.08190565972451
+        - - 19.88322079181671
+          - 50.082019255604195
+        - - 19.882609248161316
+          - 50.08202958248899
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2357:
+    address: Aleja Pokoju 16, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2357
+    middle_point:
+      coordinates:
+      - 19.967544078826904
+      - 50.0604105417851
+      type: Point
+    name: 48 Francesco Nullo
+    polygon:
+      coordinates:
+      - - - 19.967222213745117
+          - 50.06039676656536
+        - - 19.967249035835266
+          - 50.06028311945549
+        - - 19.96786594390869
+          - 50.06043120503035
+        - - 19.967764019966125
+          - 50.06053796411472
+        - - 19.967222213745117
+          - 50.06039676656536
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2358:
+    address: Aleja Pokoju 20, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2358
+    middle_point:
+      coordinates:
+      - 19.976245164871216
+      - 50.059876742465846
+      type: Point
+    name: 49 Ofiar Dąbia
+    polygon:
+      coordinates:
+      - - - 19.975767731666565
+          - 50.059906015753036
+        - - 19.97578650712967
+          - 50.05971487986776
+        - - 19.976722598075867
+          - 50.05986296719666
+        - - 19.976711869239807
+          - 50.06003860506393
+        - - 19.97577577829361
+          - 50.05991290351844
+        - - 19.975767731666565
+          - 50.059906015753036
+      type: Polygon
+    racks_amount: 10
+    sponsored: false
+  2359:
+    address: osiedle Zgody 2, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2359
+    middle_point:
+      coordinates:
+      - 20.031874179840088
+      - 50.07702525696512
+      type: Point
+    name: 50 Osiedle Zgody - UMK
+    polygon:
+      coordinates:
+      - - - 20.032201409339905
+          - 50.07729206264262
+        - - 20.03235697746277
+          - 50.07718534084672
+        - - 20.03154695034027
+          - 50.076758451287624
+        - - 20.031391382217407
+          - 50.076863452701
+        - - 20.032201409339905
+          - 50.07729206264262
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2360:
+    address: Grzegórzecka 4, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2360
+    middle_point:
+      coordinates:
+      - 19.94859293103218
+      - 50.05884563235702
+      type: Point
+    name: 51 Hala Targowa
+    polygon:
+      coordinates:
+      - - - 19.948242902755737
+          - 50.058888681933816
+        - - 19.948232173919678
+          - 50.05874403556406
+        - - 19.94893759489059
+          - 50.058806026918795
+        - - 19.948953688144684
+          - 50.058947229149986
+        - - 19.948242902755737
+          - 50.058888681933816
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2361:
+    address: Armii Krajowej 97, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2361
+    middle_point:
+      coordinates:
+      - 19.888695180416107
+      - 50.081447830868754
+      type: Point
+    name: 52 Balicka Wiadukt
+    polygon:
+      coordinates:
+      - - - 19.88821506500244
+          - 50.08148225452877
+        - - 19.889078736305237
+          - 50.08127571405185
+        - - 19.889175295829773
+          - 50.081413407801975
+        - - 19.88829016685486
+          - 50.08161994768566
+        - - 19.88821506500244
+          - 50.08148225452877
+      type: Polygon
+    racks_amount: 10
+    sponsored: false
+  2362:
+    address: Lucjana Rydla 24, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2362
+    middle_point:
+      coordinates:
+      - 19.901131242513657
+      - 50.07742081669145
+      type: Point
+    name: 53 Bronowice
+    polygon:
+      coordinates:
+      - - - 19.901116490364075
+          - 50.07758950534098
+        - - 19.90125060081482
+          - 50.07757057096361
+        - - 19.901100397109985
+          - 50.07725212804192
+        - - 19.90101188421249
+          - 50.0772607346352
+        - - 19.901116490364075
+          - 50.07758950534098
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2363:
+    address: Nad Potokiem, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2363
+    middle_point:
+      coordinates:
+      - 19.9984310567379
+      - 50.02296304444933
+      type: Point
+    name: 54 Prokocim Rynek
+    polygon:
+      coordinates:
+      - - - 19.998354613780975
+          - 50.02308367319284
+        - - 19.99824732542038
+          - 50.02285103215492
+        - - 19.998365342617035
+          - 50.022825183081146
+        - - 19.99861478805542
+          - 50.02310090581751
+        - - 19.998354613780975
+          - 50.02308367319284
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2364:
+    address: Smoleńsk 4, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2364
+    middle_point:
+      coordinates:
+      - 19.931900203227997
+      - 50.05921275703426
+      type: Point
+    name: 55 Smoleńsk
+    polygon:
+      coordinates:
+      - - - 19.931527376174927
+          - 50.059164542063044
+        - - 19.931554198265076
+          - 50.05910943905237
+        - - 19.932273030281067
+          - 50.05923342073742
+        - - 19.93223547935486
+          - 50.05931607501614
+        - - 19.931527376174927
+          - 50.059164542063044
+      type: Polygon
+    racks_amount: 11
+    sponsored: false
+  2365:
+    address: Garbarska 2, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2365
+    middle_point:
+      coordinates:
+      - 19.935499727725983
+      - 50.065785224573574
+      type: Point
+    name: 56 Garbarska
+    polygon:
+      coordinates:
+      - - - 19.935515820980072
+          - 50.06587733715281
+        - - 19.93534952402115
+          - 50.065724103192004
+        - - 19.935435354709625
+          - 50.065693111994335
+        - - 19.935649931430817
+          - 50.065861841606
+        - - 19.935515820980072
+          - 50.06587733715281
+      type: Polygon
+    racks_amount: 13
+    sponsored: false
+  2366:
+    address: aleja Powstania Warszawskiego 10, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2366
+    middle_point:
+      coordinates:
+      - 19.96073395013809
+      - 50.06190342518617
+      type: Point
+    name: 57 Powstania Warszawskiego - UMK
+    polygon:
+      coordinates:
+      - - - 19.960484504699703
+          - 50.06218753396385
+        - - 19.960865378379822
+          - 50.06222885857628
+        - - 19.960983395576473
+          - 50.06161931693358
+        - - 19.96056497097015
+          - 50.06157799179607
+        - - 19.960484504699703
+          - 50.06218753396385
+      type: Polygon
+    racks_amount: 16
+    sponsored: false
+  2367:
+    address: Grunwaldzka 8, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2367
+    middle_point:
+      coordinates:
+      - 19.9653097987175
+      - 50.06731116945346
+      type: Point
+    name: 58 Grunwaldzka - UMK
+    polygon:
+      coordinates:
+      - - - 19.965199828147888
+          - 50.06754703905565
+        - - 19.965419769287106
+          - 50.06755392572401
+        - - 19.965355396270752
+          - 50.067078743288135
+        - - 19.965199828147888
+          - 50.06706841318291
+        - - 19.965199828147888
+          - 50.06754703905565
+      type: Polygon
+    racks_amount: 10
+    sponsored: false
+  2368:
+    address: Aleja Pokoju, Szklarz, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2368
+    middle_point:
+      coordinates:
+      - 20.005213022232056
+      - 50.0672064916558
+      type: Point
+    name: 59 Rondo Dywizjonu 308
+    polygon:
+      coordinates:
+      - - - 20.004703402519226
+          - 50.0672116571314
+        - - 20.00479459762573
+          - 50.067001611803015
+        - - 20.005722641944885
+          - 50.067273637544346
+        - - 20.00559389591217
+          - 50.06741137150859
+        - - 20.004703402519226
+          - 50.0672116571314
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2369:
+    address: aleja Jana Pawła II 200, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2369
+    middle_point:
+      coordinates:
+      - 20.028693079948425
+      - 50.07253651528775
+      type: Point
+    name: 60 Osiedle Kolorowe
+    polygon:
+      coordinates:
+      - - - 20.028247833251953
+          - 50.072655297966584
+        - - 20.028172731399536
+          - 50.072521022039474
+        - - 20.029165148735046
+          - 50.07241773260892
+        - - 20.02921342849731
+          - 50.072579552618
+        - - 20.028247833251953
+          - 50.072655297966584
+      type: Polygon
+    racks_amount: 18
+    sponsored: false
+  2370:
+    address: Aleja Róż, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2370
+    middle_point:
+      coordinates:
+      - 20.03770262002945
+      - 50.07276375097176
+      type: Point
+    name: 62 Plac Centralny
+    polygon:
+      coordinates:
+      - - - 20.037651658058167
+          - 50.07294794932551
+        - - 20.037903785705566
+          - 50.07290663394781
+        - - 20.037801861763
+          - 50.072579552618
+        - - 20.037501454353333
+          - 50.07262775421732
+        - - 20.037651658058167
+          - 50.07294794932551
+      type: Polygon
+    racks_amount: 11
+    sponsored: false
+  2371:
+    address: 53F Centralna, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2371
+    middle_point:
+      coordinates:
+      - 20.00738024711609
+      - 50.06361080189364
+      type: Point
+    name: 61 Galicyjska
+    polygon:
+      coordinates:
+      - - - 20.006918907165527
+          - 50.0636331854509
+        - - 20.006940364837646
+          - 50.06354020774497
+        - - 20.007841587066647
+          - 50.06356775671365
+        - - 20.00782549381256
+          - 50.063681396042305
+        - - 20.006918907165527
+          - 50.0636331854509
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2372:
+    address: Prądnicka 89, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2372
+    middle_point:
+      coordinates:
+      - 19.938827008008957
+      - 50.08856398870202
+      type: Point
+    name: 63 Zdrowa
+    polygon:
+      coordinates:
+      - - - 19.938769340515137
+          - 50.088748126356464
+        - - 19.938951730728146
+          - 50.08873780091907
+        - - 19.93890345096588
+          - 50.08837985104757
+        - - 19.938702285289764
+          - 50.088391897480946
+        - - 19.938769340515137
+          - 50.088748126356464
+      type: Polygon
+    racks_amount: 14
+    sponsored: false
+  2373:
+    address: Dietla 38, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2373
+    middle_point:
+      coordinates:
+      - 19.94093656539917
+      - 50.05121596710114
+      type: Point
+    name: 64 Stradom II
+    polygon:
+      coordinates:
+      - - - 19.941017031669617
+          - 50.051457082573
+        - - 19.94132816791534
+          - 50.051367525764135
+        - - 19.940845370292664
+          - 50.05097485162929
+        - - 19.940544962882996
+          - 50.05111263239339
+        - - 19.941017031669617
+          - 50.051457082573
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2374:
+    address: Feliksa Radwańskiego 9, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2374
+    middle_point:
+      coordinates:
+      - 19.90673303604126
+      - 50.06676539556376
+      type: Point
+    name: 65 Reymonta - Kapitol
+    polygon:
+      coordinates:
+      - - - 19.906223416328427
+          - 50.066923791528495
+        - - 19.906137585639954
+          - 50.06677916938548
+        - - 19.90726411342621
+          - 50.06660699959903
+        - - 19.907328486442566
+          - 50.06676539582532
+        - - 19.906223416328427
+          - 50.066923791528495
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2375:
+    address: Aleksandra Lubomirskiego 2, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2375
+    middle_point:
+      coordinates:
+      - 19.9531888961792
+      - 50.06804494218963
+      type: Point
+    name: 66 Uniwersytet Ekonomiczny
+    polygon:
+      coordinates:
+      - - - 19.952738285064697
+          - 50.068254983408835
+        - - 19.952534437179565
+          - 50.06806904573423
+        - - 19.953693151474
+          - 50.06783490097043
+        - - 19.953843355178833
+          - 50.06798640653638
+        - - 19.952738285064697
+          - 50.068254983408835
+      type: Polygon
+    racks_amount: 17
+    sponsored: false
+  2376:
+    address: Rakowicka 49, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2376
+    middle_point:
+      coordinates:
+      - 19.957863986492157
+      - 50.07404348227114
+      type: Point
+    name: 67 Cmentarz Rakowicki
+    polygon:
+      coordinates:
+      - - - 19.95787739753723
+          - 50.07416570408511
+        - - 19.95798200368881
+          - 50.074141604064486
+        - - 19.95783179998398
+          - 50.073921260457176
+        - - 19.9577459692955
+          - 50.07394966418216
+        - - 19.95787739753723
+          - 50.07416570408511
+      type: Polygon
+    racks_amount: 14
+    sponsored: false
+  2377:
+    address: Młyńska 12, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2377
+    middle_point:
+      coordinates:
+      - 19.97129648923874
+      - 50.08321646989565
+      type: Point
+    name: 68 Miechowity
+    polygon:
+      coordinates:
+      - - - 19.971057772636414
+          - 50.08324400858586
+        - - 19.9713796377182
+          - 50.08290322884619
+        - - 19.971690773963928
+          - 50.083013380138134
+        - - 19.971197247505188
+          - 50.083529710945115
+        - - 19.97090220451355
+          - 50.083436771810305
+        - - 19.971057772636414
+          - 50.08324400858586
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2378:
+    address: Pilotów 61, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2378
+    middle_point:
+      coordinates:
+      - 19.973793625831604
+      - 50.08120927636419
+      type: Point
+    name: 69 Rondo Młyńskie
+    polygon:
+      coordinates:
+      - - - 19.973439574241638
+          - 50.08119034377014
+        - - 19.97363269329071
+          - 50.08102511045364
+        - - 19.97414767742157
+          - 50.08124542141574
+        - - 19.974045753479004
+          - 50.08139344227475
+        - - 19.973439574241638
+          - 50.08120411318746
+        - - 19.973439574241638
+          - 50.08119034377014
+      type: Polygon
+    racks_amount: 16
+    sponsored: false
+  2379:
+    address: Józefa Narzymskiego, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2379
+    middle_point:
+      coordinates:
+      - 19.966189563274384
+      - 50.07284638211772
+      type: Point
+    name: 70 Narzymskiego I
+    polygon:
+      coordinates:
+      - - - 19.965983033180237
+          - 50.072892861987164
+        - - 19.9661386013031
+          - 50.07297549289083
+        - - 19.96639609336853
+          - 50.072765472805436
+        - - 19.966229796409607
+          - 50.072717271344594
+        - - 19.965983033180237
+          - 50.072892861987164
+      type: Polygon
+    racks_amount: 14
+    sponsored: false
+  2380:
+    address: Olszyny 50, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2380
+    middle_point:
+      coordinates:
+      - 19.965873062610626
+      - 50.07357559410683
+      type: Point
+    name: 117 Narzymskiego II
+    polygon:
+      coordinates:
+      - - - 19.965966939926147
+          - 50.07372880322774
+        - - 19.96611714363098
+          - 50.07369093141625
+        - - 19.965854287147522
+          - 50.073422384985925
+        - - 19.96562898159027
+          - 50.073470585737994
+        - - 19.965966939926147
+          - 50.07372880322774
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2381:
+    address: aleja Kijowska 15, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2381
+    middle_point:
+      coordinates:
+      - 19.915527999401093
+      - 50.0731627884594
+      type: Point
+    name: 71 Biprostal
+    polygon:
+      coordinates:
+      - - - 19.915522634983063
+          - 50.07332116329611
+        - - 19.915313422679898
+          - 50.073066386549506
+        - - 19.915538728237152
+          - 50.0730044136227
+        - - 19.915742576122284
+          - 50.07327984823994
+        - - 19.915522634983063
+          - 50.07332116329611
+      type: Polygon
+    racks_amount: 23
+    sponsored: false
+  2382:
+    address: Królewska 45, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2382
+    middle_point:
+      coordinates:
+      - 19.919218719005585
+      - 50.07208651607182
+      type: Point
+    name: 72 Urzędnicza
+    polygon:
+      coordinates:
+      - - - 19.918861985206604
+          - 50.072248337471656
+        - - 19.91875469684601
+          - 50.07216226247218
+        - - 19.919596910476685
+          - 50.071924694671985
+        - - 19.91968274116516
+          - 50.072021099138595
+        - - 19.918861985206604
+          - 50.072248337471656
+      type: Polygon
+    racks_amount: 17
+    sponsored: false
+  2383:
+    address: Łobzowska 17, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2383
+    middle_point:
+      coordinates:
+      - 19.933828711509705
+      - 50.067724025788316
+      type: Point
+    name: 73 Łobzowska
+    polygon:
+      coordinates:
+      - - - 19.93369996547699
+          - 50.067854872144025
+        - - 19.933844804763794
+          - 50.067551859702554
+        - - 19.93395745754242
+          - 50.067575963035054
+        - - 19.933807253837585
+          - 50.06789619187408
+        - - 19.93370532989502
+          - 50.06786864539134
+        - - 19.93369996547699
+          - 50.067854872144025
+      type: Polygon
+    racks_amount: 17
+    sponsored: false
+  2384:
+    address: Osiedle Szklane Domy 7, Stara kaplica, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2384
+    middle_point:
+      coordinates:
+      - 20.046175718307495
+      - 50.074934487791666
+      type: Point
+    name: 74 Struga
+    polygon:
+      coordinates:
+      - - - 20.046508312225342
+          - 50.07517548407339
+        - - 20.046690702438354
+          - 50.07490006034469
+        - - 20.045875310897827
+          - 50.07469349150994
+        - - 20.045660734176632
+          - 50.07493448839728
+        - - 20.046508312225342
+          - 50.07517548407339
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2385:
+    address: Bulwarowa, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2385
+    middle_point:
+      coordinates:
+      - 20.050123929977417
+      - 50.07994625783793
+      type: Point
+    name: 75 Zalew Nowohucki
+    polygon:
+      coordinates:
+      - - - 20.049705505371094
+          - 50.08032837028782
+        - - 20.049469470977783
+          - 50.08022509767488
+        - - 20.050134658813477
+          - 50.07981888990549
+        - - 20.05030632019043
+          - 50.079440218546154
+        - - 20.05077838897705
+          - 50.07955037779556
+        - - 20.049898624420166
+          - 50.0804522971297
+        - - 20.049705505371094
+          - 50.08032837028782
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2386:
+    address: Osiedle Słoneczne 14, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2386
+    middle_point:
+      coordinates:
+      - 20.04009246826172
+      - 50.078713505276326
+      type: Point
+    name: 76 Żeromskiego
+    polygon:
+      coordinates:
+      - - - 20.039663314819336
+          - 50.07885637038256
+        - - 20.039577484130856
+          - 50.07871178422283
+        - - 20.0405216217041
+          - 50.0785706401701
+        - - 20.040607452392578
+          - 50.07873243941519
+        - - 20.039663314819336
+          - 50.07885637038256
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2387:
+    address: aleja Jana Pawła II 10-11, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2387
+    middle_point:
+      coordinates:
+      - 20.045118927955627
+      - 50.06973557228277
+      type: Point
+    name: 77 Osiedle Na Skarpie
+    polygon:
+      coordinates:
+      - - - 20.04457712173462
+          - 50.069880185729254
+        - - 20.044491291046143
+          - 50.06976311791125
+        - - 20.045639276504517
+          - 50.06959095883627
+        - - 20.045746564865112
+          - 50.06970114071545
+        - - 20.04457712173462
+          - 50.069880185729254
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2388:
+    address: Stanisława Skarżyńskiego 9A, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2388
+    middle_point:
+      coordinates:
+      - 19.994824826717377
+      - 50.08708604599465
+      type: Point
+    name: 78 Okulickiego
+    polygon:
+      coordinates:
+      - - - 19.9936580657959
+          - 50.08713974051463
+        - - 19.993679523468018
+          - 50.0868781533033
+        - - 19.994977712631226
+          - 50.0870392361864
+        - - 19.995970129966736
+          - 50.08709774904255
+        - - 19.995991587638855
+          - 50.087293938686
+        - - 19.9936580657959
+          - 50.08713974051463
+      type: Polygon
+    racks_amount: 14
+    sponsored: false
+  2389:
+    address: Osiedle Piastów 60, Krakow
+    description: ''
+    has_kiosk: false
+    id: 2389
+    middle_point:
+      coordinates:
+      - 20.012680292129517
+      - 50.10175847403336
+      type: Point
+    name: 79 Osiedle Piastów
+    polygon:
+      coordinates:
+      - - - 20.012691020965573
+          - 50.102014819494734
+        - - 20.01252472400665
+          - 50.10200105605576
+        - - 20.012669563293457
+          - 50.10148836513699
+        - - 20.01283586025238
+          - 50.10150556961921
+        - - 20.012755393981934
+          - 50.1018358944797
+        - - 20.012798309326172
+          - 50.10189094840164
+        - - 20.012723207473755
+          - 50.10202858292974
+        - - 20.012691020965573
+          - 50.102014819494734
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2394:
+    address: Karmelicka 6, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2394
+    middle_point:
+      coordinates:
+      - 19.932661950588226
+      - 50.063598749259825
+      type: Point
+    name: 80 Teatr Bagatela II
+    polygon:
+      coordinates:
+      - - - 19.932627081871033
+          - 50.06368483970667
+        - - 19.932525157928467
+          - 50.063664178032056
+        - - 19.93266999721527
+          - 50.06351265881298
+        - - 19.932798743247986
+          - 50.06351954606062
+        - - 19.932627081871033
+          - 50.06368483970667
+      type: Polygon
+    racks_amount: 10
+    sponsored: false
+  2395:
+    address: Krowoderska 18, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2395
+    middle_point:
+      coordinates:
+      - 19.936737567186356
+      - 50.06896257291082
+      type: Point
+    name: 81 Krowoderska
+    polygon:
+      coordinates:
+      - - - 19.93671476840973
+          - 50.069026272732366
+        - - 19.936612844467163
+          - 50.069012499817504
+        - - 19.93676573038101
+          - 50.06888854340573
+        - - 19.936862289905548
+          - 50.06890059473761
+        - - 19.93671476840973
+          - 50.069036602415906
+        - - 19.93671476840973
+          - 50.069026272732366
+      type: Polygon
+    racks_amount: 14
+    sponsored: false
+  2396:
+    address: Racławicka 54, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2396
+    middle_point:
+      coordinates:
+      - 19.921013116836548
+      - 50.079084952733936
+      type: Point
+    name: 82 Racławicka
+    polygon:
+      coordinates:
+      - - - 19.92100238800049
+          - 50.07931904314251
+        - - 19.92121696472168
+          - 50.07925707829689
+        - - 19.921045303344727
+          - 50.07885086232537
+        - - 19.920809268951416
+          - 50.07891282769601
+        - - 19.92100238800049
+          - 50.07931904314251
+      type: Polygon
+    racks_amount: 10
+    sponsored: false
+  2397:
+    address: aleja Kijowska 48, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2397
+    middle_point:
+      coordinates:
+      - 19.918212890625
+      - 50.078501099838185
+      type: Point
+    name: 83 Mazowiecka
+    polygon:
+      coordinates:
+      - - - 19.918212890625
+          - 50.07879027386447
+        - - 19.91847038269043
+          - 50.07876273363924
+        - - 19.91816997528076
+          - 50.0782119258119
+        - - 19.91795539855957
+          - 50.0782738920084
+        - - 19.918212890625
+          - 50.07879027386447
+      type: Polygon
+    racks_amount: 14
+    sponsored: false
+  2398:
+    address: Bronowicka 60-62, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2398
+    middle_point:
+      coordinates:
+      - 19.897278249263763
+      - 50.07923780022075
+      type: Point
+    name: 84 Wesele
+    polygon:
+      coordinates:
+      - - - 19.897136092185974
+          - 50.07929804393279
+        - - 19.897103905677792
+          - 50.07926189776674
+        - - 19.89743113517761
+          - 50.07914657410238
+        - - 19.89745259284973
+          - 50.079205096593576
+        - - 19.89715486764908
+          - 50.079329026339124
+        - - 19.897136092185974
+          - 50.07929804393279
+      type: Polygon
+    racks_amount: 14
+    sponsored: false
+  2399:
+    address: Wielicka 263, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2399
+    middle_point:
+      coordinates:
+      - 19.999006390571594
+      - 50.01438816371781
+      type: Point
+    name: 85 Prokocim Szpital
+    polygon:
+      coordinates:
+      - - - 19.9983412027359
+          - 50.01454759437675
+        - - 19.998271465301514
+          - 50.014478651568375
+        - - 19.998832046985626
+          - 50.014268375391936
+        - - 19.99913513660431
+          - 50.014228733058864
+        - - 19.999741315841675
+          - 50.0142752697074
+        - - 19.999730587005615
+          - 50.01433387134883
+        - - 19.9983412027359
+          - 50.01454759437675
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2400:
+    address: Wrocławska 28, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2400
+    middle_point:
+      coordinates:
+      - 19.929108023643494
+      - 50.07595354728639
+      type: Point
+    name: 86 Wrocławska
+    polygon:
+      coordinates:
+      - - - 19.928818345069885
+          - 50.07611535563657
+        - - 19.928753972053524
+          - 50.07600518849442
+        - - 19.929376244544983
+          - 50.07579173893622
+        - - 19.92946207523346
+          - 50.07585026552255
+        - - 19.928818345069885
+          - 50.07611535563657
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2401:
+    address: Wielicka 42, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2401
+    middle_point:
+      coordinates:
+      - 19.965883791446686
+      - 50.03803409700538
+      type: Point
+    name: 87 Cmentarz Podgórski - UMK
+    polygon:
+      coordinates:
+      - - - 19.96562898159027
+          - 50.0379910289954
+        - - 19.965696036815643
+          - 50.037906615252076
+        - - 19.9661386013031
+          - 50.03808577893868
+        - - 19.966052770614624
+          - 50.03816157875869
+        - - 19.96562898159027
+          - 50.0379910289954
+      type: Polygon
+    racks_amount: 11
+    sponsored: false
+  2402:
+    address: Dworcowa 11, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2402
+    middle_point:
+      coordinates:
+      - 19.973934441804886
+      - 50.03437057964414
+      type: Point
+    name: 88 Kraków Płaszów
+    polygon:
+      coordinates:
+      - - - 19.97405111789703
+          - 50.03446275253876
+        - - 19.974131584167477
+          - 50.034409344018435
+        - - 19.973836541175842
+          - 50.03429046677608
+        - - 19.973782896995544
+          - 50.03427840674952
+        - - 19.97373729944229
+          - 50.03431458682005
+        - - 19.97405111789703
+          - 50.03446275253876
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2403:
+    address: Nowosądecka 19, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2403
+    middle_point:
+      coordinates:
+      - 19.977843761444092
+      - 50.01871500298009
+      type: Point
+    name: 89 Dauna
+    polygon:
+      coordinates:
+      - - - 19.977763295173645
+          - 50.01891147284514
+        - - 19.977934956550598
+          - 50.0189218133187
+        - - 19.977961778640747
+          - 50.01852198005477
+        - - 19.977747201919552
+          - 50.018508192641484
+        - - 19.977725744247437
+          - 50.0189149196699
+        - - 19.977763295173645
+          - 50.01891147284514
+      type: Polygon
+    racks_amount: 18
+    sponsored: false
+  2404:
+    address: Prosta 35, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2404
+    middle_point:
+      coordinates:
+      - 19.98773843050003
+      - 50.02003684775457
+      type: Point
+    name: 90 Wlotowa
+    polygon:
+      coordinates:
+      - - - 19.98763382434845
+          - 50.020186781124835
+        - - 19.987789392471313
+          - 50.020174717556465
+        - - 19.98784303665161
+          - 50.01989380789361
+        - - 19.987676739692688
+          - 50.01988691438431
+        - - 19.98763382434845
+          - 50.020186781124835
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2405:
+    address: Myśliwska 66, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2405
+    middle_point:
+      coordinates:
+      - 20.00064253807068
+      - 50.0449822111873
+      type: Point
+    name: 91 Myśliwska
+    polygon:
+      coordinates:
+      - - - 20.000540614128113
+          - 50.04505369402125
+        - - 20.00059425830841
+          - 50.044912450903446
+        - - 20.000690817832943
+          - 50.04489005866367
+        - - 20.000744462013245
+          - 50.04492278577981
+        - - 20.00064790248871
+          - 50.04507436371094
+        - - 20.000540614128113
+          - 50.04505369402125
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2406:
+    address: Nowosądecka 1, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2406
+    middle_point:
+      coordinates:
+      - 19.979369938373566
+      - 50.02394443510839
+      type: Point
+    name: 92 Bieżanowska
+    polygon:
+      coordinates:
+      - - - 19.97941017150879
+          - 50.0240555835657
+        - - 19.979557693004608
+          - 50.02395908270587
+        - - 19.979442358016968
+          - 50.023860858417294
+        - - 19.979391396045685
+          - 50.02383328665109
+        - - 19.979182183742523
+          - 50.02393151099602
+        - - 19.97941017150879
+          - 50.0240555835657
+      type: Polygon
+    racks_amount: 14
+    sponsored: false
+  2407:
+    address: Szklarska 5, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2407
+    middle_point:
+      coordinates:
+      - 19.97318208217621
+      - 50.04443876589035
+      type: Point
+    name: 93 Kuklińskiego
+    polygon:
+      coordinates:
+      - - - 19.973096251487732
+          - 50.04471436534292
+        - - 19.97286021709442
+          - 50.04465235578208
+        - - 19.973337650299072
+          - 50.04416316643778
+        - - 19.973503947257996
+          - 50.04419761655477
+        - - 19.973096251487732
+          - 50.04471436534292
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2408:
+    address: Lipska, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2408
+    middle_point:
+      coordinates:
+      - 19.9920192360878
+      - 50.040774876434824
+      type: Point
+    name: 94 Rzebika
+    polygon:
+      coordinates:
+      - - - 19.991791248321533
+          - 50.04083172332963
+        - - 19.9918395280838
+          - 50.040669796211425
+        - - 19.992220401763912
+          - 50.04063534356261
+        - - 19.992268681526184
+          - 50.040786935032436
+        - - 19.991769790649414
+          - 50.04091440930703
+        - - 19.991791248321533
+          - 50.04083172332963
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2409:
+    address: Płaszowska 67, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2409
+    middle_point:
+      coordinates:
+      - 19.98346835374832
+      - 50.045187616214434
+      type: Point
+    name: 95 Saska
+    polygon:
+      coordinates:
+      - - - 19.983344972133636
+          - 50.04522335746084
+        - - 19.983328878879547
+          - 50.045180295730944
+        - - 19.983602464199066
+          - 50.04515187496803
+        - - 19.983607828617096
+          - 50.04519665919283
+        - - 19.983344972133636
+          - 50.04522335746084
+      type: Polygon
+    racks_amount: 13
+    sponsored: false
+  2410:
+    address: Starowiślna 99, Kraków-Śródmieście
+    description: ''
+    has_kiosk: false
+    id: 2410
+    middle_point:
+      coordinates:
+      - 19.952298402786255
+      - 50.05024667297083
+      type: Point
+    name: 96 Św. Wawrzyńca
+    polygon:
+      coordinates:
+      - - - 19.95194435119629
+          - 50.05041545768483
+        - - 19.95241641998291
+          - 50.04997455144214
+        - - 19.95265245437622
+          - 50.05010889049204
+        - - 19.95213747024536
+          - 50.05051879449951
+        - - 19.95194435119629
+          - 50.05041545768483
+      type: Polygon
+    racks_amount: 17
+    sponsored: false
+  2411:
+    address: Marii Konopnickiej 33, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2411
+    middle_point:
+      coordinates:
+      - 19.934633374214172
+      - 50.043664153534905
+      type: Point
+    name: 97 Ludwinów
+    polygon:
+      coordinates:
+      - - - 19.93455559015274
+          - 50.04378559154019
+        - - 19.93464946746826
+          - 50.04379937169835
+        - - 19.934727251529694
+          - 50.04353754801683
+        - - 19.934614598751068
+          - 50.04352893537146
+        - - 19.93453949689865
+          - 50.04379248161977
+        - - 19.93455559015274
+          - 50.04378559154019
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2412:
+    address: Kalwaryjska 96, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2412
+    middle_point:
+      coordinates:
+      - 19.9405637383461
+      - 50.037133102696856
+      type: Point
+    name: 98 Rondo Matecznego I
+    polygon:
+      coordinates:
+      - - - 19.940571784973145
+          - 50.0372330227177
+        - - 19.940671026706696
+          - 50.03722440894123
+        - - 19.940566420555115
+          - 50.037026291655934
+        - - 19.940456449985504
+          - 50.03704524204033
+        - - 19.94054228067398
+          - 50.03723991373778
+        - - 19.940571784973145
+          - 50.0372330227177
+      type: Polygon
+    racks_amount: 13
+    sponsored: false
+  2413:
+    address: Nowosądecka 64, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2413
+    middle_point:
+      coordinates:
+      - 19.965956211090088
+      - 50.014437285024655
+      type: Point
+    name: 99 Nowosądecka
+    polygon:
+      coordinates:
+      - - - 19.96537685394287
+          - 50.01428905833535
+        - - 19.96561288833618
+          - 50.014158066210115
+        - - 19.966707229614258
+          - 50.01445452156209
+        - - 19.966406822204586
+          - 50.01471650383919
+        - - 19.965205192565918
+          - 50.01435800141573
+        - - 19.96537685394287
+          - 50.01428905833535
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2414:
+    address: Jana Brożka 118, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2414
+    middle_point:
+      coordinates:
+      - 19.928861260414124
+      - 50.030649924006696
+      type: Point
+    name: 105 Borsucza
+    polygon:
+      coordinates:
+      - - - 19.928389191627502
+          - 50.03066715399422
+        - - 19.928362369537354
+          - 50.030577558393404
+        - - 19.929360151290894
+          - 50.030563774440004
+        - - 19.929360151290894
+          - 50.030701613796154
+        - - 19.928389191627502
+          - 50.03073607357338
+        - - 19.928389191627502
+          - 50.03066715399422
+      type: Polygon
+    racks_amount: 14
+    sponsored: false
+  2415:
+    address: Kapelanka, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2415
+    middle_point:
+      coordinates:
+      - 19.926136136054993
+      - 50.034722901822654
+      type: Point
+    name: 106 Kobierzyńska
+    polygon:
+      coordinates:
+      - - - 19.9259752035141
+          - 50.03491241546733
+        - - 19.926012754440308
+          - 50.034405898305415
+        - - 19.926297068595886
+          - 50.03444380113514
+        - - 19.92617905139923
+          - 50.03503990533989
+        - - 19.9259752035141
+          - 50.03491241546733
+      type: Polygon
+    racks_amount: 18
+    sponsored: false
+  2416:
+    address: rynek Dębnicki 11, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2416
+    middle_point:
+      coordinates:
+      - 19.926802664995193
+      - 50.05142039867907
+      type: Point
+    name: 113 Rynek Dębnicki
+    polygon:
+      coordinates:
+      - - - 19.92667257785797
+          - 50.051424704382434
+        - - 19.926680624485016
+          - 50.05132825851627
+        - - 19.926758408546448
+          - 50.05135237000099
+        - - 19.92693543434143
+          - 50.051443649083346
+        - - 19.926828145980835
+          - 50.05151253884188
+        - - 19.926669895648956
+          - 50.05143503785658
+        - - 19.92667257785797
+          - 50.051424704382434
+      type: Polygon
+    racks_amount: 8
+    sponsored: false
+  2417:
+    address: Praska 51, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2417
+    middle_point:
+      coordinates:
+      - 19.910563230514526
+      - 50.04641124299888
+      type: Point
+    name: 114 Zielińskiego
+    polygon:
+      coordinates:
+      - - - 19.910765737295147
+          - 50.04651588036601
+        - - 19.9108113348484
+          - 50.046484015547655
+        - - 19.910379499197006
+          - 50.04630660563175
+        - - 19.91031512618065
+          - 50.046357417276624
+        - - 19.910765737295147
+          - 50.04651588036601
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2418:
+    address: Siewna 23, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2418
+    middle_point:
+      coordinates:
+      - 19.951012283563614
+      - 50.09462328349656
+      type: Point
+    name: 124 Bociana
+    polygon:
+      coordinates:
+      - - - 19.95092511177063
+          - 50.09474373215174
+        - - 19.95081514120102
+          - 50.09469211140149
+        - - 19.951000213623047
+          - 50.094571662767926
+        - - 19.951102137565613
+          - 50.094502834841386
+        - - 19.95120942592621
+          - 50.094547573004895
+        - - 19.95092511177063
+          - 50.09474373215174
+      type: Polygon
+    racks_amount: 10
+    sponsored: false
+  2419:
+    address: Henryka Pachońskiego 14, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2419
+    middle_point:
+      coordinates:
+      - 19.9316668510437
+      - 50.09509819282593
+      type: Point
+    name: 125 Pachońskiego
+    polygon:
+      coordinates:
+      - - - 19.931119680404663
+          - 50.095098193134874
+        - - 19.9311625957489
+          - 50.09492612502397
+        - - 19.93198871612549
+          - 50.095070662278644
+        - - 19.93221402168274
+          - 50.095125723975286
+        - - 19.932106733322144
+          - 50.09527026062789
+        - - 19.931119680404663
+          - 50.095098193134874
+      type: Polygon
+    racks_amount: 18
+    sponsored: false
+  2420:
+    address: Wielicka 10, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2420
+    middle_point:
+      coordinates:
+      - 19.971084594726562
+      - 50.03283634994649
+      type: Point
+    name: 132 Dworcowa
+    polygon:
+      coordinates:
+      - - - 19.97085928916931
+          - 50.03297590605499
+        - - 19.971030950546265
+          - 50.03302414745147
+        - - 19.971309900283813
+          - 50.03274503584374
+        - - 19.97112214565277
+          - 50.032648552441515
+        - - 19.97085928916931
+          - 50.03297590605499
+      type: Polygon
+    racks_amount: 19
+    sponsored: false
+  2421:
+    address: Zabłocie 37, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2421
+    middle_point:
+      coordinates:
+      - 19.96415376663208
+      - 50.0496989829209
+      type: Point
+    name: 135 Zabłocie
+    polygon:
+      coordinates:
+      - - - 19.964003562927246
+          - 50.049776486772416
+        - - 19.963968694210052
+          - 50.049731706820744
+        - - 19.964110851287842
+          - 50.04970414990666
+        - - 19.964108169078827
+          - 50.04965592526888
+        - - 19.96429055929184
+          - 50.04962147906939
+        - - 19.964338839054108
+          - 50.04970587221422
+        - - 19.964003562927246
+          - 50.049776486772416
+      type: Polygon
+    racks_amount: 13
+    sponsored: false
+  2422:
+    address: Marii Konopnickiej 86-90, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2422
+    middle_point:
+      coordinates:
+      - 19.94003400206566
+      - 50.03641022766885
+      type: Point
+    name: 136 Rondo Matecznego II
+    polygon:
+      coordinates:
+      - - - 19.939826130867004
+          - 50.03652565426266
+        - - 19.94009703397751
+          - 50.03628618717324
+        - - 19.940241873264313
+          - 50.03636198983432
+        - - 19.94002863764763
+          - 50.036532717456026
+        - - 19.93982881307602
+          - 50.03653426816447
+        - - 19.939826130867004
+          - 50.03652565426266
+      type: Polygon
+    racks_amount: 14
+    sponsored: false
+  2423:
+    address: Marii i Bolesława Wysłouchów 15, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2423
+    middle_point:
+      coordinates:
+      - 19.951799511909485
+      - 50.0082892525474
+      type: Point
+    name: 101 Wysłouchów
+    polygon:
+      coordinates:
+      - - - 19.951236248016357
+          - 50.00839957532766
+        - - 19.95118260383606
+          - 50.008234091252234
+        - - 19.952330589294434
+          - 50.00817892976714
+        - - 19.95241641998291
+          - 50.00836509952558
+        - - 19.951236248016357
+          - 50.00839957532766
+      type: Polygon
+    racks_amount: 10
+    sponsored: false
+  2424:
+    address: Michała Bobrzyńskiego 45, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2424
+    middle_point:
+      coordinates:
+      - 19.890020191669464
+      - 50.017443102660366
+      type: Point
+    name: 102 Czerwone Maki
+    polygon:
+      coordinates:
+      - - - 19.889609813690186
+          - 50.017453443797244
+        - - 19.88952398300171
+          - 50.01740518676025
+        - - 19.889550805091858
+          - 50.01726041535848
+        - - 19.89051640033722
+          - 50.01744654993777
+        - - 19.89047348499298
+          - 50.017625789962246
+        - - 19.889609813690186
+          - 50.017453443797244
+      type: Polygon
+    racks_amount: 19
+    sponsored: false
+  2425:
+    address: Grota-Roweckiego 15, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2425
+    middle_point:
+      coordinates:
+      - 19.917397499084473
+      - 50.03196282485682
+      type: Point
+    name: 103 Grota-Roweckiego
+    polygon:
+      coordinates:
+      - - - 19.91671085357666
+          - 50.0318249897976
+        - - 19.916839599609375
+          - 50.03170782911076
+        - - 19.918084144592285
+          - 50.03207998559857
+        - - 19.917805194854736
+          - 50.03221782060288
+        - - 19.91671085357666
+          - 50.0318249897976
+      type: Polygon
+    racks_amount: 18
+    sponsored: false
+  2426:
+    address: Grota-Roweckiego 36-41, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2426
+    middle_point:
+      coordinates:
+      - 19.911528825759888
+      - 50.02872013449644
+      type: Point
+    name: 104 Norymberska
+    polygon:
+      coordinates:
+      - - - 19.912118911743164
+          - 50.02894413237033
+        - - 19.91220474243164
+          - 50.02880628796994
+        - - 19.91143226623535
+          - 50.02857884384436
+        - - 19.911142587661743
+          - 50.02849613662256
+        - - 19.910852909088135
+          - 50.02858573610643
+        - - 19.911603927612305
+          - 50.02890967130732
+        - - 19.912118911743164
+          - 50.02894413237033
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2427:
+    address: Kobierzyńska 65, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2427
+    middle_point:
+      coordinates:
+      - 19.917773008346558
+      - 50.028801980264845
+      type: Point
+    name: 107 Miłkowskiego
+    polygon:
+      coordinates:
+      - - - 19.91748332977295
+          - 50.028799395739526
+        - - 19.91781860589981
+          - 50.02885625661079
+        - - 19.917880296707153
+          - 50.028878656329475
+        - - 19.918062686920162
+          - 50.028775272925316
+        - - 19.918000996112823
+          - 50.02872530420022
+        - - 19.91748332977295
+          - 50.028799395739526
+      type: Polygon
+    racks_amount: 11
+    sponsored: false
+  2428:
+    address: Stanisława Stojałowskiego 31, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2428
+    middle_point:
+      coordinates:
+      - 19.954465627670288
+      - 50.00541732670436
+      type: Point
+    name: 108 Stojałowskiego
+    polygon:
+      coordinates:
+      - - - 19.955055713653564
+          - 50.00544146154539
+        - - 19.955034255981445
+          - 50.005248384853026
+        - - 19.95387554168701
+          - 50.005351818891825
+        - - 19.95393991470337
+          - 50.0055862685557
+        - - 19.955055713653564
+          - 50.00544146154539
+      type: Polygon
+    racks_amount: 19
+    sponsored: false
+  2429:
+    address: Kobierzyńska 103, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2429
+    middle_point:
+      coordinates:
+      - 19.910989701747894
+      - 50.02414932689045
+      type: Point
+    name: 110 Zachodnia
+    polygon:
+      coordinates:
+      - - - 19.911161363124847
+          - 50.02425616689131
+        - - 19.911035299301147
+          - 50.02428718485414
+        - - 19.91081804037094
+          - 50.024035594133586
+        - - 19.910957515239712
+          - 50.02401146892676
+        - - 19.911161363124847
+          - 50.02425616689131
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2430:
+    address: Grota-Roweckiego 57, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2430
+    middle_point:
+      coordinates:
+      - 19.905605167150497
+      - 50.02657711657576
+      type: Point
+    name: 111 Ruczaj
+    polygon:
+      coordinates:
+      - - - 19.905662834644318
+          - 50.026719275415424
+        - - 19.90587741136551
+          - 50.0265590238395
+        - - 19.905544817447662
+          - 50.02643495773609
+        - - 19.905332922935486
+          - 50.0265590238395
+        - - 19.905662834644318
+          - 50.026719275415424
+      type: Polygon
+    racks_amount: 17
+    sponsored: false
+  2431:
+    address: Michała Bobrzyńskiego 48, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2431
+    middle_point:
+      coordinates:
+      - 19.898050725460052
+      - 50.020193329582284
+      type: Point
+    name: 112 Chmieleniec
+    polygon:
+      coordinates:
+      - - - 19.898149967193604
+          - 50.020374283060455
+        - - 19.898372590541836
+          - 50.020279498168726
+        - - 19.897932708263397
+          - 50.02001237610412
+        - - 19.897728860378265
+          - 50.020050290294044
+        - - 19.898149967193604
+          - 50.020374283060455
+      type: Polygon
+    racks_amount: 11
+    sponsored: false
+  2432:
+    address: Kozia 26, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2432
+    middle_point:
+      coordinates:
+      - 19.994674623012543
+      - 50.033921083897354
+      type: Point
+    name: 115 Zalew Bagry
+    polygon:
+      coordinates:
+      - - - 19.994966983795166
+          - 50.03403307070547
+        - - 19.995052814483643
+          - 50.03390902390861
+        - - 19.994553923606873
+          - 50.033829771620674
+        - - 19.99438226222992
+          - 50.03380909708925
+        - - 19.994296431541443
+          - 50.0339607101129
+        - - 19.994966983795166
+          - 50.03403307070547
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2433:
+    address: Marii i Bolesława Wysłouchów 49, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2433
+    middle_point:
+      coordinates:
+      - 19.959771037101746
+      - 50.00822443793693
+      type: Point
+    name: 116 Turniejowa
+    polygon:
+      coordinates:
+      - - - 19.959416985511776
+          - 50.00829338976757
+        - - 19.95939552783966
+          - 50.00821064761828
+        - - 19.96012508869171
+          - 50.00815548610628
+        - - 19.96014654636383
+          - 50.00824512353112
+        - - 19.959416985511776
+          - 50.00829338976757
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2434:
+    address: Dobrego Pasterza 101, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2434
+    middle_point:
+      coordinates:
+      - 19.967411309480667
+      - 50.08835076744962
+      type: Point
+    name: 118 Olszecka
+    polygon:
+      coordinates:
+      - - - 19.967643320560455
+          - 50.088429069323944
+        - - 19.96766209602356
+          - 50.08835334889399
+        - - 19.967267811298367
+          - 50.088272465575294
+        - - 19.967160522937775
+          - 50.08834474429209
+        - - 19.967643320560455
+          - 50.088429069323944
+      type: Polygon
+    racks_amount: 11
+    sponsored: false
+  2435:
+    address: Łęczycka 29, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2435
+    middle_point:
+      coordinates:
+      - 20.00488579273224
+      - 50.093498623925754
+      type: Point
+    name: 119 Osiedle Złotego Wieku
+    polygon:
+      coordinates:
+      - - - 20.004582703113556
+          - 50.09364144496902
+        - - 20.00448077917099
+          - 50.093545083973524
+        - - 20.00521570444107
+          - 50.09335580288248
+        - - 20.005290806293488
+          - 50.09347625457238
+        - - 20.004582703113556
+          - 50.09364144496902
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2436:
+    address: Generała Franciszka Kleeberga, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2436
+    middle_point:
+      coordinates:
+      - 20.012532770633698
+      - 50.09614641796803
+      type: Point
+    name: 120 Kleeberga
+    polygon:
+      coordinates:
+      - - - 20.012401342391968
+          - 50.09641139662455
+        - - 20.012701749801636
+          - 50.096418279147514
+        - - 20.01261591911316
+          - 50.095874556788544
+        - - 20.012363791465756
+          - 50.095908969778975
+        - - 20.012401342391968
+          - 50.09641139662455
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2437:
+    address: prof. Michała Życzkowskiego 2, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2437
+    middle_point:
+      coordinates:
+      - 19.99510645866394
+      - 50.07396808350221
+      type: Point
+    name: 121 Politechnika - Wydział Mechaniczny
+    polygon:
+      coordinates:
+      - - - 19.995082318782806
+          - 50.07404382673473
+        - - 19.995194971561432
+          - 50.07405415533754
+        - - 19.995189607143402
+          - 50.073895783183296
+        - - 19.99501794576645
+          - 50.07388201166688
+        - - 19.995082318782806
+          - 50.07404382673473
+      type: Polygon
+    racks_amount: 14
+    sponsored: false
+  2438:
+    address: Władysława Łokietka 51, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2438
+    middle_point:
+      coordinates:
+      - 19.923413693904877
+      - 50.08536539398705
+      type: Point
+    name: 122 Łokietka
+    polygon:
+      coordinates:
+      - - - 19.923148155212402
+          - 50.08543939819961
+        - - 19.923593401908875
+          - 50.08545660844506
+        - - 19.92367923259735
+          - 50.085291389833785
+        - - 19.92318570613861
+          - 50.08527417952903
+        - - 19.923148155212402
+          - 50.08543939819961
+      type: Polygon
+    racks_amount: 18
+    sponsored: false
+  2439:
+    address: Dobrego Pasterza 127A, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2439
+    middle_point:
+      coordinates:
+      - 19.976235777139664
+      - 50.089453864684614
+      type: Point
+    name: 123 Rondo Barei
+    polygon:
+      coordinates:
+      - - - 19.975829422473907
+          - 50.089471934010554
+        - - 19.975909888744354
+          - 50.089365239328316
+        - - 19.97664213180542
+          - 50.0894530043262
+        - - 19.976524114608765
+          - 50.08954249004092
+        - - 19.975829422473907
+          - 50.089471934010554
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2440:
+    address: Jancarza 89, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2440
+    middle_point:
+      coordinates:
+      - 19.996764063835144
+      - 50.09502833347759
+      type: Point
+    name: 126 Mistrzejowice
+    polygon:
+      coordinates:
+      - - - 19.996511936187744
+          - 50.09510920546242
+        - - 19.99634027481079
+          - 50.094988757877346
+        - - 19.996823072433468
+          - 50.094947461492765
+        - - 19.997187852859497
+          - 50.09508511596963
+        - - 19.996511936187744
+          - 50.09510920546242
+      type: Polygon
+    racks_amount: 10
+    sponsored: false
+  2441:
+    address: Strzelców 23, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2441
+    middle_point:
+      coordinates:
+      - 19.973951876163483
+      - 50.096881470571
+      type: Point
+    name: 127 Prądnik Czerwony
+    polygon:
+      coordinates:
+      - - - 19.973672926425934
+          - 50.096852220217876
+        - - 19.97372657060623
+          - 50.09678683680213
+        - - 19.97423082590103
+          - 50.09690900048022
+        - - 19.97414767742157
+          - 50.096976104339866
+        - - 19.973672926425934
+          - 50.096852220217876
+      type: Polygon
+    racks_amount: 21
+    sponsored: false
+  2442:
+    address: Lipska 49, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2442
+    middle_point:
+      coordinates:
+      - 20.00033676624298
+      - 50.04020054817647
+      type: Point
+    name: 128 Mały Płaszów
+    polygon:
+      coordinates:
+      - - - 20.000159740447998
+          - 50.04047617196208
+        - - 20.00062108039856
+          - 50.04046239084993
+        - - 20.000052452087402
+          - 50.03992492439086
+        - - 20.000159740447998
+          - 50.04047617196208
+      type: Polygon
+    racks_amount: 18
+    sponsored: false
+  2443:
+    address: Franciszka Bohomolca, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2443
+    middle_point:
+      coordinates:
+      - 19.988728165626526
+      - 50.095220360827824
+      type: Point
+    name: 129 Bohomolca
+    polygon:
+      coordinates:
+      - - - 19.989307522773743
+          - 50.09538726617018
+        - - 19.989328980445862
+          - 50.09526337794003
+        - - 19.988738894462585
+          - 50.0951945510071
+        - - 19.988234639167786
+          - 50.09505345548548
+        - - 19.98812735080719
+          - 50.09521519909735
+        - - 19.989307522773743
+          - 50.09538726617018
+      type: Polygon
+    racks_amount: 14
+    sponsored: false
+  2444:
+    address: Ernesta Cieślewskiego 1, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2444
+    middle_point:
+      coordinates:
+      - 19.980056583881378
+      - 50.08451743627396
+      type: Point
+    name: 130 Akacjowa
+    polygon:
+      coordinates:
+      - - - 19.97968107461929
+          - 50.08456992856357
+        - - 19.979664981365204
+          - 50.08447699144561
+        - - 19.980448186397552
+          - 50.08444773342674
+        - - 19.980448186397552
+          - 50.08455788116954
+        - - 19.97967839241028
+          - 50.08458713912118
+        - - 19.97968107461929
+          - 50.08456992856357
+      type: Polygon
+    racks_amount: 8
+    sponsored: false
+  2445:
+    address: Radzikowskiego 70, Kraków-Krowodrza
+    description: ''
+    has_kiosk: false
+    id: 2445
+    middle_point:
+      coordinates:
+      - 19.904402196407318
+      - 50.08370250841048
+      type: Point
+    name: 131 Radzikowskiego
+    polygon:
+      coordinates:
+      - - - 19.90422248840332
+          - 50.08376790972469
+        - - 19.904176890850067
+          - 50.08368185540404
+        - - 19.904576539993286
+          - 50.083637107096266
+        - - 19.904627501964566
+          - 50.083730045842664
+        - - 19.90422248840332
+          - 50.08376790972469
+      type: Polygon
+    racks_amount: 11
+    sponsored: false
+  2446:
+    address: Wadowicka 14, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2446
+    middle_point:
+      coordinates:
+      - 19.936422407627106
+      - 50.02969106949063
+      type: Point
+    name: 133 Łagiewniki
+    polygon:
+      coordinates:
+      - - - 19.936489462852478
+          - 50.029872848705644
+        - - 19.936604797840115
+          - 50.02984355737008
+        - - 19.936379492282867
+          - 50.02950929027562
+        - - 19.936240017414093
+          - 50.02953685878382
+        - - 19.936489462852478
+          - 50.029872848705644
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2447:
+    address: Zakopiańska 117H, Kraków-Podgórze
+    description: ''
+    has_kiosk: false
+    id: 2447
+    middle_point:
+      coordinates:
+      - 19.927150011062622
+      - 50.01177429118775
+      type: Point
+    name: 134 Borek Fałęcki
+    polygon:
+      coordinates:
+      - - - 19.92721438407898
+          - 50.012000091909904
+        - - 19.927386045455933
+          - 50.01197251333644
+        - - 19.927139282226562
+          - 50.01151746458936
+        - - 19.92691397666931
+          - 50.011576069593964
+        - - 19.92711246013641
+          - 50.01203111778613
+        - - 19.92721438407898
+          - 50.012000091909904
+      type: Polygon
+    racks_amount: 17
+    sponsored: false
+  2448:
+    address: Tadeusza Makowskiego 6, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2448
+    middle_point:
+      coordinates:
+      - 19.917023330926895
+      - 50.08769319929496
+      type: Point
+    name: 137 Makowskiego
+    polygon:
+      coordinates:
+      - - - 19.916922748088837
+          - 50.087744827656124
+        - - 19.916895925998688
+          - 50.087610593986504
+        - - 19.91709977388382
+          - 50.087610593986504
+        - - 19.917150735855103
+          - 50.08777580460341
+        - - 19.916922748088837
+          - 50.087744827656124
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
+  2449:
+    address: Pawia 3, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2449
+    middle_point:
+      coordinates:
+      - 19.94509130716324
+      - 50.06511804888295
+      type: Point
+    name: 138 Pawia
+    polygon:
+      coordinates:
+      - - - 19.945051074028015
+          - 50.0653487640064
+        - - 19.94515836238861
+          - 50.06535565099038
+        - - 19.94515299797058
+          - 50.06488044677552
+        - - 19.945024251937866
+          - 50.06488044677552
+        - - 19.945051074028015
+          - 50.0653487640064
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2450:
+    address: aleja Jana Pawła II 68, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2450
+    middle_point:
+      coordinates:
+      - 19.99887228012085
+      - 50.073614154692734
+      type: Point
+    name: 149 AWF
+    polygon:
+      coordinates:
+      - - - 19.998754262924194
+          - 50.0737260489572
+        - - 19.998979568481445
+          - 50.07374670629748
+        - - 19.998990297317505
+          - 50.07349881762659
+        - - 19.998807907104492
+          - 50.07348160308799
+        - - 19.998754262924194
+          - 50.0737260489572
+      type: Polygon
+    racks_amount: 12
+    sponsored: false
+  2451:
+    address: Macedońska 6, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2451
+    middle_point:
+      coordinates:
+      - 19.97061923146248
+      - 50.02229958208405
+      type: Point
+    name: 141 Macedońska
+    polygon:
+      coordinates:
+      - - - 19.970510601997375
+          - 50.02241848915632
+        - - 19.97039794921875
+          - 50.022332324747204
+        - - 19.970752000808716
+          - 50.02218067501178
+        - - 19.970840513706207
+          - 50.02224960676903
+        - - 19.970510601997375
+          - 50.02241848915632
+      type: Polygon
+    racks_amount: 17
+    sponsored: false
+  2452:
+    address: Wincentego Witosa, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2452
+    middle_point:
+      coordinates:
+      - 19.94944989681244
+      - 50.014192537638515
+      type: Point
+    name: 100 Kurdwanów - Witosa
+    polygon:
+      coordinates:
+      - - - 19.949101209640503
+          - 50.01433731850199
+        - - 19.949010014533997
+          - 50.01423390379981
+        - - 19.949852228164673
+          - 50.01404775677504
+        - - 19.94988977909088
+          - 50.014227009478425
+        - - 19.949101209640503
+          - 50.01433731850199
+      type: Polygon
+    racks_amount: 15
+    sponsored: false
+  2453:
+    address: Teligi 24, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2453
+    middle_point:
+      coordinates:
+      - 20.008791089057922
+      - 50.016498634413246
+      type: Point
+    name: 139 Teligi
+    polygon:
+      coordinates:
+      - - - 20.008023977279663
+          - 50.016702007294086
+        - - 20.007938146591187
+          - 50.01654344579651
+        - - 20.009472370147705
+          - 50.016295261532406
+        - - 20.009644031524658
+          - 50.016488293848596
+        - - 20.008023977279663
+          - 50.016702007294086
+      type: Polygon
+    racks_amount: 23
+    sponsored: false
+  2454:
+    address: Ugorek 10A, Kraków
+    description: ''
+    has_kiosk: false
+    id: 2454
+    middle_point:
+      coordinates:
+      - 19.979895651340485
+      - 50.07550082629386
+      type: Point
+    name: 145 Ugorek
+    polygon:
+      coordinates:
+      - - - 19.979699850082397
+          - 50.07549738355125
+        - - 19.979833960533142
+          - 50.075456070370166
+        - - 19.980027079582214
+          - 50.07548361249485
+        - - 19.980091452598572
+          - 50.075545582217565
+        - - 19.979699850082397
+          - 50.07549738355125
+      type: Polygon
+    racks_amount: 20
+    sponsored: false
