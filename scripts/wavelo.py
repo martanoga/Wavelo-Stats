@@ -19,6 +19,7 @@ date = curr_time = datetime.datetime.now().strftime('%Y-%m-%d')
 
 data_file = 'wavelo_data-%s.yaml'%(date)
 data_file_summary = 'wavelo_data_summary-%s.yaml'%(date)
+data_file_current = 'wavelo_data_current.yaml'
 all_bikes_data = 'bike_ids.yaml'
 known_hubs_data = 'hubs.yaml'
 
@@ -133,12 +134,11 @@ unavailable_bikes_data = {}
 for bike in unavailable_bikes:
     r = requests.get(server + bike_endpoint%(bike), auth=(user, password))
     bike_d = r.json()
-    keys = ['id', 'name', 'hub_id', 'state', 'repair_state', 'distance', 'inside_area']
+    keys = ['id', 'name', 'hub_id', 'state', 'repair_state', 'distance', 'inside_area', 'current_position']
     bike_data = { key: bike_d[key] for key in keys }
 
     if bike_data['repair_state'] == 'working':
         all_rented_bikes += 1
-        bike_data['current_position'] = bike_d['current_position']
         rented_bikes_data[bike] = bike_data
     else:
         all_repair_state_not_working += 1
@@ -164,6 +164,9 @@ data_summary[curr_time]['new_bikes'] = new_bikes
 data_summary[curr_time]['test_bikes'] = test_bikes
 
 with open(os.path.join(path_to_output_dir + '/split_data/', data_file), 'a') as outfile:
+    yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
+
+with open(os.path.join(path_to_output_dir, data_file_current), 'w') as outfile:
     yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
 
 with open(os.path.join(path_to_output_dir + '/split_data/', all_bikes_data), 'w') as outfile:
