@@ -1,6 +1,6 @@
 angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
     .factory('BikesData', function ($http, $q) {
-        var serverUrl = 'https://krakowska-masa-krytyczna.github.io/Wavelo-Stats/data/';
+        var serverUrl = '/data/';
         return {
             getSingleDay: function (dayOfYear) {
 
@@ -55,6 +55,23 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         if (!data)
                             return null;
                         return jsyaml.load(data['data']);
+                    }, function (response) {
+                        return null;
+                    })
+
+            },
+            getCurrentState: function(){
+                url = serverUrl + '/wavelo_data_current.yaml';
+                return $http({
+                    method: 'GET',
+                    url: url
+                })
+                    .then(function (data) {
+                        if (!data)
+                            return null;
+
+                        return jsyaml.load(data['data']);
+
                     }, function (response) {
                         return null;
                     })
