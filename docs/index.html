@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 
 <head>
     <title>Wavelo Stats</title>
@@ -23,108 +23,48 @@
     <script src="js/lib/angular-moment.min.js"></script>
 
     <script src="js/lib/angular-material.min.js"></script>
+    <script src="js/lib/angular-ui-router.min.js"></script>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/weather-icons.min.css">
     <script src="js/wavelo_stats.js"></script>
     <script src="js/bikes_data_service.js"></script>
+    <script src="js/weekly_stats_controller.js"></script>
+    <script src="js/current_state_controller.js"></script>
 </head>
 
 <body>
 
-    <div ng-app="myApp">
-        <div ng-controller="myCtrl">
-            <md-toolbar class="md-hue-2">
-                <div class="md-toolbar-tools">
-                    <span id="logo"><a href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna' id="logo"><img src='img/masa_logo_white.png' height="60" widht="60" /></a></span>
-                    <h1 flex md-truncate>Krakowski Rower Miejski - Statystyki Wypożyczeń </h1>
-                    <md-button aria-label="Facebook" class="md-icon-button" href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna'>
-                        <md-icon md-svg-src='img/facebook-logo-button.svg'  ></md-icon>
-                    </md-button>
-
-                </div>
-            </md-toolbar>
-
-            <div layout="row" layout-align="space-between center" layout-margin layout-padding>
-                <span flex></span>
-                <span>Tydzień: </span>
-                <md-select ng-model="displayedWeek" placeholder="Tydzień" ng-change="changeWeek()">
-                    <md-option ng-repeat="week in weeks" ng-value="week.value">
-                        {{week.description}}
-                    </md-option </md-select>
-            </div>
-
-            <div ng-show="loading" layout="row" layout-align="center">
-                <md-progress-linear md-mode="indeterminate" class="md-warn"></md-progress-linear>
-            </div>
-
-            <div class=chart>
-                <nvd3 options="chart.options" data="chart.data" on-ready="hideProgress"></nvd3>
-            </div>
-
-            <div ng-cloak="" class="DetailedDataGrid">
-
-                <md-grid-list md-cols-xs="2" md-cols-sm="3" md-cols-md="5" md-cols-gt-md="7" md-gutter="6px" md-gutter-gt-sm="4px" md-row-height="1:1">
 
 
-
-                    <md-grid-tile md-colors="{background: 'primary-50'}" md-colspan="1" ng-repeat="day in dailyStats track by $index" ng-if="day">
-                        <md-grid-tile-header md-colors="{background: 'primary'}">
-                            <span class="header">{{day.nameOfDay}}</span><br>
-                            <span class="subheader">{{day.date}}</span>
-                        </md-grid-tile-header>
-                        <div class="gridContent">
-                            <div ng-show="day.loading" layout="row" layout-align="center">
-                                <md-progress-circular md-mode="indeterminate"></md-progress-circular>
-                            </div>
-
-                            <table ng-show="!day.loading">
-                                <tr>
-                                    <td>Liczba wypożyczeń:</td>
-                                </tr>
-                                <tr>
-                                    <td class="rentedNumber"> <span md-colors="{color:'warn'}">{{day.totalRentals}}</span></td>
-                                </tr>
-                            </table>
-
-                            <br>
-
-                            <div ng-show="!day.loading" class="weather"><span class="temperature"><i class="wi wi-thermometer-internal"></i> {{day.tempMin}}/{{day.tempMax}}<i class="wi wi-celsius"></i></span>                                <span class="weatherIcon"><i class={{day.weatherClass}}></i></span></div>
-
-                        </div>
-                    </md-grid-tile>
-
-                    <md-grid-tile md-colors="{background: 'primary-50'}" md-rowspan="1" md-colspan="1" md-colspan-sm="1" md-colspan-xs="1" ng-if="currentWeek==displayedWeek">
-                        <md-grid-tile-header md-colors="{background: 'accent-600'}">
-                            <span class="header">W tej chwili...</span>
-                        </md-grid-tile-header>
-                        <div ng-show="loading" layout="row" layout-align="center">
-                            <md-progress-circular md-mode="indeterminate"></md-progress-circular>
-                        </div>
-
-                        <table ng-show="!loading" class="todayTable">
-                            <tr>
-                                <td>Dostępne rowery: <span md-colors="{color:'accent'}">{{availableNow}}</span></td>
-                            </tr>
-                            <tr>
-                                <td>Pożyczone: <span md-colors="{color:'accent'}">{{rentedNow}}</span></td>
-                            </tr>
-                            <tr ng-if="brokenNow">
-                                <td>Uszkodzone: <span md-colors="{color:'accent'}">{{brokenNow}}</span></td>
-                            </tr>
-                        </table>
-
-                    </md-grid-tile>
-                </md-grid-list>
-            </div>
-
-            <div class="graph_caption">Statystyki dostępności i użycia rowerów sieci <a href="https://wavelo.pl">Wavelo</a> w Krakowie. Dane uzyskane
-                za pośrednictwem <a href="https://app.socialbicycles.com/developer/">api</a> udostępnionego przez <a href="http://socialbicycles.com">socialbikes</a>.
-            </div>
-
+    <md-toolbar class="md-hue-2">
+        <div class="md-toolbar-tools">
+            <span id="logo"><a href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna' id="logo"><img src='img/masa_logo_white.png' height="60" widht="60" /></a></span>
+            <h1 md-truncate>Krakowski Rower Miejski - Statystyki Wypożyczeń </h1>
+            <span flex></span>
+            <md-button aria-label="Statystyki" ui-sref="weeklyStats" ui-sref-active="active">
+                Statystyki
+            </md-button>
+            <md-button aria-label="Stan obecny" ui-sref="currentState" ui-sref-active="active">
+                Stan Obecny
+            </md-button>
+            
+            <md-button aria-label="Facebook" class="md-icon-button" href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna'>
+                <md-icon md-svg-icon='img/facebook-logo-button.svg'></md-icon>
+            </md-button>
 
         </div>
+    </md-toolbar>
+
+    <div ui-view></div>
+
+    <div class="graph_caption">Statystyki dostępności i użycia rowerów sieci <a href="https://wavelo.pl">Wavelo</a> w Krakowie. Dane uzyskane za pośrednictwem
+        <a href="https://app.socialbicycles.com/developer/">api</a> udostępnionego przez <a href="http://socialbicycles.com">socialbikes</a>.
     </div>
+
+
+
+
 
 
 

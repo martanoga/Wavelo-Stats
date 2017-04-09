@@ -102,3 +102,7 @@ div.weather .temperature{
 table.todayTable {
     margin:auto;
 }
+
+.md-toolbar-tools .active {
+    font-weight: bold
+}
