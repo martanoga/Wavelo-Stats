@@ -49,7 +49,7 @@ else:
     t1 = t1[0]
 
 t0 = int(time.mktime(datetime.strptime(t0, "%Y-%m-%d %H:%M:%S").timetuple()))
-t1 = int(time.mktime(datetime.strptime(t1, "%Y-%m-%d %H:%M:%S").timetuple()))
+t1 = int(time.mktime(datetime.strptime(t1, "%Y-%m-%d %H:%M:%S").timetuple()) + 1)
 
 utc0 = datetime.utcfromtimestamp(t0).utctimetuple()
 utc1 = datetime.utcfromtimestamp(t1).utctimetuple()
