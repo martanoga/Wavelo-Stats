@@ -59,6 +59,23 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         return null;
                     })
 
+            },
+            getCurrentState: function(){
+                url = serverUrl + '/wavelo_data_current.yaml';
+                return $http({
+                    method: 'GET',
+                    url: url
+                })
+                    .then(function (data) {
+                        if (!data)
+                            return null;
+
+                        return jsyaml.load(data['data']);
+
+                    }, function (response) {
+                        return null;
+                    })
+
             }
         }
     })
@@ -71,6 +88,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                 var notInHubBikes = [];
                 var outsideOfArea = [];
                 var unavailableBikes = [];
+                var brokenBikes = [];
                 var tickValues = [];
                 var allAvailableBikes = [];
                 var availableNow = null;
@@ -97,6 +115,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                             unavailableBikes.push(point);
                             outsideOfArea.push(point);
                             notInHubBikes.push(point);
+                            brokenBikes.push(point);
 
                         }
                         continue;
@@ -119,9 +138,14 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                             y: day_data[date]['all_rented_bikes'] != null ? day_data[date]['all_rented_bikes'] : 300 - day_data[date]['all_available_bikes']
                         });
 
-                        unavailableBikes.push({
+                        brokenBikes.push({
                             x: day_data[date]['timestamp'],
                             y: day_data[date]['all_repair_state_not_working'] != null ? day_data[date]['all_repair_state_not_working'] : null
+                        });
+
+                        unavailableBikes.push({
+                            x: day_data[date]['timestamp'],
+                            y: day_data[date]['all_unavailable_bikes'] != null ? day_data[date]['all_unavailable_bikes'] : null
                         });
 
                         var bikesOutside = day_data[date]['all_outside_area'] != null ? day_data[date]['all_outside_area'] : 0;
@@ -158,6 +182,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         unavailableBikes.push(point);
                         outsideOfArea.push(point);
                         notInHubBikes.push(point);
+                        brokenBikes.push(point);
                     }
                 }
 
@@ -201,9 +226,17 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                     },
 
                     {
-                        values: unavailableBikes,      //values - represents the array of {x,y} data points
+                        values: brokenBikes,      //values - represents the array of {x,y} data points
                         key: 'uszkodzone', //key  - the name of the series.
                         color: '#b20c0e',  //color - optional: choose your own line color.
+                        type: "area",
+                        yAxis: 1
+                    },
+
+                    {
+                        values: unavailableBikes,      //values - represents the array of {x,y} data points
+                        key: 'uszkodzone', //key  - the name of the series.
+                        color: 'grey',  //color - optional: choose your own line color.
                         type: "area",
                         yAxis: 1
                     }
@@ -255,7 +288,13 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         yAxis1: {
                             axisLabel: 'Liczba rowerów',
                             axisLabelDistance: -5
-                        }
+                        },
+
+                        // callback: function (chart, e) {
+                        //     console.log("callback");
+                        // },
+                        yDomain1: [0, 350]
+
                     }
                 };
 
