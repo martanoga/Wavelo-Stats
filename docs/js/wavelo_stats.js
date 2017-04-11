@@ -5,7 +5,8 @@ angular.module('myApp', [
     'wavelo.stats.bikesDataService',
     'wavelo.stats.weeklyStats',
     'wavelo.stats.currentState',
-    'ui.router'
+    'ui.router',
+
 ])
     .config(function ($mdThemingProvider, $stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise('/');
@@ -25,5 +26,6 @@ angular.module('myApp', [
         $mdThemingProvider.theme('default')
             .primaryPalette('blue-grey')
             .accentPalette('blue');
+
 
     });
