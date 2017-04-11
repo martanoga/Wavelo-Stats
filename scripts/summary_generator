@@ -22,6 +22,10 @@ parser.add_argument('-t', '--to', nargs=1, default=None, type=str, help='end tim
 parser.add_argument('output', metavar='output', type=str)
 args = parser.parse_args()
 
+all_hubs = {}
+with open('hubs.yaml', 'r') as hubs_file:
+    all_hubs.update(yaml.load(hubs_file, Loader=Loader)['hubs'])
+
 raw_data = {}
 
 for data_fname in args.data_fnames:
@@ -45,7 +49,7 @@ else:
     t1 = t1[0]
 
 t0 = int(time.mktime(datetime.strptime(t0, "%Y-%m-%d %H:%M:%S").timetuple()))
-t1 = int(time.mktime(datetime.strptime(t1, "%Y-%m-%d %H:%M:%S").timetuple()))
+t1 = int(time.mktime(datetime.strptime(t1, "%Y-%m-%d %H:%M:%S").timetuple()) + 1)
 
 utc0 = datetime.utcfromtimestamp(t0).utctimetuple()
 utc1 = datetime.utcfromtimestamp(t1).utctimetuple()
@@ -75,7 +79,7 @@ for k in sorted(raw_data.keys()):
     hubs_data[ts] = h
     for hk in h.keys():
         if not hk in hubs:
-            hubs[hk] = {'id': h[hk]['id'], 'name': h[hk]['name'], 'rentals': 0, 'returns': 0}
+            hubs[hk] = {'id': hk, 'name': all_hubs[hk]['name'], 'rentals': 0, 'returns': 0}
     b = raw_data[k]['bikes']
     bikes_data[ts] = b
     for bk in b.keys():
@@ -180,12 +184,16 @@ for ts in sorted(bikes_data.keys()):
 
     for bk in pb.keys():
         if (not bk in b) or (bk in b and pb[bk]['hub_id'] != b[bk]['hub_id']):
+            if pb[bk]['hub_id'] not in hubs:
+                hubs[pb[bk]['hub_id']] = {'id': pb[bk]['hub_id'], 'name': all_hubs[pb[bk]['hub_id']]['name'], 'rentals': 0, 'returns': 0}
             hubs[pb[bk]['hub_id']]['rentals'] += 1
             rented[bk] = { 'from': pb[bk]['hub_id'], 'timestamp': ts }
             res['total_rentals'] += 1
 
     for bk in b.keys():
         if (not bk in pb) or (bk in pb and b[bk]['hub_id'] != pb[bk]['hub_id']):
+            if b[bk]['hub_id'] not in hubs:
+                hubs[b[bk]['hub_id']] = {'id': b[bk]['hub_id'], 'name': all_hubs[b[bk]['hub_id']]['name'], 'rentals': 0, 'returns': 0}
             hubs[b[bk]['hub_id']]['returns'] += 1
             if bk in rented:
                 trips[(rented[bk]['from'], b[bk]['hub_id'])] += 1

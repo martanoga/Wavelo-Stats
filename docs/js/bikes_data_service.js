@@ -235,7 +235,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
 
                     {
                         values: unavailableBikes,      //values - represents the array of {x,y} data points
-                        key: 'uszkodzone', //key  - the name of the series.
+                        key: 'niedostępne', //key  - the name of the series.
                         color: 'grey',  //color - optional: choose your own line color.
                         type: "area",
                         yAxis: 1
