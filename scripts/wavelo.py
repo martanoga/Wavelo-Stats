@@ -54,6 +54,7 @@ else:
 all_available_bikes_hubs = 0
 all_current_bikes_hubs = 0
 
+
 r = requests.get(server + hubs_endpoint, auth=(user, password))
 hubs = r.json()['items']
 
@@ -79,6 +80,7 @@ all_repair_state_not_working = 0
 all_not_in_hub = 0
 all_outside_area = 0
 all_rented_bikes = 0
+all_unavailable_bikes = 0
 
 r = requests.get(server + bikes_endpoint + '?per_page=%d'%(1), auth=(user, password))
 all_available_bikes = r.json()['total_entries']
@@ -88,6 +90,9 @@ bikes = r.json()['items']
 
 with open(os.path.join(path_to_output_dir + '/split_data/', all_bikes_data), 'r') as infile:
     all_bike_ids = yaml.load(infile)['bike_ids']
+
+print(all_available_bikes)
+print(len(bikes))
 
 all_bikes_in_system = {}
 for bike_id in all_bike_ids:
@@ -128,6 +133,7 @@ for bike in bikes:
 
 rented_bikes_data = {}
 unavailable_bikes_data = {}
+broken_bikes_data = {}
 
 # State: available (?), rented, hold, booked
 # Repair_state: working, soft_broken
@@ -138,11 +144,15 @@ for bike in unavailable_bikes:
     bike_data = { key: bike_d[key] for key in keys }
 
     if bike_data['repair_state'] == 'working':
-        all_rented_bikes += 1
-        rented_bikes_data[bike] = bike_data
+        if bike_data['state'] == 'available':
+            all_unavailable_bikes += 1
+            unavailable_bikes_data[bike] = bike_data
+        else:
+            all_rented_bikes += 1
+            rented_bikes_data[bike] = bike_data
     else:
         all_repair_state_not_working += 1
-        unavailable_bikes_data[bike] = bike_data    
+        broken_bikes_data[bike] = bike_data    
 
 data_summary[curr_time]['all_state_not_available'] = all_state_not_available
 data_summary[curr_time]['all_repair_state_not_working'] = all_repair_state_not_working
@@ -152,6 +162,7 @@ data_summary[curr_time]['all_outside_area'] = all_outside_area
 data_summary[curr_time]['all_rented_bikes'] = all_rented_bikes
 data_summary[curr_time]['all_new_bikes'] = all_new_bikes
 data_summary[curr_time]['all_test_bikes'] = all_test_bikes
+data_summary[curr_time]['all_unavailable_bikes'] = all_unavailable_bikes
 
 with open(os.path.join(path_to_output_dir + '/split_data/', data_file_summary), 'a') as outfile:
     yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
@@ -162,6 +173,7 @@ data_summary[curr_time]['rented_bikes'] = rented_bikes_data
 data_summary[curr_time]['unavailable_bikes'] = unavailable_bikes_data
 data_summary[curr_time]['new_bikes'] = new_bikes
 data_summary[curr_time]['test_bikes'] = test_bikes
+data_summary[curr_time]['broken_bikes'] = broken_bikes_data
 
 with open(os.path.join(path_to_output_dir + '/split_data/', data_file), 'a') as outfile:
     yaml.safe_dump(data_summary, outfile, encoding='utf-8', default_flow_style=False, allow_unicode=True)
