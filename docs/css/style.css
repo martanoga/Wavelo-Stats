@@ -102,3 +102,15 @@ div.weather .temperature{
 table.todayTable {
     margin:auto;
 }
+
+div.notice{
+    width: 100%;
+}
+
+div.notice .inside{
+    margin: 2em;
+    padding: 0.8em;
+    /*border: solid 1px #b30000;*/
+    background-color: #ffe6e6;
+    color: #660000;
+}
