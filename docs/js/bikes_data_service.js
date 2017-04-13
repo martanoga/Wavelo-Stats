@@ -1,6 +1,6 @@
 angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
     .factory('BikesData', function ($http, $q) {
-        var serverUrl = 'Wavelo-Stats/data';
+        var serverUrl = '/data';
         return {
             getSingleDay: function (dayOfYear) {
 
