@@ -56,6 +56,7 @@ all_current_bikes_hubs = 0
 
 
 r = requests.get(server + hubs_endpoint, auth=(user, password))
+
 hubs = r.json()['items']
 
 for hub in hubs:
@@ -91,9 +92,6 @@ bikes = r.json()['items']
 with open(os.path.join(path_to_output_dir + '/split_data/', all_bikes_data), 'r') as infile:
     all_bike_ids = yaml.load(infile)['bike_ids']
 
-print(all_available_bikes)
-print(len(bikes))
-
 all_bikes_in_system = {}
 for bike_id in all_bike_ids:
     all_bikes_in_system[bike_id] = bike_id
@@ -107,10 +105,15 @@ all_new_bikes = 0
 all_test_bikes = 0
 
 for bike in bikes:
-    keys = ['id', 'name', 'hub_id', 'state', 'repair_state', 'distance', 'inside_area']
+    keys = ['id', 'name', 'hub_id', 'distance', 'inside_area']
     bike_data = { key: bike[key] for key in keys }
 
     unavailable_bikes.pop(bike['id'], None)
+
+    if 'state' in bike_data:
+        bike['state'] = bike_data['state']
+    if 'repair_state' in bike_data:
+        bike['repair_state'] = bike_data['repair_state']
 
     if not bike['id'] in all_bikes_in_system:
         if bike['name'].startswith('_'):
@@ -140,19 +143,28 @@ broken_bikes_data = {}
 for bike in unavailable_bikes:
     r = requests.get(server + bike_endpoint%(bike), auth=(user, password))
     bike_d = r.json()
-    keys = ['id', 'name', 'hub_id', 'state', 'repair_state', 'distance', 'inside_area', 'current_position']
+    keys = ['id', 'name', 'hub_id', 'distance', 'inside_area', 'current_position']
     bike_data = { key: bike_d[key] for key in keys }
 
-    if bike_data['repair_state'] == 'working':
-        if bike_data['state'] == 'available':
-            all_unavailable_bikes += 1
-            unavailable_bikes_data[bike] = bike_data
+    if 'state' in bike_d:
+        bike_data['state'] = bike_d['state']
+    if 'repair_state' in bike_d:
+        bike_data['repair_state'] = bike_d['repair_state']
+
+    if 'state' in bike_data and 'repair_state' in bike_data:
+        if bike_data['repair_state'] == 'working':
+            if bike_data['state'] == 'available':
+                all_unavailable_bikes += 1
+                unavailable_bikes_data[bike] = bike_data
+            else:
+                all_rented_bikes += 1
+                rented_bikes_data[bike] = bike_data
         else:
-            all_rented_bikes += 1
-            rented_bikes_data[bike] = bike_data
-    else:
-        all_repair_state_not_working += 1
-        broken_bikes_data[bike] = bike_data    
+            all_repair_state_not_working += 1
+            broken_bikes_data[bike] = bike_data
+    
+    all_unavailable_bikes += 1
+    unavailable_bikes_data[bike] = bike_data 
 
 data_summary[curr_time]['all_state_not_available'] = all_state_not_available
 data_summary[curr_time]['all_repair_state_not_working'] = all_repair_state_not_working
