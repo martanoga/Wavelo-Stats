@@ -46,7 +46,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
             },
             getDailyStatistics: function (dayOfYear) {
                 var datePart = moment(dayOfYear, 'DDD').tz("Europe/Warsaw").format("YYYY-MM-DD");
-                var url = serverUrl + '/split_data/wavelo_data-' + datePart + '_summary.yaml?timestamp=' + Date.now();
+                var url = serverUrl + '/split_data/wavelo_data-' + datePart + '_summary_short.yaml?timestamp=' + Date.now();
                 return $http({
                     method: 'GET',
                     url: url
@@ -235,7 +235,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
 
                     {
                         values: unavailableBikes,      //values - represents the array of {x,y} data points
-                        key: 'uszkodzone', //key  - the name of the series.
+                        key: 'niedostępne', //key  - the name of the series.
                         color: 'grey',  //color - optional: choose your own line color.
                         type: "area",
                         yAxis: 1

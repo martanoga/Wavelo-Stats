@@ -16,16 +16,21 @@ except ImportError:
 from collections import Counter
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-d', '--data', nargs='+', default=['wavelo_data.yaml'], type=str, help='data file name', dest='data_fnames')
+parser.add_argument('-d', '--data', nargs='+', type=str, help='data filenames', dest='data_fnames')
 parser.add_argument('-f', '--from', nargs=1, default=None, type=str, help='start time (localtime, YYYY-mm-dd HH:MM:SS)', dest='t0')
 parser.add_argument('-t', '--to', nargs=1, default=None, type=str, help='end time (localtime, YYYY-mm-dd HH:MM:SS)', dest='t1')
+parser.add_argument('output', metavar='output', type=str)
 args = parser.parse_args()
+
+all_hubs = {}
+with open('hubs.yaml', 'r') as hubs_file:
+    all_hubs.update(yaml.load(hubs_file, Loader=Loader)['hubs'])
 
 raw_data = {}
 
 for data_fname in args.data_fnames:
     with open(data_fname, 'r') as data_file:
-        raw_data = {**raw_data, **yaml.load(data_file, Loader=Loader)}
+        raw_data.update(yaml.load(data_file, Loader=Loader))
 
 for k in sorted(raw_data.keys()):
     if 'bikes' not in raw_data[k]:
@@ -44,7 +49,7 @@ else:
     t1 = t1[0]
 
 t0 = int(time.mktime(datetime.strptime(t0, "%Y-%m-%d %H:%M:%S").timetuple()))
-t1 = int(time.mktime(datetime.strptime(t1, "%Y-%m-%d %H:%M:%S").timetuple()))
+t1 = int(time.mktime(datetime.strptime(t1, "%Y-%m-%d %H:%M:%S").timetuple()) + 1)
 
 utc0 = datetime.utcfromtimestamp(t0).utctimetuple()
 utc1 = datetime.utcfromtimestamp(t1).utctimetuple()
@@ -74,7 +79,7 @@ for k in sorted(raw_data.keys()):
     hubs_data[ts] = h
     for hk in h.keys():
         if not hk in hubs:
-            hubs[hk] = {'id': h[hk]['id'], 'name': h[hk]['name'], 'rentals': 0, 'returns': 0}
+            hubs[hk] = {'id': hk, 'name': all_hubs[hk]['name'], 'rentals': 0, 'returns': 0}
     b = raw_data[k]['bikes']
     bikes_data[ts] = b
     for bk in b.keys():
@@ -109,24 +114,86 @@ res = {
     'total_returns': 0
     }
 
+temps = []
+weathers = []
+skies = []
+
 for d in metars:
     metar = metars[d]
     res['meteo'][d] = { 'metar': metar.code, 'temp': metar.temp.value('C'), 'dewpt': metar.dewpt.value('C'), 'wind_speed': metar.wind_speed.value('KMH'), 'vis': metar.vis.value('M') }
+    temps.append(metar.temp.value('C'))
     if metar.weather:
         res['meteo'][d]['weather'] = metar.present_weather()
+    if metar.sky:
+        res['meteo'][d]['weather'] = metar.sky_conditions()
+    t = metar.time
+    if t >= t.replace(hour=8, minute=0, second=0, microsecond=0) and t <= t.replace(hour=22, minute=0, second=0, microsecond=0):
+        if metar.weather:
+            weathers.append(metar.weather)
+        if metar.sky:
+            skies.append(metar.sky)
+
+thunderstorm = False
+rain = 0
+cloud = 0
+
+for w in weathers:
+    for e in w:
+        if e[1] == 'TS':
+            thunderstorm = True  
+        if rain < 2 and e[0] != '-' and e[2] == 'RA':
+            rain = 2
+        if rain < 1 and (e[0] == '-' and e[2] == 'RA' or e[2] == 'DZ'):
+            rain = 1
+
+for s in skies:
+    for e in s:
+        if cloud < 2 and (e[0] == 'BKN' or e[0] == 'OVC' or e[0] == 'VV'):
+            cloud = 2
+        if cloud < 1 and (e[0] == 'FEW' or e[0] == 'SCT'):
+            cloud = 1
     
+wi = 'day-sunny'
+
+if thunderstorm:
+    wi = 'thunderstorm'
+    if cloud < 2:
+        wi = 'day-thunderstorm'
+else:
+    if rain > 1:
+        wi = 'rain'
+        if cloud < 2:
+            wi = 'day-rain'
+    elif rain > 0:
+        wi = 'sprinkle'
+        if cloud < 2:
+            wi = 'day-sprinkle'
+    else:
+        if cloud > 1:
+            wi = 'cloudy'
+        elif cloud > 0:
+            wi = 'day-cloudy'
+        
+res['weather_icon'] = wi
+res['min_temp'] = min(temps)
+res['max_temp'] = max(temps)
+        
 pb = bikes_data[sorted(bikes_data.keys())[0]]
 for ts in sorted(bikes_data.keys()):
     b = bikes_data[ts]
 
     for bk in pb.keys():
         if (not bk in b) or (bk in b and pb[bk]['hub_id'] != b[bk]['hub_id']):
+            if pb[bk]['hub_id'] not in hubs:
+                hubs[pb[bk]['hub_id']] = {'id': pb[bk]['hub_id'], 'name': all_hubs[pb[bk]['hub_id']]['name'], 'rentals': 0, 'returns': 0}
             hubs[pb[bk]['hub_id']]['rentals'] += 1
             rented[bk] = { 'from': pb[bk]['hub_id'], 'timestamp': ts }
             res['total_rentals'] += 1
 
     for bk in b.keys():
         if (not bk in pb) or (bk in pb and b[bk]['hub_id'] != pb[bk]['hub_id']):
+            if b[bk]['hub_id'] not in hubs:
+                hubs[b[bk]['hub_id']] = {'id': b[bk]['hub_id'], 'name': all_hubs[b[bk]['hub_id']]['name'], 'rentals': 0, 'returns': 0}
             hubs[b[bk]['hub_id']]['returns'] += 1
             if bk in rented:
                 trips[(rented[bk]['from'], b[bk]['hub_id'])] += 1
@@ -146,11 +213,19 @@ res['complete_rentals'] = len(rental_times)
 res['spurious_rentals'] = sum(t == 0 for t in rental_times)
 rental_times = [t for t in rental_times if t != 0]
 res['short_rentals'] = sum(t <= 1200 for t in rental_times)
-res['medium_rentals'] = sum(t > 1200 and t <=3600 for t in rental_times)
-res['long_rentals'] = sum(t > 3600 for t in rental_times)
+res['medium_rentals'] = sum(t > 1200 and t <= 3600 for t in rental_times)
+res['long_rentals'] = sum(t > 3600 and t <= 5400 for t in rental_times)
 res['xlong_rentals'] = sum(t > 5400 for t in rental_times)
 res['shortest_rental'] = min(rental_times)
 res['longest_rental'] = max(rental_times)
 res['average_rental'] = sum(rental_times) / float(len(rental_times))
 
-print(yaml.dump(res, allow_unicode = True, default_flow_style = False))
+with open(args.output + '_summary.yaml', 'w') as out:
+    yaml.dump(res, out, allow_unicode = True, default_flow_style = False)
+
+with open(args.output + '_summary_trips.yaml', 'w') as out:
+    yaml.dump({k: res[k] for k in ('t0', 't1', 'max_dt', 'hubs', 'trips')}, out, allow_unicode = True, default_flow_style = False)
+
+with open(args.output + '_summary_short.yaml', 'w') as out:
+    yaml.dump({k: res[k] for k in res if type(res[k]) in (str, int, float)}, out, allow_unicode = True, default_flow_style = False)
+
