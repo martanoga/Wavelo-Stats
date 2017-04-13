@@ -106,3 +106,5 @@ table.todayTable {
 .md-toolbar-tools .active {
     font-weight: bold
 }
+
+.angular-google-map-container { height: 1000px; }
