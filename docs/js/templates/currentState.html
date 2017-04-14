@@ -1,0 +1,16 @@
+<div id="maplegend">
+    Rowery obecnie niedostępne
+</div>
+
+
+
+<ui-gmap-google-map center='map.center' zoom='map.zoom'>
+    <ui-gmap-marker ng-repeat="bike in current_data"
+        idKey='bike.id'
+        coords='{latitude:  bike.current_position.coordinates[1], longitude: bike.current_position.coordinates[0]}'
+        options='{
+            label: bike.name
+            }'
+        >
+</ui-gmap-marker>
+</ui-gmap-google-map>

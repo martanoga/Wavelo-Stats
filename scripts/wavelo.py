@@ -92,6 +92,9 @@ bikes = r.json()['items']
 with open(os.path.join(path_to_output_dir + '/split_data/', all_bikes_data), 'r') as infile:
     all_bike_ids = yaml.load(infile)['bike_ids']
 
+print(all_available_bikes)
+print(len(bikes))
+
 all_bikes_in_system = {}
 for bike_id in all_bike_ids:
     all_bikes_in_system[bike_id] = bike_id

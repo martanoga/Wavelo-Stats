@@ -1,0 +1,13 @@
+'2017-04-13 23:33:31':
+  all_available_bikes: 948
+  all_available_bikes_hubs: 929
+  all_current_bikes_hubs: 929
+  all_new_bikes: 397
+  all_not_in_hub: 18
+  all_outside_area: 0
+  all_rented_bikes: 0
+  all_repair_state_not_working: 0
+  all_state_not_available: 0
+  all_test_bikes: 1
+  all_unavailable_bikes: 86
+  timestamp: 1492119211.281165

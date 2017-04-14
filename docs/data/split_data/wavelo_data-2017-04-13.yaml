@@ -1,15 +1,15 @@
-'2017-04-14 00:12:28':
-  all_available_bikes: 944
-  all_available_bikes_hubs: 925
-  all_current_bikes_hubs: 925
-  all_new_bikes: 2
+'2017-04-13 23:33:31':
+  all_available_bikes: 948
+  all_available_bikes_hubs: 929
+  all_current_bikes_hubs: 929
+  all_new_bikes: 397
   all_not_in_hub: 18
   all_outside_area: 0
   all_rented_bikes: 0
   all_repair_state_not_working: 0
   all_state_not_available: 0
   all_test_bikes: 1
-  all_unavailable_bikes: 92
+  all_unavailable_bikes: 86
   bikes:
     8374:
       distance: null
@@ -65,6 +65,12 @@
       id: 8966
       inside_area: true
       name: 0079
+    8967:
+      distance: null
+      hub_id: 2411
+      id: 8967
+      inside_area: true
+      name: 0078
     8968:
       distance: null
       hub_id: 2363
@@ -1287,6 +1293,12 @@
       id: 10421
       inside_area: true
       name: 0196
+    10422:
+      distance: null
+      hub_id: 2237
+      id: 10422
+      inside_area: true
+      name: 0186
     10423:
       distance: null
       hub_id: 2040
@@ -2275,6 +2287,12 @@
       id: 11025
       inside_area: true
       name: '0512'
+    11026:
+      distance: null
+      hub_id: 2404
+      id: 11026
+      inside_area: true
+      name: '0740'
     11027:
       distance: null
       hub_id: 2356
@@ -2733,12 +2751,6 @@
       id: 11131
       inside_area: true
       name: 0499
-    11132:
-      distance: null
-      hub_id: 2377
-      id: 11132
-      inside_area: true
-      name: '0336'
     11133:
       distance: null
       hub_id: 2435
@@ -3150,12 +3162,6 @@
       id: 11212
       inside_area: true
       name: '1017'
-    11214:
-      distance: null
-      hub_id: 2341
-      id: 11214
-      inside_area: true
-      name: '1220'
     11215:
       distance: null
       hub_id: 2399
@@ -3445,7 +3451,7 @@
       name: '1072'
     11293:
       distance: null
-      hub_id: 2372
+      hub_id: 2383
       id: 11293
       inside_area: true
       name: '1077'
@@ -4460,12 +4466,6 @@
       id: 11540
       inside_area: true
       name: '0703'
-    11541:
-      distance: null
-      hub_id: 2404
-      id: 11541
-      inside_area: true
-      name: '0714'
     11542:
       distance: null
       hub_id: 2353
@@ -4616,6 +4616,12 @@
       id: 11575
       inside_area: true
       name: '0667'
+    11576:
+      distance: null
+      hub_id: 2034
+      id: 11576
+      inside_area: true
+      name: 0859
     11577:
       distance: null
       hub_id: 2436
@@ -4742,6 +4748,12 @@
       id: 11603
       inside_area: true
       name: 0806
+    11604:
+      distance: null
+      hub_id: 2416
+      id: 11604
+      inside_area: true
+      name: 0870
     11605:
       distance: null
       hub_id: 2413
@@ -5233,6 +5245,12 @@
       id: 11907
       inside_area: true
       name: 0816
+    11908:
+      distance: null
+      hub_id: 2446
+      id: 11908
+      inside_area: true
+      name: '1037'
     11909:
       distance: null
       hub_id: 2361
@@ -5443,6 +5461,12 @@
       id: 11978
       inside_area: true
       name: '1199'
+    11979:
+      distance: null
+      hub_id: 2411
+      id: 11979
+      inside_area: true
+      name: 0778
     11981:
       distance: null
       hub_id: 2404
@@ -5557,7 +5581,7 @@
       name: 0759
     12038:
       distance: null
-      hub_id: 2381
+      hub_id: 2361
       id: 12038
       inside_area: true
       name: 0985
@@ -5804,9 +5828,9 @@
       id: 2032
       name: 07 Rondo Mogilskie
     2034:
-      available_bikes: 7
-      current_bikes: 7
-      free_racks: 8
+      available_bikes: 8
+      current_bikes: 8
+      free_racks: 7
       id: 2034
       name: 09 Miodowa
     2035:
@@ -5936,9 +5960,9 @@
       id: 2236
       name: 29 DH Wanda
     2237:
-      available_bikes: 5
-      current_bikes: 5
-      free_racks: 10
+      available_bikes: 6
+      current_bikes: 6
+      free_racks: 9
       id: 2237
       name: '30 Rondo Czyżyńskie '
     2340:
@@ -5948,9 +5972,9 @@
       id: 2340
       name: 31 Azory
     2341:
-      available_bikes: 5
-      current_bikes: 5
-      free_racks: 14
+      available_bikes: 4
+      current_bikes: 4
+      free_racks: 15
       id: 2341
       name: 32 Miasteczko Studenckie AGH
     2342:
@@ -6068,9 +6092,9 @@
       id: 2360
       name: 51 Hala Targowa
     2361:
-      available_bikes: 7
-      current_bikes: 7
-      free_racks: 3
+      available_bikes: 8
+      current_bikes: 8
+      free_racks: 2
       id: 2361
       name: 52 Balicka Wiadukt
     2362:
@@ -6134,9 +6158,9 @@
       id: 2371
       name: 61 Galicyjska
     2372:
-      available_bikes: 8
-      current_bikes: 8
-      free_racks: 6
+      available_bikes: 7
+      current_bikes: 7
+      free_racks: 7
       id: 2372
       name: 63 Zdrowa
     2373:
@@ -6164,9 +6188,9 @@
       id: 2376
       name: 67 Cmentarz Rakowicki
     2377:
-      available_bikes: 4
-      current_bikes: 4
-      free_racks: 10
+      available_bikes: 3
+      current_bikes: 3
+      free_racks: 11
       id: 2377
       name: 68 Miechowity
     2378:
@@ -6188,9 +6212,9 @@
       id: 2380
       name: 117 Narzymskiego II
     2381:
-      available_bikes: 9
-      current_bikes: 9
-      free_racks: 12
+      available_bikes: 8
+      current_bikes: 8
+      free_racks: 13
       id: 2381
       name: 71 Biprostal
     2382:
@@ -6200,9 +6224,9 @@
       id: 2382
       name: 72 Urzędnicza
     2383:
-      available_bikes: 7
-      current_bikes: 7
-      free_racks: 10
+      available_bikes: 8
+      current_bikes: 8
+      free_racks: 9
       id: 2383
       name: 73 Łobzowska
     2384:
@@ -6344,8 +6368,8 @@
       id: 2410
       name: 96 Św. Wawrzyńca
     2411:
-      available_bikes: 11
-      current_bikes: 11
+      available_bikes: 13
+      current_bikes: 13
       free_racks: 0
       id: 2411
       name: 97 Ludwinów
@@ -6374,9 +6398,9 @@
       id: 2415
       name: 106 Kobierzyńska
     2416:
-      available_bikes: 6
-      current_bikes: 6
-      free_racks: 2
+      available_bikes: 7
+      current_bikes: 7
+      free_racks: 1
       id: 2416
       name: 113 Rynek Dębnicki
     2417:
@@ -6554,9 +6578,9 @@
       id: 2445
       name: 131 Radzikowskiego
     2446:
-      available_bikes: 2
-      current_bikes: 2
-      free_racks: 17
+      available_bikes: 3
+      current_bikes: 3
+      free_racks: 16
       id: 2446
       name: 133 Łagiewniki
     2447:
@@ -6608,8 +6632,403 @@
       id: 2454
       name: 145 Ugorek
   new_bikes:
-  - 11214
-  - 11541
+  - 11673
+  - 11635
+  - 12329
+  - 11337
+  - 11527
+  - 11218
+  - 11453
+  - 12255
+  - 11202
+  - 12438
+  - 12289
+  - 11201
+  - 12452
+  - 12435
+  - 11443
+  - 12449
+  - 11597
+  - 12440
+  - 12450
+  - 11029
+  - 11582
+  - 12447
+  - 11310
+  - 11241
+  - 11382
+  - 11421
+  - 11363
+  - 12437
+  - 11650
+  - 12446
+  - 11516
+  - 11587
+  - 11701
+  - 11967
+  - 11700
+  - 11531
+  - 11419
+  - 11678
+  - 11645
+  - 10944
+  - 11513
+  - 11979
+  - 11564
+  - 11909
+  - 11577
+  - 11424
+  - 11596
+  - 11370
+  - 11030
+  - 12340
+  - 11890
+  - 11659
+  - 12444
+  - 11592
+  - 11570
+  - 12451
+  - 11361
+  - 11411
+  - 12322
+  - 11212
+  - 11929
+  - 11428
+  - 12337
+  - 11579
+  - 11993
+  - 11362
+  - 11373
+  - 11568
+  - 12443
+  - 11692
+  - 12442
+  - 11681
+  - 11894
+  - 12436
+  - 11542
+  - 11458
+  - 11523
+  - 11573
+  - 11973
+  - 11658
+  - 11415
+  - 11364
+  - 11549
+  - 11571
+  - 10955
+  - 11971
+  - 12317
+  - 12439
+  - 11916
+  - 11060
+  - 11823
+  - 11108
+  - 12048
+  - 12327
+  - 11904
+  - 11913
+  - 11294
+  - 12441
+  - 11462
+  - 11326
+  - 11991
+  - 11553
+  - 11891
+  - 11368
+  - 11229
+  - 12445
+  - 11459
+  - 11837
+  - 11426
+  - 11604
+  - 11941
+  - 11455
+  - 11118
+  - 12014
+  - 11240
+  - 11210
+  - 11389
+  - 11025
+  - 11814
+  - 11625
+  - 11599
+  - 11418
+  - 11320
+  - 11307
+  - 11251
+  - 11895
+  - 11225
+  - 11821
+  - 12037
+  - 11905
+  - 11975
+  - 11304
+  - 11610
+  - 11530
+  - 11839
+  - 11585
+  - 11912
+  - 11703
+  - 11925
+  - 11915
+  - 12002
+  - 11966
+  - 11520
+  - 11450
+  - 11822
+  - 11914
+  - 11323
+  - 11444
+  - 11575
+  - 11467
+  - 11239
+  - 11274
+  - 11943
+  - 11588
+  - 11353
+  - 11399
+  - 11933
+  - 11372
+  - 11293
+  - 11830
+  - 11595
+  - 11964
+  - 11297
+  - 11589
+  - 11605
+  - 11343
+  - 11371
+  - 11291
+  - 11260
+  - 11301
+  - 11884
+  - 11927
+  - 11832
+  - 11299
+  - 11512
+  - 11265
+  - 12266
+  - 11982
+  - 12028
+  - 12056
+  - 11972
+  - 11331
+  - 11220
+  - 11508
+  - 11412
+  - 11330
+  - 11584
+  - 11630
+  - 11227
+  - 11255
+  - 11901
+  - 11237
+  - 11437
+  - 11441
+  - 11976
+  - 11532
+  - 11554
+  - 11448
+  - 11410
+  - 12016
+  - 12240
+  - 11406
+  - 11593
+  - 11420
+  - 11359
+  - 11680
+  - 11233
+  - 11675
+  - 11519
+  - 11580
+  - 11427
+  - 11231
+  - 11221
+  - 11254
+  - 11376
+  - 11396
+  - 11432
+  - 11653
+  - 12027
+  - 11306
+  - 12045
+  - 11472
+  - 11348
+  - 11978
+  - 11324
+  - 11603
+  - 12030
+  - 11562
+  - 11827
+  - 11226
+  - 11017
+  - 11292
+  - 11296
+  - 11908
+  - 11298
+  - 11918
+  - 12025
+  - 11640
+  - 11917
+  - 11278
+  - 11566
+  - 11215
+  - 11548
+  - 11397
+  - 11654
+  - 11510
+  - 12015
+  - 11423
+  - 11393
+  - 11665
+  - 11381
+  - 11559
+  - 11679
+  - 11907
+  - 11211
+  - 11572
+  - 11161
+  - 11249
+  - 11886
+  - 11670
+  - 11352
+  - 11668
+  - 11438
+  - 11641
+  - 11970
+  - 10921
+  - 11601
+  - 11234
+  - 11367
+  - 11401
+  - 11561
+  - 11607
+  - 11466
+  - 11887
+  - 11924
+  - 11888
+  - 11246
+  - 11416
+  - 11608
+  - 11581
+  - 11576
+  - 11977
+  - 11402
+  - 11267
+  - 12034
+  - 11511
+  - 11209
+  - 11262
+  - 11408
+  - 11900
+  - 11598
+  - 11288
+  - 11380
+  - 11250
+  - 11648
+  - 11896
+  - 11433
+  - 11824
+  - 11965
+  - 11463
+  - 11439
+  - 11131
+  - 11341
+  - 11384
+  - 11930
+  - 11308
+  - 12026
+  - 11386
+  - 11434
+  - 11552
+  - 12044
+  - 11477
+  - 11378
+  - 11569
+  - 11256
+  - 11928
+  - 11208
+  - 11300
+  - 10979
+  - 12282
+  - 11693
+  - 11666
+  - 11831
+  - 11942
+  - 12304
+  - 11660
+  - 11981
+  - 11436
+  - 11669
+  - 11663
+  - 10915
+  - 11816
+  - 11339
+  - 11305
+  - 11385
+  - 11828
+  - 11452
+  - 11546
+  - 11898
+  - 11939
+  - 11910
+  - 11676
+  - 11391
+  - 11334
+  - 11539
+  - 11983
+  - 11460
+  - 11446
+  - 11243
+  - 11342
+  - 12038
+  - 11289
+  - 11449
+  - 11258
+  - 11509
+  - 10976
+  - 11394
+  - 11968
+  - 11335
+  - 11295
+  - 11261
+  - 11236
+  - 11264
+  - 11395
+  - 11456
+  - 11404
+  - 11244
+  - 11228
+  - 11270
+  - 10981
+  - 11219
+  - 11388
+  - 11430
+  - 11223
+  - 11600
+  - 11655
+  - 11252
+  - 11594
+  - 11290
+  - 11899
+  - 11469
+  - 11465
+  - 11606
+  - 11259
+  - 11524
+  - 11383
+  - 11268
+  - 11230
+  - 11657
+  - 11656
+  - 11345
+  - 11920
+  - 12017
+  - 11550
+  - 11897
+  - 11540
+  - 11922
   rented_bikes: {}
   test_bikes:
     12321:
@@ -6623,27 +7042,16 @@
       id: 12321
       inside_area: true
       name: _tmp_1308
-  timestamp: 1492121548.34382
+  timestamp: 1492119211.281165
   unavailable_bikes:
-    8967:
-      current_position:
-        coordinates:
-        - 19.937213333333332
-        - 50.045335
-        type: Point
-      distance: null
-      hub_id: null
-      id: 8967
-      inside_area: true
-      name: 0078
     8979:
       current_position:
         coordinates:
-        - 19.954975
-        - 50.04751666666667
+        - 19.987695
+        - 50.020291666666665
         type: Point
       distance: null
-      hub_id: null
+      hub_id: 2404
       id: 8979
       inside_area: true
       name: '0023'
@@ -6724,17 +7132,6 @@
       id: 10406
       inside_area: true
       name: '0314'
-    10422:
-      current_position:
-        coordinates:
-        - 20.01838
-        - 50.073835
-        type: Point
-      distance: null
-      hub_id: 2237
-      id: 10422
-      inside_area: true
-      name: 0186
     10455:
       current_position:
         coordinates:
@@ -6988,17 +7385,6 @@
       id: 11024
       inside_area: true
       name: 0729
-    11026:
-      current_position:
-        coordinates:
-        - 19.993625
-        - 50.0342
-        type: Point
-      distance: null
-      hub_id: null
-      id: 11026
-      inside_area: true
-      name: '0740'
     11036:
       current_position:
         coordinates:
@@ -7274,6 +7660,17 @@
       id: 11129
       inside_area: true
       name: '0604'
+    11132:
+      current_position:
+        coordinates:
+        - 19.939905
+        - 50.062945
+        type: Point
+      distance: null
+      hub_id: null
+      id: 11132
+      inside_area: true
+      name: '0336'
     11137:
       current_position:
         coordinates:
@@ -7571,28 +7968,6 @@
       id: 11556
       inside_area: true
       name: '0615'
-    11576:
-      current_position:
-        coordinates:
-        - 19.982873333333334
-        - 50.07149166666667
-        type: Point
-      distance: null
-      hub_id: null
-      id: 11576
-      inside_area: true
-      name: 0859
-    11604:
-      current_position:
-        coordinates:
-        - 19.91799
-        - 50.06488
-        type: Point
-      distance: null
-      hub_id: null
-      id: 11604
-      inside_area: true
-      name: 0870
     11611:
       current_position:
         coordinates:
@@ -7615,25 +7990,3 @@
       id: 11622
       inside_area: true
       name: '0566'
-    11908:
-      current_position:
-        coordinates:
-        - 20.000141666666668
-        - 50.01460333333333
-        type: Point
-      distance: null
-      hub_id: null
-      id: 11908
-      inside_area: true
-      name: '1037'
-    11979:
-      current_position:
-        coordinates:
-        - 19.935078333333333
-        - 50.04729833333333
-        type: Point
-      distance: null
-      hub_id: null
-      id: 11979
-      inside_area: true
-      name: 0778
