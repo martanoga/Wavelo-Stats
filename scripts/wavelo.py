@@ -154,20 +154,21 @@ for bike in unavailable_bikes:
     if 'repair_state' in bike_d:
         bike_data['repair_state'] = bike_d['repair_state']
 
-    if 'state' in bike_data and 'repair_state' in bike_data:
-        if bike_data['repair_state'] == 'working':
-            if bike_data['state'] == 'available':
-                all_unavailable_bikes += 1
-                unavailable_bikes_data[bike] = bike_data
-            else:
-                all_rented_bikes += 1
-                rented_bikes_data[bike] = bike_data
-        else:
+    if 'repair_state' in bike_data:
+        if bike_data['repair_state'] != 'working':
             all_repair_state_not_working += 1
             broken_bikes_data[bike] = bike_data
-    
+            continue
+
+    if 'state' in bike_data:
+        if bike_data['state'] != 'available':
+            all_rented_bikes += 1
+            rented_bikes_data[bike] = bike_data
+            continue
+
     all_unavailable_bikes += 1
-    unavailable_bikes_data[bike] = bike_data 
+    unavailable_bikes_data[bike] = bike_data
+
 
 data_summary[curr_time]['all_state_not_available'] = all_state_not_available
 data_summary[curr_time]['all_repair_state_not_working'] = all_repair_state_not_working
