@@ -1,3 +1,4 @@
+
 div {
     font-family: sans-serif;
 }
@@ -108,7 +109,7 @@ table.todayTable {
 }
 
 .angular-google-map-container { 
-    height: 800px;
+    height: calc(100vh - 64px);
     width: 100%;
 }
 
@@ -122,4 +123,22 @@ div.notice .inside{
     /*border: solid 1px #b30000;*/
     background-color: #ffe6e6;
     color: #660000;
+}
+
+div#maincontainer{
+    position: relative
+}
+
+#maplegend {
+  margin: 0.6em;
+  padding: 0.3em 0.6em;
+  position: absolute;
+  top: 0;
+  left: 7em;
+  background-color: white;
+  border: solid 1px rgb(55,71,79);
+  color: rgb(55,71,79);
+}
+#maplegend {
+  z-index: 10;
 }
