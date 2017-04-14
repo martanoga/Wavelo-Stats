@@ -45,7 +45,7 @@ angular.module('wavelo.stats.weeklyStats', ['wavelo.stats.bikesDataService'])
                         $scope.dailyStats[index].totalRentals = bike_data['total_rentals'];
                         $scope.dailyStats[index].totalReturns = bike_data['total_returns'];
                         $scope.dailyStats[index].loading = false;
-                        $scope.dailyStats[index].weatherClass ="wi wi-" + bike_data['weather_icon'];
+                        $scope.dailyStats[index].weatherClass = "wi wi-" + bike_data['weather_icon'];
                         $scope.dailyStats[index].tempMin = bike_data['min_temp'];
                         $scope.dailyStats[index].tempMax = bike_data['max_temp'];
 
@@ -58,13 +58,29 @@ angular.module('wavelo.stats.weeklyStats', ['wavelo.stats.bikesDataService'])
             $scope.loading = true;
             $scope.chart.data = [];
 
-
             BikesData.getWeek($scope.displayedWeek)
                 .then(function (bike_data) {
 
                     var chartData = BikesChart.prepareChartData(bike_data);
+
+                    var ns = chartData.data.length;
+                    var nd = chartData.data[0].values.length;
+                    for (var s = 0; s < ns; s++)
+                        nd = Math.min(nd, chartData.data[s].values.length);
+
+                    var maxNoBikes = 0;
+                    for (var d = 0; d < nd; d++) {
+                        var y = 0;
+                        for (var s = 0; s < ns; s++)
+                            y += chartData.data[s].values[d].y;
+
+                        maxNoBikes = Math.max(maxNoBikes, y);
+                    }
+
+
                     $scope.chart.data = chartData['data'];
                     $scope.chart.options.chart.xAxis.tickValues = chartData['tickValues'];
+                    $scope.chart.options.chart.yDomain1 = [0, Math.max(15, Math.floor(1.15 * maxNoBikes))];
                     $scope.loading = false;
 
                     if ($scope.currentWeek == $scope.displayedWeek) {
@@ -73,10 +89,10 @@ angular.module('wavelo.stats.weeklyStats', ['wavelo.stats.bikesDataService'])
                         $scope.brokenNow = chartData['brokenNow'];
                     }
 
-                });         
+                });
         }
 
-        $scope.changeWeek = function(){
+        $scope.changeWeek = function () {
             $scope.getDailyStats();
             $scope.updateData();
         }
