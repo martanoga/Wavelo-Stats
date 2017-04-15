@@ -16,10 +16,49 @@
 </ui-gmap-marker>
 </ui-gmap-google-map>-->
 
- <ng-map zoom='{{map.zoom}}' center="{{map.center.latitude}}, {{map.center.longitude}}" id="ngmapContainer">
-    <marker ng-repeat="bike in current_data" position="{{bike.current_position.coordinates[1]}}, {{bike.current_position.coordinates[0]}}"
-      icon="img/bicycle.png">
+<ng-map zoom='{{map_data.zoom}}' center="{{map_data.center.latitude}}, {{map_data.center.longitude}}" id="ngmapContainer">
+    <marker id='m{{bike.id}}' ng-repeat="bike in current_data" position="{{bike.current_position.coordinates[1]}}, {{bike.current_position.coordinates[0]}}"    
+        icon="img/bicycle.png"
+        on-click="showDetail(bike)">
     </marker>
-  </ng-map>
+    <info-window id="foo-iw">
+        <div ng-non-bindable="">
+            id: {{bike.id}} <br>
+            name: {{bike.name}}
+        </div>
+    </info-window>
+</ng-map>
 
-<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+<!--<ng-map default-style="true" center="-25.363882,131.044922" zoom="4">
+      <marker id="foo" position="-25.363882,131.044922"
+        on-click="map.showInfoWindow(event, 'bar')">
+      </marker>
+      <info-window id="bar" max-width="200">
+        <div ng-non-bindable>
+          <div id="siteNotice"></div>
+          <h1 id="firstHeading" class="firstHeading">Uluru</h1>
+          <div id="bodyContent">
+            <p>
+            <b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large
+            sandstone rock formation in the southern part of the
+            Northern Territory, central Australia. It lies 335 km (208 mi)
+            south west of the nearest large town, Alice Springs; 450 km
+            (280 mi) by road. Kata Tjuta and Uluru are the two major
+            features of the Uluru - Kata Tjuta National Park. Uluru is
+            sacred to the Pitjantjatjara and Yankunytjatjara, the
+            Aboriginal people of the area. It has many springs, waterholes,
+            rock caves and ancient paintings. Uluru is listed as a World
+            Heritage Site.
+            </p>
+            <p>Attribution: Uluru,
+            <a href="http://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">
+              http://en.wikipedia.org/w/index.php?title=Uluru
+            </a>
+            (last visited June 22, 2009).</p>
+          </div>
+        </div>
+      </info-window>
+    </ng-map>-->
+
+<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>    is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
