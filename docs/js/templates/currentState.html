@@ -4,13 +4,22 @@
 
 
 
-<ui-gmap-google-map center='map.center' zoom='map.zoom'>
+<!--<ui-gmap-google-map center='map.center' zoom='map.zoom'>
     <ui-gmap-marker ng-repeat="bike in current_data"
         idKey='bike.id'
         coords='{latitude:  bike.current_position.coordinates[1], longitude: bike.current_position.coordinates[0]}'
         options='{
-            label: bike.name
+            label: "",
+            icon: "img/bicycle.png"
             }'
         >
 </ui-gmap-marker>
-</ui-gmap-google-map>
+</ui-gmap-google-map>-->
+
+ <ng-map zoom='{{map.zoom}}' center="{{map.center.latitude}}, {{map.center.longitude}}" id="ngmapContainer">
+    <marker ng-repeat="bike in current_data" position="{{bike.current_position.coordinates[1]}}, {{bike.current_position.coordinates[0]}}"
+      icon="img/bicycle.png">
+    </marker>
+  </ng-map>
+
+<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>

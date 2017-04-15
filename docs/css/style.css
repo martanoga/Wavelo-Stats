@@ -113,6 +113,16 @@ table.todayTable {
     width: 100%;
 }
 
+.angular-google-map-container { 
+    height: calc(100vh - 64px);
+    width: 100%;
+}
+
+#ngmapContainer {
+    height: calc(100vh - 64px);
+    width: 100%;   
+}
+
 div.notice{
     width: 100%;
 }
