@@ -19,3 +19,8 @@ angular.module('wavelo.stats.home', ['wavelo.stats.bikesDataService'])
 
         $scope.getNews();
     })
+    .filter("trust", ['$sce', function ($sce) {
+        return function (htmlCode) {
+            return $sce.trustAsHtml(htmlCode);
+        }
+    }]);

@@ -12,10 +12,7 @@
                         <md-list-item ng-repeat="article in news">
                             <div class="md-list-item-text">
                                 <h3>{{article.title}}<span class="subheader" >{{article.date}} </span></h3>
-                                
-                                <p> 
-                                {{article.text}}
-                                </p>
+                                <p ng-bind-html="article.text | trust"></p>
                             </div>
                         <md-divider ></md-divider>  
                         </md-list-item>
