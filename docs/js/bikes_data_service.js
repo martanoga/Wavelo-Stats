@@ -76,6 +76,22 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                         return null;
                     })
 
+            },
+            getNews: function() {
+                url = serverUrl + '/news.yaml';
+                return $http({
+                    method: 'GET',
+                    url: url
+                })
+                    .then(function (data) {
+                        if (!data)
+                            return null;
+
+                        return jsyaml.load(data['data']);
+
+                    }, function (response) {
+                        return null;
+                    })
             }
         }
     })
