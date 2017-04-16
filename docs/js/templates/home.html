@@ -1,0 +1,44 @@
+<div ng-cloak="" class="HomeGrid">
+    <md-grid-list md-cols-xs="3" md-cols-sm="3" md-cols-md="4" md-cols-gt-md="4" md-gutter="10px" md-gutter-gt-sm="10px" md-row-height="2:1">
+        <md-grid-tile md-colors="{background: 'primary-50'}"  md-colspan="3" md-rowspan="5">
+            <md-grid-tile-header md-colors="{background: 'primary-50'}" >
+                <md-button aria-label="Aktualności">
+                    <span class="header">Aktualności</span>
+                </md-button>
+            </md-grid-tile-header>
+            
+                <md-content flex layout-padding  class="myMdContent" md-colors="{color:'primary-800'}">
+                    <md-list layout="column" layout-align="start start" class="md-3-line md-long-text">
+                        <md-list-item ng-repeat="article in news">
+                            <div class="md-list-item-text">
+                                <h3>{{article.title}}<span class="subheader" >{{article.date}} </span></h3>
+                                <p ng-bind-html="article.text | trust"></p>
+                            </div>
+                        <md-divider ></md-divider>  
+                        </md-list-item>
+                    </md-list>
+            </md-content>
+        </md-grid-tile>
+        <md-grid-tile md-colspan="1">
+            <md-grid-tile-header >
+                <md-button aria-label="Statystyki" ui-sref="weeklyStats" ui-sref-active="active">
+                    <span class="header">Statystyki</span>
+                </md-button>
+                
+            </md-grid-tile-header>
+            <div class="gridContent" ui-sref="weeklyStats">
+                    <img src="img/weeklyStats.png" ></img>
+            </div>
+        </md-grid-tile>
+        <md-grid-tile md-colspan="1">
+            <md-grid-tile-header >
+                <md-button aria-label="Stan obecny" ui-sref="currentState" ui-sref-active="active">
+                    <span class="header">Stan obecny</span>
+                </md-button>
+            </md-grid-tile-header>
+            <div class="gridContent" ui-sref="currentState">
+                    <img src="img/currentState.png"></img>
+            </div>
+        </md-grid-tile>
+    </md-grid-list>
+</div>
