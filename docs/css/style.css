@@ -1,7 +1,7 @@
-
 div {
     font-family: sans-serif;
 }
+
 .chart {
     margin: 10px 10px 10px 10px
 }
@@ -14,6 +14,7 @@ div {
 table#header{
     width: 100%
 }
+
 div.graph_caption{
     font-size: small;
     text-align: left;
@@ -28,8 +29,12 @@ a{
     font-size: x-small;
 }
 
+.HomeGrid{
+    margin: 10px 10px 10px 10px
+}
+
 .DetailedDataGrid md-grid-list md-grid-tile figure{
-  height: 120%;
+    height: 120%;
 }
 
 .DetailedDataGrid md-grid-list{
@@ -85,6 +90,28 @@ div.gridContent{
     margin: 0px;
     padding: 0px;
     width: 100%;
+    cursor: pointer;
+}
+
+.HomeGrid div.gridContent{
+    height: 100%;
+}
+
+.HomeGrid figure{
+    overflow: hidden;
+}
+
+div.gridContent img {
+    height: auto;
+    width: 100%;
+}
+
+div.gridContent table{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
 }
 
 div.gridContent table{
@@ -151,4 +178,12 @@ div#maincontainer{
 }
 #maplegend {
   z-index: 10;
+}
+
+.pointerCursor{
+    cursor: pointer;
+}
+
+.myMdContent{
+    height: 100%;
 }

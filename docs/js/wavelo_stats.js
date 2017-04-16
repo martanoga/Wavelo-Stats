@@ -3,6 +3,7 @@ angular.module('myApp', [
     'ngMaterial',
     'ngMessages',
     'wavelo.stats.bikesDataService',
+    'wavelo.stats.home',
     'wavelo.stats.weeklyStats',
     'wavelo.stats.currentState',
     'ui.router'
@@ -11,8 +12,13 @@ angular.module('myApp', [
         $urlRouterProvider.otherwise('/');
 
         $stateProvider
-            .state('weeklyStats', {
+            .state('home', {
                 url: '/',
+                templateUrl: 'js/templates/home.html',
+                controller: 'homeCtrl',
+            })
+            .state('weeklyStats', {
+                url: '/weeklyStats',
                 templateUrl: 'js/templates/weeklyStats.html',
                 controller: 'weeklyStatsCtrl',
             })
@@ -25,7 +31,4 @@ angular.module('myApp', [
         $mdThemingProvider.theme('default')
             .primaryPalette('blue-grey')
             .accentPalette('blue');
-
-
-
     });
