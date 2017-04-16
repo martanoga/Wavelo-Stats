@@ -90,11 +90,20 @@ div.gridContent{
     margin: 0px;
     padding: 0px;
     width: 100%;
+    cursor: pointer;
+}
+
+.HomeGrid div.gridContent{
+    height: 100%;
+}
+
+.HomeGrid figure{
+    overflow: hidden;
 }
 
 div.gridContent img {
-    max-width: 100%;
-    max-height: 100%;
+    height: auto;
+    width: 100%;
 }
 
 div.gridContent table{
