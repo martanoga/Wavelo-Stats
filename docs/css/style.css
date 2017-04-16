@@ -170,14 +170,24 @@ div#maincontainer{
   margin: 0.6em;
   padding: 0.3em 0.6em;
   position: absolute;
-  top: 0;
-  left: 7em;
+  top: 2.5em;
+  left: 0em;
   background-color: white;
-  border: solid 1px rgb(55,71,79);
   color: rgb(55,71,79);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 #maplegend {
   z-index: 10;
+}
+
+
+#maplegend table{
+    vertical-align: middle;
+}
+
+#maplegend img{
+    width:28px; /* you can use % */
+    height: auto;
 }
 
 .pointerCursor{
@@ -186,4 +196,5 @@ div#maincontainer{
 
 .myMdContent{
     height: 100%;
+
 }
