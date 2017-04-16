@@ -1,0 +1,48 @@
+<div ng-cloak="" class="HomeGrid">
+    <md-grid-list md-cols-xs="2" md-cols-sm="2" md-cols-md="3" md-cols-gt-md="3" md-gutter="6px" md-gutter-gt-sm="4px" md-row-height="1:1">
+        <md-grid-tile md-colors="{background: 'primary-50'}" md-colspan="2" md-rowspan="2">
+            <md-grid-tile-header md-colors="{background: 'primary'}">
+                <md-button aria-label="Aktualności">
+                    <span class="header">Aktualności</span>
+                </md-button>
+            </md-grid-tile-header>
+            <md-content>
+                <div class="gridContent">
+                    <md-list layout="column" layout-align="start start">
+                        <md-list-item ng-repeat="article in news">
+                            <div class="md-list-item-text">
+                                <h3>{{article.date}} {{article.title}}</h3>
+                                <span>{{article.text}}</span>
+                            </div>
+                        </md-list-item>
+                    </md-list>
+                </div>
+            </md-content>
+        </md-grid-tile>
+        <md-grid-tile md-colors="{background: 'primary-50'}" md-colspan="1">
+            <md-grid-tile-header md-colors="{background: 'primary'}">
+                <md-button aria-label="Statystyki" ui-sref="weeklyStats" ui-sref-active="active">
+                    <span class="header">Statystyki</span>
+                </md-button>
+                
+            </md-grid-tile-header>
+            <div class="gridContent">
+                <a href="#!/weeklyStats">
+                    <img src="img/weeklyStats.png"></img>
+                </a>
+            </div>
+        </md-grid-tile>
+        <md-grid-tile md-colors="{background: 'primary-50'}" md-colspan="1">
+            <md-grid-tile-header md-colors="{background: 'primary'}">
+                <md-button aria-label="Stan obecny" ui-sref="currentState" ui-sref-active="active">
+                    <span class="header">Stan obecny</span>
+                </md-button>
+            </md-grid-tile-header>
+            <div class="gridContent">
+                <a href="#!/currentState">
+                    <img src="img/currentState.png"></img>
+                </a>
+            </div>
+        </md-grid-tile>
+    </md-grid-list>
+</div>
