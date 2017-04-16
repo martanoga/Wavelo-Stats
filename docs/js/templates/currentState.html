@@ -1,5 +1,11 @@
 <div id="maplegend">
-    Rowery obecnie niedostępne
+    Rowery obecnie niedostępne:<br>
+    <table>
+        <tbody>
+        <tr><td><img src="img/bicycleInHub.png"></td><td> w hubach</td></tr>
+        <tr><td><img src="img/bicycleShadow.png"></td><td> poza hubami</td></tr>
+        </tbody>
+    </table>
 </div>
 
 
@@ -18,7 +24,7 @@
 
 <ng-map zoom='{{map_data.zoom}}' center="{{map_data.center.latitude}}, {{map_data.center.longitude}}" id="ngmapContainer">
     <marker id='m{{bike.id}}' ng-repeat="bike in current_data" position="{{bike.current_position.coordinates[1]}}, {{bike.current_position.coordinates[0]}}"    
-        icon="img/bicycle.png"
+        icon='{{bike.hub_id ? "img/bicycleInHub.png" : "img/bicycleShadow.png" }}'
         on-click="showDetail(bike)">
     </marker>
     <info-window id="foo-iw">
@@ -28,35 +34,3 @@
         </div>
     </info-window>
 </ng-map>
-
-
-<!--<ng-map default-style="true" center="-25.363882,131.044922" zoom="4">
-      <marker id="foo" position="-25.363882,131.044922"
-        on-click="map.showInfoWindow(event, 'bar')">
-      </marker>
-      <info-window id="bar" max-width="200">
-        <div ng-non-bindable>
-          <div id="siteNotice"></div>
-          <h1 id="firstHeading" class="firstHeading">Uluru</h1>
-          <div id="bodyContent">
-            <p>
-            <b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large
-            sandstone rock formation in the southern part of the
-            Northern Territory, central Australia. It lies 335 km (208 mi)
-            south west of the nearest large town, Alice Springs; 450 km
-            (280 mi) by road. Kata Tjuta and Uluru are the two major
-            features of the Uluru - Kata Tjuta National Park. Uluru is
-            sacred to the Pitjantjatjara and Yankunytjatjara, the
-            Aboriginal people of the area. It has many springs, waterholes,
-            rock caves and ancient paintings. Uluru is listed as a World
-            Heritage Site.
-            </p>
-            <p>Attribution: Uluru,
-            <a href="http://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">
-              http://en.wikipedia.org/w/index.php?title=Uluru
-            </a>
-            (last visited June 22, 2009).</p>
-          </div>
-        </div>
-      </info-window>
-    </ng-map>-->
