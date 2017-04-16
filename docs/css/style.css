@@ -179,3 +179,7 @@ div#maincontainer{
 #maplegend {
   z-index: 10;
 }
+
+.pointerCursor{
+    cursor: pointer;
+}
