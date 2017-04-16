@@ -183,3 +183,7 @@ div#maincontainer{
 .pointerCursor{
     cursor: pointer;
 }
+
+.myMdContent{
+    height: 100%;
+}
