@@ -1,72 +1,123 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="myApp">
-
-<head>
-    <title>Wavelo Stats</title>
-
-    <meta charset="utf-8">
-    <script src='//maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyAO5LUfyQplXh0qifV5GfjBRVb_nOrTjJw'></script>
-    <!-- it's important for d3.js -->
-
-    <script src="js/lib/angular.min.js"></script>
-    <script src="js/lib/d3.min.js"></script>
-    <script src="js/lib/nv.d3.min.js"></script>
-    <script src="js/lib/angular-nvd3.min.js"></script>
-    <link rel="stylesheet" href="js/lib/nv.d3.min.css">
-    <script src="js/lib/js-yaml.min.js"></script>
-
-    <script src="js/lib/angular-animate.min.js"></script>
-    <script src="js/lib/angular-aria.min.js"></script>
-    <script src="js/lib/angular-messages.min.js"></script>
-    <link rel="stylesheet" href="js/lib/angular-material.min.css">
-
-    <script src="js/lib/moment-with-locales.min.js"></script>
-    <script src="js/lib/moment-timezone-with-data.min.js"></script>
-    <script src="js/lib/angular-moment.min.js"></script>
-
-    <script src="js/lib/angular-material.min.js"></script>
-    <script src="js/lib/angular-ui-router.min.js"></script>
-    <script src="js/lib/ng-map.min.js"></script>
-
-    <link rel="stylesheet" href="css/style.css?md5=670138bc2efe524cc365db2a59313512">
-    <link rel="stylesheet" href="css/weather-icons.min.css">
-    <script src="js/wavelo_stats.js?md5=d5f5e541a2caa645eb436c56d7b532c4"></script>
-    <script src="js/bikes_data_service.js?md5=7114443b9611ee8c5862d47149b60073"></script>
-    <script src="js/home_controller.js?md5=74cebbaac53178c06b6687edf65cf9d2"></script>
-    <script src="js/weekly_stats_controller.js?md5=b6f535b9c3af5afccabf991f59ba6166"></script>
-    <script src="js/current_state_controller.js?md5=90949ca49fc02d72b22ae20183eba563"></script>
-</head>
-
-<body>
-
-    <md-toolbar class="md-hue-2">
-        <div class="md-toolbar-tools">
-            <span id="logo"><a href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna' id="logo"><img src='img/masa_logo_white.png' height="60" widht="60" /></a></span>
-                <h1 md-truncate ui-sref="home" class="pointerCursor">Krakowski Rower Miejski - Statystyki Wypożyczeń </h1>
-            <span flex></span>
-            <md-button aria-label="Statystyki" ui-sref="weeklyStats" ui-sref-active="active">
-                Statystyki
-            </md-button>
-            <md-button aria-label="Stan obecny" ui-sref="currentState" ui-sref-active="active">
-                Stan Obecny
-            </md-button>
-            
-            <md-button aria-label="Facebook" class="md-icon-button" href='https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna'>
-                <md-icon md-svg-icon='img/facebook-logo-button.svg'></md-icon>
-            </md-button>
-
-        </div>
-    </md-toolbar>
-
-    <div ui-view id="maincontainer"></div>
-
-    <div class="graph_caption">Statystyki dostępności i użycia rowerów sieci <a href="https://wavelo.pl">Wavelo</a> w Krakowie. Dane uzyskane za pośrednictwem
-        <a href="https://app.socialbicycles.com/developer/">api</a> udostępnionego przez <a href="http://socialbicycles.com">socialbikes</a>. <br>
-        Informacje o pogodzie na podstawie depesz METAR z <a href="http://www.krakowairport.pl/">Kraków Airport</a> udostępnionych przez <a href="http://www.ogimet.com/">Ogimet</a>.<br>
-        Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>    is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-    </div>
-</body>
-<script>
+ <head>
+  <title>
+   Wavelo Stats
+  </title>
+  <meta charset="utf-8"/>
+  <script src="//maps.googleapis.com/maps/api/js?sensor=false&amp;key=AIzaSyAO5LUfyQplXh0qifV5GfjBRVb_nOrTjJw">
+  </script>
+  <!-- it's important for d3.js -->
+  <script src="js/lib/angular.min.js?md5=56df58a529ccbb636f562cf58314722f">
+  </script>
+  <script src="js/lib/d3.min.js?md5=5bc245068b1b70d4c3eaef79045023e4">
+  </script>
+  <script src="js/lib/nv.d3.min.js?md5=024481f5dd5d6be883d6cbb0f5b45bda">
+  </script>
+  <script src="js/lib/angular-nvd3.min.js?md5=8e64d5ee7087973eb380d3eba5d4a504">
+  </script>
+  <link href="js/lib/nv.d3.min.css?md5=7433cac9cfd7267ca3fb2a42d01052ea" rel="stylesheet"/>
+  <script src="js/lib/js-yaml.min.js?md5=ab521aa70e1f08e0cb9a19bfb561ad18">
+  </script>
+  <script src="js/lib/angular-animate.min.js?md5=d186ba3d489eb25db62a8573976a86c0">
+  </script>
+  <script src="js/lib/angular-aria.min.js?md5=8519c8f9e684bc4e8ed927a69a9c1d0c">
+  </script>
+  <script src="js/lib/angular-messages.min.js?md5=f57227842c7e8d3af662ffcc99d81187">
+  </script>
+  <link href="js/lib/angular-material.min.css?md5=54863bdc4db8af2f3e0e7b98f62eb4df" rel="stylesheet"/>
+  <script src="js/lib/moment-with-locales.min.js?md5=eccb1f8368f7afd91528790c11940c7a">
+  </script>
+  <script src="js/lib/moment-timezone-with-data.min.js?md5=884f676de41cb35951322b98654e046c">
+  </script>
+  <script src="js/lib/angular-moment.min.js?md5=2b801311393f16e400d405c08c7d0ec8">
+  </script>
+  <script src="js/lib/angular-material.min.js?md5=b2d0a4ef6b858c227acdbd43935e1e72">
+  </script>
+  <script src="js/lib/angular-ui-router.min.js?md5=ad37823c1f4f8bd43e816f9b22f2ce0a">
+  </script>
+  <script src="js/lib/ng-map.min.js?md5=37c57e8095e9e97831d606d9bb446522">
+  </script>
+  <link href="css/style.css?md5=3430349771ad06c9f99580331be031e3" rel="stylesheet"/>
+  <link href="css/weather-icons.min.css?md5=556b77df941d48f44f1fb0d1fec61bc3" rel="stylesheet"/>
+  <script src="js/wavelo_stats.js?md5=d5f5e541a2caa645eb436c56d7b532c4">
+  </script>
+  <script src="js/bikes_data_service.js?md5=68f7251f60121108ca9eb9b094fbd182">
+  </script>
+  <script src="js/home_controller.js?md5=74cebbaac53178c06b6687edf65cf9d2">
+  </script>
+  <script src="js/weekly_stats_controller.js?md5=b6f535b9c3af5afccabf991f59ba6166">
+  </script>
+  <script src="js/current_state_controller.js?md5=90949ca49fc02d72b22ae20183eba563">
+  </script>
+ </head>
+ <body>
+  <md-toolbar class="md-hue-2">
+   <div class="md-toolbar-tools">
+    <span id="logo">
+     <a href="https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna" id="logo">
+      <img height="60" src="img/masa_logo_white.png" widht="60"/>
+     </a>
+    </span>
+    <h1 class="pointerCursor" md-truncate="" ui-sref="home">
+     Krakowski Rower Miejski - Statystyki Wypożyczeń
+    </h1>
+    <span flex="">
+    </span>
+    <md-button aria-label="Statystyki" ui-sref="weeklyStats" ui-sref-active="active">
+     Statystyki
+    </md-button>
+    <md-button aria-label="Stan obecny" ui-sref="currentState" ui-sref-active="active">
+     Stan Obecny
+    </md-button>
+    <md-button aria-label="Facebook" class="md-icon-button" href="https://www.facebook.com/KrakowskaRowerowaMasaKrytyczna">
+     <md-icon md-svg-icon="img/facebook-logo-button.svg">
+     </md-icon>
+    </md-button>
+   </div>
+  </md-toolbar>
+  <div id="maincontainer" ui-view="">
+  </div>
+  <div class="graph_caption">
+   Statystyki dostępności i użycia rowerów sieci
+   <a href="https://wavelo.pl">
+    Wavelo
+   </a>
+   w Krakowie. Dane uzyskane za pośrednictwem
+   <a href="https://app.socialbicycles.com/developer/">
+    api
+   </a>
+   udostępnionego przez
+   <a href="http://socialbicycles.com">
+    socialbikes
+   </a>
+   .
+   <br/>
+   Informacje o pogodzie na podstawie depesz METAR z
+   <a href="http://www.krakowairport.pl/">
+    Kraków Airport
+   </a>
+   udostępnionych przez
+   <a href="http://www.ogimet.com/">
+    Ogimet
+   </a>
+   .
+   <br/>
+   Icons made by
+   <a href="http://www.freepik.com" title="Freepik">
+    Freepik
+   </a>
+   from
+   <a href="http://www.flaticon.com" title="Flaticon">
+    www.flaticon.com
+   </a>
+   is licensed by
+   <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank" title="Creative Commons BY 3.0">
+    CC 3.0 BY
+   </a>
+  </div>
+ </body>
+ <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -74,6 +125,5 @@
 
   ga('create', 'UA-97185966-1', 'auto');
   ga('send', 'pageview');
-
-</script>
+ </script>
 </html>
