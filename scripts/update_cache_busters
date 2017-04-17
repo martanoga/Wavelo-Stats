@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+from bs4 import BeautifulSoup
+from hashlib import md5
+
+soup = BeautifulSoup(open('index.html', 'r'), 'lxml')
+
+for l in soup.head.find_all('link'):
+    href = l['href'].split('?')[0]
+    l['href'] = href + '?md5=' + md5(open(href, 'rb').read()).hexdigest()
+
+for s in soup.find_all('script'):
+    try:
+        src = s['src'].split('?')[0]
+        if src[:3] != 'js/':
+            continue
+        s['src'] = src + '?md5=' + md5(open(src, 'rb').read()).hexdigest()
+    except:
+        pass
+
+with open('index.html', 'w') as f:
+    f.write(soup.prettify())
