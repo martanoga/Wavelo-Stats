@@ -107,7 +107,9 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                 var brokenBikes = [];
                 var tickValues = [];
                 var allAvailableBikes = [];
+                var rentedNow = null;
                 var availableNow = null;
+                var borowedNow = null;
 
                 for (var day in week_data) {
                     var day_data = week_data[day];
