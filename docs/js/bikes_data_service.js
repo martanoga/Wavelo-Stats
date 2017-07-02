@@ -1,6 +1,7 @@
 angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
     .factory('BikesData', function ($http, $q) {
         var serverUrl = 'data';
+        var serverUrl = 'http://wavelostats.krakowskamasakrytyczna.pl/backup_data/'
         return {
             getSingleDay: function (dayOfYear) {
 
@@ -109,7 +110,7 @@ angular.module('wavelo.stats.bikesDataService', ['angularMoment'])
                 var allAvailableBikes = [];
                 var rentedNow = null;
                 var availableNow = null;
-                var borowedNow = null;
+                var brokenNow = null;
 
                 for (var day in week_data) {
                     var day_data = week_data[day];
